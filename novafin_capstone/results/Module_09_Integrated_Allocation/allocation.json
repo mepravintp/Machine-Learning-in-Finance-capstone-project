@@ -1,0 +1,340 @@
+{
+  "module": "allocation",
+  "limits": {
+    "initiatives_max": 500.0,
+    "stress_max": 150.0,
+    "category_max": 300.0,
+    "reserve_min": 175.0,
+    "equity_max": 250.0,
+    "single_line_max": 300.0
+  },
+  "lines": {
+    "Corporate banking (initiatives)": {
+      "Return": 0.201,
+      "Stress loss": 0.1051,
+      "Min": 0.0,
+      "Max": 300.0,
+      "Projects": 2.0,
+      "Return per unit of stress": 1.2462,
+      "Board category": "Corporate lending"
+    },
+    "Digital banking (initiatives)": {
+      "Return": 0.1712,
+      "Stress loss": 0.0787,
+      "Min": 0.0,
+      "Max": 300.0,
+      "Projects": 9.0,
+      "Return per unit of stress": 1.2857,
+      "Board category": "Digital banking"
+    },
+    "Risk analytics (initiatives)": {
+      "Return": 0.1708,
+      "Stress loss": 0.0873,
+      "Min": 0.0,
+      "Max": 300.0,
+      "Projects": 4.0,
+      "Return per unit of stress": 1.1541,
+      "Board category": "Risk management / hedging"
+    },
+    "SME lending (initiatives)": {
+      "Return": 0.1736,
+      "Stress loss": 0.0506,
+      "Min": 0.0,
+      "Max": 216.55,
+      "Projects": 1.0,
+      "Return per unit of stress": 2.0457,
+      "Board category": "Retail lending"
+    },
+    "Wealth mgmt (initiatives)": {
+      "Return": 0.2009,
+      "Stress loss": 0.1119,
+      "Min": 0.0,
+      "Max": 300.0,
+      "Projects": 5.0,
+      "Return per unit of stress": 1.1694,
+      "Board category": "Wealth management"
+    },
+    "Corporate lending (loans)": {
+      "Return": 0.1187,
+      "Stress loss": 0.2001,
+      "Min": 0.0,
+      "Max": 16.4903,
+      "Projects": NaN,
+      "Return per unit of stress": 0.2434,
+      "Board category": "Corporate lending"
+    },
+    "Retail lending (loans)": {
+      "Return": 0.1134,
+      "Stress loss": 0.1967,
+      "Min": 0.0,
+      "Max": 45.8218,
+      "Projects": NaN,
+      "Return per unit of stress": 0.2208,
+      "Board category": "Retail lending"
+    },
+    "Equity investments": {
+      "Return": 0.1334,
+      "Stress loss": 0.25,
+      "Min": 0.0,
+      "Max": 250.0,
+      "Projects": NaN,
+      "Return per unit of stress": 0.2536,
+      "Board category": "Equity investments"
+    },
+    "HFT pilot": {
+      "Return": 0.0,
+      "Stress loss": 0.5,
+      "Min": 10.0,
+      "Max": 10.0,
+      "Projects": NaN,
+      "Return per unit of stress": -0.14,
+      "Board category": "High frequency trading"
+    },
+    "Derivatives hedging buffer": {
+      "Return": -0.0383,
+      "Stress loss": 0.5,
+      "Min": 19.911,
+      "Max": 19.911,
+      "Projects": NaN,
+      "Return per unit of stress": -0.2167,
+      "Board category": "Risk management / hedging"
+    },
+    "Liquidity reserve": {
+      "Return": 0.065,
+      "Stress loss": 0.0,
+      "Min": 175.0,
+      "Max": 308.5874,
+      "Projects": NaN,
+      "Return per unit of stress": NaN,
+      "Board category": "Liquidity reserves"
+    }
+  },
+  "allocation_lines_cr": {
+    "Corporate banking (initiatives)": 103.26,
+    "Digital banking (initiatives)": 163.22,
+    "Risk analytics (initiatives)": 0.0,
+    "SME lending (initiatives)": 0.0,
+    "Wealth mgmt (initiatives)": 220.85,
+    "Equity investments": 250.0,
+    "Corporate lending (loans)": 16.49,
+    "Retail lending (loans)": 41.27,
+    "HFT pilot": 10.0,
+    "Derivatives hedging buffer": 19.91,
+    "Liquidity reserve": 175.0
+  },
+  "allocation_board": {
+    "Equity investments": {
+      "\u20b9 crore": 250.0,
+      "Return \u20b9 cr/yr": 33.3503,
+      "Stress loss \u20b9 cr": 62.5,
+      "Share": 0.25,
+      "Expected return": 0.1334
+    },
+    "Wealth management": {
+      "\u20b9 crore": 220.85,
+      "Return \u20b9 cr/yr": 57.9516,
+      "Stress loss \u20b9 cr": 12.0539,
+      "Share": 0.2208,
+      "Expected return": 0.2624
+    },
+    "Liquidity reserves": {
+      "\u20b9 crore": 175.0,
+      "Return \u20b9 cr/yr": 11.375,
+      "Stress loss \u20b9 cr": 0.0,
+      "Share": 0.175,
+      "Expected return": 0.065
+    },
+    "Digital banking": {
+      "\u20b9 crore": 163.22,
+      "Return \u20b9 cr/yr": 31.9176,
+      "Stress loss \u20b9 cr": 9.0036,
+      "Share": 0.1632,
+      "Expected return": 0.1955
+    },
+    "Corporate lending": {
+      "\u20b9 crore": 119.75,
+      "Return \u20b9 cr/yr": 26.1862,
+      "Stress loss \u20b9 cr": 9.3622,
+      "Share": 0.1198,
+      "Expected return": 0.2187
+    },
+    "Retail lending": {
+      "\u20b9 crore": 41.27,
+      "Return \u20b9 cr/yr": 4.6815,
+      "Stress loss \u20b9 cr": 8.1194,
+      "Share": 0.0413,
+      "Expected return": 0.1134
+    },
+    "Risk management / hedging": {
+      "\u20b9 crore": 19.91,
+      "Return \u20b9 cr/yr": -0.7632,
+      "Stress loss \u20b9 cr": 9.955,
+      "Share": 0.0199,
+      "Expected return": -0.0383
+    },
+    "High frequency trading": {
+      "\u20b9 crore": 10.0,
+      "Return \u20b9 cr/yr": 0.0,
+      "Stress loss \u20b9 cr": 5.0,
+      "Share": 0.01,
+      "Expected return": 0.0
+    },
+    "TOTAL": {
+      "\u20b9 crore": 1000.0,
+      "Return \u20b9 cr/yr": 164.699,
+      "Stress loss \u20b9 cr": 115.9941,
+      "Share": 1.0,
+      "Expected return": 0.1647
+    }
+  },
+  "funded_initiatives": [
+    1075,
+    1062,
+    1041,
+    1149,
+    1038
+  ],
+  "alternatives": {
+    "Recommended (limits applied)": {
+      "Expected return \u20b9 cr/yr": 164.69899604536306,
+      "Expected return %": 0.16469899604536306,
+      "Stress loss \u20b9 cr": 115.9941155422874,
+      "Stress loss % of capital": 0.1159941155422874,
+      "Return \u00f7 stress loss": 1.4198909597730374,
+      "Liquidity reserve \u20b9 cr": 175.0,
+      "Initiatives \u20b9 cr": 487.33,
+      "Meets risk appetite": true
+    },
+    "Equal split": {
+      "Expected return \u20b9 cr/yr": 123.31896170412259,
+      "Expected return %": 0.12331896170412258,
+      "Stress loss \u20b9 cr": 81.8166413361542,
+      "Stress loss % of capital": 0.08181664133615421,
+      "Return \u00f7 stress loss": 1.5072601330266144,
+      "Liquidity reserve \u20b9 cr": 410.22691225924996,
+      "Initiatives \u20b9 cr": 372.55,
+      "Meets risk appetite": true
+    },
+    "All in liquid assets": {
+      "Expected return \u20b9 cr/yr": 65.0,
+      "Expected return %": 0.065,
+      "Stress loss \u20b9 cr": 0.0,
+      "Stress loss % of capital": 0.0,
+      "Return \u00f7 stress loss": NaN,
+      "Liquidity reserve \u20b9 cr": 1000.0,
+      "Initiatives \u20b9 cr": 0.0,
+      "Meets risk appetite": true
+    },
+    "Return-chasing (no limits)": {
+      "Expected return \u20b9 cr/yr": 219.7027661615802,
+      "Expected return %": 0.2197027661615802,
+      "Stress loss \u20b9 cr": 84.73356007552488,
+      "Stress loss % of capital": 0.08473356007552488,
+      "Return \u00f7 stress loss": 2.592865990355584,
+      "Liquidity reserve \u20b9 cr": 0.0,
+      "Initiatives \u20b9 cr": 970.93,
+      "Meets risk appetite": false
+    }
+  },
+  "sensitivity_allocation": {
+    "Base": {
+      "Corporate lending": 120.0,
+      "Digital banking": 163.0,
+      "Equity investments": 250.0,
+      "High frequency trading": 10.0,
+      "Liquidity reserves": 175.0,
+      "Retail lending": 41.0,
+      "Risk management / hedging": 20.0,
+      "Wealth management": 221.0
+    },
+    "Initiatives earn 10 pts less (3-year view)": {
+      "Corporate lending": 120.0,
+      "Digital banking": 163.0,
+      "Equity investments": 250.0,
+      "High frequency trading": 10.0,
+      "Liquidity reserves": 175.0,
+      "Retail lending": 41.0,
+      "Risk management / hedging": 20.0,
+      "Wealth management": 221.0
+    },
+    "Equity return \u22125 pts": {
+      "Corporate lending": 120.0,
+      "Digital banking": 163.0,
+      "Equity investments": 245.0,
+      "High frequency trading": 10.0,
+      "Liquidity reserves": 175.0,
+      "Retail lending": 46.0,
+      "Risk management / hedging": 20.0,
+      "Wealth management": 221.0
+    },
+    "Credit stress: lending return \u22124 pts": {
+      "Corporate lending": 120.0,
+      "Digital banking": 163.0,
+      "Equity investments": 250.0,
+      "High frequency trading": 10.0,
+      "Liquidity reserves": 175.0,
+      "Retail lending": 41.0,
+      "Risk management / hedging": 20.0,
+      "Wealth management": 221.0
+    },
+    "Severe liquidity reserve": {
+      "Corporate lending": 103.0,
+      "Digital banking": 163.0,
+      "Equity investments": 224.0,
+      "High frequency trading": 10.0,
+      "Liquidity reserves": 259.0,
+      "Retail lending": 0.0,
+      "Risk management / hedging": 20.0,
+      "Wealth management": 221.0
+    },
+    "Tighter appetite: stress \u2264 10%": {
+      "Corporate lending": 103.0,
+      "Digital banking": 163.0,
+      "Equity investments": 232.0,
+      "High frequency trading": 10.0,
+      "Liquidity reserves": 251.0,
+      "Retail lending": 0.0,
+      "Risk management / hedging": 20.0,
+      "Wealth management": 221.0
+    }
+  },
+  "sensitivity_stats": {
+    "Base": {
+      "Expected return %": 0.1647,
+      "Stress loss % of capital": 0.116,
+      "Projects funded": 5.0
+    },
+    "Initiatives earn 10 pts less (3-year view)": {
+      "Expected return %": 0.116,
+      "Stress loss % of capital": 0.116,
+      "Projects funded": 5.0
+    },
+    "Equity return \u22125 pts": {
+      "Expected return %": 0.1523,
+      "Stress loss % of capital": 0.1158,
+      "Projects funded": 5.0
+    },
+    "Credit stress: lending return \u22124 pts": {
+      "Expected return %": 0.1624,
+      "Stress loss % of capital": 0.116,
+      "Projects funded": 5.0
+    },
+    "Severe liquidity reserve": {
+      "Expected return %": 0.16,
+      "Stress loss % of capital": 0.0981,
+      "Projects funded": 5.0
+    },
+    "Tighter appetite: stress \u2264 10%": {
+      "Expected return %": 0.1606,
+      "Stress loss % of capital": 0.1,
+      "Projects funded": 5.0
+    }
+  },
+  "crisis": {
+    "Expected annual return (\u20b9 cr)": 164.699,
+    "Combined stress loss (\u20b9 cr)": 115.994,
+    "Net result in crisis year (\u20b9 cr)": 48.705,
+    "Capital after a crisis year (\u20b9 cr)": 1048.705,
+    "Liquidity reserve \u00f7 scenario-B shortfall": 1.0
+  }
+}

@@ -1,0 +1,193 @@
+{
+  "module": "portfolio",
+  "assumptions": {
+    "tc": 0.001,
+    "cap": 0.3,
+    "window_days": 252,
+    "rebalance": "monthly",
+    "risk_free": 0.07,
+    "months": 37
+  },
+  "performance": {
+    "Equal-weight": {
+      "Ann. return": 0.1605,
+      "Ann. vol": 0.0628,
+      "Sharpe": 1.3007,
+      "Sortino": 3.3567,
+      "Max drawdown": -0.0244,
+      "VaR 99% 1-month": 0.0295,
+      "Avg turnover": 0.0663,
+      "Avg max weight": 0.0667,
+      "Effective N": 15.0,
+      "Cost drag / yr": 0.0008
+    },
+    "Markowitz max-Sharpe": {
+      "Ann. return": 0.0842,
+      "Ann. vol": 0.1234,
+      "Sharpe": 0.1504,
+      "Sortino": 0.2285,
+      "Max drawdown": -0.1334,
+      "VaR 99% 1-month": 0.0755,
+      "Avg turnover": 0.374,
+      "Avg max weight": 0.2406,
+      "Effective N": 6.3935,
+      "Cost drag / yr": 0.0045
+    },
+    "Minimum variance": {
+      "Ann. return": 0.1591,
+      "Ann. vol": 0.0631,
+      "Sharpe": 1.2763,
+      "Sortino": 3.1487,
+      "Max drawdown": -0.0268,
+      "VaR 99% 1-month": 0.0298,
+      "Avg turnover": 0.0679,
+      "Avg max weight": 0.0697,
+      "Effective N": 14.9843,
+      "Cost drag / yr": 0.0008
+    },
+    "ML mean-variance": {
+      "Ann. return": 0.2303,
+      "Ann. vol": 0.1048,
+      "Sharpe": 1.3767,
+      "Sortino": 2.8063,
+      "Max drawdown": -0.0554,
+      "VaR 99% 1-month": 0.0525,
+      "Avg turnover": 1.029,
+      "Avg max weight": 0.203,
+      "Effective N": 7.9418,
+      "Cost drag / yr": 0.0123
+    },
+    "ML tilt": {
+      "Ann. return": 0.182,
+      "Ann. vol": 0.0702,
+      "Sharpe": 1.4338,
+      "Sortino": 3.3915,
+      "Max drawdown": -0.0297,
+      "VaR 99% 1-month": 0.0329,
+      "Avg turnover": 0.3119,
+      "Avg max weight": 0.0968,
+      "Effective N": 13.9186,
+      "Cost drag / yr": 0.0037
+    }
+  },
+  "significance_vs_equal_weight": {
+    "Markowitz max-Sharpe": {
+      "mean monthly diff": -0.0053,
+      "ann. diff": -0.0631,
+      "t-stat": -1.1309,
+      "p-value": 0.2656,
+      "tracking error": 0.098
+    },
+    "Minimum variance": {
+      "mean monthly diff": -0.0001,
+      "ann. diff": -0.0012,
+      "t-stat": -0.7793,
+      "p-value": 0.4409,
+      "tracking error": 0.0026
+    },
+    "ML mean-variance": {
+      "mean monthly diff": 0.0052,
+      "ann. diff": 0.0626,
+      "t-stat": 1.5991,
+      "p-value": 0.1185,
+      "tracking error": 0.0687
+    },
+    "ML tilt": {
+      "mean monthly diff": 0.0016,
+      "ann. diff": 0.019,
+      "t-stat": 1.4484,
+      "p-value": 0.1562,
+      "tracking error": 0.0231
+    }
+  },
+  "sensitivity_sharpe": {
+    "Equal-weight": {
+      "cap 20%": NaN,
+      "cap 50%": NaN,
+      "cost 0 bps": 1.321,
+      "cost 10 bps": 1.301,
+      "cost 30 bps": 1.26,
+      "window 126d": NaN,
+      "window 504d": NaN
+    },
+    "ML mean-variance": {
+      "cap 20%": 1.227,
+      "cap 50%": 1.469,
+      "cost 0 bps": 1.49,
+      "cost 10 bps": 1.377,
+      "cost 30 bps": 1.148,
+      "window 126d": NaN,
+      "window 504d": NaN
+    },
+    "Markowitz max-Sharpe": {
+      "cap 20%": 0.324,
+      "cap 50%": 0.117,
+      "cost 0 bps": 0.189,
+      "cost 10 bps": 0.15,
+      "cost 30 bps": 0.074,
+      "window 126d": -0.169,
+      "window 504d": 0.325
+    }
+  },
+  "stress": {
+    "Equal-weight": {
+      "VaR 99% 1m, normal": 0.0528,
+      "VaR 99% 1m, crisis": 0.3023,
+      "Loss in -25% market shock": -0.25,
+      "Worst historical month (backtest)": -0.0208
+    },
+    "Markowitz max-Sharpe": {
+      "VaR 99% 1m, normal": 0.0729,
+      "VaR 99% 1m, crisis": 0.3139,
+      "Loss in -25% market shock": -0.251,
+      "Worst historical month (backtest)": -0.0709
+    },
+    "Minimum variance": {
+      "VaR 99% 1m, normal": 0.0528,
+      "VaR 99% 1m, crisis": 0.3023,
+      "Loss in -25% market shock": -0.25,
+      "Worst historical month (backtest)": -0.0217
+    },
+    "ML mean-variance": {
+      "VaR 99% 1m, normal": 0.069,
+      "VaR 99% 1m, crisis": 0.309,
+      "Loss in -25% market shock": -0.2642,
+      "Worst historical month (backtest)": -0.0554
+    },
+    "ML tilt": {
+      "VaR 99% 1m, normal": 0.0554,
+      "VaR 99% 1m, crisis": 0.304,
+      "Loss in -25% market shock": -0.2547,
+      "Worst historical month (backtest)": -0.0297
+    }
+  },
+  "chosen": "Equal-weight",
+  "equity_line": {
+    "strategy": "Equal-weight",
+    "expected_annual_return": 0.16050601392060826,
+    "annual_vol": 0.06279666376060701,
+    "sharpe": 1.3006585134087043,
+    "max_drawdown": -0.02435679647616218,
+    "var99_1m_normal": 0.052764423222654275,
+    "var99_1m_crisis": 0.30234864368328984,
+    "loss_in_25pct_shock": -0.24999999999999994,
+    "long_run_avg_stock_return": 0.13340135537877473
+  },
+  "latest_weights": {
+    "AXISBANK": 0.0667,
+    "BHARTIARTL": 0.0667,
+    "HDFCBANK": 0.0667,
+    "HINDUNILVR": 0.0667,
+    "ICICIBANK": 0.0667,
+    "INFY": 0.0667,
+    "ITC": 0.0667,
+    "KOTAKBANK": 0.0667,
+    "LT": 0.0667,
+    "MARUTI": 0.0667,
+    "RELIANCE": 0.0667,
+    "SBIN": 0.0667,
+    "SUNPHARMA": 0.0667,
+    "TCS": 0.0667,
+    "TITAN": 0.0667
+  }
+}

@@ -1,0 +1,129 @@
+{
+  "module": "options",
+  "assumptions": {
+    "lot_units": 100,
+    "position": "short every option (dealer book)",
+    "hedge_tc": 0.001,
+    "var": "1-day 99%, 5,000-scenario full revaluation"
+  },
+  "bs_check_max_abs_diff": 0.2656661312023516,
+  "pricing": {
+    "Ridge (linear)": {
+      "RMSE \u20b9": 59.5347,
+      "MAE \u20b9": 42.7203,
+      "MAPE (price \u2265 \u20b95)": 0.631,
+      "R\u00b2": 0.9086
+    },
+    "Random forest": {
+      "RMSE \u20b9": 14.6411,
+      "MAE \u20b9": 9.0596,
+      "MAPE (price \u2265 \u20b95)": 0.0899,
+      "R\u00b2": 0.9945
+    },
+    "Gradient boosting": {
+      "RMSE \u20b9": 12.7377,
+      "MAE \u20b9": 7.8331,
+      "MAPE (price \u2265 \u20b95)": 0.0774,
+      "R\u00b2": 0.9958
+    },
+    "Black-Scholes (theory)": {
+      "RMSE \u20b9": 9.4785,
+      "MAE \u20b9": 5.772,
+      "MAPE (price \u2265 \u20b95)": 0.0502,
+      "R\u00b2": 0.9977
+    },
+    "Hybrid: BS + ML correction": {
+      "RMSE \u20b9": 10.3225,
+      "MAE \u20b9": 6.3572,
+      "MAPE (price \u2265 \u20b95)": 0.058,
+      "R\u00b2": 0.9973
+    }
+  },
+  "chosen_ml": "Gradient boosting",
+  "error_by_moneyness": {
+    "<0.90": {
+      "BS": 9.473,
+      "Gradient boosting": 13.586,
+      "Hybrid": 10.615,
+      "n": 534.0
+    },
+    "0.90-0.97": {
+      "BS": 7.242,
+      "Gradient boosting": 10.587,
+      "Hybrid": 8.055,
+      "n": 307.0
+    },
+    "0.97-1.03 (ATM)": {
+      "BS": 8.754,
+      "Gradient boosting": 14.098,
+      "Hybrid": 8.912,
+      "n": 258.0
+    },
+    "1.03-1.10": {
+      "BS": 7.502,
+      "Gradient boosting": 10.895,
+      "Hybrid": 8.058,
+      "n": 247.0
+    },
+    ">1.10": {
+      "BS": 11.197,
+      "Gradient boosting": 13.023,
+      "Hybrid": 12.146,
+      "n": 654.0
+    }
+  },
+  "greeks_total": {
+    "Options": 10000.0,
+    "Premium received \u20b9 cr": 19.3954,
+    "Delta (shares)": -132319.2617,
+    "Delta \u20b9 cr": -22.5745,
+    "Gamma \u20b9 cr per 1% move": -2.555,
+    "Vega \u20b9 cr per vol pt": -0.5046,
+    "Theta \u20b9 cr per day": 0.0207
+  },
+  "var": {
+    "Unhedged short book": {
+      "VaR 99% 1-day \u20b9 cr": 0.2777,
+      "Worst day \u20b9 cr": 0.347,
+      "Average day \u20b9 cr": -0.0216,
+      "Std of daily P&L \u20b9 cr": 0.1135,
+      "VaR reduction": 0.0
+    },
+    "Delta-hedged book": {
+      "VaR 99% 1-day \u20b9 cr": 0.0569,
+      "Worst day \u20b9 cr": 0.0651,
+      "Average day \u20b9 cr": -0.0109,
+      "Std of daily P&L \u20b9 cr": 0.0149,
+      "VaR reduction": 0.7952
+    }
+  },
+  "stress": {
+    "Crash: spot -20%, vol +10 pts": {
+      "Unhedged \u20b9 cr": -5.4406,
+      "Delta-hedged \u20b9 cr": -9.9555
+    },
+    "Sell-off: spot -10%, vol +5 pts": {
+      "Unhedged \u20b9 cr": -1.6022,
+      "Delta-hedged \u20b9 cr": -3.8596
+    },
+    "Rally: spot +10%, vol -3 pts": {
+      "Unhedged \u20b9 cr": -2.0872,
+      "Delta-hedged \u20b9 cr": 0.1702
+    },
+    "Vol spike only: +10 pts": {
+      "Unhedged \u20b9 cr": -5.3804,
+      "Delta-hedged \u20b9 cr": -5.3804
+    },
+    "Calm: vol -5 pts": {
+      "Unhedged \u20b9 cr": 2.3968,
+      "Delta-hedged \u20b9 cr": 2.3968
+    }
+  },
+  "hedge": {
+    "hedge_notional_cr": 23.789145263511816,
+    "initial_hedge_cost_cr": 0.023789145263511814,
+    "annual_rehedge_cost_cr": 2.157001992409617,
+    "premium_received_cr": 19.395374,
+    "theta_income_cr_per_year": 7.548118284954765
+  }
+}

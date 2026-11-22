@@ -1,0 +1,176 @@
+{
+  "module": "hft",
+  "assumptions": {
+    "fee_bp_round_trip": 0.5,
+    "notional_per_trade_inr": 1000000.0,
+    "theta": 0.55,
+    "split_days": {
+      "train": 12,
+      "validation": 4,
+      "test": 4
+    }
+  },
+  "model": {
+    "chosen": "Multinomial logistic",
+    "validation": {
+      "Multinomial logistic": {
+        "Macro-F1": 0.4431,
+        "Accuracy": 0.6116,
+        "Log-loss": 0.899,
+        "Recall DOWN": 0.7188,
+        "Recall FLAT": 0.0,
+        "Recall UP": 0.7374
+      },
+      "Random forest": {
+        "Macro-F1": 0.4432,
+        "Accuracy": 0.6116,
+        "Log-loss": 0.8988,
+        "Recall DOWN": 0.7217,
+        "Recall FLAT": 0.0,
+        "Recall UP": 0.7345
+      },
+      "Gradient boosting": {
+        "Macro-F1": 0.4432,
+        "Accuracy": 0.6116,
+        "Log-loss": 0.898,
+        "Recall DOWN": 0.7231,
+        "Recall FLAT": 0.0,
+        "Recall UP": 0.7331
+      },
+      "No-skill (class mix)": {
+        "Macro-F1": 0.1992,
+        "Accuracy": 0.4262,
+        "Log-loss": 1.0219,
+        "Recall DOWN": 1.0,
+        "Recall FLAT": 0.0,
+        "Recall UP": 0.0
+      },
+      "Rule: sign of OBI": {
+        "Macro-F1": 0.4409,
+        "Accuracy": 0.6086,
+        "Log-loss": 1.037,
+        "Recall DOWN": 0.7336,
+        "Recall FLAT": 0.0,
+        "Recall UP": 0.715
+      }
+    },
+    "test": {
+      "Multinomial logistic": {
+        "Macro-F1": 0.4379,
+        "Accuracy": 0.6023,
+        "Log-loss": 0.9117,
+        "Recall DOWN": 0.7021,
+        "Recall FLAT": 0.0,
+        "Recall UP": 0.7424
+      },
+      "Random forest": {
+        "Macro-F1": 0.4381,
+        "Accuracy": 0.6026,
+        "Log-loss": 0.9108,
+        "Recall DOWN": 0.7073,
+        "Recall FLAT": 0.0,
+        "Recall UP": 0.738
+      },
+      "Gradient boosting": {
+        "Macro-F1": 0.4396,
+        "Accuracy": 0.6047,
+        "Log-loss": 0.9104,
+        "Recall DOWN": 0.7099,
+        "Recall FLAT": 0.0,
+        "Recall UP": 0.7404
+      }
+    }
+  },
+  "signal_test": {
+    "Multinomial logistic": {
+      "threshold": 0.55,
+      "Trades/day": 3811.5,
+      "Hit rate": 0.6242,
+      "Gross bp/trade": 3.5273,
+      "Net bp/trade": 1.6536,
+      "Net \u20b9 lakh/day": 6.3027,
+      "Daily Sharpe (ann.)": 447.2514
+    },
+    "Random forest": {
+      "threshold": 0.55,
+      "Trades/day": 3836.75,
+      "Hit rate": 0.6214,
+      "Gross bp/trade": 3.5246,
+      "Net bp/trade": 1.6226,
+      "Net \u20b9 lakh/day": 6.2257,
+      "Daily Sharpe (ann.)": 539.2196
+    },
+    "Gradient boosting": {
+      "threshold": 0.55,
+      "Trades/day": 3817.25,
+      "Hit rate": 0.6236,
+      "Gross bp/trade": 3.5569,
+      "Net bp/trade": 1.6555,
+      "Net \u20b9 lakh/day": 6.3195,
+      "Daily Sharpe (ann.)": 817.6282
+    },
+    "Rule: sign of OBI": {
+      "threshold": 0.5,
+      "Trades/day": 5974.5,
+      "Hit rate": 0.556,
+      "Gross bp/trade": 2.5725,
+      "Net bp/trade": 0.7772,
+      "Net \u20b9 lakh/day": 4.6432,
+      "Daily Sharpe (ann.)": 186.4749
+    }
+  },
+  "stress": {
+    "Base": {
+      "Trades/day": 3811.5,
+      "Hit rate": 0.6242,
+      "Gross bp/trade": 3.5273,
+      "Net bp/trade": 1.6536,
+      "Net \u20b9 lakh/day": 6.3027,
+      "Daily Sharpe (ann.)": 447.2514
+    },
+    "Costs x2": {
+      "Trades/day": 3811.5,
+      "Hit rate": 0.4842,
+      "Gross bp/trade": 3.5273,
+      "Net bp/trade": -0.22,
+      "Net \u20b9 lakh/day": -0.8387,
+      "Daily Sharpe (ann.)": -62.7979
+    },
+    "Costs x3": {
+      "Trades/day": 3811.5,
+      "Hit rate": 0.365,
+      "Gross bp/trade": 3.5273,
+      "Net bp/trade": -2.0937,
+      "Net \u20b9 lakh/day": -7.9801,
+      "Daily Sharpe (ann.)": -498.1803
+    },
+    "Delay 1 event": {
+      "Trades/day": 3804.75,
+      "Hit rate": 0.481,
+      "Gross bp/trade": 1.5505,
+      "Net bp/trade": -0.2797,
+      "Net \u20b9 lakh/day": -1.0642,
+      "Daily Sharpe (ann.)": -27.367
+    },
+    "Delay 3 events": {
+      "Trades/day": 3792.75,
+      "Hit rate": 0.4288,
+      "Gross bp/trade": 0.7192,
+      "Net bp/trade": -1.075,
+      "Net \u20b9 lakh/day": -4.0771,
+      "Daily Sharpe (ann.)": -332.4173
+    },
+    "Costs x2 + delay 1": {
+      "Trades/day": 3804.75,
+      "Hit rate": 0.3631,
+      "Gross bp/trade": 1.5505,
+      "Net bp/trade": -2.1099,
+      "Net \u20b9 lakh/day": -8.0276,
+      "Daily Sharpe (ann.)": -221.806
+    }
+  },
+  "execution_saving_bp": 3.4715328754949124,
+  "base_net_lakh_per_day": 6.30274775,
+  "stressed_net_lakh_per_day": -8.02761725,
+  "allocation_note": "Synthetic order book is unusually generous (moves >> spread). Treat HFT as a small, capacity-limited pilot with hard loss limits; main value is execution quality."
+}

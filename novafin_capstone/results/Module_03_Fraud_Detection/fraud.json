@@ -1,0 +1,152 @@
+{
+  "module": "fraud",
+  "assumptions": {
+    "miss_cost": 10000,
+    "false_positive_cost": 500,
+    "split": "time 60/20/20"
+  },
+  "model": {
+    "chosen": "Random forest",
+    "validation": {
+      "Logistic regression": {
+        "ROC-AUC": 0.7806,
+        "PR-AUC": 0.0996
+      },
+      "Random forest": {
+        "ROC-AUC": 0.776,
+        "PR-AUC": 0.1081
+      },
+      "Gradient boosting": {
+        "ROC-AUC": 0.7847,
+        "PR-AUC": 0.0941
+      }
+    },
+    "test": {
+      "Logistic regression": {
+        "ROC-AUC": 0.7753,
+        "PR-AUC": 0.0937
+      },
+      "Random forest": {
+        "ROC-AUC": 0.8053,
+        "PR-AUC": 0.1422
+      },
+      "Gradient boosting": {
+        "ROC-AUC": 0.8077,
+        "PR-AUC": 0.1265
+      },
+      "Isolation Forest": {
+        "ROC-AUC": 0.6229,
+        "PR-AUC": 0.0436
+      },
+      "Amount ratio rule": {
+        "ROC-AUC": 0.7723,
+        "PR-AUC": 0.094
+      }
+    },
+    "top_drivers": [
+      "Log_Ratio",
+      "Log_Amount",
+      "Prior_Txns",
+      "Transaction_Frequency",
+      "Account_Age_Months"
+    ]
+  },
+  "threshold": {
+    "supervised": 0.5340024272489694,
+    "isolation_forest": 0.07553556987953595
+  },
+  "test_policy": {
+    "No model (investigate nothing)": {
+      "alerts": 0.0,
+      "caught": 0.0,
+      "missed": 144.0,
+      "false_alarms": 0.0,
+      "cost": 1440000.0,
+      "recall": 0.0,
+      "precision": NaN,
+      "saving vs no model": 0.0
+    },
+    "Investigate everything": {
+      "alerts": 6000.0,
+      "caught": 144.0,
+      "missed": 0.0,
+      "false_alarms": 5856.0,
+      "cost": 2928000.0,
+      "recall": 1.0,
+      "precision": 0.024,
+      "saving vs no model": -1.0333333333333332
+    },
+    "Random forest @ validation threshold": {
+      "alerts": 449.0,
+      "caught": 73.0,
+      "missed": 71.0,
+      "false_alarms": 376.0,
+      "cost": 898000.0,
+      "recall": 0.5069444444444444,
+      "precision": 0.16258351893095768,
+      "saving vs no model": 0.3763888888888889
+    },
+    "Isolation Forest @ validation threshold": {
+      "alerts": 275.0,
+      "caught": 14.0,
+      "missed": 130.0,
+      "false_alarms": 261.0,
+      "cost": 1430500.0,
+      "recall": 0.09722222222222222,
+      "precision": 0.05090909090909091,
+      "saving vs no model": 0.006597222222222254
+    },
+    "Random forest @ theory threshold 4.8%": {
+      "alerts": 5923.0,
+      "caught": 143.0,
+      "missed": 1.0,
+      "false_alarms": 5780.0,
+      "cost": 2900000.0,
+      "recall": 0.9930555555555556,
+      "precision": 0.02414317069052845,
+      "saving vs no model": -1.0138888888888888
+    }
+  },
+  "saving_share": 0.3763888888888889,
+  "saving_per_1000_txn_inr": 90333.33333333333,
+  "annual_saving_file_volume_inr": 1634958.6776859504,
+  "stress": {
+    "Base (\u20b910,000 / \u20b9500)": {
+      "test cost (\u20b9 lakh)": 8.98,
+      "no-model cost (\u20b9 lakh)": 14.4,
+      "saving": 0.376,
+      "alerts": 449.0
+    },
+    "Missed fraud \u20b95,000": {
+      "test cost (\u20b9 lakh)": 5.75,
+      "no-model cost (\u20b9 lakh)": 7.2,
+      "saving": 0.201,
+      "alerts": 392.0
+    },
+    "Missed fraud \u20b920,000": {
+      "test cost (\u20b9 lakh)": 14.44,
+      "no-model cost (\u20b9 lakh)": 28.8,
+      "saving": 0.499,
+      "alerts": 982.0
+    },
+    "Investigation \u20b91,000": {
+      "test cost (\u20b9 lakh)": 11.5,
+      "no-model cost (\u20b9 lakh)": 14.4,
+      "saving": 0.201,
+      "alerts": 392.0
+    },
+    "Model degraded (noise 0.05)": {
+      "test cost (\u20b9 lakh)": 8.97,
+      "no-model cost (\u20b9 lakh)": 14.4,
+      "saving": 0.377,
+      "alerts": 489.0
+    },
+    "Model degraded (noise 0.15)": {
+      "test cost (\u20b9 lakh)": 10.425,
+      "no-model cost (\u20b9 lakh)": 14.4,
+      "saving": 0.276,
+      "alerts": 507.0
+    }
+  },
+  "allocation_note": "Fraud model is a cost-reduction control for Digital banking; it needs analyst capacity, not balance-sheet capital."
+}

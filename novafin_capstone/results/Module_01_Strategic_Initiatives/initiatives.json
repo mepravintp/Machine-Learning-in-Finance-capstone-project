@@ -1,0 +1,162 @@
+{
+  "module": "initiatives",
+  "assumptions": {
+    "discount_rate": 0.12,
+    "life_years": 5,
+    "loss_on_failure": {
+      "Low": 0.3,
+      "Medium": 0.5,
+      "High": 0.7
+    },
+    "fund_pi_min": 0.1,
+    "fund_p_min": 0.75,
+    "reject_p_below": 0.6,
+    "units": "assumed INR crore"
+  },
+  "model": {
+    "chosen": "Logistic (3 drivers)",
+    "cv_roc_auc_mean": 0.6252884332745444,
+    "cv_roc_auc_std": 0.09833702505693181,
+    "cv_table": {
+      "Logistic (3 drivers)": {
+        "ROC-AUC mean": 0.6253,
+        "ROC-AUC std": 0.0983,
+        "PR-AUC mean": 0.8502
+      },
+      "Logistic regression": {
+        "ROC-AUC mean": 0.5588,
+        "ROC-AUC std": 0.1005,
+        "PR-AUC mean": 0.8178
+      },
+      "Random forest": {
+        "ROC-AUC mean": 0.4461,
+        "ROC-AUC std": 0.1013,
+        "PR-AUC mean": 0.777
+      },
+      "Gradient boosting": {
+        "ROC-AUC mean": 0.5027,
+        "ROC-AUC std": 0.0803,
+        "PR-AUC mean": 0.8052
+      }
+    },
+    "top_drivers": [
+      "Risk_Rating_Low",
+      "Business_Growth",
+      "Expected_ROI",
+      "Risk_Rating_Medium"
+    ]
+  },
+  "decision_counts": {
+    "Reject": 141,
+    "Fund": 21,
+    "Review": 18
+  },
+  "realised_success_by_decision": {
+    "Fund": 0.857,
+    "Review": 0.722,
+    "Reject": 0.759
+  },
+  "funded_total_cr": 970.93,
+  "funded_enpv_cr": 496.5659438035962,
+  "review_total_cr": 2941.1099999999997,
+  "lines": {
+    "Corporate lending": {
+      "initiatives": 1,
+      "capital_cr": 103.26,
+      "enpv_cr": 59.187563384171135,
+      "pi": 0.5731896512121938,
+      "expected_annual_excess_return": 0.11463793024243876,
+      "mean_p_success": 0.9043054890264572
+    },
+    "Derivatives hedging": {
+      "initiatives": 1,
+      "capital_cr": 47.56,
+      "enpv_cr": 13.890868140748589,
+      "pi": 0.2920703982495498,
+      "expected_annual_excess_return": 0.05841407964990995,
+      "mean_p_success": 0.8960038709374498
+    },
+    "Digital banking": {
+      "initiatives": 4,
+      "capital_cr": 405.21999999999997,
+      "enpv_cr": 160.3830413315646,
+      "pi": 0.39579251105958396,
+      "expected_annual_excess_return": 0.0791585022119168,
+      "mean_p_success": 0.9097591002833924
+    },
+    "Wealth management": {
+      "initiatives": 2,
+      "capital_cr": 414.89,
+      "enpv_cr": 263.10447094711185,
+      "pi": 0.6341547661961288,
+      "expected_annual_excess_return": 0.12683095323922575,
+      "mean_p_success": 0.8434877910175771
+    }
+  },
+  "sensitivity": {
+    "Base (5y, 12%, base loss)": {
+      "Fund": 21.0,
+      "Review": 18.0,
+      "Reject": 141.0,
+      "Fund investment (\u20b9 cr)": 3003.54,
+      "Fund E[NPV] (\u20b9 cr)": 964.84,
+      "Overlap with base Fund list": 21.0
+    },
+    "Life 3 years": {
+      "Fund": 0.0,
+      "Review": 1.0,
+      "Reject": 179.0,
+      "Fund investment (\u20b9 cr)": 0.0,
+      "Fund E[NPV] (\u20b9 cr)": 0.0,
+      "Overlap with base Fund list": 0.0
+    },
+    "Life 7 years": {
+      "Fund": 42.0,
+      "Review": 40.0,
+      "Reject": 98.0,
+      "Fund investment (\u20b9 cr)": 6553.53,
+      "Fund E[NPV] (\u20b9 cr)": 2926.6,
+      "Overlap with base Fund list": 21.0
+    },
+    "Discount 10%": {
+      "Fund": 22.0,
+      "Review": 22.0,
+      "Reject": 136.0,
+      "Fund investment (\u20b9 cr)": 3204.26,
+      "Fund E[NPV] (\u20b9 cr)": 1205.76,
+      "Overlap with base Fund list": 21.0
+    },
+    "Discount 14%": {
+      "Fund": 15.0,
+      "Review": 17.0,
+      "Reject": 148.0,
+      "Fund investment (\u20b9 cr)": 2198.27,
+      "Fund E[NPV] (\u20b9 cr)": 703.27,
+      "Overlap with base Fund list": 15.0
+    },
+    "No loss on failure (brief formula)": {
+      "Fund": 24.0,
+      "Review": 36.0,
+      "Reject": 120.0,
+      "Fund investment (\u20b9 cr)": 3504.05,
+      "Fund E[NPV] (\u20b9 cr)": 1194.05,
+      "Overlap with base Fund list": 21.0
+    },
+    "Loss on failure x1.5": {
+      "Fund": 19.0,
+      "Review": 13.0,
+      "Reject": 148.0,
+      "Fund investment (\u20b9 cr)": 2646.83,
+      "Fund E[NPV] (\u20b9 cr)": 853.34,
+      "Overlap with base Fund list": 19.0
+    },
+    "Model stress: P(success) -10pp": {
+      "Fund": 12.0,
+      "Review": 17.0,
+      "Reject": 151.0,
+      "Fund investment (\u20b9 cr)": 1785.49,
+      "Fund E[NPV] (\u20b9 cr)": 553.63,
+      "Overlap with base Fund list": 12.0
+    }
+  }
+}

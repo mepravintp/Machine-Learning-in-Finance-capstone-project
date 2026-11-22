@@ -1,0 +1,75 @@
+{
+  "module": "liquidity",
+  "assumptions": {
+    "units": "INR lakh (README), converted to crore",
+    "horizon_days": 30,
+    "confidence": 0.99,
+    "policy_scenario": "B. Freeze + deposit run",
+    "reserve_yield": 0.065,
+    "method": "historical simulation, 1187 windows of 30 days"
+  },
+  "forecast": {
+    "Naive (tomorrow = today)": {
+      "RMSE \u20b9 cr": 6.5034,
+      "MAE \u20b9 cr": 5.0335,
+      "R\u00b2": -1.0465
+    },
+    "20-day average": {
+      "RMSE \u20b9 cr": 4.6786,
+      "MAE \u20b9 cr": 3.7032,
+      "R\u00b2": -0.0592
+    },
+    "Ridge": {
+      "RMSE \u20b9 cr": 4.5962,
+      "MAE \u20b9 cr": 3.6216,
+      "R\u00b2": -0.0222
+    },
+    "Gradient boosting": {
+      "RMSE \u20b9 cr": 4.7523,
+      "MAE \u20b9 cr": 3.7648,
+      "R\u00b2": -0.0928
+    }
+  },
+  "chosen_forecaster": "20-day average",
+  "stress": {
+    "Normal": {
+      "avg daily need \u20b9 cr": -0.118,
+      "30-day need, mean \u20b9 cr": -3.533,
+      "30-day need, 99% \u20b9 cr": 56.551,
+      "buffer \u20b9 cr": 113.815,
+      "coverage ratio (buffer / need99)": 2.013,
+      "survival days": null,
+      "shortfall \u20b9 cr": 0.0
+    },
+    "A. Funding freeze": {
+      "avg daily need \u20b9 cr": 4.888,
+      "30-day need, mean \u20b9 cr": 146.631,
+      "30-day need, 99% \u20b9 cr": 199.195,
+      "buffer \u20b9 cr": 113.815,
+      "coverage ratio (buffer / need99)": 0.571,
+      "survival days": 23.286081931267287,
+      "shortfall \u20b9 cr": 85.38
+    },
+    "B. Freeze + deposit run": {
+      "avg daily need \u20b9 cr": 7.808,
+      "30-day need, mean \u20b9 cr": 234.239,
+      "30-day need, 99% \u20b9 cr": 285.806,
+      "buffer \u20b9 cr": 113.815,
+      "coverage ratio (buffer / need99)": 0.398,
+      "survival days": 14.576817230711637,
+      "shortfall \u20b9 cr": 171.991
+    },
+    "C. Severe": {
+      "avg daily need \u20b9 cr": 10.728,
+      "30-day need, mean \u20b9 cr": 321.847,
+      "30-day need, 99% \u20b9 cr": 372.403,
+      "buffer \u20b9 cr": 113.815,
+      "coverage ratio (buffer / need99)": 0.306,
+      "survival days": 10.608947739727006,
+      "shortfall \u20b9 cr": 258.587
+    }
+  },
+  "buffer_now_cr": 113.81530000000001,
+  "reserve_cr": 175.0,
+  "severe_extra_cr": 83.58739100000008
+}

@@ -1,0 +1,11 @@
+# Duplicate copies of the datasets (identical to data/); keep only data/
+docs/*.csv
+docs/nova_hft_orderbook/
+
+# Python / Jupyter caches
+__pycache__/
+.ipynb_checkpoints/
+
+# Temporary PDFs written by the report generators
+deliverables/_tmp_*
+deliverables/_report_new.pdf

@@ -1,0 +1,45 @@
+{
+  "module": "credit",
+  "assumptions": {
+    "LGD": 0.4,
+    "cost_of_funds": 0.06,
+    "max_ecl_ratio": 0.03,
+    "approve_pd_below": 0.11,
+    "reject_pd_from": 0.35
+  },
+  "model": {
+    "chosen": "Logistic regression",
+    "calibrated": false,
+    "test_roc_auc": 0.7459017936122561,
+    "oof_roc_auc": 0.7324722105361801
+  },
+  "decision_counts": {
+    "Reject": 3349,
+    "Approve": 836,
+    "Review": 815
+  },
+  "lines": {
+    "Corporate lending": {
+      "approved_loans": 230,
+      "approved_exposure_cr": 18.817887244,
+      "book_exposure_cr": 173.224206909,
+      "ecl_cr": 0.5379771997026545,
+      "ecl_ratio": 0.02858860788817757,
+      "annual_net_value_cr": 0.11456865793194805,
+      "risk_adjusted_return": 0.006088284856126862,
+      "stressed_ecl_ratio_pd1.5_lgd50": 0.053603639790332946,
+      "review_exposure_cr": 28.325341563000006
+    },
+    "Retail lending": {
+      "approved_loans": 606,
+      "approved_exposure_cr": 49.322463170000006,
+      "book_exposure_cr": 466.42866232399996,
+      "ecl_cr": 1.3862365346271053,
+      "ecl_ratio": 0.028105582031642585,
+      "annual_net_value_cr": 0.267796396615823,
+      "risk_adjusted_return": 0.00542950167944386,
+      "stressed_ecl_ratio_pd1.5_lgd50": 0.052697966309329845,
+      "review_exposure_cr": 84.642308572
+    }
+  }
+}

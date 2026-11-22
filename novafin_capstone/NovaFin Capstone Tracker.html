@@ -1,0 +1,811 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>NovaFin Capstone Tracker</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=Newsreader:opsz,wght@6..72,500;6..72,600&display=swap" rel="stylesheet">
+<style>
+:root{
+  box-sizing:border-box;
+  padding-top:env(safe-area-inset-top,0px);
+  padding-bottom:env(safe-area-inset-bottom,0px);
+  --bg:#EDF1F3; --surface:#FFFFFF; --surface2:#F5F8F9; --ink:#14252D; --muted:#566972; --line:#D3DDE2;
+  --brand:#0E5A64; --brand-soft:#DCEEF0; --on-brand:#FFFFFF;
+  --todo:#8494A0; --doing:#B7791F; --review:#3A68C9; --done:#2B8A57;
+  --warn:#B4452F; --warn-soft:#F8E6E1;
+  --serif:"Newsreader","Iowan Old Style",Georgia,serif;
+  --sans:"IBM Plex Sans",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){
+    --bg:#0F171B; --surface:#172228; --surface2:#1C2A31; --ink:#E4EDF0; --muted:#93A5AD; --line:#27373F;
+    --brand:#58B8C4; --brand-soft:#1B3A40; --on-brand:#0B1A1E;
+    --todo:#7F909A; --doing:#E0A23C; --review:#7C9CEB; --done:#52BE86;
+    --warn:#E58A74; --warn-soft:#3A2420;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#0F171B; --surface:#172228; --surface2:#1C2A31; --ink:#E4EDF0; --muted:#93A5AD; --line:#27373F;
+  --brand:#58B8C4; --brand-soft:#1B3A40; --on-brand:#0B1A1E;
+  --todo:#7F909A; --doing:#E0A23C; --review:#7C9CEB; --done:#52BE86;
+  --warn:#E58A74; --warn-soft:#3A2420;
+}
+html{height:100%;scroll-padding-top:env(safe-area-inset-top,0px)}
+*,*::before,*::after{box-sizing:inherit}
+body{margin:0;min-height:100%;background:var(--bg);color:var(--ink);font:15px/1.55 var(--sans);-webkit-text-size-adjust:100%}
+h1,h2,h3{font-family:var(--serif);font-weight:600;line-height:1.2;margin:0}
+h1{font-size:clamp(26px,4.2vw,40px);letter-spacing:-.01em}
+h2{font-size:24px;margin-bottom:6px}
+h3{font-size:18px;margin-bottom:6px}
+p{margin:0 0 10px}
+a{color:var(--brand)}
+button,select,input,textarea{font:inherit;color:inherit}
+:focus-visible{outline:2px solid var(--brand);outline-offset:2px;border-radius:4px}
+.wrap{max-width:1080px;margin:0 auto;padding:0 18px}
+
+/* header */
+header.top{background:var(--surface);border-bottom:1px solid var(--line);position:sticky;top:0;z-index:20;padding-top:env(safe-area-inset-top,0px)}
+.top-in{display:flex;align-items:center;gap:14px;padding:12px 18px;max-width:1080px;margin:0 auto;flex-wrap:wrap}
+.brand{font-family:var(--serif);font-size:20px;font-weight:600;margin-right:auto}
+.brand small{display:block;font:400 12.5px var(--sans);color:var(--muted)}
+.pill{display:flex;align-items:center;gap:8px;font-size:13px;color:var(--muted)}
+.bar{width:120px;height:8px;border-radius:99px;background:var(--line);overflow:hidden}
+.bar>i{display:block;height:100%;background:var(--done);width:0;transition:width .3s}
+.sync{font-size:12.5px;padding:3px 10px;border-radius:99px;background:var(--surface2);border:1px solid var(--line);color:var(--muted)}
+.sync.ok{color:var(--done);border-color:var(--done)}
+.sync.bad{color:var(--warn);border-color:var(--warn)}
+nav.tabs{display:flex;gap:2px;overflow-x:auto;max-width:1080px;margin:0 auto;padding:0 12px;scrollbar-width:thin}
+nav.tabs button{background:none;border:0;border-bottom:3px solid transparent;padding:10px 14px;cursor:pointer;color:var(--muted);font-weight:500;white-space:nowrap}
+nav.tabs button[aria-selected="true"]{color:var(--brand);border-bottom-color:var(--brand)}
+
+main{padding:22px 0 60px}
+section.panel{display:none}
+section.panel.on{display:block}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:18px 20px;margin-bottom:16px}
+.card.flat{background:transparent;border:0;padding:0}
+.lead{font-size:17px;color:var(--ink);max-width:68ch}
+.muted{color:var(--muted)}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+@media(max-width:820px){.grid2,.grid3{grid-template-columns:1fr}}
+ul.tight,ol.tight{margin:6px 0 0;padding-left:20px}
+ul.tight li,ol.tight li{margin-bottom:5px}
+.chip{display:inline-block;padding:2px 10px;border-radius:99px;background:var(--brand-soft);color:var(--brand);font-size:13px;margin:0 6px 6px 0;font-weight:500}
+
+/* chain */
+.chain{display:flex;align-items:stretch;gap:0;margin:20px 0 6px;overflow-x:auto;padding-bottom:6px}
+.node{flex:1 1 150px;min-width:150px;padding:12px 14px;background:var(--surface);border:1px solid var(--line);border-left-width:0;position:relative}
+.node:first-child{border-left-width:1px;border-radius:10px 0 0 10px}
+.node:last-child{border-radius:0 10px 10px 0;background:var(--brand);color:var(--on-brand);border-color:var(--brand)}
+.node b{display:block;font-family:var(--serif);font-size:17px;font-weight:600}
+.node span{font-size:13px;opacity:.85}
+.node:not(:last-child)::after{content:"";position:absolute;right:-9px;top:50%;width:16px;height:16px;background:inherit;border-top:1px solid var(--line);border-right:1px solid var(--line);transform:translateY(-50%) rotate(45deg);z-index:2}
+.big{font-family:var(--serif);font-size:clamp(22px,3.2vw,30px);line-height:1.25;margin:4px 0 10px}
+
+/* tables */
+.tw{overflow-x:auto}
+table{border-collapse:collapse;width:100%;font-size:14px}
+th,td{text-align:left;padding:9px 10px;border-bottom:1px solid var(--line);vertical-align:top}
+th{font-weight:600;color:var(--muted);font-size:13px;background:var(--surface2)}
+td.num,th.num{text-align:right;font-variant-numeric:tabular-nums}
+.warnbox{background:var(--warn-soft);border:1px solid var(--warn);border-radius:8px;padding:10px 14px;margin:10px 0}
+.warnbox b{color:var(--warn)}
+.ok{color:var(--done);font-weight:500}.bad{color:var(--warn);font-weight:500}
+
+/* tracker */
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-bottom:16px}
+@media(max-width:820px){.stats{grid-template-columns:1fr 1fr}}
+.stat{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:12px 14px}
+.stat b{display:block;font-family:var(--serif);font-size:26px;font-variant-numeric:tabular-nums}
+.stat span{font-size:13px;color:var(--muted)}
+.ctrl{display:flex;flex-wrap:wrap;gap:10px 14px;align-items:flex-end;margin-bottom:14px}
+.ctrl label{display:flex;flex-direction:column;font-size:13px;color:var(--muted);gap:3px}
+.ctrl input,.ctrl select{background:var(--surface);border:1px solid var(--line);border-radius:6px;padding:6px 8px;min-height:34px}
+.ctrl input[type=number]{width:80px}
+.btn{background:var(--brand);color:var(--on-brand);border:0;border-radius:6px;padding:8px 14px;cursor:pointer;font-weight:500;min-height:34px}
+.btn.ghost{background:var(--surface);color:var(--ink);border:1px solid var(--line)}
+.team{display:grid;grid-template-columns:repeat(5,1fr);gap:8px;margin-bottom:14px}
+@media(max-width:820px){.team{grid-template-columns:1fr 1fr}}
+.mem{background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:8px 10px}
+.mem input{width:100%;border:0;background:transparent;font-weight:600;padding:2px 0;border-bottom:1px dashed var(--line)}
+.mem small{display:block;color:var(--muted);font-size:12.5px;margin-top:4px}
+.mem .bar{width:100%;height:6px;margin-top:5px}
+.week{margin-top:20px}
+.week h3{display:flex;justify-content:space-between;align-items:baseline;gap:10px;flex-wrap:wrap}
+.week h3 small{font:400 13px var(--sans);color:var(--muted)}
+.row{display:grid;grid-template-columns:118px 1fr 140px 52px;gap:8px 12px;align-items:center;padding:10px 12px;background:var(--surface);border:1px solid var(--line);border-left:5px solid var(--todo);border-radius:8px;margin-top:8px}
+.row[data-s="doing"]{border-left-color:var(--doing)}
+.row[data-s="review"]{border-left-color:var(--review)}
+.row[data-s="done"]{border-left-color:var(--done)}
+.row[data-s="done"] .t{color:var(--muted);text-decoration:line-through}
+.row.optional{border-style:dashed;border-left-style:solid}
+.row .t b{font-weight:500}
+.row .t small{display:block;color:var(--muted);font-size:12.5px}
+.row select{background:var(--surface2);border:1px solid var(--line);border-radius:6px;padding:5px 6px;min-height:32px;width:100%}
+.row .hrs{text-align:right;font-variant-numeric:tabular-nums;color:var(--muted);font-size:13px}
+.row .note{grid-column:1/-1}
+.row .note input{width:100%;background:transparent;border:0;border-bottom:1px dashed var(--line);padding:3px 0;font-size:13.5px}
+@media(max-width:700px){.row{grid-template-columns:1fr 1fr}.row .t{grid-column:1/-1;order:-1}.row .hrs{text-align:left}}
+.empty{padding:22px;text-align:center;color:var(--muted);border:1px dashed var(--line);border-radius:10px}
+
+
+/* workstreams */
+.wsboard{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px;margin:8px 0 18px}
+.wscard{background:var(--surface);border:1px solid var(--line);border-top:4px solid var(--brand);border-radius:10px;padding:12px 14px;display:flex;flex-direction:column;gap:6px}
+.wscard .wsn{font-family:var(--serif);font-size:18px;font-weight:600;line-height:1.2}
+.wscard small{color:var(--muted);font-size:12.5px}
+.wscard label{display:flex;flex-direction:column;font-size:12.5px;color:var(--muted);gap:2px}
+.wscard select{background:var(--surface2);border:1px solid var(--line);border-radius:6px;padding:5px 6px;min-height:32px}
+.wscard .bar{width:100%;height:6px}
+.wscard details{font-size:13.5px}
+.wscard details summary{cursor:pointer;color:var(--brand);font-weight:500}
+.wscard details h5{margin:8px 0 2px;font-size:12.5px;color:var(--muted);font-weight:600}
+.wscard details ul{margin:0;padding-left:18px}
+.wshead{margin-top:26px;padding-bottom:6px;border-bottom:2px solid var(--brand);display:flex;justify-content:space-between;align-items:baseline;gap:10px;flex-wrap:wrap}
+.wshead small{color:var(--muted);font:400 13px var(--sans)}
+.phase{margin:14px 0 0;font-size:13.5px;color:var(--muted);font-weight:600}
+
+
+/* solo tracker */
+.resume{border-left:5px solid var(--brand)}
+.resume h3{margin-bottom:2px}
+.resume .next{font-family:var(--serif);font-size:22px;margin:4px 0}
+.nb{background:var(--surface);border:1px solid var(--line);border-radius:10px;margin-bottom:10px;border-left:5px solid var(--todo)}
+.nb[data-s="doing"]{border-left-color:var(--doing)}
+.nb[data-s="done"]{border-left-color:var(--done)}
+.nb summary{cursor:pointer;list-style:none;padding:12px 16px;display:grid;grid-template-columns:1fr 150px 90px;gap:12px;align-items:center}
+.nb summary::-webkit-details-marker{display:none}
+.nb summary b{font-weight:600}
+.nb summary small{display:block;color:var(--muted);font-size:12.5px;font-weight:400}
+.nb .pct{font-variant-numeric:tabular-nums;text-align:right;color:var(--muted);font-size:13px}
+.nb .body{padding:2px 18px 16px}
+.step{display:flex;gap:10px;align-items:flex-start;padding:5px 0}
+.step input{margin-top:4px;width:17px;height:17px;accent-color:var(--brand);flex:none}
+.step.done span{color:var(--muted);text-decoration:line-through}
+.nb textarea{width:100%;min-height:64px;background:var(--surface2);border:1px solid var(--line);border-radius:6px;padding:8px;resize:vertical}
+.nb .meta{font-size:13px;color:var(--muted);margin:6px 0}
+@media(max-width:700px){.nb summary{grid-template-columns:1fr 70px}.nb summary .bar{display:none}}
+
+/* accordions */
+details.acc{background:var(--surface);border:1px solid var(--line);border-radius:10px;margin-bottom:10px;border-left:5px solid var(--brand)}
+details.acc summary{cursor:pointer;padding:12px 16px;font-weight:600;list-style:none;display:flex;justify-content:space-between;gap:12px;align-items:center}
+details.acc summary::-webkit-details-marker{display:none}
+details.acc summary::after{content:"+";font-size:20px;color:var(--muted);line-height:1}
+details.acc[open] summary::after{content:"–"}
+details.acc .body{padding:0 18px 16px}
+details.acc .body h4{margin:14px 0 4px;font-size:14px;color:var(--muted);font-weight:600}
+.formula{background:var(--surface2);border:1px solid var(--line);border-radius:6px;padding:8px 12px;margin:8px 0;font-variant-numeric:tabular-nums}
+.alloc-row{display:grid;grid-template-columns:1fr 110px 1fr;gap:10px;align-items:center;margin-top:6px}
+.alloc-row input{width:100%;background:var(--surface);border:1px solid var(--line);border-radius:6px;padding:6px 8px;text-align:right}
+.alloc-row .bar{width:100%}
+.alloc-row .bar>i{background:var(--brand)}
+.toast{position:fixed;left:50%;bottom:calc(20px + env(safe-area-inset-bottom,0px));transform:translateX(-50%);background:var(--ink);color:var(--bg);padding:9px 16px;border-radius:8px;font-size:14px;opacity:0;pointer-events:none;transition:opacity .2s;z-index:50}
+.toast.on{opacity:1}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+</head>
+<body>
+
+<header class="top">
+  <div class="top-in">
+    <div class="brand">NovaFin capstone<small>ML in Finance, working solo</small></div>
+    <div class="pill"><span id="topPct">0%</span><div class="bar"><i id="topBar"></i></div><span id="topDays"></span></div>
+    <span class="sync" id="sync">Saved on this device</span>
+  </div>
+  <nav class="tabs" role="tablist" id="tabs">
+    <button role="tab" data-tab="ask" aria-selected="true">The ask</button>
+    <button role="tab" data-tab="tracker" aria-selected="false">Tracker</button>
+    <button role="tab" data-tab="data" aria-selected="false">What's in the files</button>
+    <button role="tab" data-tab="theory" aria-selected="false">Theory covered</button>
+    <button role="tab" data-tab="impl" aria-selected="false">How to implement</button>
+    <button role="tab" data-tab="report" aria-selected="false">How to report</button>
+  </nav>
+</header>
+
+<main class="wrap">
+
+<!-- THE ASK -->
+<section class="panel on" id="p-ask">
+  <h1>How should NovaFin use ML to grow while keeping risk acceptable?</h1>
+  <p class="lead" style="margin-top:10px">The Board does not want a pile of separate models. It wants one integrated answer, built on a chain that runs from raw data to a capital decision. Every module you build has to show each link of that chain.</p>
+
+  <div class="chain" aria-label="Decision chain">
+    <div class="node"><b>Data</b><span>Clean, explore, engineer features</span></div>
+    <div class="node"><b>ML prediction</b><span>PD, fraud, churn, returns, prices</span></div>
+    <div class="node"><b>Financial metric</b><span>ECL, NPV, CLV, Sharpe, VaR</span></div>
+    <div class="node"><b>Risk assessment</b><span>Stress, limits, model risk</span></div>
+    <div class="node"><b>Business decision</b><span>Approve, fund, target, allocate</span></div>
+  </div>
+
+  <div class="card" style="margin-top:22px">
+    <h3>The decision at the end</h3>
+    <p class="big">Where should NovaFin deploy ₹1,000 crore, what risks will it take, and how should those risks be controlled?</p>
+    <p class="muted">Candidate destinations named in the brief:</p>
+    <div>
+      <span class="chip">Corporate lending</span><span class="chip">Retail lending</span><span class="chip">Digital banking</span><span class="chip">Wealth management</span><span class="chip">Equity investments</span><span class="chip">High frequency trading</span><span class="chip">Derivatives hedging</span><span class="chip">Liquidity reserves</span>
+    </div>
+    <p class="muted" style="margin-bottom:0">You build your own split and explain it. Each rupee has to trace back to a module result.</p>
+  </div>
+
+  <div class="grid2">
+    <div class="card">
+      <h3>What you hand in</h3>
+      <ul class="tight">
+        <li><b>Detailed report and code guide:</b> full report structure, module-wise method, reusable Python/Colab code, and the financial decision framework.</li>
+        <li><b>Final group presentation:</b> the same story, delivered as if to the Board.</li>
+      </ul>
+    </div>
+    <div class="card">
+      <h3>What earns the highest marks</h3>
+      <ul class="tight">
+        <li>Technically sound ML</li>
+        <li>Strong financial reasoning</li>
+        <li>Rigorous validation</li>
+        <li>Decisions that connect across modules</li>
+        <li>Excellent executive communication</li>
+      </ul>
+      <p class="muted" style="margin:8px 0 0">Model complexity is not rewarded, though experiments are welcome.</p>
+    </div>
+  </div>
+
+  <div class="card">
+    <h3>Ground rules in the brief</h3>
+    <ul class="tight">
+      <li>Make suitable assumptions where needed, and write them down.</li>
+      <li>State risks and limitations clearly: data limits (it is synthetic), model risk, and what could go wrong.</li>
+      <li>Model governance and explainability matter, so use SHAP and plain-English readings of the drivers.</li>
+      <li>Senior management wants actionable inputs, not model scores for their own sake.</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h3>Skills the brief says you must show</h3>
+    <div class="grid3">
+      <div><b>ML</b><ul class="tight"><li>Cleaning and EDA</li><li>Feature engineering</li><li>Classification and regression</li><li>Comparing algorithms</li><li>Imbalanced classification</li><li>Validation and leakage control</li><li>SHAP interpretation</li></ul></div>
+      <div><b>Finance</b><ul class="tight"><li>Investment evaluation (NPV)</li><li>Credit risk and ECL</li><li>Fraud and customer value (CLV)</li><li>Portfolio construction and backtesting</li><li>Liquidity forecasting and stress tests</li><li>Option pricing, Greeks, hedges, VaR</li></ul></div>
+      <div><b>Decision-making</b><ul class="tight"><li>Turn model outputs into approve, fund, target, or allocate decisions</li><li>Justify choices with numbers</li><li>Explain risks and controls to a Board</li></ul></div>
+    </div>
+  </div>
+
+  <div class="card" style="border-color:var(--warn)">
+    <h3>Open points to settle in week 0</h3>
+    <ul class="tight">
+      <li><b>HFT file now provided, with differences from the brief.</b> The class is called FLAT, not NO_MOVE. The target is <code>Future_Return_100ms</code>, and that column and <code>Future_Price_100ms</code> must stay out of the features. Timestamps only go to the minute, so keep the row order within each day.</li>
+      <li><b>Liquidity has no module.</b> <code>nova_liquidity.csv</code> is provided and liquidity forecasting and stress testing are listed as skills. Plan a small liquidity and stress layer.</li>
+      <li><b>Module numbering jumps</b> from 6 to 9 and from 10 to 11. Treat 7 and 8 as removed.</li>
+      <li><b>CLV:</b> the customer file already has <code>Estimated_CLV</code>. Decide whether to use it, rebuild it, or benchmark against it, and keep it out of the churn features.</li>
+      <li><b>Loan_ID:</b> the brief asks for a Loan_ID column, but the loans file only has <code>Customer_ID</code>. Create a row ID.</li>
+    </ul>
+  </div>
+</section>
+
+<!-- TRACKER -->
+<section class="panel" id="p-tracker">
+  <h2>Solo tracker</h2>
+  <p class="muted">Tick steps as you finish them and record the key result of each notebook. <span id="trackerShareHint"></span></p>
+
+  <div class="card resume" id="resumeCard"></div>
+
+  <div class="ctrl">
+    <label>Deadline<input type="date" id="deadline"></label>
+    <button class="btn" id="copyResume">Copy resume prompt for a new chat</button>
+    <button class="btn ghost" id="copyTable">Copy status table for PROGRESS.md</button>
+  </div>
+
+  <div id="nbList"></div>
+</section>
+
+<!-- DATA -->
+<section class="panel" id="p-data">
+  <h2>What's in the project files</h2>
+  <p class="muted">Checked against the actual uploads. All money values are synthetic and in INR lakh unless stated; random seed is 42.</p>
+
+  <div class="card">
+    <h3>The brief (NovaFin_Group_Capstone_Project.docx)</h3>
+    <p>Sets the company scenario, the Board question, learning objectives, the data package, nine task modules, the integrated capital allocation, marking philosophy and the two deliverables. The module-by-module tasks are in the other tabs.</p>
+  </div>
+
+  <div class="card tw">
+    <table>
+      <thead><tr><th>File</th><th class="num">Rows × cols</th><th>Module</th><th>Target or key output</th><th>Watch out for</th></tr></thead>
+      <tbody>
+        <tr><td>strategic_initiatives.csv</td><td class="num">180 × 14</td><td>1 Corporate finance</td><td>Historical_Success (classify), then NPV and expected NPV</td><td>Only 180 rows, so use cross-validation and keep models simple. Revenue and cost columns feed NPV, so keep them out of leakage traps.</td></tr>
+        <tr><td>nova_loans.csv</td><td class="num">5,000 × 14</td><td>2 Credit risk</td><td>Default_Flag, then PD, ECL, approve/review/reject</td><td>No Loan_ID column. Use calibrated probabilities, because PD feeds ECL directly.</td></tr>
+        <tr><td>nova_transactions.csv</td><td class="num">30,000 × 12</td><td>3 Fraud</td><td>Fraud_Flag, Isolation Forest, cost-optimal threshold</td><td>Heavy class imbalance. Has a Timestamp, so split by time. Compare Amount to Historical_Avg_Transaction.</td></tr>
+        <tr><td>nova_customers.csv</td><td class="num">5,000 × 13</td><td>4 Churn and CLV</td><td>Churn_Flag, Estimated_CLV, 2×2 segments, top 1,000</td><td>Estimated_CLV is already supplied. Using it to predict churn risks leakage.</td></tr>
+        <tr><td>nova_market_data.csv</td><td class="num">21,855 × 15</td><td>5 Equity and 6 Portfolio</td><td>Future return prediction, ranking, three-strategy backtest</td><td>Panel data by Ticker and Date. Build the future-return target by shifting, use walk-forward splits, and never shuffle.</td></tr>
+        <tr><td>nova_options.csv</td><td class="num">10,000 × 11</td><td>10 Derivatives</td><td>Black-Scholes vs Market_Price vs ML price</td><td>Black_Scholes_Price is already supplied. Recompute it yourself to check it, and do not feed it to the ML model when you are comparing ML against it.</td></tr>
+        <tr><td>nova_liquidity.csv</td><td class="num">1,216 × 13</td><td>Liquidity and stress (no module in the brief)</td><td>Liquidity_Gap and Liquidity_Buffer over time</td><td>Not in the README. Time series, so use time-based validation. Use it to size the liquidity reserve.</td></tr>
+        <tr><td>nova_hft_orderbook.csv</td><td class="num">120,000 × 33</td><td>9 HFT</td><td>Price_Move_Class (UP 42%, DOWN 42%, FLAT 16%), signal backtest</td><td>10 stocks over 20 trading days (5–30 Jan 2026). Future_Return_100ms and Future_Price_100ms are the answer, so exclude them. Split by trading day. Order-book imbalance already tracks the target closely, so test costs and delays before trusting any edge.</td></tr>
+        <tr><td>README.txt</td><td class="num">—</td><td>All</td><td>Lists the seven datasets and the seed (42)</td><td>Lists the HFT file but not the liquidity file.</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h3 style="margin-top:20px">Columns in each file</h3>
+  <details class="acc"><summary>strategic_initiatives.csv</summary><div class="body"><p>Initiative_ID, Business_Unit, Initial_Investment, Revenue_Year1, Revenue_Year2, Revenue_Year3, Operating_Cost, Expected_ROI, Business_Growth, GDP_Growth, Interest_Rate, Competition_Index, Risk_Rating, Historical_Success</p></div></details>
+  <details class="acc"><summary>nova_loans.csv</summary><div class="body"><p>Customer_ID, Customer_Type, Annual_Income, Employment_Length, Debt_to_Income, Credit_Score, Existing_Loan, Loan_Amount, Loan_Term_Months, Interest_Rate, Collateral_Value, Past_Default, Sector_Risk, Default_Flag</p></div></details>
+  <details class="acc"><summary>nova_transactions.csv</summary><div class="body"><p>Transaction_ID, Customer_ID, Timestamp, Amount, Transaction_Type, Merchant_Category, Location, Device_ID, Account_Age_Months, Historical_Avg_Transaction, Transaction_Frequency, Fraud_Flag</p></div></details>
+  <details class="acc"><summary>nova_customers.csv</summary><div class="body"><p>Customer_ID, Age, Annual_Income, Account_Balance, Products_Held, Transactions_Per_Month, Digital_Usage, Complaints, Loan_Balance, Investment_Balance, Relationship_Length_Years, Churn_Flag, Estimated_CLV</p></div></details>
+  <details class="acc"><summary>nova_market_data.csv</summary><div class="body"><p>Ticker, Date, Open, High, Low, Close, Volume, Sector, Market_Return, GDP_Growth, Interest_Rate, VIX, Return, Momentum_20D, Volatility_20D</p></div></details>
+  <details class="acc"><summary>nova_options.csv</summary><div class="body"><p>Option_ID, Underlying, Option_Type, Strike, Spot, Expiry, Time_to_Maturity, Volatility, Interest_Rate, Black_Scholes_Price, Market_Price</p></div></details>
+  <details class="acc"><summary>nova_liquidity.csv</summary><div class="body"><p>Date, Deposits, Loan_Disbursements, Loan_Repayments, Wholesale_Funding, Securities_Holdings, Cash, Expected_Inflows, Expected_Outflows, Interest_Rate, Market_Stress, Liquidity_Gap, Liquidity_Buffer</p></div></details>
+  <details class="acc"><summary>nova_hft_orderbook.csv</summary><div class="body"><p>Timestamp, Trading_Day, Stock, Event_Type, Bid_Price_1–3, Ask_Price_1–3, Bid_Size_1–3, Ask_Size_1–3, Last_Price, Trade_Volume, Trade_Side, Order_Arrival_Rate, Cancellation_Rate, Short_Term_Volatility, Mid_Price, Spread, Relative_Spread, OBI_Level1, OBI_3Level, Total_Depth, Microprice, Microprice_Minus_Mid, Future_Return_100ms, Future_Price_100ms, Price_Move_Class</p></div></details>
+  <p class="muted">No missing values in any uploaded CSV, so cleaning means checking ranges, outliers, duplicates and types rather than imputing.</p>
+</section>
+
+<!-- THEORY -->
+<section class="panel" id="p-theory">
+  <h2>Theory the project covers</h2>
+  <p class="muted">What you need to understand well enough to explain to the Board. Each module pairs a finance idea with an ML idea.</p>
+  <div id="theoryList"></div>
+</section>
+
+<!-- IMPLEMENT -->
+<section class="panel" id="p-impl">
+  <h2>How to implement, step by step</h2>
+  <p class="muted">Start with the shared setup, then follow the module steps. Each module ends with one row for the allocation table.</p>
+  <div id="implList"></div>
+</section>
+
+<!-- REPORT -->
+<section class="panel" id="p-report">
+  <h2>How to report</h2>
+  <p class="muted">Two outputs from one story: a detailed report with a code guide, and a Board presentation. The answer comes first in both.</p>
+
+  <div class="card tw">
+    <h3>Report structure</h3>
+    <table>
+      <thead><tr><th>Section</th><th>What goes in it</th><th class="num">Target length</th></tr></thead>
+      <tbody>
+        <tr><td>Executive summary</td><td>The recommended allocation, the three numbers that justify it, the main risks and the controls. Written last, placed first.</td><td class="num">1 page</td></tr>
+        <tr><td>Approach and data</td><td>The decision chain, datasets, shared assumptions, validation standard, and the HFT/liquidity decisions.</td><td class="num">1–2 pages</td></tr>
+        <tr><td>Module sections</td><td>One per module using the template below.</td><td class="num">1 page each</td></tr>
+        <tr><td>Integrated capital allocation</td><td>Allocation table, logic for each line, sensitivity and stress results, expected return and risk for the whole book.</td><td class="num">2–3 pages</td></tr>
+        <tr><td>Risk management and controls</td><td>Limits, triggers, monitoring, model governance, who signs off on what.</td><td class="num">1–2 pages</td></tr>
+        <tr><td>Risks and limitations</td><td>Synthetic data, small samples, model risk, assumptions that could break, what you would do with real data.</td><td class="num">1 page</td></tr>
+        <tr><td>Appendix: code guide</td><td>Notebook map, how to run each, environment, seed, and a reusable function list.</td><td class="num">1–2 pages</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="grid2">
+    <div class="card">
+      <h3>Module section template</h3>
+      <ol class="tight">
+        <li><b>Business question</b> in one sentence.</li>
+        <li><b>Data and cleaning</b> in a few lines, with any leakage you removed.</li>
+        <li><b>Method</b>: models compared and why, split type, metrics.</li>
+        <li><b>Result</b>: one table or chart, plus the top SHAP drivers in plain words.</li>
+        <li><b>Decision</b>: the financial metric and the recommendation it supports.</li>
+        <li><b>Risks and caveats</b>: what would make you distrust the result.</li>
+        <li><b>Row for the allocation table.</b></li>
+      </ol>
+    </div>
+    <div class="card">
+      <h3>Board deck outline (about 15 slides)</h3>
+      <ol class="tight">
+        <li>The recommendation and the ₹1,000 crore split</li>
+        <li>The decision chain and the approach on one page</li>
+        <li>Lending: PD, ECL and approve/review/reject</li>
+        <li>Strategic initiatives: fund, review, reject</li>
+        <li>Fraud: threshold and savings</li>
+        <li>Customers: who the 1,000 contacts are</li>
+        <li>Equity and portfolio: three strategies backtested</li>
+        <li>Derivatives: ML vs Black-Scholes, hedging and VaR</li>
+        <li>Liquidity and stress test</li>
+        <li>HFT: does the signal pay after costs</li>
+        <li>Risk-return of the whole allocation</li>
+        <li>Sensitivity and stress results</li>
+        <li>Risk controls and governance</li>
+        <li>Limitations and next steps</li>
+        <li>Appendix: validation tables</li>
+      </ol>
+    </div>
+  </div>
+
+  <div class="card tw">
+    <h3>Row each module supplies for the allocation</h3>
+    <table>
+      <thead><tr><th>Business line</th><th>Expected return or profit</th><th>Expected loss or risk measure</th><th>Scale assumption</th><th>Key caveat</th></tr></thead>
+      <tbody>
+        <tr><td>Retail and corporate lending</td><td>Net interest margin on approved loans</td><td>Portfolio ECL, PD bands</td><td>Loan book capacity</td><td>Synthetic defaults</td></tr>
+        <tr><td>Digital banking</td><td>Retention value from CLV</td><td>Churn exposure</td><td>Customers reachable</td><td>CLV definition</td></tr>
+        <tr><td>Equity investments</td><td>Backtest return, Sharpe</td><td>Volatility, max drawdown</td><td>Position and turnover limits</td><td>Out-of-sample decay</td></tr>
+        <tr><td>Derivatives hedging</td><td>Hedge cost</td><td>VaR reduction</td><td>Notional hedged</td><td>Volatility model risk</td></tr>
+        <tr><td>HFT</td><td>Net edge after costs</td><td>Drawdown, execution risk</td><td>Capacity</td><td>Synthetic order book, no real latency or queue effects</td></tr>
+        <tr><td>Liquidity reserves</td><td>Avoided shortfall</td><td>Stress gap</td><td>Buffer target</td><td>Stress assumptions</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="card">
+    <h3>Allocation scratchpad (₹ crore)</h3>
+    <p class="muted">A working sheet for the team to try splits. It is shared like the tracker. Final numbers go in the report with the reasoning.</p>
+    <div id="allocBox"></div>
+    <p style="margin:12px 0 0"><b id="allocTotal">0</b> of 1,000 crore allocated, <span id="allocLeft"></span></p>
+  </div>
+
+  <div class="grid2">
+    <div class="card">
+      <h3>Governance checklist</h3>
+      <ul class="tight">
+        <li>Random seed fixed (42) and every notebook runs top to bottom.</li>
+        <li>Splits stated for each module (stratified, or time-based for time series).</li>
+        <li>Leakage checked: no target-derived features, scalers fit on training data only.</li>
+        <li>Imbalanced metrics reported (precision, recall, PR-AUC, confusion matrix).</li>
+        <li>SHAP drivers explained in business language.</li>
+        <li>Assumptions listed in one table with their sources.</li>
+        <li>Limitations listed for every module.</li>
+        <li>Numbers match across report, deck and notebooks.</li>
+      </ul>
+    </div>
+    <div class="card">
+      <h3>Writing for senior management</h3>
+      <ul class="tight">
+        <li>Lead with the decision, then the evidence.</li>
+        <li>One chart or table per claim, with a title that states the finding.</li>
+        <li>Express results in rupees and risk, not only AUC or RMSE.</li>
+        <li>Say what you would do differently with real data.</li>
+        <li>Cut anything that does not change a decision.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<script>
+const ALLOC_CATS = ['Corporate lending','Retail lending','Digital banking','Wealth management','Equity investments','High frequency trading','Derivatives hedging','Liquidity reserves'];
+
+const THEORY = [
+ {name:'Module 1: Strategic capital allocation', fin:['Net present value and discounting','Expected NPV = P(success) × NPV','Risk-adjusted fund / review / reject rules','Why high ROI alone is not enough'], ml:['Binary classification (logistic regression, random forest, gradient boosting)','ROC-AUC, precision, recall','Cross-validation on a small sample (180 rows)','SHAP to explain which traits drive success'], f:'Expected NPV = P(Success) × NPV'},
+ {name:'Module 2: Credit risk', fin:['Probability of default (PD), loss given default (LGD), exposure at default (EAD)','Expected credit loss, as in IFRS 9 style provisioning','Risk bands and risk appetite','Collateral and sector risk'], ml:['Classification with imbalanced classes','Probability calibration (the PD must be a believable probability)','ROC-AUC, KS statistic, Gini, PR-AUC','Threshold choice against business cost','SHAP for adverse-decision explanations'], f:'ECL = PD × LGD × EAD, with LGD = 40% and EAD = loan amount'},
+ {name:'Module 3: Fraud detection', fin:['Cost of missed fraud vs cost of investigation','Expected operational cost as the decision rule','Customer behaviour baselines'], ml:['Heavily imbalanced classification and PR-AUC','Cost-sensitive threshold selection','Isolation Forest for unsupervised anomaly detection','Comparing supervised and unsupervised detection','Behavioural features such as Amount ÷ Historical_Avg_Transaction'], f:'Cost = 10,000 × missed frauds + 500 × false alarms; choose the threshold that minimises it'},
+ {name:'Module 4: Churn and customer lifetime value', fin:['Customer lifetime value: margin, retention, discounting','Value-at-risk from churn (churn probability × CLV)','Targeting a limited retention budget'], ml:['Churn classification and probability ranking','Top-K lift and capture rate','Leakage when CLV and churn are related','Segmentation using two scores (churn and CLV)'], f:'Priority = high churn probability and high CLV; contact the top 1,000 by expected value at risk'},
+ {name:'Modules 5 and 6: Equity returns and portfolios', fin:['Risk and return, Sharpe ratio, drawdown','Mean-variance (Markowitz) optimisation','Equal-weight as the benchmark','Transaction costs and turnover','Backtesting discipline'], ml:['Regression on noisy financial returns (expect small R²)','Walk-forward validation, never random splits','Rank information coefficient and ranking stocks','Look-ahead bias and survivorship bias','Covariance estimation and shrinkage'], f:'Compare three strategies on the same out-of-sample period with the same costs'},
+ {name:'Module 9: High-frequency trading', fin:['Bid-ask spread, depth and order-book imbalance','Microprice and short-horizon price movement','Net edge after costs','Execution quality'], ml:['Three-class classification (UP, DOWN, FLAT)','Macro-F1 and a confusion matrix; the classes are UP 42%, DOWN 42% and FLAT 16%','Turning probabilities into a trade signal with a threshold','Event-time splits to avoid leakage'], f:'Trade only when predicted probability exceeds a threshold that pays for costs'},
+ {name:'Module 10: Derivatives', fin:['Black-Scholes pricing for calls and puts','Greeks: delta, gamma, vega, theta, rho','Delta hedging','Value at Risk (VaR)','Moneyness and implied-volatility effects'], ml:['Regression to predict market price','Feature design with moneyness and time to maturity','Comparing RMSE and MAE with the Black-Scholes benchmark','Error by region (in, at, out of the money)'], f:'Compare Black-Scholes error and ML error against Market_Price on a held-out set'},
+ {name:'Liquidity and stress (not a numbered module)', fin:['Liquidity gap = inflows minus outflows','Liquidity buffer and reserve sizing','Stress testing under market stress','Funding risk from wholesale funding'], ml:['Time-series forecasting','Time-based train/test split','Scenario design for stress'], f:'Size the reserve so the stressed gap is covered by the buffer'},
+ {name:'Module 11: Integrated capital allocation', fin:['Risk-adjusted return per rupee of capital','Diversification across businesses','Risk limits and a stated risk appetite','Sensitivity and stress analysis of the whole allocation','Controls: limits, triggers and monitoring'], ml:['Model risk and governance','Explainability for decision-makers','Stating limitations of synthetic data'], f:'Allocate where the risk-adjusted return per rupee is highest, within the limits you set'}
+];
+
+const IMPL = [
+ {name:'Shared setup (do once, week 0)', steps:[
+   'Create one shared folder with a Colab notebook per module and one assumptions sheet.',
+   'Write a loader that reads each CSV from the same path and checks shape and types.',
+   'Fix the random seed (42) in one place.',
+   'Write a helper for leakage-safe splits: stratified for credit, fraud and churn; time-based for market, options and liquidity.',
+   'Write a metrics helper (ROC-AUC, PR-AUC, precision, recall, confusion matrix, RMSE, MAE) and a SHAP helper.',
+   'Agree shared assumptions: LGD 40%, discount rate, risk-free rate, VaR confidence, transaction costs, risk appetite.'],
+  out:'Everyone copies the template and starts from the same helpers.', pit:'Different assumptions across modules; fix them once.'},
+ {name:'Module 1: Strategic initiatives', steps:[
+   'Explore investment, ROI, risk category and business-unit performance; plot growth vs ROI and investment vs success.',
+   'Split with stratification and use cross-validation, because there are only 180 rows.',
+   'Fit a logistic regression baseline, then a random forest and a gradient boosting model; compare on ROC-AUC and recall.',
+   'Run SHAP on the best model and write the top drivers in plain words.',
+   'Compute project NPV from Revenue_Year1 to Revenue_Year3, Operating_Cost and Initial_Investment, discounting at the shared rate.',
+   'Compute expected NPV = P(Success) × NPV.',
+   'Assign Fund (high expected NPV and acceptable risk), Review (attractive but uncertain), Reject (low value or excessive risk).'],
+  out:'Fund / review / reject table and the capital it would absorb.', pit:'Do not feed Expected_ROI or Revenue columns in a way that leaks the outcome; state the NPV simplifications.'},
+ {name:'Module 2: Credit risk', steps:[
+   'Check ranges and outliers; create a row ID; explore default rate by credit score, debt-to-income and sector risk.',
+   'Create features such as loan-to-income, collateral cover and payment burden.',
+   'Use a stratified split; fit logistic regression, random forest and gradient boosting.',
+   'Evaluate with ROC-AUC, PR-AUC, KS and a confusion matrix at a chosen threshold.',
+   'Calibrate probabilities and check a calibration plot, because PD feeds ECL.',
+   'Produce Loan ID, Predicted_PD and Risk_Category; justify your PD bands rather than copying 5/15/30%.',
+   'Compute ECL = PD × 0.40 × Loan_Amount per loan and in total.',
+   'Define the Approve / Review / Reject rule using PD, ECL, loan size, collateral and risk appetite; show how many loans and rupees fall in each.'],
+  out:'Portfolio ECL, approve rate, interest income vs expected loss.', pit:'An uncalibrated PD makes ECL wrong; do not report accuracy alone.'},
+ {name:'Module 3: Fraud', steps:[
+   'Report fraud rate and break it down by type, amount, location and customer behaviour.',
+   'Engineer features: Amount ÷ Historical_Avg_Transaction, hour of day, device and location changes.',
+   'Split by time using Timestamp; fit a baseline and a gradient boosting model; report PR-AUC, precision and recall.',
+   'Fit Isolation Forest without labels; compare what it flags against the supervised model.',
+   'Scan thresholds; for each, cost = 10,000 × missed frauds + 500 × false positives.',
+   'Choose the threshold with the lowest cost and report the saving vs no model.'],
+  out:'Net fraud cost saved at the best threshold.', pit:'Accuracy is meaningless with rare fraud; do not shuffle across time.'},
+ {name:'Module 4: Churn and CLV', steps:[
+   'Explore churn by tenure, products held, digital usage and complaints.',
+   'Fit a baseline and a gradient boosting classifier; evaluate with ROC-AUC and top-decile lift.',
+   'Decide how to treat Estimated_CLV (use as given, rebuild, or benchmark) and keep it out of the churn features.',
+   'Build the 2×2: high/low churn probability by high/low CLV.',
+   'Rank customers by churn probability × CLV and list the top 1,000 for relationship managers.',
+   'Estimate the value protected if a share of them is retained.'],
+  out:'The 1,000-customer list and retention value, which supports the digital banking case.', pit:'Leakage between CLV and churn; state your retention success assumption.'},
+ {name:'Modules 5 and 6: Equity and portfolio', steps:[
+   'Sort by Ticker and Date; build the future-return target by shifting returns forward; drop the last rows with no target.',
+   'Use only information known at the rebalance date as features.',
+   'Fit Ridge, random forest and gradient boosting using walk-forward splits; report R², rank IC and hit rate.',
+   'At each rebalance date, rank stocks by predicted return and select the top group.',
+   'Build three portfolios: equal-weight, Markowitz (use covariance shrinkage), and ML-ranked.',
+   'Backtest with transaction costs; report annual return, volatility, Sharpe, max drawdown and turnover.',
+   'Say plainly whether the ML portfolio beats the benchmark after costs.'],
+  out:'Expected return, volatility and drawdown for the equity sleeve.', pit:'Look-ahead bias; random splits; ignoring costs; unstable Markowitz weights.'},
+ {name:'Module 9: HFT', steps:[
+   'Load the 120,000 rows (10 stocks, 20 trading days). Timestamps only go to the minute, so keep the file order within each day and stock.',
+   'Use Price_Move_Class (UP, DOWN, FLAT) as the target. Drop Future_Return_100ms and Future_Price_100ms from the features, because they are the answer.',
+   'Use the supplied features (OBI_Level1, OBI_3Level, Microprice_Minus_Mid, spread, depth, order arrival and cancellation rates, volatility, event type) and add per-stock normalised versions.',
+   'Split by trading day (earlier days train, later days test), never randomly.',
+   'Fit a logistic regression baseline and a gradient boosting model; report macro-F1, recall per class and a confusion matrix.',
+   'Trade only UP or DOWN calls above a probability threshold. Profit per trade = direction × Future_Return_100ms minus costs (half the spread plus a fee).',
+   'Stress the result with higher costs and a one-step delay, and say how much of the edge survives.'],
+  out:'Whether the signal earns after costs, and a small capital line for HFT.', pit:'The average 100 ms move is much larger than the average spread, and imbalance already tracks the target, so the edge may look unrealistically good. This is synthetic data; say so.'},
+ {name:'Module 10: Derivatives', steps:[
+   'Implement Black-Scholes for calls and puts and check it against the supplied Black_Scholes_Price.',
+   'Measure BS vs Market_Price error overall and by moneyness and maturity.',
+   'Engineer features such as moneyness, time to maturity and volatility; do not include Black_Scholes_Price when testing ML against it.',
+   'Fit linear/ridge and gradient boosting models for Market_Price on a held-out set.',
+   'Compare RMSE and MAE with Black-Scholes; show where ML helps.',
+   'Compute Greeks, build a simple delta hedge and a VaR figure for the option exposure.'],
+  out:'Hedge cost and VaR reduction, which sizes the derivatives hedging line.', pit:'Leakage through the BS price; ignoring that BS is itself a feature of the data.'},
+ {name:'Liquidity and stress layer', steps:[
+   'Explore Liquidity_Gap, Liquidity_Buffer and Market_Stress over time.',
+   'Forecast the gap with a simple time-series or gradient boosting model using a time-based split.',
+   'Define a stress scenario (for example outflows up and wholesale funding down).',
+   'Measure the stressed gap against the buffer and size the reserve needed.'],
+  out:'The reserve amount for the liquidity line.', pit:'Not in the README; state your scenario assumptions clearly.'},
+ {name:'Module 11: Integrated allocation', steps:[
+   'Collect one allocation row from each owner (return, risk measure, scale, caveat).',
+   'Define risk appetite: for example a maximum portfolio ECL, a drawdown limit and a minimum liquidity buffer.',
+   'Rank business lines by risk-adjusted return per rupee and note capacity limits.',
+   'Draft the ₹1,000 crore split, then run sensitivity (change PD, returns, volatility) and a stress case.',
+   'Check the split against the risk limits and adjust.',
+   'Write the controls: limits, triggers, monitoring and model governance.',
+   'Write the recommendation, the key risks and the limitations, answer first.'],
+  out:'The final allocation table, with reasoning for each line.', pit:'An allocation that cannot be traced to module results; hidden assumptions.'}
+];
+
+
+/* ---------- notebooks and steps ---------- */
+function std(fin, dec, save){
+  return ['Audit and explore the data (quality, balance, EDA)',
+          'Features, split and leakage checks',
+          'Compare three models and pick one (simplest unless clearly beaten)',
+          'Validate and explain (metrics, calibration or error analysis, SHAP)',
+          'Financial layer: ' + fin,
+          'Decision and stress test: ' + dec,
+          'Write risks and limitations',
+          'Export ' + save + ' for notebook 10'];
+}
+const NB = [
+ {id:'00',name:'00 Setup and data audit',mod:'Setup',file:'00_setup_and_data_audit.ipynb',pre:true,
+  steps:['Shared assumptions agreed (LGD 40%, discount 12%, risk-free 7%, VaR 99%, cost of funds 6%, ECL appetite 3%)','Data inventory and quality checks on all eight files','Units decision (loans and customers in rupees; initiatives assumed crore)','Time structure and split rules for each file','Leakage watch-list and brief-vs-data differences']},
+ {id:'01',name:'01 Strategic initiatives',mod:'Module 1',file:'01_strategic_initiatives.ipynb',
+  steps:std('NPV per project, expected NPV = P(success) × NPV','Fund / Review / Reject rule within the budget','results/initiatives.json')},
+ {id:'02',name:'02 Credit risk',mod:'Module 2',file:'02_credit_risk.ipynb',pre:true,
+  steps:std('PD bands, ECL = PD × LGD × EAD, risk-adjusted value','Approve / Review / Reject under the 3% appetite; stress tests','results/credit.json')},
+ {id:'03',name:'03 Fraud detection',mod:'Module 3',file:'03_fraud.ipynb',
+  steps:std('cost curve (₹10,000 per missed fraud, ₹500 per false alarm); Isolation Forest comparison','best threshold and savings vs no model','results/fraud.json')},
+ {id:'04',name:'04 Churn and CLV',mod:'Module 4',file:'04_churn_clv.ipynb',
+  steps:std('CLV (supplied and rebuilt), expected value at risk','2×2 segments and the 1,000-customer list','results/churn.json')},
+ {id:'05',name:'05 Equity returns',mod:'Module 5',file:'05_equity_returns.ipynb',
+  steps:std('rank IC and long-short return of the predictions (walk-forward)','ranked stock list at each rebalance date','results/equity_predictions.csv')},
+ {id:'06',name:'06 Portfolio',mod:'Module 6',file:'06_portfolio.ipynb',
+  steps:std('backtest return, volatility, Sharpe, drawdown, turnover after costs','compare equal-weight, Markowitz and ML portfolios','results/portfolio.json')},
+ {id:'07',name:'07 High-frequency trading',mod:'Module 9',file:'07_hft.ipynb',
+  steps:std('profit per trade after spread and fees','trade or not, stress with higher costs and a delay','results/hft.json')},
+ {id:'08',name:'08 Options',mod:'Module 10',file:'08_options.ipynb',
+  steps:std('ML vs Black-Scholes error, Greeks, delta hedge, VaR','hedge size and cost','results/options.json')},
+ {id:'09',name:'09 Liquidity and stress',mod:'Extra',file:'09_liquidity_stress.ipynb',
+  steps:std('liquidity gap forecast and stressed gap vs buffer','size of the liquidity reserve','results/liquidity.json')},
+ {id:'10',name:'10 Integrated allocation',mod:'Module 11',file:'10_allocation.ipynb',
+  steps:['Load every result file and check units match','Set risk-appetite limits (ECL, drawdown, liquidity reserve)','Risk-adjusted return per rupee for each line','Draft the ₹1,000 crore allocation within the limits','Sensitivity and stress cases','Risk controls and governance','Final tables and charts']},
+ {id:'11',name:'Report and Board deck',mod:'Deliverables',file:'Word report and slides',
+  steps:['Executive summary (answer first)','Approach and data','One section per module (template)','Allocation, risk controls and limitations','Code guide appendix','Board deck (about 15 slides)','Final consistency check: numbers match everywhere']}
+];
+const DEFAULT_RESULT = {
+ '00':'All 8 files: no missing values or duplicates. Rates: defaults 20%, fraud 2.3%, churn 1.8%, initiatives success 77%, HFT UP 42% / DOWN 42% / FLAT 16%. Loan book about ₹640 cr.',
+ '02':'Logistic regression chosen (3 models tied). Test AUC 0.746, out-of-fold 0.733, PDs calibrated. Whole book ECL ₹63 cr (9.8%). Approve PD<0.11: 836 loans, ₹68 cr, ECL 2.8%, realised default 7% (rejected: 23%). Approved book earns ~0.5-0.6% a year after expected loss. PD x1.5 pushes ECL to ~4.2%, above the 3% appetite.'
+};
+
+/* ---------- state ---------- */
+const LS_KEY = 'novafin-solo-tracker-v1';
+const state = {deadline:'', alloc:{}, nb:{}};
+let db = null, readOnly = false, pendingRender = false;
+const openIds = new Set();
+const $ = id => document.getElementById(id);
+const esc = s => String(s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+function toast(msg){ const t=$('toast'); t.textContent=msg; t.classList.add('on'); setTimeout(()=>t.classList.remove('on'),2200); }
+
+function loadLocal(){
+  try{ const s = JSON.parse(localStorage.getItem(LS_KEY)||'null'); if(!s) return;
+    if(s.deadline) state.deadline = s.deadline; if(s.alloc) state.alloc = s.alloc; if(s.nb) state.nb = s.nb; }catch(e){}
+}
+function saveLocal(){ try{ localStorage.setItem(LS_KEY, JSON.stringify(state)); }catch(e){} }
+
+function nbState(n){
+  const s = state.nb[n.id];
+  if(s && Array.isArray(s.done) && s.done.length===n.steps.length) return {done:s.done, result:(typeof s.result==='string')?s.result:(DEFAULT_RESULT[n.id]||'')};
+  return {done:n.steps.map(()=>!!n.pre), result:(s && typeof s.result==='string')?s.result:(DEFAULT_RESULT[n.id]||'')};
+}
+function nbStatus(n){ const d = nbState(n).done.filter(Boolean).length; return d===0?'todo': d===n.steps.length?'done':'doing'; }
+
+/* ---------- persistence ---------- */
+function setSync(kind){
+  const el = $('sync');
+  el.className = 'sync ' + (kind==='shared'?'ok':kind==='ro'?'bad':'');
+  el.textContent = kind==='shared' ? 'Synced with this page' : kind==='ro' ? 'View only: saved on this device' : 'Saved on this device';
+  $('trackerShareHint').textContent = kind==='shared' ? 'Progress is saved with this page, so you can resume from any device.' : 'Progress is saved in this browser. To continue in a new chat, use the resume prompt.';
+}
+async function writeNb(id){
+  saveLocal();
+  if(!db || readOnly) return;
+  const s = state.nb[id];
+  try{ await db.collection('nb').doc(id).set({done:s.done, result:s.result||''}); }
+  catch(e){ if(e && e.code==='invalid_argument'){ readOnly=true; setSync('ro'); } }
+}
+let metaTimer = null;
+function writeMeta(){
+  saveLocal();
+  if(!db || readOnly) return;
+  clearTimeout(metaTimer);
+  metaTimer = setTimeout(async ()=>{
+    try{ await db.doc('meta/solo').set({deadline:state.deadline, alloc:state.alloc}); }
+    catch(e){ if(e && e.code==='invalid_argument'){ readOnly=true; setSync('ro'); } }
+  }, 500);
+}
+
+/* ---------- rendering ---------- */
+function daysLeft(){ if(!state.deadline) return null; return Math.ceil((new Date(state.deadline+'T23:59:59') - new Date())/86400000); }
+function nextNb(){ return NB.find(n=>nbStatus(n)!=='done'); }
+function statusText(){
+  const done = NB.filter(n=>nbStatus(n)==='done'), next = nextNb();
+  return {done, next};
+}
+function renderResume(){
+  const totalSteps = NB.reduce((a,n)=>a+n.steps.length,0);
+  const doneSteps = NB.reduce((a,n)=>a+nbState(n).done.filter(Boolean).length,0);
+  const pct = Math.round(100*doneSteps/totalSteps);
+  $('topPct').textContent = pct + '% done'; $('topBar').style.width = pct + '%';
+  const dl = daysLeft();
+  $('topDays').textContent = dl===null ? 'No deadline set' : dl>=0 ? dl + ' days left' : Math.abs(dl) + ' days past deadline';
+  const {done, next} = statusText();
+  const notebooksDone = NB.filter(n=>n.id!=='11' && n.id!=='00' && nbStatus(n)==='done').length;
+  let html = '<h3>Resume here</h3>';
+  if(!next){ html += '<p class="next">Everything is ticked off.</p><p class="muted">Do a last consistency check of the numbers in the report and deck.</p>'; }
+  else {
+    const s = nbState(next); const i = s.done.findIndex(d=>!d);
+    html += '<p class="next">'+esc(next.name)+'</p><p style="margin:0">Next step: '+esc(next.steps[i])+'</p><p class="muted" style="margin:4px 0 0">File: <code>'+esc(next.file)+'</code>. '+done.length+' of '+NB.length+' items complete, '+pct+'% of all steps.</p>';
+  }
+  $('resumeCard').innerHTML = html;
+}
+function renderList(){
+  $('nbList').innerHTML = NB.map(n=>{
+    const s = nbState(n), st = nbStatus(n), d = s.done.filter(Boolean).length, p = Math.round(100*d/n.steps.length);
+    return '<details class="nb" data-id="'+n.id+'" data-s="'+st+'"'+(openIds.has(n.id)?' open':'')+'>'
+      + '<summary><span><b>'+esc(n.name)+'</b><small>'+esc(n.mod)+', '+esc(n.file)+'</small></span><div class="bar"><i style="width:'+p+'%"></i></div><span class="pct">'+d+'/'+n.steps.length+'</span></summary>'
+      + '<div class="body">'
+      + n.steps.map((t,i)=>'<label class="step'+(s.done[i]?' done':'')+'"><input type="checkbox" data-nb="'+n.id+'" data-i="'+i+'"'+(s.done[i]?' checked':'')+'><span>'+esc(t)+'</span></label>').join('')
+      + '<div class="meta">Key result (kept for the resume prompt and PROGRESS.md):</div>'
+      + '<textarea data-res="'+n.id+'" placeholder="Record the headline numbers and the decision once the notebook runs">'+esc(s.result)+'</textarea>'
+      + '</div></details>';
+  }).join('');
+}
+function renderAlloc(){
+  const box = $('allocBox');
+  box.innerHTML = ALLOC_CATS.map((c,i)=>{
+    const v = Number(state.alloc[c]||0);
+    return '<div class="alloc-row"><label for="al'+i+'">'+esc(c)+'</label><input id="al'+i+'" type="number" min="0" step="10" data-cat="'+esc(c)+'" value="'+(v||'')+'" placeholder="0"><div class="bar"><i style="width:'+Math.min(100,v/10)+'%"></i></div></div>';
+  }).join('');
+  const total = ALLOC_CATS.reduce((a,c)=>a+Number(state.alloc[c]||0),0);
+  $('allocTotal').textContent = total.toLocaleString('en-IN');
+  const left = 1000-total;
+  $('allocLeft').innerHTML = left===0 ? '<span class="ok">fully allocated</span>' : left>0 ? left.toLocaleString('en-IN')+' crore still to place' : '<span class="bad">'+Math.abs(left).toLocaleString('en-IN')+' crore over the limit</span>';
+}
+function renderAll(){ renderResume(); renderList(); renderAlloc(); }
+function safeRender(){
+  const a = document.activeElement;
+  if(a && (a.matches('#nbList textarea') || a.matches('#allocBox input'))){ pendingRender = true; return; }
+  renderAll();
+}
+
+/* ---------- static content ---------- */
+function buildTheory(){
+  $('theoryList').innerHTML = THEORY.map((m,i)=>
+    '<details class="acc"'+(i===0?' open':'')+'><summary>'+esc(m.name)+'</summary><div class="body">'
+    +'<div class="grid2"><div><h4>Finance ideas</h4><ul class="tight">'+m.fin.map(x=>'<li>'+esc(x)+'</li>').join('')+'</ul></div>'
+    +'<div><h4>ML ideas</h4><ul class="tight">'+m.ml.map(x=>'<li>'+esc(x)+'</li>').join('')+'</ul></div></div>'
+    +'<div class="formula">'+esc(m.f)+'</div></div></details>').join('');
+}
+function buildImpl(){
+  $('implList').innerHTML = IMPL.map((m,i)=>
+    '<details class="acc"'+(i===0?' open':'')+'><summary>'+esc(m.name)+'</summary><div class="body">'
+    +'<ol class="tight">'+m.steps.map(x=>'<li>'+esc(x)+'</li>').join('')+'</ol>'
+    +'<h4>Hands to the allocation</h4><p>'+esc(m.out)+'</p>'
+    +'<h4>Watch out for</h4><p>'+esc(m.pit)+'</p></div></details>').join('');
+}
+
+/* ---------- copy helpers ---------- */
+async function copyText(txt, msg){
+  try{ await navigator.clipboard.writeText(txt); toast(msg); }
+  catch(e){ window.prompt('Copy this text:', txt); }
+}
+function statusTable(){
+  let t = '| # | Notebook | Status |\n|---|---|---|\n';
+  NB.forEach(n=>{ const st = nbStatus(n); t += '| '+n.id+' | '+n.file+' | '+({todo:'TODO',doing:'IN PROGRESS',done:'DONE'}[st])+' |\n'; });
+  return t;
+}
+function resumePrompt(){
+  const {done, next} = statusText();
+  let t = 'Continue the NovaFin capstone (ML in Finance, IIT Bombay, working alone).\n';
+  t += 'I am uploading the folder novafin_capstone (PROGRESS.md, src/novafin.py, notebooks/, results/, data/). Read PROGRESS.md first.\n\n';
+  t += 'Status:\n' + statusTable() + '\n';
+  if(next){ const s = nbState(next); const i = s.done.findIndex(d=>!d); t += 'Next: ' + next.name + ' (' + next.file + '). Next step: ' + next.steps[i] + '.\n\n'; }
+  const withRes = NB.filter(n=>nbState(n).result.trim());
+  if(withRes.length){ t += 'Key results so far:\n'; withRes.forEach(n=>{ t += '- ' + n.name + ': ' + nbState(n).result.trim() + '\n'; }); t += '\n'; }
+  t += 'Instructions: keep the same notebook structure and the shared assumptions in src/novafin.py. Give me a short design note first, then build, execute and verify the notebook, save its result file in results/, and update PROGRESS.md.';
+  return t;
+}
+
+/* ---------- events ---------- */
+function setupEvents(){
+  const tabs = $('tabs');
+  function show(name){
+    tabs.querySelectorAll('button').forEach(b=>b.setAttribute('aria-selected', String(b.dataset.tab===name)));
+    document.querySelectorAll('section.panel').forEach(s=>s.classList.toggle('on', s.id==='p-'+name));
+    try{ history.replaceState(null,'','#'+name); }catch(e){}
+    window.scrollTo(0,0);
+  }
+  tabs.addEventListener('click', e=>{ const b=e.target.closest('button[data-tab]'); if(b) show(b.dataset.tab); });
+  const hsh = location.hash.replace('#','');
+  if(hsh && document.getElementById('p-'+hsh)) show(hsh);
+
+  $('deadline').value = state.deadline;
+  $('deadline').addEventListener('change', e=>{ state.deadline=e.target.value; writeMeta(); renderResume(); });
+  $('copyResume').addEventListener('click', ()=>copyText(resumePrompt(), 'Resume prompt copied'));
+  $('copyTable').addEventListener('click', ()=>copyText(statusTable(), 'Status table copied'));
+
+  $('nbList').addEventListener('toggle', e=>{ const d = e.target.closest('details.nb'); if(!d) return; if(d.open) openIds.add(d.dataset.id); else openIds.delete(d.dataset.id); }, true);
+  $('nbList').addEventListener('change', e=>{
+    const t = e.target;
+    if(t.dataset.nb !== undefined){
+      const n = NB.find(x=>x.id===t.dataset.nb); const cur = nbState(n);
+      cur.done[Number(t.dataset.i)] = t.checked; state.nb[n.id] = cur; writeNb(n.id); renderAll();
+    } else if(t.dataset.res !== undefined){
+      const n = NB.find(x=>x.id===t.dataset.res); const cur = nbState(n);
+      cur.result = t.value; state.nb[n.id] = cur; writeNb(n.id); renderAll();
+    }
+  });
+  $('allocBox').addEventListener('change', e=>{
+    const c = e.target.dataset.cat; if(!c) return;
+    state.alloc[c] = Math.max(0, Number(e.target.value)||0);
+    writeMeta(); renderAlloc();
+  });
+  document.addEventListener('focusout', ()=>{ setTimeout(()=>{ if(pendingRender){ const a=document.activeElement; if(!(a && a.matches('input,select,textarea'))){ pendingRender=false; renderAll(); } } },50); });
+}
+
+/* ---------- init ---------- */
+async function connectDb(){
+  try{
+    if(!(window.claude && claude.use)) return;
+    db = await claude.use('db');
+    if(!db) return;
+    setSync('shared');
+    db.collection('nb').onSnapshot(snap=>{
+      snap.docs.forEach(d=>{ const v = d.data(); if(v && Array.isArray(v.done)) state.nb[d.id] = {done:v.done, result:v.result||''}; });
+      saveLocal(); safeRender();
+    }, ()=>{});
+    db.doc('meta/solo').onSnapshot(snap=>{
+      if(snap.exists){ const v = snap.data(); if(typeof v.deadline==='string') state.deadline = v.deadline; if(v.alloc) state.alloc = v.alloc; $('deadline').value = state.deadline; }
+      saveLocal(); safeRender();
+    }, ()=>{});
+  }catch(e){ db = null; }
+}
+
+loadLocal();
+buildTheory();
+buildImpl();
+setupEvents();
+setSync('local');
+renderAll();
+connectDb();
+</script>
+</body>
+</html>
