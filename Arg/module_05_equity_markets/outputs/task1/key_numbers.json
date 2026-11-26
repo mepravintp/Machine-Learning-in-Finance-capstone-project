@@ -1,0 +1,97 @@
+{
+ "rows": 1005,
+ "test_months": 43,
+ "predictable": false,
+ "target": {
+  "up_share": 0.5483,
+  "mean": 0.0117,
+  "sd": 0.0864,
+  "min": -0.2208,
+  "max": 0.3165,
+  "beyond_3sd": 2.0,
+  "expected_beyond_3sd": 2.7135,
+  "skew": 0.1377,
+  "excess_kurtosis": 0.0317,
+  "sd_between_stocks": 0.0852,
+  "sd_of_monthly_average": 0.0216
+ },
+ "macro_same_date_values": 15,
+ "market_return_vs_stocks": -0.0156,
+ "stock_pair_corr": 0.004,
+ "inputs_passing": 0,
+ "line_inputs": 0.0008,
+ "smallest_input_p": 0.0188,
+ "sector_p": 0.9642,
+ "month_p": 0.7302,
+ "vix_p": 0.4049,
+ "combo": {
+  "pair": [
+   "Past_250D bottom third",
+   "GDP_Growth bottom third"
+  ],
+  "excess": 0.0273,
+  "naive_p": 0.0116,
+  "luck_mean": 0.0013,
+  "p": 0.4752
+ },
+ "models": {
+  "Predict zero": {
+   "ic": null,
+   "ic_p": null,
+   "rmse": 0.0867,
+   "hit": null,
+   "shuffle_p": null
+  },
+  "Past average": {
+   "ic": -0.0022,
+   "ic_p": 0.9566,
+   "rmse": 0.0865,
+   "hit": 0.5271,
+   "shuffle_p": null
+  },
+  "Linear regression": {
+   "ic": 0.0047,
+   "ic_p": 0.917,
+   "rmse": 0.0874,
+   "hit": 0.5287,
+   "shuffle_p": 0.5347
+  },
+  "Ridge regression": {
+   "ic": 0.0041,
+   "ic_p": 0.9288,
+   "rmse": 0.0873,
+   "hit": 0.5395,
+   "shuffle_p": 0.5347
+  },
+  "Random forest": {
+   "ic": -0.0488,
+   "ic_p": 0.3476,
+   "rmse": 0.0877,
+   "hit": 0.5333,
+   "shuffle_p": 0.9307
+  },
+  "LightGBM": {
+   "ic": -0.0149,
+   "ic_p": 0.6959,
+   "rmse": 0.0894,
+   "hit": 0.5256,
+   "shuffle_p": 0.6436
+  },
+  "Ridge regression, all 22 inputs": {
+   "ic": -0.007,
+   "ic_p": 0.8551,
+   "rmse": 0.0877,
+   "hit": 0.5488,
+   "shuffle_p": null
+  },
+  "LightGBM, all 22 inputs": {
+   "ic": -0.0035,
+   "ic_p": 0.931,
+   "rmse": 0.0892,
+   "hit": 0.5287,
+   "shuffle_p": null
+  }
+ },
+ "up_share_test": 0.5504,
+ "top5_score": 1.0328
+}

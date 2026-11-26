@@ -1,0 +1,17 @@
+Column,Kind,Groups,Test,p,Cramér's V,ROC-AUC,Direction,Lowest group rate,Highest group rate,Verdict,Verdict at plain 0.05
+Amount,number,10,Chi-square,0.0,0.23454,0.78817,higher → more fraud,0.006,0.12667,Strong,Strong
+Amount_Ratio,number,10,Chi-square,0.0,0.20103,0.78708,higher → more fraud,0.00533,0.103,Strong,Strong
+Historical_Avg_Transaction,number,10,Chi-square,0.0,0.04364,0.583,lower → more fraud,0.01067,0.033,Weak,Weak
+Transaction_Type,label,3,Chi-square,0.00034,0.02306,0.53272,by group,0.02089,0.02969,Weak,Weak
+Merchant_Category,label,7,Chi-square,0.42783,0.01409,0.52577,by group,0.01957,0.02503,Not informative,Not informative
+Hour of day,label,6,Chi-square,0.32596,0.01391,0.52569,by group,0.0204,0.0264,Not informative,Not informative
+Account_Age_Months,number,10,Chi-square,0.15534,0.02095,0.51876,higher → more fraud,0.01646,0.02839,Not informative,Not informative
+Day of week,label,7,Chi-square,0.81836,0.00987,0.51818,by group,0.01999,0.02448,Not informative,Not informative
+Transaction_Frequency,number,8,Chi-square,0.28656,0.01688,0.51738,lower → more fraud,0.02033,0.0275,Not informative,Not informative
+Location,label,7,Chi-square,0.95741,0.00714,0.51346,by group,0.02146,0.02438,Not informative,Not informative
+Device had an earlier fraud,identifier,2,Chi-square,0.30922,0.00587,0.50818,by group,0.02235,0.02466,Not informative,Not informative
+Location change,label,2,Chi-square,0.48995,0.00416,0.5053,by group,0.02245,0.02437,Not informative,Not informative
+Customer had an earlier fraud,identifier,2,Chi-square,0.70805,0.00216,0.50277,by group,0.02181,0.02294,Not informative,Not informative
+Device change,label,2,Chi-square,0.74432,0.00197,0.50056,by group,0.0227,0.07143,Not informative,Not informative
+Frauds cluster on devices,identifier,1500,Dispersion,0.04565,,,—,,,Not informative,Weak
+Frauds cluster on customers,identifier,2500,Dispersion,0.61092,,,—,,,Not informative,Not informative

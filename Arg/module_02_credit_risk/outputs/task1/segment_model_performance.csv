@@ -1,0 +1,5 @@
+Set,Segment,Loans,ROC-AUC scorecard,ROC-AUC champion,Brier scorecard,Brier champion,Average PD,Actual default,Predicted loss (crore),Actual loss (crore),ROC-AUC gain
+Training (out-of-fold),Retail,2955,0.7289,0.6934,0.1406,0.145,0.2019,0.1993,36.0217,35.6882,0.0354
+Training (out-of-fold),Corporate,1045,0.7369,0.7237,0.1419,0.1425,0.2033,0.2,14.1579,14.3027,0.0132
+"Test (1,000)",Retail,739,0.74,0.7024,0.1401,0.1431,0.2113,0.1989,9.4699,9.3117,0.0376
+"Test (1,000)",Corporate,261,0.7455,0.7629,0.1422,0.1435,0.2122,0.1992,3.3892,3.4207,-0.0174

@@ -1,0 +1,4 @@
+Typical daily volatility change (points),A. No hedge,B. Delta hedge,C. Delta + half vega hedge,D. Delta + full vega hedge
+0.5,55327.27,56643.05,27572.72,-987.43
+1.0,102738.39,114853.64,56653.45,-987.43
+2.0,213044.57,231587.39,115070.14,-987.43

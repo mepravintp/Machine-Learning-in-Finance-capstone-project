@@ -1,0 +1,9 @@
+# Python / Jupyter clutter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Office lock files and OS files
+~$*
+.DS_Store
+Thumbs.db

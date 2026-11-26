@@ -1,0 +1,16 @@
+{
+ "inputs": [
+  "Amount",
+  "Amount_Ratio",
+  "Historical_Avg_Transaction",
+  "Account_Age_Months",
+  "Transaction_Frequency",
+  "Hour"
+ ],
+ "n_estimators": 500,
+ "max_samples": 256,
+ "share_flagged": 0.0225,
+ "cutoff_score": 0.597508,
+ "fitted_on": "24,000 training transactions, no fraud label",
+ "seed": 42
+}

@@ -1,0 +1,13 @@
+Breakdown,Group,Options,MAE (₹): Black-Scholes,MAE (₹): Direct ML (LightGBM),MAE (₹): Hybrid ML (Linear regression),Best
+Price fifth,1 (cheapest),400,1.5576,2.5318,1.792,Black-Scholes
+Price fifth,2,400,2.1112,3.4335,2.1512,Black-Scholes
+Price fifth,3,400,4.1684,6.2756,4.2929,Black-Scholes
+Price fifth,4,400,7.4219,11.3293,7.4333,Black-Scholes
+Price fifth,5 (dearest),400,15.1016,18.8288,15.4339,Black-Scholes
+Moneyness band,At the money (±2%),167,6.1375,8.4277,6.1675,Black-Scholes
+Moneyness band,Far in the money (> 10%),612,9.8738,12.8882,10.1599,Black-Scholes
+Moneyness band,Far out of the money (< −10%),599,2.9148,4.886,3.0981,Black-Scholes
+Moneyness band,In the money (2% to 10%),291,6.9488,9.5897,6.9675,Black-Scholes
+Moneyness band,Out of the money (−10% to −2%),331,3.9531,5.8832,3.9581,Black-Scholes
+Option Type,Call,1008,7.4684,10.3153,7.569,Black-Scholes
+Option Type,Put,992,4.6534,6.6148,4.8505,Black-Scholes

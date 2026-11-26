@@ -1,0 +1,29 @@
+{
+ "total_clv_crore": 32.8,
+ "chosen": "Linear regression",
+ "best_rmse": "Linear regression",
+ "rmse": {
+  "Linear regression": 36.3,
+  "Lasso": 88.4,
+  "Decision tree": 12056.6,
+  "Random forest": 7431.4,
+  "LightGBM": 6738.5
+ },
+ "rule": {
+  "Annual_Income": 0.04,
+  "Account_Balance": 0.03,
+  "Loan_Balance": 0.012,
+  "Investment_Balance": 0.018,
+  "Complaints": -5000
+ },
+ "rule_max_gap": 0.0053,
+ "lasso_switched_off": [
+  "Age",
+  "Products_Held",
+  "Transactions_Per_Month",
+  "Digital_Usage",
+  "Relationship_Length_Years"
+ ],
+ "top1000_share_of_clv": 0.4203,
+ "complaints_cost_crore": 3.81
+}

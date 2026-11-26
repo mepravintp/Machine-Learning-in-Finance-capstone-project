@@ -1,0 +1,158 @@
+{
+ "loans": 5000,
+ "size_cutoff_lakh": 33.31,
+ "total_ecl_crore": 63.04,
+ "actual_loss_crore": 62.72,
+ "decisions": {
+  "Approve": 2934,
+  "Review": 1045,
+  "Reject": 1021
+ },
+ "decision_crore": {
+  "Approve": 285.94,
+  "Review": 163.93,
+  "Reject": 189.78
+ },
+ "decision_default_rate": {
+  "Approve": 0.1135,
+  "Review": 0.2182,
+  "Reject": 0.427,
+  "Today's book": 0.1994
+ },
+ "approve_expected_loss_rate": 0.0545,
+ "earn_above_actual_loss_crore": {
+  "Approve": 10.45,
+  "Review": 0.59,
+  "Reject": -7.96,
+  "Today's book": 3.07
+ },
+ "approve_earn_range_crore": [
+  8.62,
+  12.11
+ ],
+ "approve_vs_book_p": 2.3295273205835735e-23,
+ "test_consistent": true,
+ "cap_binds": false,
+ "book_breakeven_cost": 0.0048,
+ "approval_share": 0.5868,
+ "turning_point": 0.73,
+ "module9": {
+  "Retail_book": {
+   "crore": 466.43,
+   "rate": 0.1025,
+   "ecl_rate": 0.0975,
+   "expected_return": 0.005
+  },
+  "Retail_approved": {
+   "crore": 210.52,
+   "rate": 0.0873,
+   "ecl_rate": 0.0544,
+   "expected_return": 0.033
+  },
+  "Corporate_book": {
+   "crore": 173.22,
+   "rate": 0.1037,
+   "ecl_rate": 0.1013,
+   "expected_return": 0.0024
+  },
+  "Corporate_approved": {
+   "crore": 75.42,
+   "rate": 0.0881,
+   "ecl_rate": 0.055,
+   "expected_return": 0.0331
+  },
+  "All_book": {
+   "crore": 639.65,
+   "rate": 0.1029,
+   "ecl_rate": 0.0986,
+   "expected_return": 0.0043
+  },
+  "All_approved": {
+   "crore": 285.94,
+   "rate": 0.0875,
+   "ecl_rate": 0.0545,
+   "expected_return": 0.033
+  }
+ },
+ "segments": {
+  "Corporate": {
+   "earn_today_crore": 0.25,
+   "earn_approved_crore": 2.79,
+   "default_approved": 0.1137
+  },
+  "Retail": {
+   "earn_today_crore": 2.83,
+   "earn_approved_crore": 7.66,
+   "default_approved": 0.1134
+  },
+  "Lowest fifth": {
+   "earn_today_crore": 0.11,
+   "earn_approved_crore": 2.14,
+   "default_approved": 0.1012
+  },
+  "Low fifth": {
+   "earn_today_crore": 0.81,
+   "earn_approved_crore": 2.27,
+   "default_approved": 0.1071
+  },
+  "Middle fifth": {
+   "earn_today_crore": 0.86,
+   "earn_approved_crore": 2.13,
+   "default_approved": 0.0991
+  },
+  "High fifth": {
+   "earn_today_crore": 0.07,
+   "earn_approved_crore": 2.1,
+   "default_approved": 0.1317
+  },
+  "Highest fifth": {
+   "earn_today_crore": 1.23,
+   "earn_approved_crore": 1.81,
+   "default_approved": 0.128
+  }
+ },
+ "segment_approved_p": 0.982,
+ "segment_earn_gap_range": [
+  -0.9,
+  1.91
+ ],
+ "corporate_gap_real": false,
+ "module9_lending": {
+  "Approve Retail": {
+   "return_pct": 3.2961,
+   "bad_year_pct": -2.1404,
+   "severe_pct": -7.5769,
+   "crore": 210.52
+  },
+  "Approve Corporate": {
+   "return_pct": 3.3104,
+   "bad_year_pct": -2.1868,
+   "severe_pct": -7.684,
+   "crore": 75.42
+  },
+  "Approve All": {
+   "return_pct": 3.2998,
+   "bad_year_pct": -2.1526,
+   "severe_pct": -7.6051,
+   "crore": 285.94
+  },
+  "Review Retail": {
+   "return_pct": 0.9595,
+   "bad_year_pct": -7.8843,
+   "severe_pct": -16.7281,
+   "crore": 120.32
+  },
+  "Review Corporate": {
+   "return_pct": 0.972,
+   "bad_year_pct": -7.683,
+   "severe_pct": -16.338,
+   "crore": 43.61
+  },
+  "Review All": {
+   "return_pct": 0.9628,
+   "bad_year_pct": -7.8308,
+   "severe_pct": -16.6243,
+   "crore": 163.93
+  }
+ }
+}

@@ -1,0 +1,10 @@
+Decision,Reason,Loans,Lent_crore,Actual_default
+Approve,Passes every test,2934,285.9423,0.1135
+Review,Weak collateral,497,58.7859,0.1932
+Review,Interest below expected loss,226,27.5679,0.2788
+Review,Interest below expected loss; Weak collateral,197,25.6862,0.198
+Review,Large loan (largest 5%),76,32.2069,0.2368
+Review,Large loan (largest 5%); Weak collateral,35,14.1598,0.2571
+Review,Interest below expected loss; Large loan (largest 5%),7,2.5772,0.1429
+Review,Interest below expected loss; Large loan (largest 5%); Weak collateral,7,2.9438,0.2857
+Reject,PD over 30%,1021,189.7828,0.427

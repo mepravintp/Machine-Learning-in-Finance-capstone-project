@@ -1,0 +1,24 @@
+{
+ "name": "Lasso",
+ "inputs": [
+  "Annual_Income",
+  "Employment_Length",
+  "Debt_to_Income",
+  "Credit_Score",
+  "Existing_Loan",
+  "Loan_Amount",
+  "Loan_Term_Months",
+  "Collateral_Value",
+  "Past_Default",
+  "Sector_Risk",
+  "Customer_Type",
+  "Loan_to_Value",
+  "Loan_to_Income",
+  "Total_Debt_to_Income",
+  "Principal_to_Income"
+ ],
+ "interest_rate_used": false,
+ "trained_on": "4,000 training loans",
+ "seed": 42,
+ "lasso_C": 0.046415888336127774
+}

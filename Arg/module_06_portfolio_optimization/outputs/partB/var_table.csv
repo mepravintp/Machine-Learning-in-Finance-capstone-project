@@ -1,0 +1,5 @@
+Strategy,"VaR 1 day, historical","VaR 1 day, parametric",CVaR 1 day,"VaR 1 month, historical","VaR 1 month, parametric",CVaR 1 month
+Equal weight,0.007642,0.007369,0.009826,0.019819,0.024742,0.023836
+Markowitz (past returns),0.011785,0.011395,0.014835,0.040541,0.042807,0.052374
+ML (ridge forecasts),0.01164,0.011398,0.014398,0.041411,0.04633,0.051319
+Top 5 (Module 5),0.01288,0.012985,0.016245,0.055911,0.052096,0.067544

@@ -1,0 +1,16 @@
+Column,Kind,Groups,Lowest group churn,Highest group churn,p,ROC-AUC,Direction,Separates churners
+Loan_To_Income,derived,5,0.012,0.027,0.0856,0.5614,higher → more churn,False
+Account_Balance,given,5,0.011,0.025,0.0938,0.5536,higher → more churn,False
+Annual_Income,given,5,0.013,0.026,0.1346,0.5043,lower → more churn,False
+Investment_Balance,given,5,0.014,0.026,0.268,0.503,lower → more churn,False
+Total_Balances,derived,5,0.012,0.022,0.303,0.5466,higher → more churn,False
+Savings_To_Income,derived,5,0.014,0.024,0.3284,0.5252,higher → more churn,False
+Balance_Per_Product,derived,5,0.011,0.023,0.3417,0.5397,higher → more churn,False
+Complaints_Per_Year,derived,4,0.0133,0.0221,0.3423,0.5187,higher → more churn,False
+Relationship_Length_Years,given,5,0.0124,0.0229,0.3454,0.5093,lower → more churn,False
+Loan_Balance,given,5,0.013,0.024,0.3696,0.5541,higher → more churn,False
+Digital_Usage,given,5,0.012,0.022,0.5204,0.5458,lower → more churn,False
+Age,given,5,0.0133,0.0217,0.7052,0.5112,lower → more churn,False
+Complaints,given,4,0.0166,0.0235,0.8219,0.5214,higher → more churn,False
+Products_Held,given,6,0.0138,0.0228,0.8236,0.5116,lower → more churn,False
+Transactions_Per_Month,given,5,0.0158,0.0203,0.9546,0.5071,higher → more churn,False

@@ -1,0 +1,16 @@
+{
+ "model": "LightGBM",
+ "inputs": "Strong + weak",
+ "columns": [
+  "Amount",
+  "Amount_Ratio",
+  "Historical_Avg_Transaction",
+  "Transaction_Type"
+ ],
+ "trained_on": "24,000 training transactions (Jan 2025 \u2013 Apr 2026)",
+ "seed": 42,
+ "tuned": {
+  "n_estimators": 100,
+  "num_leaves": 4
+ }
+}

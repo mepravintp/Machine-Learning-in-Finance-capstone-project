@@ -1,0 +1,9 @@
+Measure,Amount alone,Supervised (Task 2),Isolation Forest (a),"Isolation Forest (b), side check",Isolation Forest (a) − Supervised (Task 2),Isolation Forest (a) − Supervised (Task 2): 95% range,Isolation Forest (a) − Amount alone,Isolation Forest (a) − Amount alone: 95% range
+PR-AUC,0.1029,0.1243,0.0745,0.094,-0.0498,-0.079 to -0.022,-0.0285,-0.043 to -0.009
+ROC-AUC,0.7869,0.8152,0.7205,0.7727,-0.0947,-0.131 to -0.055,-0.0664,-0.103 to -0.028
+"Frauds caught, top 1%",0.0625,0.0833,0.0625,0.0625,-0.0208,-0.065 to +0.033,0.0,-0.030 to +0.038
+"Fraud ₹ caught, top 1%",0.1974,0.1333,0.1772,0.1699,0.0439,-0.061 to +0.151,-0.0202,-0.109 to +0.059
+"Frauds caught, top 5%",0.2847,0.3333,0.2153,0.2431,-0.1181,-0.189 to -0.049,-0.0694,-0.137 to -0.006
+"Fraud ₹ caught, top 5%",0.5609,0.5517,0.446,0.4934,-0.1057,-0.235 to +0.012,-0.1149,-0.210 to -0.035
+"Frauds caught, top 10%",0.5625,0.5486,0.3333,0.4722,-0.2153,-0.291 to -0.139,-0.2292,-0.304 to -0.150
+"Fraud ₹ caught, top 10%",0.8507,0.8204,0.5979,0.7509,-0.2225,-0.314 to -0.134,-0.2528,-0.339 to -0.174

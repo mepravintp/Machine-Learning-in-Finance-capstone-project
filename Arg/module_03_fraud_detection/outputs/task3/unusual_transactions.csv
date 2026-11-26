@@ -1,0 +1,681 @@
+Transaction_ID,Date,Set,Amount (₹),Transaction_Type,Location,Anomaly score,Anomaly rank,Why unusual,Supervised P(fraud),Also flagged by supervised model,Actually fraud
+5001615,2025-02-02,train,266293.08,Transfer,Mumbai,0.7318,1,"81.1× the customer's usual ₹3,282 (top 1% of ratios); amount ₹266,293 (top 1% of amounts); transaction frequency 3 (lowest 1%)",0.2113,Yes,Yes
+5008103,2025-06-13,train,280895.37,Payment,Hyderabad,0.7291,2,"86.4× the customer's usual ₹3,251 (top 1% of ratios); amount ₹280,895 (top 1% of amounts); account 6 months old (lowest 2%)",0.1735,Yes,No
+5027283,2026-07-07,test,232064.97,Transfer,Hyderabad,0.7284,3,"73.6× the customer's usual ₹3,153 (top 1% of ratios); amount ₹232,065 (top 1% of amounts); at 00:00 (lowest 1% of hours)",0.2272,Yes,No
+5012359,2025-09-08,train,160859.35,Transfer,Mumbai,0.7239,4,"183.0× the customer's usual ₹879 (top 1% of ratios); amount ₹160,859 (top 1% of amounts); at 01:00 (lowest 4% of hours)",0.344,Yes,Yes
+5014267,2025-10-16,train,92817.33,Withdrawal,Delhi,0.7238,5,"96.3× the customer's usual ₹964 (top 1% of ratios); amount ₹92,817 (top 1% of amounts); transaction frequency 16 (top 2%)",0.2786,Yes,No
+5004403,2025-03-31,train,179377.39,Withdrawal,Chennai,0.7233,6,"61.6× the customer's usual ₹2,913 (top 1% of ratios); amount ₹179,377 (top 1% of amounts); at 01:00 (lowest 4% of hours)",0.1817,Yes,No
+5020484,2026-02-19,train,200361.02,Payment,Delhi,0.7217,7,"58.6× the customer's usual ₹3,419 (top 1% of ratios); amount ₹200,361 (top 1% of amounts); account 7 months old (lowest 2%)",0.174,Yes,No
+5003693,2025-03-16,train,261476.0,Payment,Mumbai,0.7203,8,"69.0× the customer's usual ₹3,788 (top 1% of ratios); amount ₹261,476 (top 1% of amounts); account 6 months old (lowest 2%)",0.1681,Yes,Yes
+5018652,2026-01-13,train,434340.19,Payment,Mumbai,0.7194,9,"324.1× the customer's usual ₹1,340 (top 1% of ratios); amount ₹434,340 (top 1% of amounts); customer's usual amount ₹1,340 (lowest 2%)",0.2169,Yes,No
+5023660,2026-04-24,train,169475.4,Payment,Pune,0.717,10,"amount ₹169,475 (top 1% of amounts); 34.8× the customer's usual ₹4,873 (top 1% of ratios); account 173 months old (top 4%)",0.1465,No,No
+5009461,2025-07-11,train,228969.59,Withdrawal,Kolkata,0.7168,11,"85.9× the customer's usual ₹2,664 (top 1% of ratios); amount ₹228,970 (top 1% of amounts); transaction frequency 12 (top 18%)",0.1773,Yes,No
+5008116,2025-06-14,train,163549.27,Payment,Kolkata,0.716,12,"50.2× the customer's usual ₹3,260 (top 1% of ratios); amount ₹163,549 (top 1% of amounts); account 10 months old (lowest 4%)",0.1721,Yes,No
+5007449,2025-05-31,train,175062.9,Payment,Pune,0.7147,13,"84.0× the customer's usual ₹2,083 (top 1% of ratios); amount ₹175,063 (top 1% of amounts); account 14 months old (lowest 6%)",0.1614,No,No
+5017587,2025-12-22,train,122707.3,Transfer,Mumbai,0.7145,14,"49.1× the customer's usual ₹2,500 (top 1% of ratios); amount ₹122,707 (top 1% of amounts); transaction frequency 4 (lowest 1%)",0.2273,Yes,Yes
+5026507,2026-06-21,test,190163.1,Withdrawal,Bengaluru,0.7144,15,"39.9× the customer's usual ₹4,767 (top 1% of ratios); amount ₹190,163 (top 1% of amounts); transaction frequency 13 (top 11%)",0.1392,No,No
+5029849,2026-08-27,test,137666.6,Payment,Delhi,0.714,16,"33.7× the customer's usual ₹4,084 (top 1% of ratios); amount ₹137,667 (top 1% of amounts); at 22:00 (top 8% of hours)",0.1503,No,No
+5028721,2026-08-05,test,100958.52,Transfer,Mumbai,0.7108,17,"69.8× the customer's usual ₹1,445 (top 1% of ratios); amount ₹100,959 (top 1% of amounts); account 13 months old (lowest 6%)",0.2049,Yes,No
+5006748,2025-05-17,train,146641.01,Withdrawal,Bengaluru,0.7107,18,"44.4× the customer's usual ₹3,306 (top 1% of ratios); amount ₹146,641 (top 1% of amounts); transaction frequency 5 (lowest 4%)",0.1602,No,Yes
+5025310,2026-05-28,test,109942.66,Withdrawal,Delhi,0.7107,19,"195.1× the customer's usual ₹564 (top 1% of ratios); amount ₹109,943 (top 1% of amounts); customer's usual amount ₹564 (lowest 1%)",0.2634,Yes,No
+5026832,2026-06-27,test,88386.56,Payment,Delhi,0.7102,20,"65.7× the customer's usual ₹1,346 (top 1% of ratios); amount ₹88,387 (top 1% of amounts); account 15 months old (lowest 7%)",0.1885,Yes,Yes
+5001586,2025-02-02,train,135848.1,Transfer,Pune,0.7095,21,"61.1× the customer's usual ₹2,225 (top 1% of ratios); amount ₹135,848 (top 1% of amounts); at 01:00 (lowest 4% of hours)",0.2209,Yes,No
+5009896,2025-07-20,train,127448.1,Withdrawal,Hyderabad,0.708,22,"36.8× the customer's usual ₹3,463 (top 1% of ratios); amount ₹127,448 (top 1% of amounts); transaction frequency 5 (lowest 4%)",0.1834,Yes,No
+5025452,2026-05-30,test,87688.19,Withdrawal,Delhi,0.708,23,"82.2× the customer's usual ₹1,067 (top 1% of ratios); amount ₹87,688 (top 1% of amounts); at 23:00 (top 4% of hours)",0.2384,Yes,Yes
+5025888,2026-06-08,test,120506.29,Payment,Pune,0.7078,24,"51.2× the customer's usual ₹2,353 (top 1% of ratios); amount ₹120,506 (top 1% of amounts); transaction frequency 6 (lowest 10%)",0.1723,Yes,No
+5019870,2026-02-07,train,169102.81,Payment,Chennai,0.7078,25,"amount ₹169,103 (top 1% of amounts); 30.3× the customer's usual ₹5,584 (top 1% of ratios); at 00:00 (lowest 1% of hours)",0.1374,No,No
+5001574,2025-02-01,train,93283.0,Payment,Delhi,0.7073,26,"73.9× the customer's usual ₹1,263 (top 1% of ratios); amount ₹93,283 (top 1% of amounts); customer's usual amount ₹1,263 (lowest 2%)",0.2296,Yes,No
+5029641,2026-08-23,test,203474.0,Payment,Chennai,0.7067,27,"amount ₹203,474 (top 1% of amounts); 22.9× the customer's usual ₹8,868 (top 1% of ratios); transaction frequency 15 (top 4%)",0.1312,No,No
+5006484,2025-05-12,train,139587.65,Transfer,Mumbai,0.7066,28,"47.1× the customer's usual ₹2,961 (top 1% of ratios); amount ₹139,588 (top 1% of amounts); transaction frequency 12 (top 18%)",0.2453,Yes,No
+5010750,2025-08-06,train,194646.36,Payment,Kolkata,0.7063,29,"65.2× the customer's usual ₹2,984 (top 1% of ratios); amount ₹194,646 (top 1% of amounts)",0.1854,Yes,No
+5003722,2025-03-17,train,236553.88,Payment,Delhi,0.7059,30,"131.5× the customer's usual ₹1,799 (top 1% of ratios); amount ₹236,554 (top 1% of amounts); customer's usual amount ₹1,799 (lowest 6%)",0.1774,Yes,No
+5006084,2025-05-04,train,114891.13,Payment,Pune,0.7056,31,"45.4× the customer's usual ₹2,533 (top 1% of ratios); amount ₹114,891 (top 1% of amounts); account 12 months old (lowest 5%)",0.1688,Yes,No
+5007422,2025-05-31,train,91220.3,Payment,Delhi,0.7049,32,"60.5× the customer's usual ₹1,508 (top 1% of ratios); amount ₹91,220 (top 1% of amounts); customer's usual amount ₹1,508 (lowest 3%)",0.1663,Yes,No
+5026996,2026-07-01,test,280910.41,Withdrawal,Chennai,0.7048,33,"47.6× the customer's usual ₹5,896 (top 1% of ratios); amount ₹280,910 (top 1% of amounts)",0.1392,No,No
+5010658,2025-08-04,train,141445.94,Withdrawal,Kolkata,0.7044,34,"42.2× the customer's usual ₹3,350 (top 1% of ratios); amount ₹141,446 (top 1% of amounts); account 19 months old (lowest 9%)",0.1786,Yes,No
+5010885,2025-08-09,train,169282.52,Transfer,Delhi,0.7034,35,"amount ₹169,283 (top 1% of amounts); 27.1× the customer's usual ₹6,243 (top 1% of ratios); account 170 months old (top 6%)",0.1942,Yes,No
+5000655,2025-01-14,train,213464.21,Payment,Mumbai,0.7025,36,"43.4× the customer's usual ₹4,919 (top 1% of ratios); amount ₹213,464 (top 1% of amounts)",0.1597,No,No
+5003890,2025-03-20,train,140805.31,Payment,Pune,0.7013,37,"38.6× the customer's usual ₹3,650 (top 1% of ratios); amount ₹140,805 (top 1% of amounts); transaction frequency 13 (top 11%)",0.154,No,Yes
+5016720,2025-12-05,train,237843.73,Transfer,Delhi,0.701,38,"83.7× the customer's usual ₹2,841 (top 1% of ratios); amount ₹237,844 (top 1% of amounts)",0.2161,Yes,No
+5002874,2025-02-28,train,174875.5,Transfer,Pune,0.7003,39,"amount ₹174,876 (top 1% of amounts); 21.5× the customer's usual ₹8,122 (top 1% of ratios); account 18 months old (lowest 8%)",0.1955,Yes,No
+5000945,2025-01-20,train,219741.3,Transfer,Delhi,0.7002,40,"amount ₹219,741 (top 1% of amounts); 24.7× the customer's usual ₹8,883 (top 1% of ratios); at 02:00 (lowest 8% of hours)",0.1462,No,Yes
+5015033,2025-11-01,train,69037.74,Withdrawal,Mumbai,0.6988,41,"54.2× the customer's usual ₹1,273 (top 1% of ratios); amount ₹69,038 (top 1% of amounts); account 6 months old (lowest 2%)",0.231,Yes,No
+5028588,2026-08-02,test,99254.96,Payment,Chennai,0.6982,42,"79.2× the customer's usual ₹1,254 (top 1% of ratios); amount ₹99,255 (top 1% of amounts); customer's usual amount ₹1,254 (lowest 2%)",0.2145,Yes,No
+5020632,2026-02-22,train,147171.18,Payment,Hyderabad,0.6973,43,"amount ₹147,171 (top 1% of amounts); 28.1× the customer's usual ₹5,231 (top 1% of ratios); transaction frequency 14 (top 6%)",0.1187,No,Yes
+5009207,2025-07-06,train,138778.94,Payment,Pune,0.6971,44,"37.0× the customer's usual ₹3,747 (top 1% of ratios); amount ₹138,779 (top 1% of amounts); account 38 months old (lowest 20%)",0.1636,Yes,No
+5028932,2026-08-09,test,164051.27,Payment,Kolkata,0.697,45,"42.1× the customer's usual ₹3,897 (top 1% of ratios); amount ₹164,051 (top 1% of amounts); account 31 months old (lowest 15%)",0.1503,No,No
+5008888,2025-06-29,train,138303.88,Withdrawal,Chennai,0.697,46,"43.0× the customer's usual ₹3,220 (top 1% of ratios); amount ₹138,304 (top 1% of amounts); at 19:00 (top 21% of hours)",0.1867,Yes,No
+5004302,2025-03-29,train,99075.93,Payment,Mumbai,0.697,47,"33.5× the customer's usual ₹2,957 (top 1% of ratios); amount ₹99,076 (top 1% of amounts); at 00:00 (lowest 1% of hours)",0.1616,No,No
+5027029,2026-07-01,test,63400.39,Payment,Delhi,0.696,48,"customer's usual amount ₹31,190 (top 1%); amount ₹63,400 (top 1% of amounts); transaction frequency 20 (top 1%)",0.0238,No,No
+5000724,2025-01-15,train,109660.66,Payment,Kolkata,0.6955,49,"33.3× the customer's usual ₹3,290 (top 1% of ratios); amount ₹109,661 (top 1% of amounts); account 4 months old (lowest 1%)",0.1788,Yes,No
+5020637,2026-02-22,train,65561.82,Payment,Delhi,0.6952,50,"43.7× the customer's usual ₹1,502 (top 1% of ratios); amount ₹65,562 (top 1% of amounts); account 168 months old (top 7%)",0.1595,No,No
+5007107,2025-05-24,train,71965.75,Withdrawal,Pune,0.695,51,"59.3× the customer's usual ₹1,214 (top 1% of ratios); amount ₹71,966 (top 1% of amounts); transaction frequency 5 (lowest 4%)",0.1837,Yes,Yes
+5018215,2026-01-04,train,173506.15,Payment,Chennai,0.6949,52,"47.4× the customer's usual ₹3,657 (top 1% of ratios); amount ₹173,506 (top 1% of amounts)",0.1743,Yes,No
+5028591,2026-08-02,test,147306.04,Payment,Hyderabad,0.6949,53,"37.6× the customer's usual ₹3,922 (top 1% of ratios); amount ₹147,306 (top 1% of amounts); transaction frequency 12 (top 18%)",0.1503,No,No
+5010528,2025-08-02,train,131285.08,Withdrawal,Mumbai,0.6949,54,"amount ₹131,285 (top 1% of amounts); 18.9× the customer's usual ₹6,943 (top 1% of ratios); at 00:00 (lowest 1% of hours)",0.1494,No,No
+5005756,2025-04-27,train,92350.47,Transfer,Chennai,0.6947,55,"125.3× the customer's usual ₹737 (top 1% of ratios); amount ₹92,350 (top 1% of amounts); customer's usual amount ₹737 (lowest 1%)",0.3155,Yes,Yes
+5014713,2025-10-25,train,225988.6,Transfer,Chennai,0.6945,56,"54.5× the customer's usual ₹4,149 (top 1% of ratios); amount ₹225,989 (top 1% of amounts)",0.2352,Yes,No
+5018178,2026-01-03,train,108024.98,Transfer,Chennai,0.6944,57,"amount ₹108,025 (top 1% of amounts); 21.8× the customer's usual ₹4,954 (top 1% of ratios); transaction frequency 3 (lowest 1%)",0.1788,Yes,No
+5017236,2025-12-15,train,112441.86,Withdrawal,Mumbai,0.6938,58,"36.3× the customer's usual ₹3,098 (top 1% of ratios); amount ₹112,442 (top 1% of amounts); transaction frequency 5 (lowest 4%)",0.1834,Yes,No
+5028816,2026-08-07,test,106380.08,Payment,Delhi,0.6923,59,"36.7× the customer's usual ₹2,896 (top 1% of ratios); amount ₹106,380 (top 1% of amounts); at 01:00 (lowest 4% of hours)",0.1696,Yes,No
+5020990,2026-03-01,train,106982.48,Withdrawal,Mumbai,0.6921,60,"30.1× the customer's usual ₹3,551 (top 1% of ratios); amount ₹106,982 (top 1% of amounts); transaction frequency 4 (lowest 1%)",0.159,No,No
+5006330,2025-05-09,train,94065.9,Transfer,Mumbai,0.6917,61,"amount ₹94,066 (top 1% of amounts); 24.3× the customer's usual ₹3,879 (top 1% of ratios); account 3 months old (lowest 1%)",0.2117,Yes,No
+5024715,2026-05-16,test,56151.31,Withdrawal,Bengaluru,0.6909,62,"65.3× the customer's usual ₹859 (top 1% of ratios); amount ₹56,151 (top 2% of amounts); account 13 months old (lowest 6%)",0.2877,Yes,No
+5007153,2025-05-25,train,111929.26,Withdrawal,Kolkata,0.6903,63,"45.5× the customer's usual ₹2,463 (top 1% of ratios); amount ₹111,929 (top 1% of amounts)",0.1945,Yes,No
+5024844,2026-05-18,test,146151.44,Withdrawal,Kolkata,0.6902,64,"amount ₹146,151 (top 1% of amounts); 30.1× the customer's usual ₹4,861 (top 1% of ratios); transaction frequency 6 (lowest 10%)",0.1392,No,No
+5014863,2025-10-28,train,147943.94,Payment,Delhi,0.6888,65,"38.4× the customer's usual ₹3,849 (top 1% of ratios); amount ₹147,944 (top 1% of amounts)",0.1446,No,Yes
+5023023,2026-04-11,train,105836.08,Withdrawal,Kolkata,0.6886,66,"41.1× the customer's usual ₹2,578 (top 1% of ratios); amount ₹105,836 (top 1% of amounts); at 19:00 (top 21% of hours)",0.1891,Yes,No
+5026998,2026-07-01,test,79800.0,Withdrawal,Bengaluru,0.6884,67,"41.6× the customer's usual ₹1,919 (top 1% of ratios); amount ₹79,800 (top 1% of amounts); account 28 months old (lowest 14%)",0.176,Yes,Yes
+5006662,2025-05-15,train,105464.31,Payment,Bengaluru,0.6878,68,"30.5× the customer's usual ₹3,456 (top 1% of ratios); amount ₹105,464 (top 1% of amounts); account 23 months old (lowest 11%)",0.1659,Yes,No
+5000643,2025-01-13,train,49224.91,Withdrawal,Bengaluru,0.6871,69,"46.3× the customer's usual ₹1,064 (top 1% of ratios); amount ₹49,225 (top 2% of amounts); at 23:00 (top 4% of hours)",0.2276,Yes,Yes
+5007185,2025-05-26,train,107310.04,Withdrawal,Bengaluru,0.6855,70,"amount ₹107,310 (top 1% of amounts); 26.4× the customer's usual ₹4,070 (top 1% of ratios); account 5 months old (lowest 1%)",0.148,No,No
+5029703,2026-08-24,test,62076.67,Payment,Delhi,0.6852,71,"55.4× the customer's usual ₹1,120 (top 1% of ratios); amount ₹62,077 (top 1% of amounts); at 23:00 (top 4% of hours)",0.2568,Yes,No
+5009905,2025-07-20,train,83752.76,Transfer,Delhi,0.6846,72,"58.0× the customer's usual ₹1,445 (top 1% of ratios); amount ₹83,753 (top 1% of amounts); customer's usual amount ₹1,445 (lowest 3%)",0.2226,Yes,No
+5000359,2025-01-08,train,118415.58,Withdrawal,Delhi,0.684,73,"32.1× the customer's usual ₹3,689 (top 1% of ratios); amount ₹118,416 (top 1% of amounts)",0.1813,Yes,No
+5021846,2026-03-19,train,74873.75,Payment,Hyderabad,0.6833,74,"34.9× the customer's usual ₹2,148 (top 1% of ratios); amount ₹74,874 (top 1% of amounts); at 00:00 (lowest 1% of hours)",0.1698,Yes,No
+5012798,2025-09-16,train,116713.01,Transfer,Chennai,0.6831,75,"amount ₹116,713 (top 1% of amounts); 25.2× the customer's usual ₹4,636 (top 1% of ratios); at 22:00 (top 8% of hours)",0.2014,Yes,No
+5014800,2025-10-27,train,90356.55,Payment,Kolkata,0.6816,76,"37.0× the customer's usual ₹2,439 (top 1% of ratios); amount ₹90,357 (top 1% of amounts); transaction frequency 6 (lowest 10%)",0.1907,Yes,No
+5001415,2025-01-29,train,99362.74,Payment,Kolkata,0.6808,77,"34.6× the customer's usual ₹2,869 (top 1% of ratios); amount ₹99,363 (top 1% of amounts); transaction frequency 6 (lowest 10%)",0.1829,Yes,No
+5002657,2025-02-23,train,76925.58,Withdrawal,Mumbai,0.6806,78,"58.6× the customer's usual ₹1,312 (top 1% of ratios); amount ₹76,926 (top 1% of amounts); customer's usual amount ₹1,312 (lowest 2%)",0.2292,Yes,No
+5012123,2025-09-03,train,145223.19,Payment,Hyderabad,0.6805,79,"amount ₹145,223 (top 1% of amounts); 22.7× the customer's usual ₹6,389 (top 1% of ratios); transaction frequency 12 (top 18%)",0.1252,No,Yes
+5020108,2026-02-11,train,89272.75,Withdrawal,Hyderabad,0.6797,80,"amount ₹89,273 (top 1% of amounts); customer's usual amount ₹22,816 (top 2%); transaction frequency 4 (lowest 1%)",0.1051,No,No
+5017539,2025-12-21,train,84298.93,Withdrawal,Kolkata,0.6796,81,"32.6× the customer's usual ₹2,587 (top 1% of ratios); amount ₹84,299 (top 1% of amounts); account 23 months old (lowest 11%)",0.1726,Yes,No
+5008258,2025-06-17,train,92271.36,Withdrawal,Kolkata,0.679,82,"customer's usual amount ₹58,750 (top 1%); amount ₹92,271 (top 1% of amounts); at 01:00 (lowest 4% of hours)",0.0167,No,No
+5026045,2026-06-11,test,106476.31,Payment,Delhi,0.679,83,"amount ₹106,476 (top 1% of amounts); customer's usual amount ₹17,145 (top 5%); at 23:00 (top 4% of hours)",0.1037,No,No
+5029945,2026-08-29,test,69330.62,Withdrawal,Bengaluru,0.6789,84,"52.9× the customer's usual ₹1,311 (top 1% of ratios); amount ₹69,331 (top 1% of amounts); at 21:00 (top 12% of hours)",0.192,Yes,No
+5026778,2026-06-26,test,104957.15,Transfer,Delhi,0.6786,85,"30.6× the customer's usual ₹3,425 (top 1% of ratios); amount ₹104,957 (top 1% of amounts); at 19:00 (top 21% of hours)",0.214,Yes,No
+5025927,2026-06-09,test,75668.65,Payment,Delhi,0.6784,86,"customer's usual amount ₹55,200 (top 1%); amount ₹75,669 (top 1% of amounts); transaction frequency 5 (lowest 4%)",0.0251,No,No
+5029810,2026-08-27,test,118247.18,Transfer,Chennai,0.6783,87,"amount ₹118,247 (top 1% of amounts); 11.3× the customer's usual ₹10,427 (top 3% of ratios); transaction frequency 14 (top 6%)",0.1565,No,No
+5003611,2025-03-15,train,132155.07,Payment,Kolkata,0.6779,88,"amount ₹132,155 (top 1% of amounts); 23.1× the customer's usual ₹5,727 (top 1% of ratios); at 01:00 (lowest 4% of hours)",0.1562,No,No
+5013430,2025-09-29,train,69395.79,Withdrawal,Pune,0.6778,89,"24.4× the customer's usual ₹2,839 (top 1% of ratios); amount ₹69,396 (top 1% of amounts); transaction frequency 15 (top 4%)",0.185,Yes,No
+5021078,2026-03-03,train,99014.67,Withdrawal,Bengaluru,0.6777,90,"amount ₹99,015 (top 1% of amounts); 23.6× the customer's usual ₹4,194 (top 1% of ratios); account 12 months old (lowest 5%)",0.1454,No,No
+5019647,2026-02-02,train,111883.89,Withdrawal,Kolkata,0.6775,91,"28.1× the customer's usual ₹3,978 (top 1% of ratios); amount ₹111,884 (top 1% of amounts); transaction frequency 6 (lowest 10%)",0.151,No,No
+5017892,2025-12-29,train,81466.12,Payment,Delhi,0.6772,92,"amount ₹81,466 (top 1% of amounts); customer's usual amount ₹22,198 (top 2%); account 179 months old (top 1%)",0.1337,No,No
+5001292,2025-01-27,train,124962.67,Withdrawal,Chennai,0.6765,93,"amount ₹124,963 (top 1% of amounts); 18.9× the customer's usual ₹6,599 (top 1% of ratios); at 02:00 (lowest 8% of hours)",0.1318,No,No
+5016167,2025-11-24,train,95098.55,Payment,Bengaluru,0.6764,94,"amount ₹95,099 (top 1% of amounts); 25.8× the customer's usual ₹3,683 (top 1% of ratios); account 18 months old (lowest 8%)",0.1564,No,No
+5017519,2025-12-21,train,121615.45,Payment,Chennai,0.6764,95,"amount ₹121,615 (top 1% of amounts); 22.3× the customer's usual ₹5,442 (top 1% of ratios); transaction frequency 6 (lowest 10%)",0.1268,No,No
+5027728,2026-07-16,test,74528.21,Payment,Delhi,0.6763,96,"29.1× the customer's usual ₹2,565 (top 1% of ratios); amount ₹74,528 (top 1% of amounts); at 00:00 (lowest 1% of hours)",0.1723,Yes,Yes
+5011222,2025-08-16,train,72860.49,Transfer,Chennai,0.6756,97,"32.3× the customer's usual ₹2,252 (top 1% of ratios); amount ₹72,860 (top 1% of amounts); at 01:00 (lowest 4% of hours)",0.2213,Yes,No
+5028608,2026-08-02,test,83802.28,Payment,Pune,0.6755,98,"39.7× the customer's usual ₹2,110 (top 1% of ratios); amount ₹83,802 (top 1% of amounts); at 20:00 (top 17% of hours)",0.1596,No,No
+5014504,2025-10-21,train,82571.92,Transfer,Bengaluru,0.6751,99,"40.7× the customer's usual ₹2,031 (top 1% of ratios); amount ₹82,572 (top 1% of amounts); account 156 months old (top 14%)",0.2498,Yes,No
+5009539,2025-07-12,train,32391.64,Payment,Mumbai,0.6749,100,"27.6× the customer's usual ₹1,174 (top 1% of ratios); amount ₹32,392 (top 5% of amounts); account 178 months old (top 1%)",0.2005,Yes,No
+5016777,2025-12-06,train,84203.23,Withdrawal,Kolkata,0.6748,101,"amount ₹84,203 (top 1% of amounts); 20.7× the customer's usual ₹4,074 (top 1% of ratios); transaction frequency 16 (top 2%)",0.1459,No,No
+5022844,2026-04-08,train,113115.09,Payment,Hyderabad,0.6743,102,"amount ₹113,115 (top 1% of amounts); customer's usual amount ₹25,685 (top 1%); 4.4× the customer's usual ₹25,685 (top 14% of ratios)",0.113,No,No
+5026149,2026-06-14,test,86721.39,Withdrawal,Mumbai,0.6743,103,"amount ₹86,721 (top 1% of amounts); 18.0× the customer's usual ₹4,831 (top 1% of ratios); account 179 months old (top 1%)",0.1392,No,Yes
+5018769,2026-01-15,train,70625.98,Withdrawal,Chennai,0.6742,104,"40.5× the customer's usual ₹1,745 (top 1% of ratios); amount ₹70,626 (top 1% of amounts); transaction frequency 12 (top 18%)",0.1932,Yes,No
+5028222,2026-07-26,test,90816.09,Payment,Mumbai,0.6739,105,"amount ₹90,816 (top 1% of amounts); 12.0× the customer's usual ₹7,557 (top 3% of ratios); transaction frequency 3 (lowest 1%)",0.1151,No,No
+5024995,2026-05-21,test,103373.76,Withdrawal,Mumbai,0.6737,106,"29.4× the customer's usual ₹3,513 (top 1% of ratios); amount ₹103,374 (top 1% of amounts); account 154 months old (top 15%)",0.1594,No,No
+5023230,2026-04-16,train,71541.25,Payment,Pune,0.6736,107,"27.8× the customer's usual ₹2,577 (top 1% of ratios); amount ₹71,541 (top 1% of amounts); at 00:00 (lowest 1% of hours)",0.16,No,Yes
+5008296,2025-06-17,train,57826.29,Payment,Hyderabad,0.6733,108,"37.8× the customer's usual ₹1,528 (top 1% of ratios); amount ₹57,826 (top 1% of amounts); account 177 months old (top 2%)",0.1856,Yes,No
+5020237,2026-02-14,train,156473.34,Payment,Kolkata,0.6733,109,"amount ₹156,473 (top 1% of amounts); 20.1× the customer's usual ₹7,776 (top 1% of ratios); account 157 months old (top 13%)",0.1402,No,No
+5007701,2025-06-05,train,108747.47,Withdrawal,Kolkata,0.6733,110,"amount ₹108,747 (top 1% of amounts); 19.8× the customer's usual ₹5,482 (top 1% of ratios); account 170 months old (top 6%)",0.1366,No,No
+5025483,2026-05-31,test,38961.36,Withdrawal,Pune,0.6732,111,"73.5× the customer's usual ₹530 (top 1% of ratios); amount ₹38,961 (top 4% of amounts); account 173 months old (top 4%)",0.2681,Yes,Yes
+5019674,2026-02-03,train,66132.13,Withdrawal,Kolkata,0.6731,112,"40.5× the customer's usual ₹1,633 (top 1% of ratios); amount ₹66,132 (top 1% of amounts); at 01:00 (lowest 4% of hours)",0.1558,No,No
+5027022,2026-07-01,test,76164.25,Payment,Mumbai,0.6727,113,"42.7× the customer's usual ₹1,783 (top 1% of ratios); amount ₹76,164 (top 1% of amounts); customer's usual amount ₹1,783 (lowest 5%)",0.1654,Yes,No
+5026052,2026-06-12,test,56046.63,Payment,Bengaluru,0.6724,114,"38.5× the customer's usual ₹1,455 (top 1% of ratios); amount ₹56,047 (top 2% of amounts); transaction frequency 5 (lowest 4%)",0.1726,Yes,No
+5010327,2025-07-28,train,57783.55,Payment,Pune,0.672,115,"21.2× the customer's usual ₹2,724 (top 1% of ratios); amount ₹57,784 (top 1% of amounts); transaction frequency 3 (lowest 1%)",0.1807,Yes,No
+5008590,2025-06-23,train,130887.36,Withdrawal,Pune,0.6707,116,"amount ₹130,887 (top 1% of amounts); 14.1× the customer's usual ₹9,251 (top 2% of ratios); account 172 months old (top 4%)",0.1139,No,No
+5019389,2026-01-28,train,94051.68,Payment,Pune,0.6704,117,"amount ₹94,052 (top 1% of amounts); 24.8× the customer's usual ₹3,800 (top 1% of ratios); account 175 months old (top 3%)",0.1569,No,No
+5025361,2026-05-29,test,48918.6,Withdrawal,Delhi,0.6703,118,"56.1× the customer's usual ₹872 (top 1% of ratios); amount ₹48,919 (top 2% of amounts); customer's usual amount ₹872 (lowest 1%)",0.2956,Yes,No
+5008457,2025-06-21,train,101154.38,Transfer,Delhi,0.6702,119,"amount ₹101,154 (top 1% of amounts); customer's usual amount ₹27,398 (top 1%); 3.7× the customer's usual ₹27,398 (top 17% of ratios)",0.1593,No,No
+5004942,2025-04-10,train,56119.58,Withdrawal,Pune,0.6698,120,"22.2× the customer's usual ₹2,525 (top 1% of ratios); amount ₹56,120 (top 2% of amounts); account 3 months old (lowest 1%)",0.1996,Yes,No
+5010475,2025-07-31,train,92900.31,Transfer,Bengaluru,0.6697,121,"25.1× the customer's usual ₹3,700 (top 1% of ratios); amount ₹92,900 (top 1% of amounts); at 22:00 (top 8% of hours)",0.2242,Yes,No
+5027487,2026-07-11,test,59909.93,Payment,Hyderabad,0.6692,122,"26.6× the customer's usual ₹2,252 (top 1% of ratios); amount ₹59,910 (top 1% of amounts); account 169 months old (top 6%)",0.178,Yes,No
+5025961,2026-06-10,test,113115.64,Payment,Delhi,0.669,123,"amount ₹113,116 (top 1% of amounts); 19.6× the customer's usual ₹5,759 (top 1% of ratios); account 170 months old (top 6%)",0.1365,No,No
+5001660,2025-02-03,train,75617.78,Payment,Chennai,0.669,124,"22.6× the customer's usual ₹3,346 (top 1% of ratios); amount ₹75,618 (top 1% of amounts); transaction frequency 4 (lowest 1%)",0.1698,Yes,No
+5013411,2025-09-29,train,66599.31,Withdrawal,Mumbai,0.6688,125,"18.4× the customer's usual ₹3,611 (top 1% of ratios); amount ₹66,599 (top 1% of amounts); transaction frequency 17 (top 1%)",0.1384,No,No
+5014566,2025-10-22,train,145907.06,Payment,Chennai,0.6688,126,"amount ₹145,907 (top 1% of amounts); 24.9× the customer's usual ₹5,869 (top 1% of ratios); account 145 months old (top 20%)",0.1541,No,No
+5021203,2026-03-06,train,90386.43,Payment,Delhi,0.6685,127,"amount ₹90,386 (top 1% of amounts); 19.6× the customer's usual ₹4,611 (top 1% of ratios); at 00:00 (lowest 1% of hours)",0.1374,No,No
+5010210,2025-07-26,train,77562.57,Withdrawal,Delhi,0.6685,128,"33.3× the customer's usual ₹2,329 (top 1% of ratios); amount ₹77,563 (top 1% of amounts); account 168 months old (top 7%)",0.2158,Yes,Yes
+5022023,2026-03-22,train,49227.87,Payment,Bengaluru,0.6678,129,"40.9× the customer's usual ₹1,204 (top 1% of ratios); amount ₹49,228 (top 2% of amounts); transaction frequency 13 (top 11%)",0.2395,Yes,Yes
+5019752,2026-02-04,train,72726.38,Withdrawal,Mumbai,0.6678,130,"28.5× the customer's usual ₹2,547 (top 1% of ratios); amount ₹72,726 (top 1% of amounts); transaction frequency 13 (top 11%)",0.1775,Yes,No
+5026129,2026-06-13,test,49713.7,Withdrawal,Pune,0.6676,131,"48.7× the customer's usual ₹1,020 (top 1% of ratios); amount ₹49,714 (top 2% of amounts); customer's usual amount ₹1,020 (lowest 1%)",0.2687,Yes,No
+5007548,2025-06-02,train,114334.6,Payment,Chennai,0.6667,132,"amount ₹114,335 (top 1% of amounts); 25.6× the customer's usual ₹4,469 (top 1% of ratios); transaction frequency 12 (top 18%)",0.1256,No,No
+5010691,2025-08-05,train,61625.9,Payment,Pune,0.6667,133,"35.1× the customer's usual ₹1,757 (top 1% of ratios); amount ₹61,626 (top 1% of amounts); account 179 months old (top 1%)",0.219,Yes,No
+5019430,2026-01-29,train,156784.16,Withdrawal,Pune,0.6662,134,"amount ₹156,784 (top 1% of amounts); 19.9× the customer's usual ₹7,868 (top 1% of ratios); at 03:00 (lowest 13% of hours)",0.1416,No,No
+5003132,2025-03-05,train,71021.9,Withdrawal,Kolkata,0.6655,135,"27.5× the customer's usual ₹2,580 (top 1% of ratios); amount ₹71,022 (top 1% of amounts); account 4 months old (lowest 1%)",0.1847,Yes,No
+5026930,2026-06-29,test,108848.46,Payment,Hyderabad,0.6654,136,"amount ₹108,848 (top 1% of amounts); 19.3× the customer's usual ₹5,644 (top 1% of ratios); at 21:00 (top 12% of hours)",0.1365,No,No
+5029398,2026-08-18,test,53803.71,Payment,Hyderabad,0.6653,137,"28.3× the customer's usual ₹1,900 (top 1% of ratios); amount ₹53,804 (top 2% of amounts); transaction frequency 13 (top 11%)",0.1908,Yes,No
+5011262,2025-08-16,train,74708.79,Payment,Hyderabad,0.6652,138,"amount ₹74,709 (top 1% of amounts); transaction frequency 21 (top 1%); 6.8× the customer's usual ₹10,942 (top 7% of ratios)",0.118,No,No
+5018954,2026-01-19,train,110380.74,Withdrawal,Hyderabad,0.6651,139,"amount ₹110,381 (top 1% of amounts); 17.4× the customer's usual ₹6,343 (top 1% of ratios); account 177 months old (top 2%)",0.1295,No,No
+5021023,2026-03-02,train,104808.13,Payment,Bengaluru,0.6649,140,"26.5× the customer's usual ₹3,950 (top 1% of ratios); amount ₹104,808 (top 1% of amounts)",0.1423,No,No
+5005493,2025-04-22,train,62811.25,Payment,Chennai,0.6644,141,"customer's usual amount ₹49,560 (top 1%); amount ₹62,811 (top 1% of amounts); account 15 months old (lowest 7%)",0.0249,No,No
+5023420,2026-04-19,train,42949.36,Payment,Mumbai,0.6632,142,"39.6× the customer's usual ₹1,084 (top 1% of ratios); amount ₹42,949 (top 3% of amounts); transaction frequency 5 (lowest 4%)",0.2747,Yes,No
+5010884,2025-08-09,train,85251.01,Transfer,Bengaluru,0.6629,143,"21.5× the customer's usual ₹3,965 (top 1% of ratios); amount ₹85,251 (top 1% of amounts); transaction frequency 5 (lowest 4%)",0.2009,Yes,No
+5025985,2026-06-10,test,99015.06,Withdrawal,Delhi,0.6628,144,"amount ₹99,015 (top 1% of amounts); 22.5× the customer's usual ₹4,409 (top 1% of ratios); transaction frequency 12 (top 18%)",0.1392,No,No
+5010745,2025-08-06,train,67135.94,Payment,Mumbai,0.6626,145,"amount ₹67,136 (top 1% of amounts); 14.9× the customer's usual ₹4,497 (top 2% of ratios); transaction frequency 2 (lowest 1%)",0.1262,No,No
+5021041,2026-03-02,train,71448.17,Withdrawal,Kolkata,0.6624,146,"24.7× the customer's usual ₹2,895 (top 1% of ratios); amount ₹71,448 (top 1% of amounts); account 176 months old (top 2%)",0.1584,No,Yes
+5008224,2025-06-16,train,96823.25,Withdrawal,Kolkata,0.6621,147,"27.9× the customer's usual ₹3,469 (top 1% of ratios); amount ₹96,823 (top 1% of amounts)",0.1543,No,No
+5007165,2025-05-25,train,62957.8,Payment,Pune,0.6617,148,"19.9× the customer's usual ₹3,163 (top 1% of ratios); amount ₹62,958 (top 1% of amounts); account 4 months old (lowest 1%)",0.1806,Yes,No
+5018818,2026-01-16,train,80870.92,Payment,Chennai,0.6616,149,"30.0× the customer's usual ₹2,692 (top 1% of ratios); amount ₹80,871 (top 1% of amounts); account 149 months old (top 18%)",0.1773,Yes,Yes
+5006832,2025-05-19,train,60790.74,Withdrawal,Chennai,0.6615,150,"34.2× the customer's usual ₹1,777 (top 1% of ratios); amount ₹60,791 (top 1% of amounts); account 30 months old (lowest 15%)",0.225,Yes,No
+5023512,2026-04-21,train,139780.22,Payment,Hyderabad,0.6614,151,"amount ₹139,780 (top 1% of amounts); 18.9× the customer's usual ₹7,413 (top 1% of ratios)",0.1224,No,No
+5013275,2025-09-26,train,78917.36,Transfer,Kolkata,0.6611,152,"27.1× the customer's usual ₹2,913 (top 1% of ratios); amount ₹78,917 (top 1% of amounts); account 43 months old (lowest 22%)",0.2436,Yes,No
+5023776,2026-04-27,train,78382.3,Withdrawal,Chennai,0.6605,153,"amount ₹78,382 (top 1% of amounts); 12.4× the customer's usual ₹6,328 (top 3% of ratios); transaction frequency 4 (lowest 1%)",0.124,No,No
+5021155,2026-03-05,train,43227.02,Transfer,Delhi,0.6603,154,"29.7× the customer's usual ₹1,455 (top 1% of ratios); amount ₹43,227 (top 3% of amounts); at 00:00 (lowest 1% of hours)",0.2434,Yes,No
+5012190,2025-09-04,train,86222.1,Transfer,Pune,0.6603,155,"28.9× the customer's usual ₹2,986 (top 1% of ratios); amount ₹86,222 (top 1% of amounts); account 151 months old (top 16%)",0.2094,Yes,Yes
+5008814,2025-06-28,train,69768.44,Transfer,Kolkata,0.6602,156,"customer's usual amount ₹31,711 (top 1%); amount ₹69,768 (top 1% of amounts); transaction frequency 5 (lowest 4%)",0.0229,No,No
+5000844,2025-01-18,train,91305.74,Payment,Hyderabad,0.66,157,"amount ₹91,306 (top 1% of amounts); 16.4× the customer's usual ₹5,560 (top 2% of ratios); account 12 months old (lowest 5%)",0.1315,No,No
+5008408,2025-06-20,train,60601.5,Payment,Bengaluru,0.6596,158,"amount ₹60,602 (top 1% of amounts); customer's usual amount ₹23,808 (top 2%); transaction frequency 16 (top 2%)",0.0308,No,No
+5004152,2025-03-25,train,52189.74,Transfer,Mumbai,0.6592,159,"29.5× the customer's usual ₹1,768 (top 1% of ratios); amount ₹52,190 (top 2% of amounts); at 23:00 (top 4% of hours)",0.2229,Yes,Yes
+5005498,2025-04-22,train,85068.41,Payment,Mumbai,0.6592,160,"amount ₹85,068 (top 1% of amounts); customer's usual amount ₹31,192 (top 1%); account 38 months old (lowest 20%)",0.0272,No,No
+5029689,2026-08-24,test,44008.33,Payment,Mumbai,0.6592,161,"74.2× the customer's usual ₹593 (top 1% of ratios); amount ₹44,008 (top 3% of amounts); customer's usual amount ₹593 (lowest 1%)",0.2909,Yes,No
+5020609,2026-02-21,train,45560.45,Withdrawal,Hyderabad,0.659,162,"21.7× the customer's usual ₹2,097 (top 1% of ratios); amount ₹45,560 (top 3% of amounts); at 23:00 (top 4% of hours)",0.1851,Yes,No
+5026899,2026-06-29,test,69909.04,Payment,Bengaluru,0.6588,163,"28.6× the customer's usual ₹2,440 (top 1% of ratios); amount ₹69,909 (top 1% of amounts); account 169 months old (top 6%)",0.1723,Yes,No
+5001340,2025-01-28,train,107863.86,Transfer,Chennai,0.6585,164,"amount ₹107,864 (top 1% of amounts); 12.8× the customer's usual ₹8,438 (top 3% of ratios); account 174 months old (top 3%)",0.1595,No,No
+5020674,2026-02-23,train,102502.85,Payment,Mumbai,0.6585,165,"amount ₹102,503 (top 1% of amounts); 9.3× the customer's usual ₹10,992 (top 4% of ratios); transaction frequency 14 (top 6%)",0.104,No,No
+5029548,2026-08-21,test,61190.42,Payment,Bengaluru,0.658,166,"19.6× the customer's usual ₹3,119 (top 1% of ratios); amount ₹61,190 (top 1% of amounts); transaction frequency 3 (lowest 1%)",0.1874,Yes,No
+5013049,2025-09-22,train,82426.32,Payment,Chennai,0.658,167,"21.5× the customer's usual ₹3,834 (top 1% of ratios); amount ₹82,426 (top 1% of amounts); at 00:00 (lowest 1% of hours)",0.1696,Yes,No
+5012856,2025-09-18,train,90578.62,Payment,Kolkata,0.6578,168,"amount ₹90,579 (top 1% of amounts); 15.2× the customer's usual ₹5,977 (top 2% of ratios); transaction frequency 13 (top 11%)",0.1359,No,No
+5013431,2025-09-29,train,118233.88,Withdrawal,Mumbai,0.6577,169,"amount ₹118,234 (top 1% of amounts); 18.7× the customer's usual ₹6,310 (top 1% of ratios); account 166 months old (top 8%)",0.1394,No,No
+5021976,2026-03-21,train,113585.92,Transfer,Pune,0.6576,170,"amount ₹113,586 (top 1% of amounts); 9.2× the customer's usual ₹12,320 (top 5% of ratios); customer's usual amount ₹12,320 (top 12%)",0.1944,Yes,No
+5020741,2026-02-24,train,77577.63,Payment,Delhi,0.6571,171,"amount ₹77,578 (top 1% of amounts); customer's usual amount ₹30,421 (top 1%); account 29 months old (lowest 14%)",0.0245,No,No
+5002561,2025-02-21,train,68503.52,Withdrawal,Pune,0.6566,172,"17.7× the customer's usual ₹3,872 (top 1% of ratios); amount ₹68,504 (top 1% of amounts); transaction frequency 17 (top 1%)",0.1246,No,Yes
+5007167,2025-05-25,train,5832.98,Payment,Kolkata,0.6566,173,"customer's usual amount ₹80,162 (top 1%); transaction frequency 2 (lowest 1%); at 23:00 (top 4% of hours)",0.0057,No,No
+5027841,2026-07-18,test,58844.31,Transfer,Delhi,0.6564,174,"20.6× the customer's usual ₹2,862 (top 1% of ratios); amount ₹58,844 (top 1% of amounts); transaction frequency 2 (lowest 1%)",0.2493,Yes,No
+5028052,2026-07-22,test,65009.6,Transfer,Bengaluru,0.6562,175,"24.6× the customer's usual ₹2,643 (top 1% of ratios); amount ₹65,010 (top 1% of amounts); transaction frequency 4 (lowest 1%)",0.2272,Yes,No
+5001931,2025-02-09,train,39462.84,Withdrawal,Chennai,0.6561,176,"28.1× the customer's usual ₹1,403 (top 1% of ratios); amount ₹39,463 (top 4% of amounts); account 169 months old (top 6%)",0.2254,Yes,No
+5001377,2025-01-28,train,38823.6,Transfer,Bengaluru,0.6557,177,"46.8× the customer's usual ₹830 (top 1% of ratios); amount ₹38,824 (top 4% of amounts); customer's usual amount ₹830 (lowest 1%)",0.3633,Yes,No
+5003476,2025-03-12,train,46038.0,Payment,Delhi,0.6553,178,"35.5× the customer's usual ₹1,295 (top 1% of ratios); amount ₹46,038 (top 2% of amounts); account 18 months old (lowest 8%)",0.2105,Yes,No
+5027163,2026-07-04,test,124575.74,Payment,Delhi,0.6545,179,"amount ₹124,576 (top 1% of amounts); 17.7× the customer's usual ₹7,041 (top 1% of ratios); transaction frequency 6 (lowest 10%)",0.1312,No,No
+5022749,2026-04-06,train,71116.15,Payment,Chennai,0.6542,180,"23.5× the customer's usual ₹3,028 (top 1% of ratios); amount ₹71,116 (top 1% of amounts); account 5 months old (lowest 1%)",0.1744,Yes,No
+5026994,2026-07-01,test,54023.85,Transfer,Mumbai,0.654,181,"28.0× the customer's usual ₹1,933 (top 1% of ratios); amount ₹54,024 (top 2% of amounts); account 8 months old (lowest 3%)",0.2535,Yes,No
+5021354,2026-03-09,train,33072.15,Withdrawal,Pune,0.6539,182,"23.2× the customer's usual ₹1,426 (top 1% of ratios); amount ₹33,072 (top 5% of amounts); transaction frequency 4 (lowest 1%)",0.1714,Yes,No
+5021259,2026-03-07,train,44246.51,Payment,Chennai,0.6537,183,"22.8× the customer's usual ₹1,942 (top 1% of ratios); amount ₹44,247 (top 3% of amounts); account 4 months old (lowest 1%)",0.1911,Yes,Yes
+5002030,2025-02-11,train,55001.99,Transfer,Delhi,0.6536,184,"21.3× the customer's usual ₹2,579 (top 1% of ratios); amount ₹55,002 (top 2% of amounts); at 01:00 (lowest 4% of hours)",0.2553,Yes,No
+5016261,2025-11-26,train,42564.13,Payment,Bengaluru,0.6535,185,"15.1× the customer's usual ₹2,816 (top 2% of ratios); amount ₹42,564 (top 3% of amounts); transaction frequency 3 (lowest 1%)",0.1914,Yes,No
+5013641,2025-10-03,train,78563.13,Withdrawal,Bengaluru,0.6534,186,"amount ₹78,563 (top 1% of amounts); 7.4× the customer's usual ₹10,624 (top 7% of ratios); at 23:00 (top 4% of hours)",0.112,No,No
+5016594,2025-12-02,train,82587.28,Withdrawal,Hyderabad,0.6533,187,"24.9× the customer's usual ₹3,318 (top 1% of ratios); amount ₹82,587 (top 1% of amounts); transaction frequency 6 (lowest 10%)",0.1762,Yes,No
+5021407,2026-03-10,train,60445.43,Transfer,Kolkata,0.6533,188,"amount ₹60,445 (top 1% of amounts); transaction frequency 16 (top 2%); customer's usual amount ₹14,432 (top 8%)",0.1718,Yes,No
+5005499,2025-04-22,train,44516.2,Transfer,Mumbai,0.6532,189,"23.4× the customer's usual ₹1,903 (top 1% of ratios); amount ₹44,516 (top 3% of amounts); account 4 months old (lowest 1%)",0.2588,Yes,No
+5008639,2025-06-24,train,83520.87,Transfer,Mumbai,0.6532,190,"amount ₹83,521 (top 1% of amounts); 15.6× the customer's usual ₹5,356 (top 2% of ratios); transaction frequency 13 (top 11%)",0.1772,Yes,No
+5001023,2025-01-21,train,52784.36,Payment,Mumbai,0.6531,191,"31.5× the customer's usual ₹1,674 (top 1% of ratios); amount ₹52,784 (top 2% of amounts); transaction frequency 5 (lowest 4%)",0.1961,Yes,No
+5004662,2025-04-05,train,128070.5,Withdrawal,Mumbai,0.6529,192,"amount ₹128,070 (top 1% of amounts); 8.7× the customer's usual ₹14,639 (top 5% of ratios); customer's usual amount ₹14,639 (top 8%)",0.1019,No,No
+5021942,2026-03-20,train,57426.94,Payment,Chennai,0.6529,193,"29.0× the customer's usual ₹1,980 (top 1% of ratios); amount ₹57,427 (top 2% of amounts); at 22:00 (top 8% of hours)",0.1941,Yes,No
+5019789,2026-02-05,train,21921.53,Payment,Kolkata,0.6528,194,42.8× the customer's usual ₹512 (top 1% of ratios); transaction frequency 3 (lowest 1%); customer's usual amount ₹512 (lowest 1%),0.0508,No,Yes
+5019316,2026-01-26,train,97586.54,Withdrawal,Kolkata,0.6528,195,"amount ₹97,587 (top 1% of amounts); 20.6× the customer's usual ₹4,734 (top 1% of ratios); at 19:00 (top 21% of hours)",0.1298,No,Yes
+5000070,2025-01-02,train,92689.97,Withdrawal,Kolkata,0.6524,196,"amount ₹92,690 (top 1% of amounts); 11.7× the customer's usual ₹7,904 (top 3% of ratios); transaction frequency 15 (top 4%)",0.1214,No,No
+5028551,2026-08-01,test,121609.9,Withdrawal,Bengaluru,0.6522,197,"amount ₹121,610 (top 1% of amounts); 17.6× the customer's usual ₹6,903 (top 1% of ratios); account 162 months old (top 10%)",0.1339,No,No
+5024761,2026-05-16,test,79877.26,Payment,Bengaluru,0.6522,198,"amount ₹79,877 (top 1% of amounts); 11.7× the customer's usual ₹6,854 (top 3% of ratios); at 23:00 (top 4% of hours)",0.1151,No,No
+5011748,2025-08-26,train,53349.99,Withdrawal,Bengaluru,0.652,199,"35.8× the customer's usual ₹1,492 (top 1% of ratios); amount ₹53,350 (top 2% of amounts); customer's usual amount ₹1,492 (lowest 3%)",0.2135,Yes,No
+5012618,2025-09-13,train,72094.92,Withdrawal,Kolkata,0.652,200,"amount ₹72,095 (top 1% of amounts); 16.0× the customer's usual ₹4,509 (top 2% of ratios); transaction frequency 17 (top 1%)",0.1332,No,No
+5001470,2025-01-30,train,62097.1,Payment,Hyderabad,0.6519,201,"35.7× the customer's usual ₹1,739 (top 1% of ratios); amount ₹62,097 (top 1% of amounts); customer's usual amount ₹1,739 (lowest 5%)",0.1927,Yes,Yes
+5024748,2026-05-16,test,50579.98,Payment,Hyderabad,0.6516,202,"customer's usual amount ₹33,669 (top 1%); amount ₹50,580 (top 2% of amounts); account 164 months old (top 9%)",0.0323,No,No
+5024609,2026-05-13,test,81274.07,Transfer,Delhi,0.6515,203,"amount ₹81,274 (top 1% of amounts); customer's usual amount ₹26,948 (top 1%); at 22:00 (top 8% of hours)",0.0383,No,Yes
+5002980,2025-03-02,train,87340.58,Payment,Bengaluru,0.6515,204,"amount ₹87,341 (top 1% of amounts); 21.7× the customer's usual ₹4,028 (top 1% of ratios); account 44 months old (lowest 23%)",0.1557,No,No
+5014632,2025-10-24,train,89918.2,Payment,Hyderabad,0.6514,205,"amount ₹89,918 (top 1% of amounts); 18.7× the customer's usual ₹4,800 (top 1% of ratios); at 01:00 (lowest 4% of hours)",0.1271,No,Yes
+5001734,2025-02-05,train,92495.85,Payment,Delhi,0.6511,206,"amount ₹92,496 (top 1% of amounts); 10.9× the customer's usual ₹8,507 (top 3% of ratios); at 01:00 (lowest 4% of hours)",0.1062,No,No
+5014546,2025-10-22,train,73235.64,Transfer,Delhi,0.651,207,"33.0× the customer's usual ₹2,219 (top 1% of ratios); amount ₹73,236 (top 1% of amounts)",0.2239,Yes,Yes
+5020496,2026-02-19,train,92218.61,Withdrawal,Bengaluru,0.651,208,"amount ₹92,219 (top 1% of amounts); 22.2× the customer's usual ₹4,151 (top 1% of ratios); transaction frequency 6 (lowest 10%)",0.1526,No,No
+5029567,2026-08-22,test,58139.86,Payment,Bengaluru,0.651,209,"28.9× the customer's usual ₹2,012 (top 1% of ratios); amount ₹58,140 (top 1% of amounts); transaction frequency 12 (top 18%)",0.185,Yes,No
+5011289,2025-08-17,train,47043.43,Payment,Pune,0.6499,210,"34.3× the customer's usual ₹1,370 (top 1% of ratios); amount ₹47,043 (top 2% of amounts); customer's usual amount ₹1,370 (lowest 2%)",0.2444,Yes,No
+5012067,2025-09-02,train,75715.08,Payment,Chennai,0.6493,211,"23.6× the customer's usual ₹3,213 (top 1% of ratios); amount ₹75,715 (top 1% of amounts); at 03:00 (lowest 13% of hours)",0.1684,Yes,Yes
+5012956,2025-09-20,train,74853.06,Withdrawal,Pune,0.6492,212,"amount ₹74,853 (top 1% of amounts); customer's usual amount ₹16,273 (top 6%); transaction frequency 4 (lowest 1%)",0.1158,No,No
+5001274,2025-01-26,train,33750.55,Payment,Pune,0.6491,213,"95.0× the customer's usual ₹355 (top 1% of ratios); amount ₹33,751 (top 5% of amounts); customer's usual amount ₹355 (lowest 1%)",0.2281,Yes,Yes
+5002272,2025-02-15,train,81304.48,Payment,Chennai,0.649,214,"24.0× the customer's usual ₹3,383 (top 1% of ratios); amount ₹81,304 (top 1% of amounts); at 22:00 (top 8% of hours)",0.1742,Yes,No
+5024022,2026-05-02,test,48984.07,Transfer,Chennai,0.649,215,"26.8× the customer's usual ₹1,826 (top 1% of ratios); amount ₹48,984 (top 2% of amounts); at 00:00 (lowest 1% of hours)",0.2547,Yes,Yes
+5006746,2025-05-17,train,67273.16,Payment,Mumbai,0.6486,216,"30.8× the customer's usual ₹2,182 (top 1% of ratios); amount ₹67,273 (top 1% of amounts)",0.1798,Yes,No
+5000453,2025-01-10,train,65371.82,Transfer,Mumbai,0.6485,217,"21.5× the customer's usual ₹3,047 (top 1% of ratios); amount ₹65,372 (top 1% of amounts); at 03:00 (lowest 13% of hours)",0.2318,Yes,No
+5001979,2025-02-10,train,67720.02,Withdrawal,Chennai,0.6482,218,"amount ₹67,720 (top 1% of amounts); 16.3× the customer's usual ₹4,159 (top 2% of ratios); at 00:00 (lowest 1% of hours)",0.1197,No,Yes
+5020915,2026-02-28,train,69003.04,Payment,Kolkata,0.6482,219,"26.0× the customer's usual ₹2,651 (top 1% of ratios); amount ₹69,003 (top 1% of amounts); transaction frequency 6 (lowest 10%)",0.1677,Yes,No
+5018212,2026-01-04,train,81794.42,Payment,Hyderabad,0.6474,220,"21.9× the customer's usual ₹3,729 (top 1% of ratios); amount ₹81,794 (top 1% of amounts); transaction frequency 6 (lowest 10%)",0.155,No,No
+5013950,2025-10-10,train,51575.34,Transfer,Delhi,0.6474,221,"25.9× the customer's usual ₹1,992 (top 1% of ratios); amount ₹51,575 (top 2% of amounts); account 5 months old (lowest 1%)",0.2543,Yes,No
+5019817,2026-02-05,train,79353.64,Payment,Delhi,0.6471,222,"amount ₹79,354 (top 1% of amounts); 15.7× the customer's usual ₹5,044 (top 2% of ratios); at 22:00 (top 8% of hours)",0.1313,No,No
+5006173,2025-05-05,train,96464.05,Payment,Pune,0.6471,223,"amount ₹96,464 (top 1% of amounts); 16.5× the customer's usual ₹5,846 (top 2% of ratios); at 21:00 (top 12% of hours)",0.1221,No,No
+5026010,2026-06-11,test,77387.65,Payment,Chennai,0.647,224,"amount ₹77,388 (top 1% of amounts); 12.2× the customer's usual ₹6,338 (top 3% of ratios); transaction frequency 4 (lowest 1%)",0.122,No,No
+5019347,2026-01-27,train,70803.56,Payment,Kolkata,0.647,225,"28.8× the customer's usual ₹2,459 (top 1% of ratios); amount ₹70,804 (top 1% of amounts)",0.1896,Yes,No
+5019566,2026-01-31,train,48828.1,Withdrawal,Pune,0.6468,226,"29.0× the customer's usual ₹1,686 (top 1% of ratios); amount ₹48,828 (top 2% of amounts); at 21:00 (top 12% of hours)",0.1841,Yes,No
+5003670,2025-03-16,train,42674.18,Transfer,Mumbai,0.6467,227,"29.0× the customer's usual ₹1,471 (top 1% of ratios); amount ₹42,674 (top 3% of amounts); account 12 months old (lowest 5%)",0.2475,Yes,No
+5011730,2025-08-26,train,47847.4,Payment,Hyderabad,0.6463,228,"41.2× the customer's usual ₹1,160 (top 1% of ratios); amount ₹47,847 (top 2% of amounts); customer's usual amount ₹1,160 (lowest 1%)",0.2826,Yes,No
+5009390,2025-07-09,train,90285.64,Payment,Mumbai,0.646,229,"amount ₹90,286 (top 1% of amounts); 16.9× the customer's usual ₹5,355 (top 2% of ratios); at 23:00 (top 4% of hours)",0.1419,No,No
+5028313,2026-07-27,test,87632.3,Payment,Delhi,0.646,230,"amount ₹87,632 (top 1% of amounts); 19.9× the customer's usual ₹4,403 (top 1% of ratios); at 20:00 (top 17% of hours)",0.1365,No,No
+5007624,2025-06-04,train,84833.51,Transfer,Chennai,0.6456,231,"amount ₹84,834 (top 1% of amounts); 13.3× the customer's usual ₹6,360 (top 2% of ratios); transaction frequency 4 (lowest 1%)",0.1653,Yes,Yes
+5025948,2026-06-10,test,93943.87,Transfer,Delhi,0.6452,232,"amount ₹93,944 (top 1% of amounts); 12.7× the customer's usual ₹7,379 (top 3% of ratios); at 00:00 (lowest 1% of hours)",0.1736,Yes,No
+5012758,2025-09-16,train,81161.63,Payment,Chennai,0.6451,233,"amount ₹81,162 (top 1% of amounts); 17.4× the customer's usual ₹4,658 (top 1% of ratios); account 11 months old (lowest 5%)",0.1313,No,No
+5011595,2025-08-23,train,137847.19,Transfer,Kolkata,0.6451,234,"amount ₹137,847 (top 1% of amounts); 8.6× the customer's usual ₹15,941 (top 5% of ratios); customer's usual amount ₹15,941 (top 6%)",0.1451,No,No
+5009239,2025-07-06,train,102231.78,Payment,Delhi,0.645,235,"amount ₹102,232 (top 1% of amounts); 7.1× the customer's usual ₹14,472 (top 7% of ratios); customer's usual amount ₹14,472 (top 8%)",0.1272,No,No
+5023854,2026-04-28,train,70564.89,Payment,Delhi,0.6449,236,"amount ₹70,565 (top 1% of amounts); 15.8× the customer's usual ₹4,460 (top 2% of ratios); transaction frequency 4 (lowest 1%)",0.1308,No,No
+5020597,2026-02-21,train,83167.35,Payment,Mumbai,0.6449,237,"amount ₹83,167 (top 1% of amounts); 16.9× the customer's usual ₹4,911 (top 2% of ratios); account 179 months old (top 1%)",0.1279,No,No
+5011152,2025-08-14,train,94947.02,Transfer,Kolkata,0.6448,238,"amount ₹94,947 (top 1% of amounts); 19.1× the customer's usual ₹4,969 (top 1% of ratios); account 145 months old (top 20%)",0.1727,Yes,No
+5016797,2025-12-06,train,25617.08,Payment,Mumbai,0.6436,239,"32.1× the customer's usual ₹797 (top 1% of ratios); amount ₹25,617 (top 8% of amounts); transaction frequency 5 (lowest 4%)",0.2348,Yes,Yes
+5019745,2026-02-04,train,80266.98,Payment,Hyderabad,0.6434,240,"22.4× the customer's usual ₹3,576 (top 1% of ratios); amount ₹80,267 (top 1% of amounts); transaction frequency 12 (top 18%)",0.1535,No,No
+5019026,2026-01-20,train,59876.45,Payment,Kolkata,0.6433,241,"amount ₹59,876 (top 1% of amounts); 12.2× the customer's usual ₹4,920 (top 3% of ratios); transaction frequency 17 (top 1%)",0.1396,No,No
+5016403,2025-11-28,train,89972.51,Transfer,Chennai,0.6432,242,"amount ₹89,973 (top 1% of amounts); 16.2× the customer's usual ₹5,559 (top 2% of ratios); at 21:00 (top 12% of hours)",0.1798,Yes,No
+5028027,2026-07-22,test,63364.29,Transfer,Kolkata,0.6432,243,"amount ₹63,364 (top 1% of amounts); transaction frequency 16 (top 2%); customer's usual amount ₹14,808 (top 8%)",0.1285,No,No
+5007753,2025-06-06,train,108382.8,Transfer,Pune,0.6429,244,"amount ₹108,383 (top 1% of amounts); 10.9× the customer's usual ₹9,956 (top 3% of ratios); at 20:00 (top 17% of hours)",0.1461,No,No
+5019324,2026-01-26,train,46728.23,Withdrawal,Chennai,0.6427,245,"18.0× the customer's usual ₹2,600 (top 1% of ratios); amount ₹46,728 (top 2% of amounts); transaction frequency 15 (top 4%)",0.1887,Yes,No
+5013751,2025-10-06,train,68526.92,Withdrawal,Pune,0.6426,246,"25.7× the customer's usual ₹2,668 (top 1% of ratios); amount ₹68,527 (top 1% of amounts)",0.1747,Yes,No
+5026623,2026-06-23,test,121506.38,Payment,Bengaluru,0.6426,247,"amount ₹121,506 (top 1% of amounts); 11.1× the customer's usual ₹10,947 (top 3% of ratios); customer's usual amount ₹10,947 (top 16%)",0.1259,No,Yes
+5017008,2025-12-11,train,30160.26,Transfer,Hyderabad,0.6425,248,"21.7× the customer's usual ₹1,392 (top 1% of ratios); transaction frequency 4 (lowest 1%); amount ₹30,160 (top 6% of amounts)",0.2031,Yes,Yes
+5013887,2025-10-08,train,58204.5,Payment,Pune,0.6423,249,"amount ₹58,204 (top 1% of amounts); 9.6× the customer's usual ₹6,089 (top 4% of ratios); transaction frequency 15 (top 4%)",0.1467,No,No
+5023198,2026-04-15,train,54213.63,Transfer,Delhi,0.6421,250,"24.0× the customer's usual ₹2,260 (top 1% of ratios); amount ₹54,214 (top 2% of amounts); account 34 months old (lowest 17%)",0.26,Yes,No
+5018728,2026-01-14,train,53420.47,Payment,Hyderabad,0.642,251,"15.6× the customer's usual ₹3,435 (top 2% of ratios); amount ₹53,420 (top 2% of amounts); at 22:00 (top 8% of hours)",0.1648,Yes,Yes
+5016818,2025-12-07,train,84858.14,Withdrawal,Bengaluru,0.6417,252,"amount ₹84,858 (top 1% of amounts); 15.7× the customer's usual ₹5,405 (top 2% of ratios); transaction frequency 5 (lowest 4%)",0.135,No,No
+5023733,2026-04-26,train,63294.67,Payment,Hyderabad,0.6417,253,"21.2× the customer's usual ₹2,982 (top 1% of ratios); amount ₹63,295 (top 1% of amounts); account 171 months old (top 5%)",0.166,Yes,No
+5022969,2026-04-10,train,88078.7,Withdrawal,Kolkata,0.6414,254,"amount ₹88,079 (top 1% of amounts); 10.9× the customer's usual ₹8,095 (top 3% of ratios); transaction frequency 5 (lowest 4%)",0.1268,No,No
+5007962,2025-06-11,train,83478.56,Withdrawal,Chennai,0.6413,255,"amount ₹83,479 (top 1% of amounts); 8.3× the customer's usual ₹10,036 (top 5% of ratios); account 6 months old (lowest 2%)",0.1139,No,No
+5018972,2026-01-19,train,87130.39,Withdrawal,Mumbai,0.6412,256,"amount ₹87,130 (top 1% of amounts); 18.5× the customer's usual ₹4,712 (top 1% of ratios); at 20:00 (top 17% of hours)",0.1324,No,No
+5014760,2025-10-26,train,45579.63,Withdrawal,Mumbai,0.641,257,"34.6× the customer's usual ₹1,318 (top 1% of ratios); amount ₹45,580 (top 3% of amounts); customer's usual amount ₹1,318 (lowest 2%)",0.2534,Yes,No
+5018983,2026-01-20,train,41788.76,Payment,Mumbai,0.641,258,"33.2× the customer's usual ₹1,258 (top 1% of ratios); amount ₹41,789 (top 3% of amounts); at 01:00 (lowest 4% of hours)",0.2579,Yes,No
+5004395,2025-03-30,train,77590.92,Payment,Mumbai,0.641,259,"amount ₹77,591 (top 1% of amounts); 10.7× the customer's usual ₹7,223 (top 4% of ratios); account 9 months old (lowest 4%)",0.1183,No,No
+5026798,2026-06-27,test,56632.37,Transfer,Kolkata,0.6408,260,"21.4× the customer's usual ₹2,649 (top 1% of ratios); amount ₹56,632 (top 2% of amounts); account 5 months old (lowest 1%)",0.2493,Yes,No
+5003940,2025-03-21,train,44776.03,Payment,Kolkata,0.6407,261,"34.8× the customer's usual ₹1,288 (top 1% of ratios); amount ₹44,776 (top 3% of amounts); customer's usual amount ₹1,288 (lowest 2%)",0.2619,Yes,No
+5014208,2025-10-15,train,53220.84,Payment,Bengaluru,0.6406,262,"25.6× the customer's usual ₹2,077 (top 1% of ratios); amount ₹53,221 (top 2% of amounts); transaction frequency 12 (top 18%)",0.1828,Yes,No
+5001640,2025-02-03,train,95243.45,Withdrawal,Mumbai,0.6406,263,"amount ₹95,243 (top 1% of amounts); 10.8× the customer's usual ₹8,850 (top 4% of ratios); transaction frequency 5 (lowest 4%)",0.105,No,No
+5013638,2025-10-03,train,81524.37,Payment,Hyderabad,0.6406,264,"amount ₹81,524 (top 1% of amounts); 14.8× the customer's usual ₹5,511 (top 2% of ratios); at 22:00 (top 8% of hours)",0.1231,No,Yes
+5011444,2025-08-20,train,60322.11,Withdrawal,Hyderabad,0.6405,265,"25.8× the customer's usual ₹2,340 (top 1% of ratios); amount ₹60,322 (top 1% of amounts); account 169 months old (top 6%)",0.1946,Yes,Yes
+5000536,2025-01-11,train,47010.95,Withdrawal,Mumbai,0.6405,266,"20.6× the customer's usual ₹2,287 (top 1% of ratios); amount ₹47,011 (top 2% of amounts); account 3 months old (lowest 1%)",0.2062,Yes,No
+5015607,2025-11-12,train,31641.63,Payment,Delhi,0.6405,267,"54.0× the customer's usual ₹586 (top 1% of ratios); amount ₹31,642 (top 6% of amounts); customer's usual amount ₹586 (lowest 1%)",0.287,Yes,No
+5028120,2026-07-23,test,39390.9,Payment,Pune,0.6404,268,"customer's usual amount ₹33,287 (top 1%); amount ₹39,391 (top 4% of amounts); at 23:00 (top 4% of hours)",0.0322,No,No
+5020373,2026-02-17,train,78090.78,Withdrawal,Pune,0.6404,269,"amount ₹78,091 (top 1% of amounts); 13.8× the customer's usual ₹5,654 (top 2% of ratios); transaction frequency 5 (lowest 4%)",0.1359,No,No
+5016310,2025-11-26,train,62857.31,Payment,Bengaluru,0.6404,270,"amount ₹62,857 (top 1% of amounts); 16.0× the customer's usual ₹3,929 (top 2% of ratios); at 23:00 (top 4% of hours)",0.1461,No,Yes
+5008556,2025-06-23,train,51787.38,Withdrawal,Mumbai,0.6403,271,"27.8× the customer's usual ₹1,865 (top 1% of ratios); amount ₹51,787 (top 2% of amounts); at 02:00 (lowest 8% of hours)",0.1946,Yes,No
+5028517,2026-07-31,test,7101.09,Payment,Bengaluru,0.6402,272,"customer's usual amount ₹32,414 (top 1%); transaction frequency 21 (top 1%); at 23:00 (top 4% of hours)",0.0056,No,No
+5005973,2025-05-01,train,19908.31,Transfer,Delhi,0.64,273,"41.7× the customer's usual ₹477 (top 1% of ratios); customer's usual amount ₹477 (lowest 1%); amount ₹19,908 (top 13% of amounts)",0.1142,No,No
+5019006,2026-01-20,train,42740.65,Payment,Mumbai,0.6398,274,"30.9× the customer's usual ₹1,383 (top 1% of ratios); amount ₹42,741 (top 3% of amounts); account 23 months old (lowest 11%)",0.218,Yes,Yes
+5017316,2025-12-17,train,77377.58,Payment,Kolkata,0.6398,275,"amount ₹77,378 (top 1% of amounts); 19.2× the customer's usual ₹4,039 (top 1% of ratios); transaction frequency 6 (lowest 10%)",0.1501,No,No
+5006943,2025-05-21,train,47671.97,Withdrawal,Chennai,0.6397,276,"31.2× the customer's usual ₹1,530 (top 1% of ratios); amount ₹47,672 (top 2% of amounts); customer's usual amount ₹1,530 (lowest 4%)",0.1923,Yes,No
+5008073,2025-06-13,train,47489.06,Transfer,Delhi,0.6396,277,"27.6× the customer's usual ₹1,721 (top 1% of ratios); amount ₹47,489 (top 2% of amounts); account 161 months old (top 11%)",0.228,Yes,Yes
+5024504,2026-05-11,test,50340.71,Withdrawal,Mumbai,0.6394,278,"24.2× the customer's usual ₹2,078 (top 1% of ratios); amount ₹50,341 (top 2% of amounts); account 20 months old (lowest 9%)",0.1857,Yes,Yes
+5007634,2025-06-04,train,42577.66,Transfer,Pune,0.6394,279,"37.2× the customer's usual ₹1,143 (top 1% of ratios); amount ₹42,578 (top 3% of amounts); customer's usual amount ₹1,143 (lowest 1%)",0.3469,Yes,No
+5020324,2026-02-16,train,93427.21,Payment,Pune,0.6394,280,"amount ₹93,427 (top 1% of amounts); 19.7× the customer's usual ₹4,753 (top 1% of ratios)",0.1341,No,No
+5015619,2025-11-13,train,74778.76,Withdrawal,Pune,0.639,281,"amount ₹74,779 (top 1% of amounts); customer's usual amount ₹17,410 (top 5%); at 00:00 (lowest 1% of hours)",0.0953,No,Yes
+5025383,2026-05-29,test,107488.58,Transfer,Mumbai,0.6388,282,"amount ₹107,489 (top 1% of amounts); 12.9× the customer's usual ₹8,362 (top 2% of ratios); transaction frequency 6 (lowest 10%)",0.1736,Yes,No
+5016799,2025-12-06,train,42869.88,Transfer,Chennai,0.6386,283,"30.9× the customer's usual ₹1,388 (top 1% of ratios); amount ₹42,870 (top 3% of amounts); at 21:00 (top 12% of hours)",0.2476,Yes,Yes
+5020753,2026-02-24,train,57422.38,Payment,Mumbai,0.6386,284,"24.2× the customer's usual ₹2,370 (top 1% of ratios); amount ₹57,422 (top 2% of amounts); at 21:00 (top 12% of hours)",0.2159,Yes,No
+5029455,2026-08-19,test,33924.52,Payment,Delhi,0.6386,285,"20.2× the customer's usual ₹1,681 (top 1% of ratios); amount ₹33,925 (top 5% of amounts); at 23:00 (top 4% of hours)",0.1375,No,Yes
+5029660,2026-08-24,test,85431.02,Payment,Hyderabad,0.6383,286,"amount ₹85,431 (top 1% of amounts); 14.0× the customer's usual ₹6,100 (top 2% of ratios); at 02:00 (lowest 8% of hours)",0.128,No,No
+5003834,2025-03-19,train,52345.98,Payment,Kolkata,0.6382,287,"33.5× the customer's usual ₹1,565 (top 1% of ratios); amount ₹52,346 (top 2% of amounts); customer's usual amount ₹1,565 (lowest 4%)",0.1695,Yes,Yes
+5026875,2026-06-28,test,32457.57,Transfer,Hyderabad,0.6381,288,"customer's usual amount ₹35,343 (top 1%); transaction frequency 15 (top 4%); amount ₹32,458 (top 5% of amounts)",0.037,No,No
+5003055,2025-03-03,train,24912.53,Payment,Chennai,0.6376,289,"22.2× the customer's usual ₹1,123 (top 1% of ratios); transaction frequency 14 (top 6%); account 175 months old (top 3%)",0.0634,No,No
+5011351,2025-08-18,train,58838.61,Withdrawal,Pune,0.6365,290,"23.6× the customer's usual ₹2,498 (top 1% of ratios); amount ₹58,839 (top 1% of amounts); account 26 months old (lowest 13%)",0.2437,Yes,No
+5024221,2026-05-06,test,91081.12,Payment,Chennai,0.6361,291,"amount ₹91,081 (top 1% of amounts); 13.7× the customer's usual ₹6,631 (top 2% of ratios); at 01:00 (lowest 4% of hours)",0.123,No,No
+5013636,2025-10-03,train,45960.49,Withdrawal,Chennai,0.636,292,"amount ₹45,960 (top 2% of amounts); transaction frequency 17 (top 1%); customer's usual amount ₹15,306 (top 7%)",0.0518,No,No
+5011072,2025-08-13,train,3404.14,Withdrawal,Chennai,0.6354,293,"customer's usual amount ₹36,635 (top 1%); account 176 months old (top 2%); at 00:00 (lowest 1% of hours)",0.0056,No,No
+5022592,2026-04-03,train,99579.17,Payment,Delhi,0.6353,294,"amount ₹99,579 (top 1% of amounts); 12.0× the customer's usual ₹8,310 (top 3% of ratios); at 02:00 (lowest 8% of hours)",0.1176,No,No
+5023237,2026-04-16,train,39551.4,Transfer,Chennai,0.6353,295,"customer's usual amount ₹39,946 (top 1%); amount ₹39,551 (top 4% of amounts); account 157 months old (top 13%)",0.0523,No,No
+5010174,2025-07-25,train,104675.18,Payment,Mumbai,0.6351,296,"amount ₹104,675 (top 1% of amounts); 6.8× the customer's usual ₹15,460 (top 8% of ratios); customer's usual amount ₹15,460 (top 7%)",0.1236,No,No
+5013822,2025-10-07,train,49888.44,Withdrawal,Mumbai,0.6349,297,"15.0× the customer's usual ₹3,333 (top 2% of ratios); amount ₹49,888 (top 2% of amounts); transaction frequency 1 (lowest 1%)",0.1877,Yes,Yes
+5022186,2026-03-25,train,89602.06,Payment,Bengaluru,0.6347,298,"amount ₹89,602 (top 1% of amounts); 7.5× the customer's usual ₹11,945 (top 6% of ratios); customer's usual amount ₹11,945 (top 13%)",0.1423,No,No
+5004647,2025-04-05,train,37970.02,Payment,Mumbai,0.6345,299,"customer's usual amount ₹27,252 (top 1%); amount ₹37,970 (top 4% of amounts); at 00:00 (lowest 1% of hours)",0.0169,No,Yes
+5002847,2025-02-27,train,28556.12,Payment,Pune,0.6345,300,"59.4× the customer's usual ₹481 (top 1% of ratios); amount ₹28,556 (top 7% of amounts); customer's usual amount ₹481 (lowest 1%)",0.3187,Yes,No
+5004325,2025-03-29,train,105565.76,Withdrawal,Kolkata,0.6345,301,"amount ₹105,566 (top 1% of amounts); customer's usual amount ₹18,056 (top 4%); 5.8× the customer's usual ₹18,056 (top 9% of ratios)",0.1252,No,No
+5021924,2026-03-20,train,12473.89,Transfer,Delhi,0.6344,302,25.2× the customer's usual ₹495 (top 1% of ratios); transaction frequency 16 (top 2%); customer's usual amount ₹495 (lowest 1%),0.0494,No,No
+5005425,2025-04-20,train,80992.31,Payment,Mumbai,0.6343,303,"amount ₹80,992 (top 1% of amounts); 11.0× the customer's usual ₹7,338 (top 3% of ratios); transaction frequency 14 (top 6%)",0.1308,No,No
+5004237,2025-03-27,train,44154.01,Withdrawal,Bengaluru,0.6341,304,"32.8× the customer's usual ₹1,348 (top 1% of ratios); amount ₹44,154 (top 3% of amounts); customer's usual amount ₹1,348 (lowest 2%)",0.1998,Yes,Yes
+5017453,2025-12-20,train,45078.32,Payment,Hyderabad,0.6338,305,"22.9× the customer's usual ₹1,968 (top 1% of ratios); amount ₹45,078 (top 3% of amounts); account 6 months old (lowest 2%)",0.1887,Yes,Yes
+5025091,2026-05-23,test,44975.47,Transfer,Bengaluru,0.6333,306,"33.0× the customer's usual ₹1,361 (top 1% of ratios); amount ₹44,975 (top 3% of amounts); customer's usual amount ₹1,361 (lowest 2%)",0.2756,Yes,No
+5003545,2025-03-13,train,41944.24,Withdrawal,Hyderabad,0.6331,307,"32.5× the customer's usual ₹1,291 (top 1% of ratios); amount ₹41,944 (top 3% of amounts); customer's usual amount ₹1,291 (lowest 2%)",0.2764,Yes,No
+5012907,2025-09-19,train,78345.49,Payment,Pune,0.6331,308,"amount ₹78,345 (top 1% of amounts); 9.6× the customer's usual ₹8,133 (top 4% of ratios); transaction frequency 4 (lowest 1%)",0.1169,No,No
+5024845,2026-05-18,test,19378.7,Withdrawal,Bengaluru,0.633,309,"customer's usual amount ₹33,237 (top 1%); transaction frequency 19 (top 1%); amount ₹19,379 (top 14% of amounts)",0.0103,No,No
+5014306,2025-10-17,train,64409.01,Payment,Pune,0.6329,310,"18.6× the customer's usual ₹3,461 (top 1% of ratios); amount ₹64,409 (top 1% of amounts); account 178 months old (top 1%)",0.1607,No,No
+5027092,2026-07-03,test,91931.17,Transfer,Hyderabad,0.6328,311,"amount ₹91,931 (top 1% of amounts); 13.6× the customer's usual ₹6,758 (top 2% of ratios); at 03:00 (lowest 13% of hours)",0.1736,Yes,No
+5001940,2025-02-09,train,55877.09,Payment,Delhi,0.6327,312,"22.5× the customer's usual ₹2,481 (top 1% of ratios); amount ₹55,877 (top 2% of amounts); account 23 months old (lowest 11%)",0.2078,Yes,No
+5015967,2025-11-20,train,54117.79,Transfer,Hyderabad,0.6326,313,"23.9× the customer's usual ₹2,261 (top 1% of ratios); amount ₹54,118 (top 2% of amounts); at 01:00 (lowest 4% of hours)",0.2318,Yes,No
+5016484,2025-11-30,train,59318.37,Payment,Kolkata,0.6324,314,"24.5× the customer's usual ₹2,419 (top 1% of ratios); amount ₹59,318 (top 1% of amounts)",0.204,Yes,Yes
+5027028,2026-07-01,test,33133.78,Payment,Chennai,0.6323,315,"20.4× the customer's usual ₹1,627 (top 1% of ratios); transaction frequency 15 (top 4%); amount ₹33,134 (top 5% of amounts)",0.1403,No,No
+5020077,2026-02-11,train,54237.75,Transfer,Chennai,0.6323,316,"26.4× the customer's usual ₹2,054 (top 1% of ratios); amount ₹54,238 (top 2% of amounts); customer's usual amount ₹2,054 (lowest 8%)",0.2248,Yes,No
+5006942,2025-05-21,train,36047.17,Transfer,Hyderabad,0.6322,317,"38.0× the customer's usual ₹948 (top 1% of ratios); amount ₹36,047 (top 4% of amounts); customer's usual amount ₹948 (lowest 1%)",0.3677,Yes,No
+5017843,2025-12-28,train,43761.3,Payment,Bengaluru,0.6321,318,"15.2× the customer's usual ₹2,882 (top 2% of ratios); amount ₹43,761 (top 3% of amounts); transaction frequency 15 (top 4%)",0.1894,Yes,No
+5026296,2026-06-17,test,73254.95,Payment,Mumbai,0.6316,319,"amount ₹73,255 (top 1% of amounts); 18.4× the customer's usual ₹3,981 (top 1% of ratios); at 01:00 (lowest 4% of hours)",0.1503,No,No
+5029540,2026-08-21,test,51844.78,Transfer,Pune,0.6316,320,"26.9× the customer's usual ₹1,925 (top 1% of ratios); amount ₹51,845 (top 2% of amounts); customer's usual amount ₹1,925 (lowest 7%)",0.2535,Yes,Yes
+5019392,2026-01-28,train,55101.19,Withdrawal,Pune,0.6315,321,"27.7× the customer's usual ₹1,993 (top 1% of ratios); amount ₹55,101 (top 2% of amounts); customer's usual amount ₹1,993 (lowest 7%)",0.1802,Yes,No
+5022407,2026-03-30,train,50969.16,Payment,Mumbai,0.6315,322,"23.1× the customer's usual ₹2,208 (top 1% of ratios); amount ₹50,969 (top 2% of amounts); account 13 months old (lowest 6%)",0.1915,Yes,No
+5000932,2025-01-19,train,62540.96,Payment,Hyderabad,0.6314,323,"amount ₹62,541 (top 1% of amounts); 13.7× the customer's usual ₹4,580 (top 2% of ratios); account 6 months old (lowest 2%)",0.1454,No,No
+5013344,2025-09-27,train,52870.25,Transfer,Chennai,0.6314,324,"amount ₹52,870 (top 2% of amounts); 10.1× the customer's usual ₹5,252 (top 4% of ratios); at 23:00 (top 4% of hours)",0.1926,Yes,No
+5027883,2026-07-19,test,24208.49,Payment,Delhi,0.6313,325,"63.0× the customer's usual ₹384 (top 1% of ratios); amount ₹24,208 (top 9% of amounts); customer's usual amount ₹384 (lowest 1%)",0.0731,No,No
+5017596,2025-12-23,train,29380.71,Withdrawal,Delhi,0.631,326,"22.3× the customer's usual ₹1,315 (top 1% of ratios); amount ₹29,381 (top 6% of amounts); at 00:00 (lowest 1% of hours)",0.1841,Yes,No
+5022981,2026-04-10,train,72798.95,Withdrawal,Hyderabad,0.6307,327,"amount ₹72,799 (top 1% of amounts); 11.0× the customer's usual ₹6,626 (top 3% of ratios); at 23:00 (top 4% of hours)",0.1192,No,No
+5001106,2025-01-23,train,71706.49,Payment,Mumbai,0.6307,328,"22.5× the customer's usual ₹3,187 (top 1% of ratios); amount ₹71,706 (top 1% of amounts)",0.1618,No,No
+5018826,2026-01-16,train,48186.98,Withdrawal,Bengaluru,0.6305,329,"customer's usual amount ₹24,533 (top 2%); amount ₹48,187 (top 2% of amounts); transaction frequency 13 (top 11%)",0.0298,No,No
+5022578,2026-04-02,train,53634.85,Payment,Mumbai,0.6305,330,"amount ₹53,635 (top 2% of amounts); 12.5× the customer's usual ₹4,299 (top 3% of ratios); transaction frequency 16 (top 2%)",0.149,No,No
+5008804,2025-06-28,train,24382.93,Payment,Chennai,0.63,331,"27.6× the customer's usual ₹884 (top 1% of ratios); account 9 months old (lowest 4%); amount ₹24,383 (top 9% of amounts)",0.0617,No,No
+5004102,2025-03-24,train,36474.62,Transfer,Kolkata,0.6298,332,"customer's usual amount ₹29,802 (top 1%); amount ₹36,475 (top 4% of amounts); at 23:00 (top 4% of hours)",0.0361,No,No
+5029168,2026-08-14,test,73205.92,Payment,Hyderabad,0.6298,333,"amount ₹73,206 (top 1% of amounts); customer's usual amount ₹15,984 (top 6%); account 175 months old (top 3%)",0.1041,No,No
+5018332,2026-01-06,train,78790.98,Payment,Hyderabad,0.6297,334,"amount ₹78,791 (top 1% of amounts); customer's usual amount ₹13,740 (top 10%); 5.7× the customer's usual ₹13,740 (top 10% of ratios)",0.1282,No,No
+5025058,2026-05-23,test,39629.45,Withdrawal,Chennai,0.6296,335,"customer's usual amount ₹35,598 (top 1%); amount ₹39,629 (top 4% of amounts); at 00:00 (lowest 1% of hours)",0.0318,No,No
+5022488,2026-04-01,train,46025.22,Payment,Bengaluru,0.6296,336,"amount ₹46,025 (top 2% of amounts); transaction frequency 2 (lowest 1%); customer's usual amount ₹15,665 (top 7%)",0.0377,No,No
+5009262,2025-07-07,train,89173.82,Payment,Bengaluru,0.6295,337,"amount ₹89,174 (top 1% of amounts); 12.4× the customer's usual ₹7,200 (top 3% of ratios); transaction frequency 6 (lowest 10%)",0.1224,No,No
+5016664,2025-12-04,train,14897.91,Payment,Pune,0.6292,338,"customer's usual amount ₹57,226 (top 1%); account 174 months old (top 3%); at 03:00 (lowest 13% of hours)",0.0075,No,No
+5012304,2025-09-06,train,71037.52,Transfer,Pune,0.6291,339,"amount ₹71,038 (top 1% of amounts); 7.4× the customer's usual ₹9,658 (top 7% of ratios); at 22:00 (top 8% of hours)",0.152,No,No
+5007515,2025-06-02,train,26924.02,Transfer,Chennai,0.6289,340,"37.1× the customer's usual ₹725 (top 1% of ratios); at 00:00 (lowest 1% of hours); amount ₹26,924 (top 8% of amounts)",0.3357,Yes,No
+5027909,2026-07-19,test,61366.17,Payment,Bengaluru,0.6289,341,"amount ₹61,366 (top 1% of amounts); 7.8× the customer's usual ₹7,892 (top 6% of ratios); account 179 months old (top 1%)",0.141,No,No
+5021335,2026-03-08,train,95363.47,Payment,Mumbai,0.6287,342,"amount ₹95,363 (top 1% of amounts); 18.0× the customer's usual ₹5,312 (top 1% of ratios)",0.1287,No,No
+5018916,2026-01-18,train,62030.06,Withdrawal,Hyderabad,0.6287,343,"23.9× the customer's usual ₹2,596 (top 1% of ratios); amount ₹62,030 (top 1% of amounts)",0.1696,Yes,Yes
+5009640,2025-07-15,train,24164.8,Withdrawal,Kolkata,0.6285,344,"20.1× the customer's usual ₹1,204 (top 1% of ratios); at 00:00 (lowest 1% of hours); account 9 months old (lowest 4%)",0.0424,No,No
+5002274,2025-02-15,train,29098.91,Payment,Kolkata,0.6285,345,"22.4× the customer's usual ₹1,297 (top 1% of ratios); amount ₹29,099 (top 7% of amounts); at 23:00 (top 4% of hours)",0.1592,No,No
+5015573,2025-11-12,train,77581.76,Payment,Delhi,0.6284,346,"amount ₹77,582 (top 1% of amounts); 14.6× the customer's usual ₹5,310 (top 2% of ratios); at 02:00 (lowest 8% of hours)",0.1344,No,No
+5010988,2025-08-11,train,44721.52,Payment,Chennai,0.6284,347,"26.1× the customer's usual ₹1,714 (top 1% of ratios); amount ₹44,722 (top 3% of amounts); transaction frequency 5 (lowest 4%)",0.1944,Yes,No
+5016070,2025-11-22,train,60591.33,Transfer,Delhi,0.6283,348,"amount ₹60,591 (top 1% of amounts); 15.4× the customer's usual ₹3,947 (top 2% of ratios); transaction frequency 15 (top 4%)",0.2143,Yes,No
+5001371,2025-01-28,train,60907.24,Payment,Mumbai,0.6281,349,"amount ₹60,907 (top 1% of amounts); 15.1× the customer's usual ₹4,028 (top 2% of ratios); account 173 months old (top 4%)",0.1583,No,No
+5000167,2025-01-04,train,46416.29,Withdrawal,Pune,0.6281,350,"23.2× the customer's usual ₹2,000 (top 1% of ratios); amount ₹46,416 (top 2% of amounts); transaction frequency 12 (top 18%)",0.1995,Yes,No
+5007073,2025-05-24,train,74710.51,Withdrawal,Delhi,0.628,351,"amount ₹74,711 (top 1% of amounts); 17.8× the customer's usual ₹4,198 (top 1% of ratios); at 02:00 (lowest 8% of hours)",0.1398,No,No
+5004964,2025-04-11,train,64551.92,Payment,Pune,0.6279,352,"amount ₹64,552 (top 1% of amounts); 17.6× the customer's usual ₹3,670 (top 1% of ratios); account 6 months old (lowest 2%)",0.1635,Yes,No
+5027162,2026-07-04,test,40590.96,Withdrawal,Mumbai,0.6278,353,"29.1× the customer's usual ₹1,393 (top 1% of ratios); amount ₹40,591 (top 3% of amounts); customer's usual amount ₹1,393 (lowest 3%)",0.2181,Yes,No
+5009787,2025-07-18,train,64872.82,Withdrawal,Hyderabad,0.6278,354,"amount ₹64,873 (top 1% of amounts); at 00:00 (lowest 1% of hours); 6.3× the customer's usual ₹10,368 (top 8% of ratios)",0.1237,No,No
+5009267,2025-07-07,train,49136.77,Payment,Kolkata,0.6276,355,"23.2× the customer's usual ₹2,120 (top 1% of ratios); amount ₹49,137 (top 2% of amounts); account 23 months old (lowest 11%)",0.1792,Yes,No
+5017352,2025-12-18,train,78597.03,Withdrawal,Mumbai,0.6275,356,"amount ₹78,597 (top 1% of amounts); 10.8× the customer's usual ₹7,259 (top 4% of ratios); at 01:00 (lowest 4% of hours)",0.1199,No,No
+5023302,2026-04-17,train,71630.82,Transfer,Chennai,0.6275,357,"amount ₹71,631 (top 1% of amounts); customer's usual amount ₹23,183 (top 2%); account 161 months old (top 11%)",0.0787,No,No
+5024288,2026-05-07,test,43967.29,Payment,Pune,0.6274,358,"26.8× the customer's usual ₹1,639 (top 1% of ratios); amount ₹43,967 (top 3% of amounts); customer's usual amount ₹1,639 (lowest 4%)",0.1699,Yes,No
+5003822,2025-03-19,train,3287.69,Withdrawal,Kolkata,0.6273,359,"customer's usual amount ₹36,166 (top 1%); transaction frequency 18 (top 1%)",0.0062,No,No
+5021692,2026-03-15,train,4293.12,Payment,Pune,0.6272,360,"customer's usual amount ₹30,563 (top 1%); transaction frequency 3 (lowest 1%); account 166 months old (top 8%)",0.0076,No,No
+5000027,2025-01-01,train,40336.62,Withdrawal,Delhi,0.6271,361,"customer's usual amount ₹32,807 (top 1%); amount ₹40,337 (top 3% of amounts); transaction frequency 14 (top 6%)",0.0273,No,No
+5024908,2026-05-19,test,60971.94,Payment,Pune,0.627,362,"amount ₹60,972 (top 1% of amounts); customer's usual amount ₹16,476 (top 6%); at 23:00 (top 4% of hours)",0.1382,No,No
+5013885,2025-10-08,train,36111.23,Payment,Kolkata,0.627,363,"18.8× the customer's usual ₹1,923 (top 1% of ratios); amount ₹36,111 (top 4% of amounts); at 22:00 (top 8% of hours)",0.1602,No,Yes
+5021089,2026-03-03,train,3233.04,Transfer,Kolkata,0.6268,364,"customer's usual amount ₹42,491 (top 1%); transaction frequency 16 (top 2%)",0.0055,No,No
+5018577,2026-01-11,train,74460.51,Payment,Mumbai,0.6268,365,"amount ₹74,461 (top 1% of amounts); 16.3× the customer's usual ₹4,581 (top 2% of ratios); at 20:00 (top 17% of hours)",0.129,No,No
+5024857,2026-05-18,test,38604.97,Payment,Kolkata,0.6263,366,"customer's usual amount ₹33,204 (top 1%); amount ₹38,605 (top 4% of amounts); at 22:00 (top 8% of hours)",0.0322,No,No
+5012365,2025-09-08,train,38935.61,Withdrawal,Hyderabad,0.6261,367,"15.7× the customer's usual ₹2,483 (top 2% of ratios); transaction frequency 16 (top 2%); amount ₹38,936 (top 4% of amounts)",0.1956,Yes,No
+5028747,2026-08-05,test,11023.2,Payment,Kolkata,0.6261,368,25.9× the customer's usual ₹425 (top 1% of ratios); transaction frequency 16 (top 2%); customer's usual amount ₹425 (lowest 1%),0.0356,No,No
+5022468,2026-03-31,train,95694.31,Payment,Delhi,0.626,369,"amount ₹95,694 (top 1% of amounts); 6.9× the customer's usual ₹13,867 (top 7% of ratios); customer's usual amount ₹13,867 (top 9%)",0.1246,No,No
+5024228,2026-05-06,test,35870.44,Payment,Delhi,0.6259,370,"24.0× the customer's usual ₹1,495 (top 1% of ratios); amount ₹35,870 (top 4% of amounts); account 173 months old (top 4%)",0.1375,No,No
+5005035,2025-04-12,train,77766.36,Withdrawal,Chennai,0.6258,371,"amount ₹77,766 (top 1% of amounts); 9.9× the customer's usual ₹7,834 (top 4% of ratios); at 20:00 (top 17% of hours)",0.1211,No,No
+5011952,2025-08-30,train,70893.38,Payment,Mumbai,0.6257,372,"amount ₹70,893 (top 1% of amounts); 17.8× the customer's usual ₹3,980 (top 1% of ratios); account 23 months old (lowest 11%)",0.1509,No,No
+5009416,2025-07-10,train,29240.2,Payment,Hyderabad,0.6255,373,"42.3× the customer's usual ₹691 (top 1% of ratios); amount ₹29,240 (top 6% of amounts); customer's usual amount ₹691 (lowest 1%)",0.2716,Yes,No
+5024374,2026-05-09,test,44802.36,Transfer,Pune,0.6255,374,"27.8× the customer's usual ₹1,612 (top 1% of ratios); amount ₹44,802 (top 3% of amounts); at 03:00 (lowest 13% of hours)",0.2222,Yes,No
+5004103,2025-03-24,train,44486.41,Withdrawal,Kolkata,0.6254,375,"amount ₹44,486 (top 3% of amounts); transaction frequency 17 (top 1%); at 23:00 (top 4% of hours)",0.1842,Yes,Yes
+5014187,2025-10-15,train,70459.62,Payment,Bengaluru,0.6253,376,"amount ₹70,460 (top 1% of amounts); 10.1× the customer's usual ₹6,957 (top 4% of ratios); at 00:00 (lowest 1% of hours)",0.1245,No,No
+5004891,2025-04-09,train,70642.48,Transfer,Hyderabad,0.6253,377,"amount ₹70,642 (top 1% of amounts); customer's usual amount ₹15,258 (top 7%); at 22:00 (top 8% of hours)",0.1377,No,No
+5015831,2025-11-17,train,76074.25,Payment,Mumbai,0.6253,378,"amount ₹76,074 (top 1% of amounts); 12.6× the customer's usual ₹6,033 (top 3% of ratios); account 175 months old (top 3%)",0.1237,No,Yes
+5022508,2026-04-01,train,76003.53,Transfer,Pune,0.6252,379,"amount ₹76,004 (top 1% of amounts); customer's usual amount ₹16,200 (top 6%); transaction frequency 4 (lowest 1%)",0.159,No,No
+5012923,2025-09-19,train,54482.71,Payment,Mumbai,0.625,380,"customer's usual amount ₹29,323 (top 1%); amount ₹54,483 (top 2% of amounts); account 155 months old (top 14%)",0.0189,No,No
+5017771,2025-12-26,train,27469.81,Transfer,Delhi,0.625,381,"28.8× the customer's usual ₹955 (top 1% of ratios); account 177 months old (top 2%); amount ₹27,470 (top 7% of amounts)",0.2605,Yes,Yes
+5004624,2025-04-04,train,59671.13,Withdrawal,Mumbai,0.625,382,"20.5× the customer's usual ₹2,910 (top 1% of ratios); amount ₹59,671 (top 1% of amounts); account 170 months old (top 6%)",0.1905,Yes,Yes
+5024720,2026-05-16,test,56508.08,Payment,Mumbai,0.6248,383,"25.3× the customer's usual ₹2,234 (top 1% of ratios); amount ₹56,508 (top 2% of amounts); at 03:00 (lowest 13% of hours)",0.1789,Yes,No
+5005414,2025-04-20,train,47295.64,Payment,Chennai,0.6247,384,"28.3× the customer's usual ₹1,674 (top 1% of ratios); amount ₹47,296 (top 2% of amounts); account 162 months old (top 10%)",0.1818,Yes,No
+5014543,2025-10-22,train,33018.63,Payment,Chennai,0.6247,385,"19.7× the customer's usual ₹1,674 (top 1% of ratios); transaction frequency 3 (lowest 1%); amount ₹33,019 (top 5% of amounts)",0.1499,No,No
+5005773,2025-04-27,train,33028.98,Withdrawal,Hyderabad,0.6241,386,"customer's usual amount ₹24,204 (top 2%); amount ₹33,029 (top 5% of amounts); transaction frequency 15 (top 4%)",0.0216,No,No
+5027364,2026-07-08,test,22414.85,Withdrawal,Hyderabad,0.6239,387,"34.2× the customer's usual ₹655 (top 1% of ratios); transaction frequency 5 (lowest 4%); amount ₹22,415 (top 11% of amounts)",0.0722,No,No
+5021762,2026-03-17,train,21975.83,Withdrawal,Pune,0.6237,388,"21.8× the customer's usual ₹1,006 (top 1% of ratios); transaction frequency 15 (top 4%); amount ₹21,976 (top 11% of amounts)",0.0651,No,No
+5025364,2026-05-29,test,21039.53,Payment,Chennai,0.6237,389,"18.8× the customer's usual ₹1,120 (top 1% of ratios); transaction frequency 2 (lowest 1%); customer's usual amount ₹1,120 (lowest 1%)",0.0646,No,No
+5001554,2025-02-01,train,91288.86,Transfer,Pune,0.6236,390,"amount ₹91,289 (top 1% of amounts); customer's usual amount ₹20,987 (top 3%); 4.3× the customer's usual ₹20,987 (top 14% of ratios)",0.1992,Yes,No
+5003690,2025-03-16,train,53907.87,Payment,Chennai,0.6236,391,"19.0× the customer's usual ₹2,843 (top 1% of ratios); amount ₹53,908 (top 2% of amounts); account 8 months old (lowest 3%)",0.1893,Yes,No
+5021204,2026-03-06,train,42750.28,Withdrawal,Kolkata,0.6235,392,"customer's usual amount ₹30,278 (top 1%); amount ₹42,750 (top 3% of amounts); at 00:00 (lowest 1% of hours)",0.0245,No,No
+5023507,2026-04-21,train,43970.75,Payment,Hyderabad,0.6234,393,"15.8× the customer's usual ₹2,779 (top 2% of ratios); transaction frequency 17 (top 1%); amount ₹43,971 (top 3% of amounts)",0.196,Yes,No
+5004629,2025-04-04,train,57049.93,Payment,Chennai,0.6234,394,"18.4× the customer's usual ₹3,106 (top 1% of ratios); amount ₹57,050 (top 2% of amounts); account 4 months old (lowest 1%)",0.1769,Yes,No
+5013802,2025-10-07,train,50172.83,Payment,Hyderabad,0.6234,395,"23.3× the customer's usual ₹2,155 (top 1% of ratios); amount ₹50,173 (top 2% of amounts)",0.1913,Yes,No
+5002398,2025-02-18,train,50434.8,Payment,Bengaluru,0.6232,396,"20.6× the customer's usual ₹2,445 (top 1% of ratios); amount ₹50,435 (top 2% of amounts); transaction frequency 5 (lowest 4%)",0.1944,Yes,Yes
+5022127,2026-03-24,train,36359.6,Payment,Kolkata,0.6232,397,"customer's usual amount ₹28,722 (top 1%); amount ₹36,360 (top 4% of amounts); transaction frequency 4 (lowest 1%)",0.0286,No,No
+5014120,2025-10-13,train,57066.77,Payment,Bengaluru,0.623,398,"19.8× the customer's usual ₹2,882 (top 1% of ratios); amount ₹57,067 (top 2% of amounts); account 21 months old (lowest 10%)",0.1938,Yes,No
+5016968,2025-12-10,train,90230.93,Payment,Mumbai,0.623,399,"amount ₹90,231 (top 1% of amounts); customer's usual amount ₹18,635 (top 4%); 4.8× the customer's usual ₹18,635 (top 12% of ratios)",0.0867,No,Yes
+5015200,2025-11-04,train,63725.15,Payment,Kolkata,0.6229,400,"18.7× the customer's usual ₹3,416 (top 1% of ratios); amount ₹63,725 (top 1% of amounts); transaction frequency 6 (lowest 10%)",0.1581,No,Yes
+5027358,2026-07-08,test,83433.62,Withdrawal,Bengaluru,0.6228,401,"amount ₹83,434 (top 1% of amounts); 10.5× the customer's usual ₹7,950 (top 4% of ratios); transaction frequency 5 (lowest 4%)",0.113,No,No
+5003166,2025-03-06,train,69268.82,Payment,Hyderabad,0.6226,402,"amount ₹69,269 (top 1% of amounts); customer's usual amount ₹15,974 (top 6%); at 00:00 (lowest 1% of hours)",0.1214,No,No
+5023636,2026-04-24,train,62364.71,Payment,Bengaluru,0.6226,403,"21.6× the customer's usual ₹2,885 (top 1% of ratios); amount ₹62,365 (top 1% of amounts)",0.2001,Yes,No
+5007645,2025-06-04,train,53539.72,Withdrawal,Pune,0.6225,404,"23.5× the customer's usual ₹2,279 (top 1% of ratios); amount ₹53,540 (top 2% of amounts); transaction frequency 12 (top 18%)",0.1975,Yes,No
+5023164,2026-04-14,train,29546.6,Withdrawal,Bengaluru,0.6224,405,"30.0× the customer's usual ₹984 (top 1% of ratios); amount ₹29,547 (top 6% of amounts); customer's usual amount ₹984 (lowest 1%)",0.215,Yes,Yes
+5002318,2025-02-16,train,58826.69,Withdrawal,Kolkata,0.6224,406,"amount ₹58,827 (top 1% of amounts); 9.4× the customer's usual ₹6,250 (top 4% of ratios); account 4 months old (lowest 1%)",0.1464,No,No
+5029454,2026-08-19,test,32579.32,Payment,Hyderabad,0.6224,407,"18.5× the customer's usual ₹1,760 (top 1% of ratios); amount ₹32,579 (top 5% of amounts); transaction frequency 14 (top 6%)",0.1489,No,No
+5010500,2025-08-01,train,97344.64,Payment,Bengaluru,0.622,408,"amount ₹97,345 (top 1% of amounts); 14.3× the customer's usual ₹6,816 (top 2% of ratios)",0.1104,No,Yes
+5006110,2025-05-04,train,46536.48,Payment,Delhi,0.622,409,"26.0× the customer's usual ₹1,789 (top 1% of ratios); amount ₹46,536 (top 2% of amounts); customer's usual amount ₹1,789 (lowest 6%)",0.2023,Yes,No
+5010732,2025-08-06,train,65098.72,Payment,Mumbai,0.6219,410,"20.1× the customer's usual ₹3,231 (top 1% of ratios); amount ₹65,099 (top 1% of amounts); at 03:00 (lowest 13% of hours)",0.1666,Yes,No
+5007098,2025-05-24,train,60890.19,Payment,Mumbai,0.6213,411,"19.6× the customer's usual ₹3,112 (top 1% of ratios); amount ₹60,890 (top 1% of amounts); account 18 months old (lowest 8%)",0.1933,Yes,No
+5003894,2025-03-20,train,42598.36,Withdrawal,Delhi,0.6212,412,"15.6× the customer's usual ₹2,725 (top 2% of ratios); amount ₹42,598 (top 3% of amounts); transaction frequency 4 (lowest 1%)",0.2025,Yes,No
+5012046,2025-09-01,train,98986.85,Payment,Chennai,0.6211,413,"amount ₹98,987 (top 1% of amounts); 9.0× the customer's usual ₹11,029 (top 5% of ratios); customer's usual amount ₹11,029 (top 16%)",0.1127,No,No
+5000911,2025-01-19,train,97458.02,Payment,Delhi,0.621,414,"amount ₹97,458 (top 1% of amounts); 9.9× the customer's usual ₹9,829 (top 4% of ratios); customer's usual amount ₹9,829 (top 20%)",0.104,No,No
+5025800,2026-06-07,test,27905.25,Payment,Pune,0.6209,415,"17.1× the customer's usual ₹1,636 (top 2% of ratios); transaction frequency 15 (top 4%); at 00:00 (lowest 1% of hours)",0.1335,No,No
+5014778,2025-10-26,train,64362.06,Payment,Mumbai,0.6208,416,"amount ₹64,362 (top 1% of amounts); 10.3× the customer's usual ₹6,275 (top 4% of ratios); at 23:00 (top 4% of hours)",0.12,No,No
+5021866,2026-03-19,train,48642.98,Transfer,Hyderabad,0.6207,417,"13.8× the customer's usual ₹3,513 (top 2% of ratios); amount ₹48,643 (top 2% of amounts); transaction frequency 15 (top 4%)",0.2326,Yes,No
+5014440,2025-10-20,train,65242.04,Transfer,Kolkata,0.6207,418,"amount ₹65,242 (top 1% of amounts); 14.8× the customer's usual ₹4,404 (top 2% of ratios); account 11 months old (lowest 5%)",0.1725,Yes,No
+5018634,2026-01-13,train,2167.25,Payment,Bengaluru,0.6203,419,"customer's usual amount ₹35,111 (top 1%); at 00:00 (lowest 1% of hours); account 7 months old (lowest 2%)",0.0045,No,No
+5001449,2025-01-30,train,31996.11,Withdrawal,Pune,0.6198,420,"33.7× the customer's usual ₹949 (top 1% of ratios); amount ₹31,996 (top 6% of amounts); customer's usual amount ₹949 (lowest 1%)",0.2613,Yes,No
+5023329,2026-04-18,train,23816.16,Withdrawal,Chennai,0.6198,421,"27.5× the customer's usual ₹867 (top 1% of ratios); at 00:00 (lowest 1% of hours); amount ₹23,816 (top 10% of amounts)",0.0589,No,No
+5017347,2025-12-17,train,56557.37,Withdrawal,Pune,0.6198,422,"amount ₹56,557 (top 2% of amounts); 7.5× the customer's usual ₹7,560 (top 6% of ratios); at 23:00 (top 4% of hours)",0.143,No,No
+5005953,2025-05-01,train,66240.18,Withdrawal,Mumbai,0.6195,423,"amount ₹66,240 (top 1% of amounts); 13.8× the customer's usual ₹4,786 (top 2% of ratios); account 3 months old (lowest 1%)",0.1295,No,No
+5006672,2025-05-15,train,58454.0,Withdrawal,Mumbai,0.6195,424,"amount ₹58,454 (top 1% of amounts); at 23:00 (top 4% of hours); account 173 months old (top 4%)",0.1185,No,No
+5007533,2025-06-02,train,53760.39,Payment,Hyderabad,0.6191,425,"amount ₹53,760 (top 2% of amounts); transaction frequency 16 (top 2%); customer's usual amount ₹14,158 (top 9%)",0.174,Yes,No
+5004573,2025-04-03,train,19364.33,Transfer,Chennai,0.6188,426,"customer's usual amount ₹79,111 (top 1%); transaction frequency 13 (top 11%); amount ₹19,364 (top 14% of amounts)",0.0105,No,No
+5018304,2026-01-06,train,47292.45,Withdrawal,Kolkata,0.6188,427,"25.1× the customer's usual ₹1,881 (top 1% of ratios); amount ₹47,292 (top 2% of amounts); customer's usual amount ₹1,881 (lowest 6%)",0.1915,Yes,No
+5012045,2025-09-01,train,26093.28,Payment,Bengaluru,0.6187,428,"29.8× the customer's usual ₹875 (top 1% of ratios); amount ₹26,093 (top 8% of amounts); customer's usual amount ₹875 (lowest 1%)",0.2258,Yes,No
+5002279,2025-02-16,train,78071.2,Transfer,Chennai,0.6186,429,"amount ₹78,071 (top 1% of amounts); 7.5× the customer's usual ₹10,380 (top 6% of ratios); customer's usual amount ₹10,380 (top 18%)",0.1539,No,No
+5028878,2026-08-08,test,52390.07,Payment,Delhi,0.6185,430,"transaction frequency 20 (top 1%); amount ₹52,390 (top 2% of amounts); 5.4× the customer's usual ₹9,717 (top 11% of ratios)",0.1416,No,No
+5005830,2025-04-28,train,9620.21,Withdrawal,Pune,0.6184,431,16.5× the customer's usual ₹583 (top 2% of ratios); transaction frequency 16 (top 2%); at 22:00 (top 8% of hours),0.0445,No,No
+5015354,2025-11-07,train,58251.33,Transfer,Mumbai,0.6183,432,"18.8× the customer's usual ₹3,100 (top 1% of ratios); amount ₹58,251 (top 1% of amounts); transaction frequency 13 (top 11%)",0.2397,Yes,No
+5024709,2026-05-15,test,41475.74,Payment,Kolkata,0.6182,433,"transaction frequency 16 (top 2%); amount ₹41,476 (top 3% of amounts); 8.7× the customer's usual ₹4,744 (top 5% of ratios)",0.1452,No,No
+5022105,2026-03-24,train,58589.55,Payment,Pune,0.6181,434,"16.3× the customer's usual ₹3,584 (top 2% of ratios); amount ₹58,590 (top 1% of amounts); transaction frequency 14 (top 6%)",0.1652,Yes,No
+5000258,2025-01-06,train,56225.29,Payment,Pune,0.618,435,"amount ₹56,225 (top 2% of amounts); transaction frequency 3 (lowest 1%); customer's usual amount ₹16,057 (top 6%)",0.1221,No,No
+5013033,2025-09-21,train,26192.35,Payment,Kolkata,0.6179,436,"22.5× the customer's usual ₹1,162 (top 1% of ratios); account 174 months old (top 3%); amount ₹26,192 (top 8% of amounts)",0.2003,Yes,No
+5007476,2025-06-01,train,36552.38,Withdrawal,Kolkata,0.6179,437,"customer's usual amount ₹37,036 (top 1%); amount ₹36,552 (top 4% of amounts); account 152 months old (top 16%)",0.0247,No,No
+5004286,2025-03-28,train,68303.1,Withdrawal,Hyderabad,0.6179,438,"amount ₹68,303 (top 1% of amounts); 18.7× the customer's usual ₹3,652 (top 1% of ratios); account 158 months old (top 12%)",0.15,No,No
+5009560,2025-07-13,train,39208.22,Withdrawal,Bengaluru,0.6179,439,"26.4× the customer's usual ₹1,484 (top 1% of ratios); amount ₹39,208 (top 4% of amounts); account 159 months old (top 12%)",0.1758,Yes,No
+5026628,2026-06-23,test,45894.5,Withdrawal,Hyderabad,0.6179,440,"23.0× the customer's usual ₹1,997 (top 1% of ratios); amount ₹45,894 (top 3% of amounts); account 28 months old (lowest 14%)",0.1943,Yes,No
+5022073,2026-03-23,train,16627.65,Transfer,Mumbai,0.6178,441,"customer's usual amount ₹40,249 (top 1%); transaction frequency 3 (lowest 1%); amount ₹16,628 (top 18% of amounts)",0.0092,No,No
+5019833,2026-02-06,train,63821.24,Payment,Hyderabad,0.6177,442,"amount ₹63,821 (top 1% of amounts); 11.6× the customer's usual ₹5,521 (top 3% of ratios); account 3 months old (lowest 1%)",0.1251,No,No
+5008014,2025-06-12,train,71500.84,Payment,Chennai,0.6176,443,"amount ₹71,501 (top 1% of amounts); 10.8× the customer's usual ₹6,640 (top 4% of ratios); account 179 months old (top 1%)",0.1192,No,No
+5009336,2025-07-08,train,74384.29,Payment,Chennai,0.6175,444,"amount ₹74,384 (top 1% of amounts); 5.8× the customer's usual ₹12,812 (top 10% of ratios); customer's usual amount ₹12,812 (top 11%)",0.1656,Yes,No
+5029119,2026-08-13,test,86523.58,Payment,Delhi,0.6175,445,"amount ₹86,524 (top 1% of amounts); 9.2× the customer's usual ₹9,435 (top 5% of ratios); customer's usual amount ₹9,435 (top 22%)",0.1107,No,Yes
+5027392,2026-07-09,test,83047.56,Withdrawal,Mumbai,0.6174,446,"amount ₹83,048 (top 1% of amounts); 14.4× the customer's usual ₹5,763 (top 2% of ratios)",0.1305,No,No
+5019266,2026-01-25,train,29430.04,Withdrawal,Kolkata,0.6174,447,"customer's usual amount ₹63,258 (top 1%); amount ₹29,430 (top 6% of amounts); account 152 months old (top 16%)",0.0212,No,No
+5001656,2025-02-03,train,92185.2,Withdrawal,Bengaluru,0.6173,448,"amount ₹92,185 (top 1% of amounts); 13.7× the customer's usual ₹6,748 (top 2% of ratios)",0.1244,No,No
+5020346,2026-02-16,train,43344.74,Transfer,Kolkata,0.6173,449,"13.8× the customer's usual ₹3,146 (top 2% of ratios); amount ₹43,345 (top 3% of amounts); transaction frequency 4 (lowest 1%)",0.2601,Yes,No
+5003749,2025-03-17,train,65677.71,Transfer,Bengaluru,0.6173,450,"amount ₹65,678 (top 1% of amounts); 11.3× the customer's usual ₹5,794 (top 3% of ratios); account 177 months old (top 2%)",0.1589,No,Yes
+5015998,2025-11-20,train,83540.88,Withdrawal,Hyderabad,0.6172,451,"amount ₹83,541 (top 1% of amounts); 13.9× the customer's usual ₹6,013 (top 2% of ratios); account 153 months old (top 15%)",0.1305,No,No
+5016587,2025-12-02,train,65437.64,Transfer,Hyderabad,0.6171,452,"amount ₹65,438 (top 1% of amounts); customer's usual amount ₹21,455 (top 3%); account 165 months old (top 9%)",0.0572,No,No
+5011912,2025-08-30,train,53505.21,Payment,Mumbai,0.6171,453,"15.4× the customer's usual ₹3,479 (top 2% of ratios); amount ₹53,505 (top 2% of amounts); at 00:00 (lowest 1% of hours)",0.163,No,No
+5000742,2025-01-15,train,1002.01,Payment,Chennai,0.6171,454,"customer's usual amount ₹48,640 (top 1%); at 23:00 (top 4% of hours); transaction frequency 6 (lowest 10%)",0.006,No,No
+5013903,2025-10-09,train,59910.94,Payment,Pune,0.6171,455,"21.8× the customer's usual ₹2,754 (top 1% of ratios); amount ₹59,911 (top 1% of amounts)",0.1905,Yes,No
+5021867,2026-03-19,train,33538.69,Transfer,Kolkata,0.6167,456,"28.2× the customer's usual ₹1,191 (top 1% of ratios); amount ₹33,539 (top 5% of amounts); customer's usual amount ₹1,191 (lowest 1%)",0.2805,Yes,No
+5014089,2025-10-13,train,2095.29,Payment,Delhi,0.6165,457,"customer's usual amount ₹36,500 (top 1%); transaction frequency 4 (lowest 1%); at 01:00 (lowest 4% of hours)",0.0054,No,No
+5019842,2026-02-06,train,24873.87,Transfer,Pune,0.6163,458,"30.4× the customer's usual ₹818 (top 1% of ratios); amount ₹24,874 (top 9% of amounts); customer's usual amount ₹818 (lowest 1%)",0.1226,No,No
+5029748,2026-08-25,test,59172.08,Withdrawal,Kolkata,0.6163,459,"amount ₹59,172 (top 1% of amounts); 12.4× the customer's usual ₹4,784 (top 3% of ratios); transaction frequency 13 (top 11%)",0.1449,No,Yes
+5006233,2025-05-07,train,33001.38,Withdrawal,Bengaluru,0.6163,460,"25.0× the customer's usual ₹1,318 (top 1% of ratios); amount ₹33,001 (top 5% of amounts); at 02:00 (lowest 8% of hours)",0.1874,Yes,No
+5010727,2025-08-06,train,63184.4,Withdrawal,Delhi,0.6162,461,"amount ₹63,184 (top 1% of amounts); 12.4× the customer's usual ₹5,113 (top 3% of ratios); at 00:00 (lowest 1% of hours)",0.1423,No,No
+5001308,2025-01-27,train,69770.76,Payment,Delhi,0.6161,462,"19.9× the customer's usual ₹3,505 (top 1% of ratios); amount ₹69,771 (top 1% of amounts)",0.1591,No,No
+5027032,2026-07-01,test,28972.2,Payment,Hyderabad,0.616,463,"25.5× the customer's usual ₹1,137 (top 1% of ratios); amount ₹28,972 (top 7% of amounts); at 22:00 (top 8% of hours)",0.2059,Yes,No
+5008952,2025-07-01,train,45979.87,Payment,Hyderabad,0.616,464,"14.7× the customer's usual ₹3,120 (top 2% of ratios); amount ₹45,980 (top 2% of amounts); transaction frequency 14 (top 6%)",0.1861,Yes,No
+5014844,2025-10-28,train,88020.61,Withdrawal,Chennai,0.616,465,"amount ₹88,021 (top 1% of amounts); customer's usual amount ₹16,773 (top 6%); 5.2× the customer's usual ₹16,773 (top 11% of ratios)",0.1282,No,No
+5016314,2025-11-27,train,77085.55,Payment,Kolkata,0.616,466,"amount ₹77,086 (top 1% of amounts); 6.4× the customer's usual ₹12,071 (top 8% of ratios); at 01:00 (lowest 4% of hours)",0.1558,No,Yes
+5024403,2026-05-09,test,86014.98,Payment,Kolkata,0.6155,467,"amount ₹86,015 (top 1% of amounts); 8.6× the customer's usual ₹9,958 (top 5% of ratios); customer's usual amount ₹9,958 (top 20%)",0.1157,No,No
+5004266,2025-03-28,train,80824.48,Transfer,Mumbai,0.6154,468,"amount ₹80,824 (top 1% of amounts); 13.9× the customer's usual ₹5,801 (top 2% of ratios)",0.1829,Yes,No
+5001884,2025-02-08,train,84762.85,Payment,Hyderabad,0.6151,469,"amount ₹84,763 (top 1% of amounts); 9.2× the customer's usual ₹9,213 (top 5% of ratios); at 02:00 (lowest 8% of hours)",0.1124,No,No
+5029573,2026-08-22,test,51334.3,Payment,Delhi,0.615,470,"23.8× the customer's usual ₹2,155 (top 1% of ratios); amount ₹51,334 (top 2% of amounts)",0.1766,Yes,No
+5006963,2025-05-21,train,37331.31,Withdrawal,Delhi,0.6148,471,"customer's usual amount ₹28,904 (top 1%); amount ₹37,331 (top 4% of amounts); at 20:00 (top 17% of hours)",0.027,No,No
+5019673,2026-02-03,train,60224.87,Withdrawal,Chennai,0.6146,472,"17.9× the customer's usual ₹3,371 (top 1% of ratios); amount ₹60,225 (top 1% of amounts); at 01:00 (lowest 4% of hours)",0.1657,Yes,Yes
+5009590,2025-07-14,train,36094.6,Withdrawal,Mumbai,0.6145,473,"23.2× the customer's usual ₹1,557 (top 1% of ratios); amount ₹36,095 (top 4% of amounts); at 00:00 (lowest 1% of hours)",0.1499,No,No
+5014737,2025-10-26,train,44827.19,Payment,Mumbai,0.6142,474,"12.3× the customer's usual ₹3,642 (top 3% of ratios); amount ₹44,827 (top 3% of amounts); transaction frequency 14 (top 6%)",0.1637,Yes,No
+5025046,2026-05-22,test,23203.81,Payment,Delhi,0.6141,475,"25.8× the customer's usual ₹900 (top 1% of ratios); transaction frequency 5 (lowest 4%); amount ₹23,204 (top 10% of amounts)",0.0731,No,No
+5006742,2025-05-17,train,16990.51,Payment,Kolkata,0.6138,476,28.3× the customer's usual ₹600 (top 1% of ratios); transaction frequency 5 (lowest 4%); customer's usual amount ₹600 (lowest 1%),0.065,No,No
+5011740,2025-08-26,train,21065.49,Payment,Mumbai,0.6138,477,"35.3× the customer's usual ₹596 (top 1% of ratios); customer's usual amount ₹596 (lowest 1%); amount ₹21,065 (top 12% of amounts)",0.0922,No,No
+5013977,2025-10-10,train,47003.79,Transfer,Mumbai,0.6137,478,"22.7× the customer's usual ₹2,068 (top 1% of ratios); amount ₹47,004 (top 2% of amounts)",0.2133,Yes,Yes
+5021067,2026-03-03,train,44925.4,Payment,Pune,0.6137,479,"17.8× the customer's usual ₹2,524 (top 1% of ratios); amount ₹44,925 (top 3% of amounts); transaction frequency 4 (lowest 1%)",0.1871,Yes,Yes
+5010090,2025-07-24,train,53596.29,Payment,Bengaluru,0.6134,480,"21.1× the customer's usual ₹2,538 (top 1% of ratios); amount ₹53,596 (top 2% of amounts); at 03:00 (lowest 13% of hours)",0.2015,Yes,No
+5002871,2025-02-28,train,36530.77,Withdrawal,Delhi,0.6132,481,"16.2× the customer's usual ₹2,262 (top 2% of ratios); amount ₹36,531 (top 4% of amounts); transaction frequency 15 (top 4%)",0.162,No,No
+5028812,2026-08-06,test,48065.59,Payment,Hyderabad,0.6132,482,"14.3× the customer's usual ₹3,365 (top 2% of ratios); amount ₹48,066 (top 2% of amounts); at 23:00 (top 4% of hours)",0.182,Yes,No
+5004029,2025-03-23,train,84514.23,Payment,Kolkata,0.6131,483,"amount ₹84,514 (top 1% of amounts); 15.2× the customer's usual ₹5,557 (top 2% of ratios)",0.1322,No,No
+5004466,2025-04-01,train,64257.41,Payment,Mumbai,0.6131,484,"amount ₹64,257 (top 1% of amounts); 8.8× the customer's usual ₹7,332 (top 5% of ratios); transaction frequency 14 (top 6%)",0.1061,No,No
+5021151,2026-03-04,train,55005.62,Payment,Mumbai,0.6131,485,"amount ₹55,006 (top 2% of amounts); 13.0× the customer's usual ₹4,244 (top 2% of ratios); at 22:00 (top 8% of hours)",0.1458,No,No
+5001089,2025-01-23,train,28732.33,Withdrawal,Kolkata,0.6131,486,"customer's usual amount ₹29,266 (top 1%); amount ₹28,732 (top 7% of amounts); at 00:00 (lowest 1% of hours)",0.036,No,No
+5028456,2026-07-30,test,82831.58,Payment,Mumbai,0.613,487,"amount ₹82,832 (top 1% of amounts); 10.7× the customer's usual ₹7,759 (top 4% of ratios)",0.1107,No,No
+5022445,2026-03-31,train,29686.65,Withdrawal,Mumbai,0.613,488,"11.8× the customer's usual ₹2,514 (top 3% of ratios); transaction frequency 3 (lowest 1%); account 178 months old (top 1%)",0.1517,No,No
+5018539,2026-01-11,train,77554.03,Payment,Delhi,0.6129,489,"amount ₹77,554 (top 1% of amounts); 11.8× the customer's usual ₹6,585 (top 3% of ratios); at 02:00 (lowest 8% of hours)",0.1175,No,No
+5012346,2025-09-07,train,24854.33,Payment,Mumbai,0.6127,490,"31.9× the customer's usual ₹779 (top 1% of ratios); amount ₹24,854 (top 9% of amounts); customer's usual amount ₹779 (lowest 1%)",0.1154,No,No
+5011283,2025-08-17,train,49253.52,Payment,Mumbai,0.6127,491,"amount ₹49,254 (top 2% of amounts); 10.8× the customer's usual ₹4,579 (top 4% of ratios); transaction frequency 4 (lowest 1%)",0.1396,No,No
+5026642,2026-06-24,test,65973.71,Payment,Pune,0.6125,492,"amount ₹65,974 (top 1% of amounts); customer's usual amount ₹18,455 (top 4%); at 01:00 (lowest 4% of hours)",0.1028,No,No
+5026164,2026-06-14,test,60987.79,Transfer,Hyderabad,0.6125,493,"amount ₹60,988 (top 1% of amounts); 15.9× the customer's usual ₹3,833 (top 2% of ratios); account 17 months old (lowest 8%)",0.2297,Yes,Yes
+5014096,2025-10-13,train,70836.94,Payment,Kolkata,0.6124,494,"amount ₹70,837 (top 1% of amounts); 17.2× the customer's usual ₹4,127 (top 1% of ratios); at 04:00 (lowest 17% of hours)",0.1328,No,No
+5009112,2025-07-04,train,47729.27,Withdrawal,Bengaluru,0.6124,495,"18.5× the customer's usual ₹2,575 (top 1% of ratios); amount ₹47,729 (top 2% of amounts); account 20 months old (lowest 9%)",0.1916,Yes,No
+5010917,2025-08-09,train,83777.12,Payment,Chennai,0.6123,496,"amount ₹83,777 (top 1% of amounts); 6.7× the customer's usual ₹12,413 (top 8% of ratios); customer's usual amount ₹12,413 (top 12%)",0.167,Yes,No
+5020641,2026-02-22,train,59821.38,Payment,Hyderabad,0.6123,497,"amount ₹59,821 (top 1% of amounts); transaction frequency 16 (top 2%); 8.9× the customer's usual ₹6,755 (top 5% of ratios)",0.1361,No,No
+5002469,2025-02-19,train,19670.41,Transfer,Chennai,0.6123,498,24.8× the customer's usual ₹793 (top 1% of ratios); at 22:00 (top 8% of hours); customer's usual amount ₹793 (lowest 1%),0.0958,No,No
+5001649,2025-02-03,train,89805.35,Payment,Mumbai,0.612,499,"amount ₹89,805 (top 1% of amounts); 8.8× the customer's usual ₹10,256 (top 5% of ratios); customer's usual amount ₹10,256 (top 19%)",0.1181,No,No
+5019657,2026-02-02,train,51859.89,Payment,Hyderabad,0.612,500,"22.2× the customer's usual ₹2,338 (top 1% of ratios); amount ₹51,860 (top 2% of amounts)",0.2101,Yes,No
+5026449,2026-06-20,test,81155.96,Payment,Chennai,0.6118,501,"amount ₹81,156 (top 1% of amounts); 9.7× the customer's usual ₹8,382 (top 4% of ratios); account 160 months old (top 11%)",0.1107,No,No
+5024309,2026-05-07,test,60253.51,Transfer,Hyderabad,0.6117,502,"amount ₹60,254 (top 1% of amounts); 9.2× the customer's usual ₹6,558 (top 5% of ratios); transaction frequency 5 (lowest 4%)",0.1852,Yes,No
+5011127,2025-08-14,train,37213.62,Payment,Pune,0.6117,503,"22.3× the customer's usual ₹1,667 (top 1% of ratios); amount ₹37,214 (top 4% of amounts); at 02:00 (lowest 8% of hours)",0.1698,Yes,No
+5026885,2026-06-28,test,56555.66,Payment,Delhi,0.6116,504,"amount ₹56,556 (top 2% of amounts); 10.8× the customer's usual ₹5,250 (top 4% of ratios); at 23:00 (top 4% of hours)",0.1405,No,Yes
+5004349,2025-03-29,train,13381.66,Withdrawal,Pune,0.6115,505,"customer's usual amount ₹32,152 (top 1%); at 23:00 (top 4% of hours); transaction frequency 5 (lowest 4%)",0.0054,No,No
+5013259,2025-09-26,train,82926.18,Withdrawal,Delhi,0.6113,506,"amount ₹82,926 (top 1% of amounts); 14.2× the customer's usual ₹5,822 (top 2% of ratios)",0.1265,No,No
+5013196,2025-09-24,train,34355.78,Payment,Bengaluru,0.6113,507,"8.8× the customer's usual ₹3,917 (top 5% of ratios); transaction frequency 15 (top 4%); amount ₹34,356 (top 5% of amounts)",0.1312,No,No
+5021581,2026-03-13,train,36624.43,Withdrawal,Delhi,0.6113,508,"21.9× the customer's usual ₹1,672 (top 1% of ratios); amount ₹36,624 (top 4% of amounts); transaction frequency 13 (top 11%)",0.15,No,No
+5026007,2026-06-11,test,61660.29,Payment,Bengaluru,0.6113,509,"amount ₹61,660 (top 1% of amounts); customer's usual amount ₹18,229 (top 4%); account 7 months old (lowest 2%)",0.1017,No,No
+5023906,2026-04-29,train,73510.48,Payment,Pune,0.6111,510,"amount ₹73,510 (top 1% of amounts); 12.6× the customer's usual ₹5,817 (top 3% of ratios); account 164 months old (top 9%)",0.1285,No,No
+5004546,2025-04-02,train,29984.62,Payment,Pune,0.6111,511,"19.5× the customer's usual ₹1,541 (top 1% of ratios); amount ₹29,985 (top 6% of amounts); at 23:00 (top 4% of hours)",0.1509,No,No
+5016442,2025-11-29,train,29176.66,Payment,Hyderabad,0.6111,512,"27.6× the customer's usual ₹1,059 (top 1% of ratios); amount ₹29,177 (top 7% of amounts); customer's usual amount ₹1,059 (lowest 1%)",0.2082,Yes,No
+5006040,2025-05-03,train,77821.55,Withdrawal,Bengaluru,0.611,513,"amount ₹77,822 (top 1% of amounts); 14.1× the customer's usual ₹5,512 (top 2% of ratios); at 04:00 (lowest 17% of hours)",0.1346,No,No
+5025547,2026-06-01,test,24583.47,Transfer,Mumbai,0.611,514,"customer's usual amount ₹29,612 (top 1%); account 170 months old (top 6%); amount ₹24,583 (top 9% of amounts)",0.0145,No,No
+5015956,2025-11-19,train,65330.35,Payment,Bengaluru,0.611,515,"amount ₹65,330 (top 1% of amounts); 12.4× the customer's usual ₹5,283 (top 3% of ratios); transaction frequency 13 (top 11%)",0.128,No,No
+5029451,2026-08-19,test,53737.07,Transfer,Hyderabad,0.6107,516,"customer's usual amount ₹24,479 (top 2%); amount ₹53,737 (top 2% of amounts); at 21:00 (top 12% of hours)",0.0323,No,No
+5004450,2025-04-01,train,20118.13,Payment,Chennai,0.6104,517,"19.2× the customer's usual ₹1,050 (top 1% of ratios); at 00:00 (lowest 1% of hours); account 12 months old (lowest 5%)",0.0491,No,No
+5011178,2025-08-15,train,30506.26,Transfer,Pune,0.6101,518,"14.7× the customer's usual ₹2,076 (top 2% of ratios); transaction frequency 2 (lowest 1%); amount ₹30,506 (top 6% of amounts)",0.1946,Yes,No
+5029690,2026-08-24,test,77752.22,Withdrawal,Delhi,0.61,519,"amount ₹77,752 (top 1% of amounts); 11.4× the customer's usual ₹6,847 (top 3% of ratios); account 157 months old (top 13%)",0.1175,No,No
+5028790,2026-08-06,test,77919.8,Payment,Chennai,0.6098,520,"amount ₹77,920 (top 1% of amounts); 17.5× the customer's usual ₹4,464 (top 1% of ratios)",0.1365,No,No
+5025338,2026-05-28,test,25184.47,Transfer,Mumbai,0.6097,521,"customer's usual amount ₹26,565 (top 1%); transaction frequency 17 (top 1%); amount ₹25,184 (top 9% of amounts)",0.0177,No,No
+5001525,2025-01-31,train,22545.98,Withdrawal,Mumbai,0.6097,522,"32.2× the customer's usual ₹700 (top 1% of ratios); customer's usual amount ₹700 (lowest 1%); amount ₹22,546 (top 11% of amounts)",0.0741,No,No
+5029752,2026-08-25,test,4760.18,Transfer,Chennai,0.6096,523,"customer's usual amount ₹36,673 (top 1%); at 23:00 (top 4% of hours); account 168 months old (top 7%)",0.0168,No,No
+5009277,2025-07-07,train,24482.85,Withdrawal,Hyderabad,0.6092,524,"26.1× the customer's usual ₹940 (top 1% of ratios); amount ₹24,483 (top 9% of amounts); transaction frequency 5 (lowest 4%)",0.0479,No,No
+5014424,2025-10-19,train,63618.88,Transfer,Kolkata,0.6089,525,"amount ₹63,619 (top 1% of amounts); 11.2× the customer's usual ₹5,694 (top 3% of ratios); transaction frequency 14 (top 6%)",0.1825,Yes,No
+5005707,2025-04-26,train,24105.12,Payment,Bengaluru,0.6086,526,"32.6× the customer's usual ₹740 (top 1% of ratios); amount ₹24,105 (top 9% of amounts); customer's usual amount ₹740 (lowest 1%)",0.0718,No,No
+5028233,2026-07-26,test,64380.7,Payment,Bengaluru,0.6086,527,"amount ₹64,381 (top 1% of amounts); 14.8× the customer's usual ₹4,356 (top 2% of ratios); transaction frequency 13 (top 11%)",0.1365,No,No
+5023244,2026-04-16,train,47076.44,Transfer,Mumbai,0.6085,528,"23.5× the customer's usual ₹1,999 (top 1% of ratios); amount ₹47,076 (top 2% of amounts); account 151 months old (top 16%)",0.264,Yes,No
+5009338,2025-07-08,train,15389.83,Transfer,Chennai,0.6085,529,"customer's usual amount ₹35,152 (top 1%); at 22:00 (top 8% of hours); account 12 months old (lowest 5%)",0.0068,No,No
+5011223,2025-08-16,train,2812.09,Withdrawal,Chennai,0.6084,530,"customer's usual amount ₹48,981 (top 1%); at 01:00 (lowest 4% of hours); transaction frequency 5 (lowest 4%)",0.0048,No,No
+5000342,2025-01-07,train,46461.9,Payment,Hyderabad,0.6084,531,"18.6× the customer's usual ₹2,499 (top 1% of ratios); amount ₹46,462 (top 2% of amounts); at 21:00 (top 12% of hours)",0.209,Yes,No
+5003475,2025-03-12,train,70287.63,Withdrawal,Hyderabad,0.6084,532,"amount ₹70,288 (top 1% of amounts); 14.4× the customer's usual ₹4,878 (top 2% of ratios); transaction frequency 13 (top 11%)",0.1288,No,No
+5008648,2025-06-24,train,53437.51,Withdrawal,Hyderabad,0.6083,533,"amount ₹53,438 (top 2% of amounts); 12.5× the customer's usual ₹4,284 (top 3% of ratios); at 23:00 (top 4% of hours)",0.1523,No,No
+5023327,2026-04-17,train,1447.15,Payment,Bengaluru,0.608,534,"customer's usual amount ₹37,942 (top 1%); at 23:00 (top 4% of hours); transaction frequency 12 (top 18%)",0.0045,No,No
+5013376,2025-09-28,train,62792.68,Transfer,Chennai,0.6079,535,"amount ₹62,793 (top 1% of amounts); 17.9× the customer's usual ₹3,505 (top 1% of ratios); account 29 months old (lowest 14%)",0.2096,Yes,No
+5004750,2025-04-07,train,69947.84,Payment,Mumbai,0.6078,536,"amount ₹69,948 (top 1% of amounts); 5.3× the customer's usual ₹13,264 (top 11% of ratios); customer's usual amount ₹13,264 (top 10%)",0.1372,No,No
+5011427,2025-08-20,train,57086.48,Withdrawal,Hyderabad,0.6076,537,"18.8× the customer's usual ₹3,044 (top 1% of ratios); amount ₹57,086 (top 2% of amounts); transaction frequency 6 (lowest 10%)",0.1857,Yes,No
+5025747,2026-06-05,test,41462.93,Payment,Kolkata,0.6076,538,"amount ₹41,463 (top 3% of amounts); customer's usual amount ₹17,198 (top 5%); transaction frequency 15 (top 4%)",0.0297,No,No
+5016452,2025-11-29,train,65900.15,Withdrawal,Bengaluru,0.6075,539,"amount ₹65,900 (top 1% of amounts); 10.3× the customer's usual ₹6,388 (top 4% of ratios); account 13 months old (lowest 6%)",0.1208,No,No
+5023826,2026-04-28,train,9030.71,Payment,Delhi,0.6075,540,"customer's usual amount ₹25,993 (top 1%); transaction frequency 17 (top 1%); at 01:00 (lowest 4% of hours)",0.0052,No,No
+5015167,2025-11-03,train,11036.27,Payment,Kolkata,0.6074,541,"customer's usual amount ₹40,330 (top 1%); transaction frequency 4 (lowest 1%); at 20:00 (top 17% of hours)",0.0056,No,No
+5026430,2026-06-19,test,44066.3,Payment,Pune,0.6073,542,"20.7× the customer's usual ₹2,127 (top 1% of ratios); amount ₹44,066 (top 3% of amounts); account 163 months old (top 10%)",0.1822,Yes,No
+5008654,2025-06-25,train,69431.71,Payment,Delhi,0.6073,543,"amount ₹69,432 (top 1% of amounts); 15.4× the customer's usual ₹4,497 (top 2% of ratios); at 02:00 (lowest 8% of hours)",0.1398,No,No
+5000476,2025-01-10,train,34055.19,Payment,Kolkata,0.6073,544,"customer's usual amount ₹38,404 (top 1%); amount ₹34,055 (top 5% of amounts); transaction frequency 6 (lowest 10%)",0.0285,No,No
+5025391,2026-05-29,test,73631.04,Payment,Kolkata,0.6073,545,"amount ₹73,631 (top 1% of amounts); 14.6× the customer's usual ₹5,054 (top 2% of ratios); account 160 months old (top 11%)",0.128,No,No
+5008142,2025-06-14,train,11806.68,Payment,Pune,0.6072,546,"customer's usual amount ₹40,136 (top 1%); account 4 months old (lowest 1%); transaction frequency 6 (lowest 10%)",0.005,No,No
+5022265,2026-03-27,train,27670.21,Payment,Mumbai,0.607,547,"23.5× the customer's usual ₹1,179 (top 1% of ratios); amount ₹27,670 (top 7% of amounts); customer's usual amount ₹1,179 (lowest 1%)",0.1887,Yes,Yes
+5016997,2025-12-10,train,5771.74,Withdrawal,Chennai,0.6069,548,"customer's usual amount ₹63,799 (top 1%); at 21:00 (top 12% of hours); account 21 months old (lowest 10%)",0.0058,No,No
+5010984,2025-08-11,train,69776.24,Transfer,Chennai,0.6068,549,"amount ₹69,776 (top 1% of amounts); 17.4× the customer's usual ₹4,003 (top 1% of ratios)",0.1841,Yes,No
+5002643,2025-02-23,train,52456.8,Withdrawal,Mumbai,0.6068,550,"23.4× the customer's usual ₹2,243 (top 1% of ratios); amount ₹52,457 (top 2% of amounts)",0.1915,Yes,No
+5001728,2025-02-04,train,55762.34,Withdrawal,Pune,0.6068,551,"amount ₹55,762 (top 2% of amounts); 12.5× the customer's usual ₹4,450 (top 3% of ratios); at 22:00 (top 8% of hours)",0.1563,No,No
+5023651,2026-04-24,train,45146.36,Payment,Kolkata,0.6065,552,"17.0× the customer's usual ₹2,651 (top 2% of ratios); amount ₹45,146 (top 3% of amounts); transaction frequency 13 (top 11%)",0.1836,Yes,No
+5001863,2025-02-07,train,77789.88,Withdrawal,Bengaluru,0.6063,553,"amount ₹77,790 (top 1% of amounts); 10.7× the customer's usual ₹7,273 (top 4% of ratios); account 153 months old (top 15%)",0.1292,No,No
+5021637,2026-03-14,train,2070.67,Payment,Bengaluru,0.6063,554,"customer's usual amount ₹36,393 (top 1%); account 177 months old (top 2%); at 18:00 (top 25% of hours)",0.0046,No,No
+5026344,2026-06-18,test,30554.26,Payment,Kolkata,0.6062,555,"transaction frequency 2 (lowest 1%); customer's usual amount ₹16,888 (top 5%); amount ₹30,554 (top 6% of amounts)",0.0291,No,No
+5008906,2025-06-30,train,5020.7,Payment,Pune,0.6061,556,"customer's usual amount ₹49,476 (top 1%); transaction frequency 14 (top 6%); account 151 months old (top 16%)",0.0066,No,No
+5024989,2026-05-21,test,75450.69,Payment,Delhi,0.6061,557,"amount ₹75,451 (top 1% of amounts); 14.3× the customer's usual ₹5,272 (top 2% of ratios)",0.128,No,No
+5028791,2026-08-06,test,28006.61,Payment,Chennai,0.6061,558,"21.6× the customer's usual ₹1,296 (top 1% of ratios); amount ₹28,007 (top 7% of amounts); account 172 months old (top 4%)",0.1785,Yes,No
+5005972,2025-05-01,train,54542.49,Payment,Delhi,0.606,559,"amount ₹54,542 (top 2% of amounts); customer's usual amount ₹16,516 (top 6%); transaction frequency 13 (top 11%)",0.1109,No,No
+5024784,2026-05-17,test,69726.47,Payment,Mumbai,0.6059,560,"amount ₹69,726 (top 1% of amounts); 10.6× the customer's usual ₹6,591 (top 4% of ratios); account 15 months old (lowest 7%)",0.1107,No,No
+5020210,2026-02-13,train,2471.43,Transfer,Mumbai,0.6059,561,"customer's usual amount ₹30,362 (top 1%); transaction frequency 4 (lowest 1%); at 21:00 (top 12% of hours)",0.0057,No,No
+5012649,2025-09-13,train,12553.5,Transfer,Bengaluru,0.6058,562,20.0× the customer's usual ₹628 (top 1% of ratios); at 22:00 (top 8% of hours); customer's usual amount ₹628 (lowest 1%),0.0571,No,No
+5008259,2025-06-17,train,1385.58,Payment,Mumbai,0.6056,563,"customer's usual amount ₹35,490 (top 1%); transaction frequency 14 (top 6%); at 02:00 (lowest 8% of hours)",0.005,No,No
+5023037,2026-04-12,train,18091.22,Withdrawal,Pune,0.6056,564,22.6× the customer's usual ₹799 (top 1% of ratios); account 11 months old (lowest 5%); customer's usual amount ₹799 (lowest 1%),0.0901,No,No
+5023287,2026-04-17,train,18791.33,Payment,Bengaluru,0.6056,565,"16.2× the customer's usual ₹1,159 (top 2% of ratios); transaction frequency 15 (top 4%); customer's usual amount ₹1,159 (lowest 1%)",0.0458,No,No
+5000615,2025-01-13,train,50336.56,Transfer,Delhi,0.6055,566,"amount ₹50,337 (top 2% of amounts); account 179 months old (top 1%); transaction frequency 14 (top 6%)",0.2056,Yes,No
+5015788,2025-11-16,train,25524.5,Payment,Hyderabad,0.6055,567,"26.2× the customer's usual ₹973 (top 1% of ratios); amount ₹25,524 (top 8% of amounts); customer's usual amount ₹973 (lowest 1%)",0.2402,Yes,No
+5001878,2025-02-07,train,62682.19,Payment,Delhi,0.6054,568,"amount ₹62,682 (top 1% of amounts); 8.2× the customer's usual ₹7,626 (top 6% of ratios); at 23:00 (top 4% of hours)",0.1329,No,No
+5022129,2026-03-24,train,68224.0,Withdrawal,Mumbai,0.6054,569,"amount ₹68,224 (top 1% of amounts); 16.5× the customer's usual ₹4,128 (top 2% of ratios); transaction frequency 12 (top 18%)",0.1399,No,No
+5003620,2025-03-15,train,13292.6,Withdrawal,Pune,0.6054,570,"customer's usual amount ₹33,956 (top 1%); account 171 months old (top 5%); transaction frequency 5 (lowest 4%)",0.0057,No,No
+5008853,2025-06-29,train,63921.75,Payment,Chennai,0.6053,571,"amount ₹63,922 (top 1% of amounts); 6.1× the customer's usual ₹10,421 (top 9% of ratios); account 162 months old (top 10%)",0.1144,No,No
+5018188,2026-01-03,train,33795.66,Payment,Delhi,0.6053,572,"13.7× the customer's usual ₹2,475 (top 2% of ratios); amount ₹33,796 (top 5% of amounts); at 23:00 (top 4% of hours)",0.1648,Yes,No
+5022303,2026-03-28,train,46681.59,Transfer,Mumbai,0.6052,573,"23.6× the customer's usual ₹1,977 (top 1% of ratios); amount ₹46,682 (top 2% of amounts)",0.2597,Yes,No
+5009243,2025-07-07,train,3492.82,Withdrawal,Hyderabad,0.6052,574,"customer's usual amount ₹36,893 (top 1%); at 00:00 (lowest 1% of hours); transaction frequency 13 (top 11%)",0.0056,No,No
+5019837,2026-02-06,train,2677.52,Transfer,Hyderabad,0.6052,575,"customer's usual amount ₹70,943 (top 1%); account 178 months old (top 1%)",0.0081,No,No
+5012930,2025-09-19,train,74532.14,Withdrawal,Mumbai,0.6052,576,"amount ₹74,532 (top 1% of amounts); 8.0× the customer's usual ₹9,309 (top 6% of ratios); account 34 months old (lowest 17%)",0.1211,No,No
+5007483,2025-06-01,train,56908.86,Payment,Kolkata,0.6052,577,"amount ₹56,909 (top 2% of amounts); 9.4× the customer's usual ₹6,044 (top 4% of ratios); account 4 months old (lowest 1%)",0.1372,No,Yes
+5018308,2026-01-06,train,1898.66,Transfer,Pune,0.6052,578,"customer's usual amount ₹46,888 (top 1%); transaction frequency 4 (lowest 1%); account 38 months old (lowest 20%)",0.0062,No,No
+5028898,2026-08-08,test,32754.54,Transfer,Hyderabad,0.6049,579,"28.2× the customer's usual ₹1,162 (top 1% of ratios); amount ₹32,755 (top 5% of amounts); customer's usual amount ₹1,162 (lowest 1%)",0.2732,Yes,No
+5017441,2025-12-19,train,4258.04,Payment,Pune,0.6048,580,"customer's usual amount ₹69,005 (top 1%); transaction frequency 5 (lowest 4%); at 21:00 (top 12% of hours)",0.0046,No,No
+5027717,2026-07-15,test,39357.24,Withdrawal,Delhi,0.6048,581,"customer's usual amount ₹28,744 (top 1%); amount ₹39,357 (top 4% of amounts); transaction frequency 12 (top 18%)",0.0318,No,No
+5005752,2025-04-27,train,37767.99,Payment,Pune,0.6046,582,"customer's usual amount ₹23,719 (top 2%); amount ₹37,768 (top 4% of amounts); account 170 months old (top 6%)",0.0221,No,No
+5028757,2026-08-05,test,21897.89,Transfer,Bengaluru,0.6044,583,"transaction frequency 19 (top 1%); customer's usual amount ₹21,578 (top 3%); amount ₹21,898 (top 11% of amounts)",0.0112,No,No
+5008147,2025-06-14,train,58606.17,Payment,Pune,0.6044,584,"amount ₹58,606 (top 1% of amounts); 11.8× the customer's usual ₹4,969 (top 3% of ratios); account 10 months old (lowest 4%)",0.1363,No,Yes
+5011420,2025-08-20,train,20104.87,Transfer,Chennai,0.6044,585,"17.7× the customer's usual ₹1,139 (top 1% of ratios); transaction frequency 4 (lowest 1%); at 01:00 (lowest 4% of hours)",0.0574,No,No
+5015044,2025-11-01,train,58298.04,Withdrawal,Hyderabad,0.6043,586,"amount ₹58,298 (top 1% of amounts); transaction frequency 15 (top 4%); 4.9× the customer's usual ₹12,008 (top 12% of ratios)",0.1894,Yes,No
+5017730,2025-12-25,train,78866.65,Payment,Bengaluru,0.6043,587,"amount ₹78,867 (top 1% of amounts); 13.7× the customer's usual ₹5,748 (top 2% of ratios)",0.1217,No,Yes
+5011963,2025-08-31,train,57753.6,Withdrawal,Hyderabad,0.6041,588,"amount ₹57,754 (top 1% of amounts); 7.5× the customer's usual ₹7,664 (top 6% of ratios); at 00:00 (lowest 1% of hours)",0.1511,No,No
+5014621,2025-10-23,train,45101.29,Payment,Kolkata,0.604,589,"18.2× the customer's usual ₹2,482 (top 1% of ratios); amount ₹45,101 (top 3% of amounts); account 22 months old (lowest 11%)",0.1936,Yes,Yes
+5005693,2025-04-26,train,26226.07,Transfer,Delhi,0.6038,590,"24.5× the customer's usual ₹1,071 (top 1% of ratios); amount ₹26,226 (top 8% of amounts); customer's usual amount ₹1,071 (lowest 1%)",0.259,Yes,No
+5011446,2025-08-20,train,70303.34,Payment,Delhi,0.6037,591,"amount ₹70,303 (top 1% of amounts); customer's usual amount ₹17,533 (top 5%); 4.0× the customer's usual ₹17,533 (top 16% of ratios)",0.1157,No,No
+5026264,2026-06-16,test,69128.54,Withdrawal,Hyderabad,0.6037,592,"amount ₹69,129 (top 1% of amounts); 7.3× the customer's usual ₹9,511 (top 7% of ratios); transaction frequency 14 (top 6%)",0.1181,No,No
+5008544,2025-06-22,train,28892.97,Payment,Pune,0.6035,593,"22.4× the customer's usual ₹1,290 (top 1% of ratios); amount ₹28,893 (top 7% of amounts); customer's usual amount ₹1,290 (lowest 2%)",0.169,Yes,Yes
+5023130,2026-04-13,train,17236.17,Payment,Kolkata,0.6034,594,"customer's usual amount ₹30,937 (top 1%); at 23:00 (top 4% of hours); amount ₹17,236 (top 16% of amounts)",0.0086,No,No
+5014331,2025-10-17,train,55297.26,Payment,Mumbai,0.6033,595,"amount ₹55,297 (top 2% of amounts); 12.9× the customer's usual ₹4,281 (top 2% of ratios); at 22:00 (top 8% of hours)",0.1393,No,No
+5018763,2026-01-15,train,71974.43,Payment,Chennai,0.6033,596,"amount ₹71,974 (top 1% of amounts); 12.1× the customer's usual ₹5,928 (top 3% of ratios); account 47 months old (lowest 25%)",0.1315,No,No
+5014158,2025-10-14,train,44160.81,Withdrawal,Chennai,0.6032,597,"23.6× the customer's usual ₹1,869 (top 1% of ratios); amount ₹44,161 (top 3% of amounts); customer's usual amount ₹1,869 (lowest 6%)",0.2112,Yes,No
+5003706,2025-03-16,train,3304.67,Payment,Chennai,0.6031,598,"customer's usual amount ₹34,652 (top 1%); at 23:00 (top 4% of hours); account 26 months old (lowest 13%)",0.0066,No,No
+5005320,2025-04-18,train,68689.09,Payment,Bengaluru,0.603,599,"amount ₹68,689 (top 1% of amounts); 12.1× the customer's usual ₹5,659 (top 3% of ratios); account 169 months old (top 6%)",0.1171,No,No
+5015511,2025-11-10,train,8466.76,Payment,Pune,0.603,600,"customer's usual amount ₹26,708 (top 1%); transaction frequency 18 (top 1%); at 19:00 (top 21% of hours)",0.0052,No,No
+5016706,2025-12-05,train,59239.28,Withdrawal,Chennai,0.603,601,"amount ₹59,239 (top 1% of amounts); 10.3× the customer's usual ₹5,773 (top 4% of ratios); at 00:00 (lowest 1% of hours)",0.1521,No,No
+5007600,2025-06-03,train,46277.65,Transfer,Chennai,0.6027,602,"customer's usual amount ₹26,061 (top 1%); amount ₹46,278 (top 2% of amounts)",0.0324,No,No
+5018872,2026-01-17,train,34696.96,Payment,Delhi,0.6027,603,"customer's usual amount ₹36,302 (top 1%); amount ₹34,697 (top 5% of amounts); at 20:00 (top 17% of hours)",0.0201,No,No
+5024259,2026-05-06,test,15432.55,Payment,Kolkata,0.6026,604,"customer's usual amount ₹47,398 (top 1%); account 9 months old (lowest 4%); at 20:00 (top 17% of hours)",0.0065,No,No
+5011048,2025-08-12,train,7228.3,Transfer,Chennai,0.6026,605,"customer's usual amount ₹34,804 (top 1%); transaction frequency 3 (lowest 1%)",0.0079,No,No
+5019269,2026-01-25,train,40255.12,Withdrawal,Delhi,0.6025,606,"amount ₹40,255 (top 3% of amounts); 9.1× the customer's usual ₹4,409 (top 5% of ratios); transaction frequency 4 (lowest 1%)",0.1516,No,No
+5013255,2025-09-26,train,47398.03,Payment,Bengaluru,0.6024,607,"amount ₹47,398 (top 2% of amounts); 8.0× the customer's usual ₹5,950 (top 6% of ratios); transaction frequency 4 (lowest 1%)",0.1513,No,No
+5028209,2026-07-25,test,22235.49,Payment,Chennai,0.6022,608,"customer's usual amount ₹30,256 (top 1%); account 179 months old (top 1%); amount ₹22,235 (top 11% of amounts)",0.0112,No,No
+5011081,2025-08-13,train,54321.58,Payment,Delhi,0.6022,609,"amount ₹54,322 (top 2% of amounts); 10.0× the customer's usual ₹5,454 (top 4% of ratios); account 170 months old (top 6%)",0.1333,No,Yes
+5026501,2026-06-21,test,55406.06,Payment,Pune,0.6021,610,"amount ₹55,406 (top 2% of amounts); 8.9× the customer's usual ₹6,245 (top 5% of ratios); account 4 months old (lowest 1%)",0.143,No,No
+5027596,2026-07-13,test,82173.91,Transfer,Mumbai,0.6019,611,"amount ₹82,174 (top 1% of amounts); 8.2× the customer's usual ₹10,048 (top 6% of ratios); customer's usual amount ₹10,048 (top 19%)",0.1471,No,Yes
+5021906,2026-03-20,train,40296.2,Withdrawal,Delhi,0.6019,612,"14.1× the customer's usual ₹2,851 (top 2% of ratios); amount ₹40,296 (top 3% of amounts); account 174 months old (top 3%)",0.1917,Yes,Yes
+5025712,2026-06-05,test,2582.29,Withdrawal,Kolkata,0.6018,613,"customer's usual amount ₹29,629 (top 1%); transaction frequency 16 (top 2%)",0.0052,No,No
+5026940,2026-06-30,test,32055.71,Withdrawal,Pune,0.6018,614,"17.6× the customer's usual ₹1,821 (top 1% of ratios); amount ₹32,056 (top 6% of amounts); transaction frequency 14 (top 6%)",0.1539,No,No
+5012889,2025-09-18,train,55820.51,Payment,Delhi,0.6017,615,"amount ₹55,821 (top 2% of amounts); 6.6× the customer's usual ₹8,477 (top 8% of ratios); account 6 months old (lowest 2%)",0.1391,No,No
+5027315,2026-07-07,test,2491.23,Withdrawal,Kolkata,0.6017,616,"customer's usual amount ₹52,291 (top 1%); account 167 months old (top 7%)",0.005,No,No
+5028425,2026-07-30,test,60292.65,Payment,Delhi,0.6017,617,"amount ₹60,293 (top 1% of amounts); 15.0× the customer's usual ₹4,016 (top 2% of ratios); at 03:00 (lowest 13% of hours)",0.1665,Yes,No
+5020201,2026-02-13,train,55264.64,Payment,Delhi,0.6017,618,"amount ₹55,265 (top 2% of amounts); customer's usual amount ₹16,266 (top 6%); account 177 months old (top 2%)",0.1184,No,No
+5019431,2026-01-29,train,61315.97,Transfer,Pune,0.6017,619,"amount ₹61,316 (top 1% of amounts); 6.3× the customer's usual ₹9,790 (top 8% of ratios); account 174 months old (top 3%)",0.171,Yes,No
+5014634,2025-10-24,train,38255.66,Withdrawal,Chennai,0.6016,620,"18.1× the customer's usual ₹2,115 (top 1% of ratios); amount ₹38,256 (top 4% of amounts); transaction frequency 13 (top 11%)",0.1738,Yes,No
+5029850,2026-08-27,test,2679.82,Withdrawal,Kolkata,0.6016,621,"customer's usual amount ₹42,148 (top 1%); at 23:00 (top 4% of hours)",0.005,No,No
+5017689,2025-12-24,train,35288.13,Payment,Kolkata,0.6015,622,"18.5× the customer's usual ₹1,903 (top 1% of ratios); amount ₹35,288 (top 5% of amounts); at 21:00 (top 12% of hours)",0.1758,Yes,No
+5008712,2025-06-26,train,51852.83,Payment,Mumbai,0.6015,623,"amount ₹51,853 (top 2% of amounts); transaction frequency 4 (lowest 1%); 5.9× the customer's usual ₹8,758 (top 9% of ratios)",0.1335,No,No
+5021355,2026-03-09,train,44843.51,Withdrawal,Delhi,0.6014,624,"amount ₹44,844 (top 3% of amounts); 8.4× the customer's usual ₹5,358 (top 5% of ratios); account 177 months old (top 2%)",0.1569,No,No
+5002861,2025-02-27,train,18800.47,Payment,Delhi,0.6014,625,"customer's usual amount ₹40,807 (top 1%); account 8 months old (lowest 3%); amount ₹18,800 (top 14% of amounts)",0.007,No,No
+5002323,2025-02-16,train,39036.0,Withdrawal,Kolkata,0.6014,626,"12.4× the customer's usual ₹3,136 (top 3% of ratios); amount ₹39,036 (top 4% of amounts); at 23:00 (top 4% of hours)",0.1657,Yes,Yes
+5019947,2026-02-08,train,28394.02,Withdrawal,Kolkata,0.6014,627,"17.6× the customer's usual ₹1,613 (top 1% of ratios); transaction frequency 15 (top 4%); amount ₹28,394 (top 7% of amounts)",0.1338,No,No
+5004187,2025-03-26,train,24176.54,Payment,Hyderabad,0.6014,628,"25.7× the customer's usual ₹941 (top 1% of ratios); amount ₹24,177 (top 9% of amounts); customer's usual amount ₹941 (lowest 1%)",0.0652,No,No
+5017893,2025-12-29,train,12881.16,Withdrawal,Bengaluru,0.6012,629,"customer's usual amount ₹26,424 (top 1%); at 00:00 (lowest 1% of hours); transaction frequency 14 (top 6%)",0.0055,No,No
+5028814,2026-08-07,test,12999.43,Payment,Chennai,0.6012,630,"customer's usual amount ₹27,287 (top 1%); at 00:00 (lowest 1% of hours); transaction frequency 14 (top 6%)",0.0055,No,No
+5012627,2025-09-13,train,91387.65,Payment,Hyderabad,0.6011,631,"amount ₹91,388 (top 1% of amounts); 9.7× the customer's usual ₹9,416 (top 4% of ratios); customer's usual amount ₹9,416 (top 22%)",0.1073,No,No
+5013972,2025-10-10,train,24961.86,Withdrawal,Mumbai,0.6009,632,"customer's usual amount ₹25,854 (top 1%); transaction frequency 15 (top 4%); amount ₹24,962 (top 9% of amounts)",0.0239,No,No
+5000938,2025-01-19,train,52830.78,Withdrawal,Chennai,0.6007,633,"amount ₹52,831 (top 2% of amounts); 7.3× the customer's usual ₹7,217 (top 7% of ratios); at 23:00 (top 4% of hours)",0.1353,No,Yes
+5001096,2025-01-23,train,52763.83,Payment,Kolkata,0.6007,634,"14.7× the customer's usual ₹3,588 (top 2% of ratios); amount ₹52,764 (top 2% of amounts); transaction frequency 5 (lowest 4%)",0.1738,Yes,No
+5018234,2026-01-04,train,70015.3,Payment,Hyderabad,0.6006,635,"amount ₹70,015 (top 1% of amounts); 8.2× the customer's usual ₹8,505 (top 6% of ratios); at 22:00 (top 8% of hours)",0.1159,No,No
+5017191,2025-12-14,train,44785.49,Transfer,Bengaluru,0.6006,636,"13.7× the customer's usual ₹3,269 (top 2% of ratios); amount ₹44,785 (top 3% of amounts); transaction frequency 4 (lowest 1%)",0.2391,Yes,Yes
+5013244,2025-09-25,train,35281.77,Withdrawal,Pune,0.6006,637,"18.8× the customer's usual ₹1,878 (top 1% of ratios); amount ₹35,282 (top 5% of amounts); at 23:00 (top 4% of hours)",0.1619,No,Yes
+5018430,2026-01-08,train,61229.76,Payment,Bengaluru,0.6006,638,"amount ₹61,230 (top 1% of amounts); customer's usual amount ₹16,402 (top 6%); at 21:00 (top 12% of hours)",0.153,No,No
+5013750,2025-10-06,train,35705.69,Transfer,Bengaluru,0.6006,639,"22.3× the customer's usual ₹1,602 (top 1% of ratios); amount ₹35,706 (top 4% of amounts); customer's usual amount ₹1,602 (lowest 4%)",0.2016,Yes,No
+5021616,2026-03-14,train,51668.75,Payment,Delhi,0.6004,640,"amount ₹51,669 (top 2% of amounts); 11.1× the customer's usual ₹4,665 (top 3% of ratios); transaction frequency 15 (top 4%)",0.1442,No,No
+5007039,2025-05-23,train,77098.93,Withdrawal,Kolkata,0.6004,641,"amount ₹77,099 (top 1% of amounts); 6.1× the customer's usual ₹12,539 (top 9% of ratios); customer's usual amount ₹12,539 (top 12%)",0.1705,Yes,No
+5010119,2025-07-24,train,9277.57,Transfer,Pune,0.6003,642,"customer's usual amount ₹41,180 (top 1%); account 172 months old (top 4%)",0.0078,No,No
+5027848,2026-07-18,test,57281.49,Payment,Delhi,0.6003,643,"amount ₹57,281 (top 2% of amounts); transaction frequency 3 (lowest 1%); 7.0× the customer's usual ₹8,189 (top 7% of ratios)",0.141,No,No
+5012471,2025-09-10,train,8758.29,Transfer,Kolkata,0.6002,644,"customer's usual amount ₹73,916 (top 1%); account 167 months old (top 7%)",0.0141,No,No
+5003409,2025-03-10,train,58042.4,Payment,Hyderabad,0.6002,645,"amount ₹58,042 (top 1% of amounts); 12.4× the customer's usual ₹4,664 (top 3% of ratios); at 22:00 (top 8% of hours)",0.1447,No,No
+5018493,2026-01-10,train,72205.26,Transfer,Hyderabad,0.6002,646,"amount ₹72,205 (top 1% of amounts); 14.0× the customer's usual ₹5,169 (top 2% of ratios); at 04:00 (lowest 17% of hours)",0.1846,Yes,No
+5021847,2026-03-19,train,11679.19,Payment,Kolkata,0.6002,647,"customer's usual amount ₹42,785 (top 1%); at 00:00 (lowest 1% of hours)",0.0051,No,No
+5006798,2025-05-18,train,55387.08,Transfer,Hyderabad,0.6002,648,"17.6× the customer's usual ₹3,142 (top 1% of ratios); amount ₹55,387 (top 2% of amounts); account 29 months old (lowest 14%)",0.2517,Yes,No
+5018087,2026-01-01,train,24987.62,Withdrawal,Kolkata,0.6001,649,"20.2× the customer's usual ₹1,239 (top 1% of ratios); at 22:00 (top 8% of hours); amount ₹24,988 (top 9% of amounts)",0.0601,No,No
+5021701,2026-03-16,train,1519.86,Transfer,Delhi,0.6001,650,"customer's usual amount ₹34,023 (top 1%); account 174 months old (top 3%); at 01:00 (lowest 4% of hours)",0.005,No,No
+5016145,2025-11-23,train,73008.62,Payment,Bengaluru,0.5999,651,"amount ₹73,009 (top 1% of amounts); 5.8× the customer's usual ₹12,685 (top 10% of ratios); customer's usual amount ₹12,685 (top 12%)",0.1692,Yes,No
+5008053,2025-06-12,train,35567.24,Transfer,Bengaluru,0.5998,652,"13.9× the customer's usual ₹2,553 (top 2% of ratios); amount ₹35,567 (top 4% of amounts); transaction frequency 4 (lowest 1%)",0.2125,Yes,No
+5009439,2025-07-10,train,49016.49,Payment,Bengaluru,0.5997,653,"amount ₹49,016 (top 2% of amounts); customer's usual amount ₹15,251 (top 7%); at 23:00 (top 4% of hours)",0.0818,No,No
+5009246,2025-07-07,train,50710.49,Payment,Delhi,0.5997,654,"amount ₹50,710 (top 2% of amounts); transaction frequency 4 (lowest 1%); 7.1× the customer's usual ₹7,192 (top 7% of ratios)",0.1441,No,No
+5017638,2025-12-23,train,45212.68,Withdrawal,Delhi,0.5996,655,"17.0× the customer's usual ₹2,665 (top 2% of ratios); amount ₹45,213 (top 3% of amounts); at 20:00 (top 17% of hours)",0.1905,Yes,No
+5005989,2025-05-02,train,72705.89,Payment,Hyderabad,0.5996,656,"amount ₹72,706 (top 1% of amounts); 10.7× the customer's usual ₹6,804 (top 4% of ratios); at 03:00 (lowest 13% of hours)",0.1186,No,No
+5004313,2025-03-29,train,1227.66,Payment,Hyderabad,0.5996,657,"customer's usual amount ₹50,340 (top 1%); transaction frequency 13 (top 11%); amount ₹1,228 (lowest 5% of amounts)",0.0046,No,No
+5017061,2025-12-12,train,68179.43,Withdrawal,Hyderabad,0.5996,658,"amount ₹68,179 (top 1% of amounts); 8.3× the customer's usual ₹8,176 (top 5% of ratios); account 162 months old (top 10%)",0.1243,No,No
+5019140,2026-01-23,train,9608.3,Payment,Bengaluru,0.5994,659,13.4× the customer's usual ₹715 (top 2% of ratios); transaction frequency 15 (top 4%); account 7 months old (lowest 2%),0.039,No,No
+5027000,2026-07-01,test,75454.99,Transfer,Mumbai,0.5994,660,"amount ₹75,455 (top 1% of amounts); 11.3× the customer's usual ₹6,694 (top 3% of ratios); account 151 months old (top 16%)",0.1631,No,No
+5017673,2025-12-24,train,43718.95,Payment,Bengaluru,0.5994,661,"18.8× the customer's usual ₹2,330 (top 1% of ratios); amount ₹43,719 (top 3% of amounts); account 166 months old (top 8%)",0.2064,Yes,No
+5006597,2025-05-14,train,35635.52,Withdrawal,Bengaluru,0.5993,662,"transaction frequency 3 (lowest 1%); amount ₹35,636 (top 4% of amounts); customer's usual amount ₹16,493 (top 6%)",0.0286,No,No
+5010169,2025-07-25,train,62846.79,Transfer,Bengaluru,0.5993,663,"amount ₹62,847 (top 1% of amounts); 8.4× the customer's usual ₹7,460 (top 5% of ratios); account 177 months old (top 2%)",0.1699,Yes,No
+5018880,2026-01-17,train,51579.58,Payment,Bengaluru,0.5992,664,"amount ₹51,580 (top 2% of amounts); 7.9× the customer's usual ₹6,570 (top 6% of ratios); at 23:00 (top 4% of hours)",0.1362,No,Yes
+5004530,2025-04-02,train,5902.81,Transfer,Bengaluru,0.5991,665,"customer's usual amount ₹36,847 (top 1%); account 176 months old (top 2%)",0.0087,No,No
+5021938,2026-03-20,train,63817.43,Payment,Mumbai,0.5991,666,"amount ₹63,817 (top 1% of amounts); 7.6× the customer's usual ₹8,445 (top 6% of ratios); at 20:00 (top 17% of hours)",0.128,No,No
+5017261,2025-12-16,train,54971.45,Payment,Mumbai,0.599,667,"amount ₹54,971 (top 2% of amounts); 11.5× the customer's usual ₹4,765 (top 3% of ratios); transaction frequency 5 (lowest 4%)",0.1386,No,No
+5002671,2025-02-24,train,58396.26,Payment,Pune,0.599,668,"amount ₹58,396 (top 1% of amounts); at 00:00 (lowest 1% of hours); customer's usual amount ₹13,159 (top 11%)",0.1578,No,No
+5025250,2026-05-26,test,21152.06,Payment,Pune,0.5989,669,"22.7× the customer's usual ₹930 (top 1% of ratios); amount ₹21,152 (top 12% of amounts); customer's usual amount ₹930 (lowest 1%)",0.0731,No,No
+5018988,2026-01-20,train,79994.3,Payment,Pune,0.5984,670,"amount ₹79,994 (top 1% of amounts); 8.4× the customer's usual ₹9,551 (top 5% of ratios); customer's usual amount ₹9,551 (top 21%)",0.0992,No,Yes
+5027080,2026-07-02,test,24569.85,Payment,Bengaluru,0.5982,671,"customer's usual amount ₹24,076 (top 2%); transaction frequency 3 (lowest 1%); amount ₹24,570 (top 9% of amounts)",0.013,No,No
+5015030,2025-11-01,train,21280.37,Payment,Pune,0.5981,672,"customer's usual amount ₹34,894 (top 1%); amount ₹21,280 (top 12% of amounts); at 02:00 (lowest 8% of hours)",0.0081,No,No
+5006468,2025-05-11,train,57737.99,Transfer,Chennai,0.5981,673,"amount ₹57,738 (top 1% of amounts); 5.0× the customer's usual ₹11,489 (top 12% of ratios); transaction frequency 5 (lowest 4%)",0.2176,Yes,No
+5013473,2025-09-30,train,75251.47,Payment,Mumbai,0.5978,674,"amount ₹75,251 (top 1% of amounts); 14.5× the customer's usual ₹5,181 (top 2% of ratios)",0.1398,No,No
+5002816,2025-02-26,train,1043.01,Payment,Pune,0.5978,675,"customer's usual amount ₹24,370 (top 2%); at 23:00 (top 4% of hours); account 169 months old (top 6%)",0.0068,No,No
+5027521,2026-07-11,test,28421.38,Payment,Delhi,0.5976,676,"15.2× the customer's usual ₹1,864 (top 2% of ratios); transaction frequency 15 (top 4%); amount ₹28,421 (top 7% of amounts)",0.1514,No,No
+5019352,2026-01-27,train,41385.53,Transfer,Pune,0.5976,677,"20.9× the customer's usual ₹1,979 (top 1% of ratios); amount ₹41,386 (top 3% of amounts); transaction frequency 12 (top 18%)",0.2624,Yes,No
+5020247,2026-02-14,train,71068.69,Payment,Bengaluru,0.5976,678,"amount ₹71,069 (top 1% of amounts); customer's usual amount ₹16,993 (top 5%); 4.2× the customer's usual ₹16,993 (top 15% of ratios)",0.1223,No,No
+5004460,2025-04-01,train,66288.68,Payment,Hyderabad,0.5975,679,"amount ₹66,289 (top 1% of amounts); 5.2× the customer's usual ₹12,687 (top 11% of ratios); customer's usual amount ₹12,687 (top 12%)",0.1492,No,No
+5011716,2025-08-26,train,6484.09,Payment,Kolkata,0.5975,680,"customer's usual amount ₹33,780 (top 1%); at 00:00 (lowest 1% of hours); transaction frequency 5 (lowest 4%)",0.0062,No,No

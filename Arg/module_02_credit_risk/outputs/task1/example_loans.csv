@@ -1,0 +1,4 @@
+Example,Loan_ID,Customer_Type,Loan (₹ lakh),Credit_Score,Debt_to_Income,Past_Default,Rate charged (%),Champion PD,Challenger PD,Expected loss (₹ lakh),Actually defaulted?,Top 3 drivers (SHAP push)
+Low risk,200656,Retail,1.9706313,820,0.333,0,7.56,0.10136417740088934,0.04922901645890363,0.03880489628085227,No,Credit_Score -0.85; Loan_Amount -0.16; Loan_to_Income -0.13
+Middle,201102,Corporate,1.0638049,755,0.417,1,9.89,0.1979520783823806,0.1788650646175219,0.07611101287157458,No,Past_Default +0.96; Credit_Score -0.43; Total_Debt_to_Income -0.22
+High risk,201025,Retail,22.8448591,540,0.09,1,15.38,0.609643529457486,0.5672816860844305,5.183788075443699,Yes,Credit_Score +0.96; Past_Default +0.96; Debt_to_Income -0.70

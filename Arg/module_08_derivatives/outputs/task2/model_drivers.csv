@@ -1,0 +1,8 @@
+Input,In plain words,Worsening when shuffled (₹ per option)
+S/K,How far the stock is from the strike,126.1077
+Is call,Call or put,124.0944
+Vol x sqrt(T),Total expected swing until the end,43.7567
+ln(S/K),"Same, on a log scale",16.014
+Time_to_Maturity,Time left,15.9282
+Volatility,How much the stock swings,7.8352
+Interest_Rate,Interest rate,2.5

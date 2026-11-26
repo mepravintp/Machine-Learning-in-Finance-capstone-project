@@ -1,0 +1,4 @@
+Segment,Loans,₹ lent (crore),Default rate,Default rate (money),Average loan (₹ lakh),Interest rate (₹-weighted),Average credit score,Average debt-to-income,Past default share,Interest − actual loss at 40% (crore)
+Corporate,1306.0,173.2242,0.1998,0.2558,13.2637,0.1037,687.7435,0.3829,0.1118,0.2471
+Retail,3694.0,466.4287,0.1992,0.2412,12.6267,0.1025,688.9256,0.3873,0.111,2.8277
+Whole book,5000.0,639.6529,0.1994,0.2451,12.7931,0.1029,688.6168,0.3861,0.1112,3.0748

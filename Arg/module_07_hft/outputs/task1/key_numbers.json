@@ -1,0 +1,104 @@
+{
+ "events": 120000,
+ "train_tune_test": [
+  84054,
+  18070,
+  17876
+ ],
+ "line_inputs": 0.0019,
+ "line_models": 0.0167,
+ "inputs_passing": 22,
+ "chosen": "Logistic regression",
+ "base_accuracy_test": 0.4196,
+ "market_obi_auc": [
+  0.7795,
+  0.7795
+ ],
+ "test": {
+  "OBI alone": {
+   "auc": 0.7811,
+   "log_loss": 0.9175,
+   "accuracy": 0.6008,
+   "macro_f1": 0.4367,
+   "p_vs_obi": null
+  },
+  "Logistic regression": {
+   "auc": 0.7914,
+   "log_loss": 0.9076,
+   "accuracy": 0.6059,
+   "macro_f1": 0.4403,
+   "p_vs_obi": 0.0
+  },
+  "Random forest": {
+   "auc": 0.7888,
+   "log_loss": 0.91,
+   "accuracy": 0.606,
+   "macro_f1": 0.4404,
+   "p_vs_obi": 0.0
+  },
+  "LightGBM": {
+   "auc": 0.7889,
+   "log_loss": 0.9116,
+   "accuracy": 0.6046,
+   "macro_f1": 0.4394,
+   "p_vs_obi": 0.0
+  }
+ },
+ "no_move_chance_range": [
+  0.0494,
+  0.2238
+ ],
+ "overfit_gap": {
+  "OBI alone": 0.0049,
+  "Logistic regression": 0.0026,
+  "Random forest": 0.043,
+  "LightGBM": 0.0529
+ },
+ "shuffle": {
+  "p": 0.0099,
+  "null_mean": 0.5422,
+  "null_range": [
+   0.4166,
+   0.6715
+  ]
+ },
+ "by_stock_auc_range": [
+  0.7743,
+  0.8061
+ ],
+ "stocks_beating_obi": 10,
+ "days_beating_obi": 3,
+ "top_drivers": [
+  [
+   "OBI_Level1",
+   2.3941
+  ],
+  [
+   "Spread_ticks",
+   0.742
+  ],
+  [
+   "OBI_L2",
+   1.2814
+  ],
+  [
+   "Order_Arrival_Rate",
+   1.1196
+  ],
+  [
+   "Cancellation_Rate",
+   0.9114
+  ]
+ ],
+ "task2_review": {
+  "slope_bps_per_lean": 7.0914,
+  "spread_most_vs_least_confident": [
+   1.7706,
+   1.1034
+  ],
+  "no_move_most_vs_least_confident": [
+   0.1046,
+   0.2092
+  ]
+ }
+}

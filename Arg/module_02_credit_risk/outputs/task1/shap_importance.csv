@@ -1,0 +1,16 @@
+Input,Mean |SHAP|
+Credit_Score,0.36711943438982875
+Debt_to_Income,0.34830882193835455
+Past_Default,0.21307626460587492
+Loan_Amount,0.11225152132373317
+Loan_to_Income,0.10489699698092225
+Total_Debt_to_Income,0.09382139674513978
+Collateral_Value,0.02401899175669807
+Loan_Term_Months,0.0
+Existing_Loan,0.0
+Annual_Income,0.0
+Employment_Length,0.0
+Loan_to_Value,0.0
+Sector_Risk,0.0
+Principal_to_Income,0.0
+Customer_Type_Retail,0.0

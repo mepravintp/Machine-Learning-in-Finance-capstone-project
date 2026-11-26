@@ -1,0 +1,7 @@
+Growth_measure,ROI_measure,Pearson_r,Pearson_p,Spearman_rho,Spearman_p,Slope_ROI_per_1pt_growth
+Business_Growth,Expected_ROI,0.5606,0.0,0.5558,0.0,0.9122
+Business_Growth,Cash_Return_Pct,0.3278,0.0,0.3262,0.0,1.2362
+GDP_Growth,Expected_ROI,0.1179,0.115,0.1225,0.1014,0.3335
+GDP_Growth,Cash_Return_Pct,0.0624,0.4051,0.0354,0.6371,0.4092
+Revenue_Growth_Y1_Y3,Expected_ROI,0.0345,0.6458,0.0508,0.4986,0.0123
+Revenue_Growth_Y1_Y3,Cash_Return_Pct,0.2209,0.0029,0.1936,0.0092,0.1824

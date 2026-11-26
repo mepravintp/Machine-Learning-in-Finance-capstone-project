@@ -1,0 +1,83 @@
+{
+ "model": "Logistic regression",
+ "rule": "cost-aware",
+ "slope_bps_per_lean": 7.0914,
+ "margin_bps": 0.0,
+ "old_rule_cutoff": 0.7,
+ "old_rule_test": {
+  "trades": 868,
+  "per_trade_rupees": 515.977,
+  "total_lakh": 4.4787
+ },
+ "charges_bps": 3.5,
+ "test1": {
+  "trades": 1473,
+  "share": 0.0824,
+  "per_trade_rupees": {
+   "Before costs (move captured)": 4993.5723,
+   "After the bid–ask spread": 4200.0421,
+   "After spread and charges": 700.0421
+  },
+  "total_lakh": {
+   "Before costs (move captured)": 73.5553,
+   "After the bid–ask spread": 61.8666,
+   "After spread and charges": 10.3116
+  },
+  "outcome_shares": {
+   "Right way": 0.7766,
+   "Wrong way": 0.1154,
+   "No move": 0.1079
+  },
+  "p_luck": 0.001,
+  "days_positive": 3,
+  "enough_value": true,
+  "total_range_lakh": [
+   6.3627,
+   14.0815
+  ],
+  "stocks_profitable": 8,
+  "avg_spread_paid": 793.5302,
+  "charges_sensitivity_total_lakh": {
+   "2.5": [
+    43.6249,
+    25.0416
+   ],
+   "3.0": [
+    25.8275,
+    17.6766
+   ],
+   "3.5": [
+    10.3116,
+    10.3116
+   ],
+   "4.0": [
+    2.9966,
+    2.9466
+   ],
+   "4.5": [
+    0.7252,
+    -4.4184
+   ]
+  }
+ },
+ "test2": {
+  "saving_rupees_per_crore": 1314.8833,
+  "range": [
+   1272.241,
+   1356.0807
+  ],
+  "p_luck": 0.001,
+  "share_delayed": 0.5,
+  "delays_paid": 0.6908,
+  "per_100cr_day_lakh": 1.3149,
+  "per_100cr_day_year_crore": 3.4318,
+  "buy": 1331.6423,
+  "sell": 1298.1242,
+  "wrong_delay_cost": 3223.1826
+ },
+ "recommendation": "Both: time the desk's own orders now, and run the cost-aware trading rule as a measured pilot",
+ "module9": {
+  "equity_turnover_year": 0.7848,
+  "timing_on_equity_pct_year": 0.0103
+ }
+}

@@ -1,0 +1,100 @@
+{
+ "line": 0.0476,
+ "calibration_ok": true,
+ "sweep_cut": 0.071,
+ "anomaly_cut": 0.5251,
+ "test": {
+  "The line: P(fraud) > 4.76%": {
+   "Investigated per 1,000": 79.0,
+   "Frauds caught": 0.5208,
+   "Fraud ₹ caught": 0.7975,
+   "Frauds missed per 1,000": 11.5,
+   "Honest checked per 1,000": 66.5,
+   "Cost per 1,000 (₹)": 148250.0,
+   "Saving vs nothing per 1,000 (₹)": 91750.0,
+   "Saving %": 0.3823
+  },
+  "Sweep's cut-off: P(fraud) ≥ 7.10%": {
+   "Investigated per 1,000": 75.5,
+   "Frauds caught": 0.5139,
+   "Fraud ₹ caught": 0.7906,
+   "Frauds missed per 1,000": 11.6667,
+   "Honest checked per 1,000": 63.1667,
+   "Cost per 1,000 (₹)": 148250.0,
+   "Saving vs nothing per 1,000 (₹)": 91750.0,
+   "Saving %": 0.3823
+  },
+  "Anomaly score, sweep's cut-off": {
+   "Investigated per 1,000": 90.1667,
+   "Frauds caught": 0.2986,
+   "Fraud ₹ caught": 0.5591,
+   "Frauds missed per 1,000": 16.8333,
+   "Honest checked per 1,000": 83.0,
+   "Cost per 1,000 (₹)": 209833.3333,
+   "Saving vs nothing per 1,000 (₹)": 30166.6667,
+   "Saving %": 0.1257
+  },
+  "Investigate nothing": {
+   "Investigated per 1,000": 0.0,
+   "Frauds caught": 0.0,
+   "Fraud ₹ caught": 0.0,
+   "Frauds missed per 1,000": 24.0,
+   "Honest checked per 1,000": 0.0,
+   "Cost per 1,000 (₹)": 240000.0,
+   "Saving vs nothing per 1,000 (₹)": 0.0,
+   "Saving %": 0.0
+  },
+  "Investigate everything": {
+   "Investigated per 1,000": 1000.0,
+   "Frauds caught": 1.0,
+   "Fraud ₹ caught": 1.0,
+   "Frauds missed per 1,000": 0.0,
+   "Honest checked per 1,000": 976.0,
+   "Cost per 1,000 (₹)": 488000.0,
+   "Saving vs nothing per 1,000 (₹)": -248000.0,
+   "Saving %": -1.0333
+  }
+ },
+ "finance": {
+  "Base rule: P(fraud) > 4.76%": {
+   "Investigated per 1,000": 79.0,
+   "Frauds caught": 0.5208,
+   "Fraud ₹ caught": 0.7975,
+   "Fraud ₹ let through per 1,000": 134800.3483,
+   "Checking cost per 1,000": 33250.0,
+   "Real cost per 1,000 (₹)": 168050.3483,
+   "Real saving vs nothing per 1,000 (₹)": 497654.8117
+  },
+  "Finance-view rule: P × amount > (1 − P) × ₹500": {
+   "Investigated per 1,000": 156.6667,
+   "Frauds caught": 0.625,
+   "Fraud ₹ caught": 0.8928,
+   "Fraud ₹ let through per 1,000": 71360.175,
+   "Checking cost per 1,000": 70833.3333,
+   "Real cost per 1,000 (₹)": 142193.5083,
+   "Real saving vs nothing per 1,000 (₹)": 523511.6517
+  },
+  "Investigate nothing": {
+   "Investigated per 1,000": 0.0,
+   "Frauds caught": 0.0,
+   "Fraud ₹ caught": 0.0,
+   "Fraud ₹ let through per 1,000": 665705.16,
+   "Checking cost per 1,000": 0.0,
+   "Real cost per 1,000 (₹)": 665705.16,
+   "Real saving vs nothing per 1,000 (₹)": 0.0
+  },
+  "Investigate everything": {
+   "Investigated per 1,000": 1000.0,
+   "Frauds caught": 1.0,
+   "Fraud ₹ caught": 1.0,
+   "Fraud ₹ let through per 1,000": 0.0,
+   "Checking cost per 1,000": 488000.0,
+   "Real cost per 1,000 (₹)": 488000.0,
+   "Real saving vs nothing per 1,000 (₹)": 177705.16
+  }
+ },
+ "decisions_investigate": {
+  "test": 474,
+  "train": 1991
+ }
+}

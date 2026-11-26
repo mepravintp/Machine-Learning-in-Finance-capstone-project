@@ -1,0 +1,14 @@
+,Historical_Success,Expected_ROI,NPV_3yr
+Initial_Investment,0.01,0.07,-0.6
+Revenue_Year1,0.01,0.32,-0.33
+Revenue_Year3,0.03,0.32,-0.31
+Operating_Cost,0.03,0.07,-0.8
+Expected_ROI,0.12,1.0,0.35
+Business_Growth,0.09,0.56,0.23
+GDP_Growth,-0.03,0.12,0.03
+Interest_Rate,-0.02,-0.19,-0.08
+Competition_Index,-0.07,0.01,-0.03
+Revenue_Growth_Y1_Y3,0.07,0.03,0.15
+Cash_Return_Pct,-0.0,0.52,0.73
+ROI_Spread,0.12,0.97,0.34
+NPV_3yr,-0.01,0.35,1.0

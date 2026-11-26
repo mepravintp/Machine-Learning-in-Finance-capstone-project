@@ -1,0 +1,3 @@
+Group,Loans,₹ lent (crore),Actual default rate,Average PD,ECL (crore),Expected loss rate,Actual loss (crore),Actual loss rate,Interest a year (crore),Interest − ECL (crore),Interest − actual loss (crore),Median loan ÷ collateral
+Flagged: weak collateral,532.0,72.9457,0.1974,0.1937,5.9325,0.0813,6.3787,0.0874,7.116,1.1835,0.7373,1.3792
+Not flagged,3010.0,318.1492,0.1166,0.1252,18.0413,0.0567,17.7262,0.0557,28.3926,10.3513,10.6663,0.7331

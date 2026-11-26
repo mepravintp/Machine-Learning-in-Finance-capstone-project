@@ -1,0 +1,73 @@
+{
+ "churners": 89,
+ "churn_rate": 0.0178,
+ "predictable": false,
+ "handed": "Logistic regression",
+ "p_line_columns": 0.0033,
+ "p_line_models": 0.01,
+ "columns_significant": 0,
+ "lowest_column_p": 0.0856,
+ "setups": {
+  "Logistic regression": {
+   "roc_auc": 0.4897,
+   "shuffle_p": 0.8317,
+   "top1000": 15,
+   "top1000_p": 0.8074
+  },
+  "Decision tree": {
+   "roc_auc": 0.4891,
+   "shuffle_p": 0.8416,
+   "top1000": 18,
+   "top1000_p": 0.5211
+  },
+  "Random forest": {
+   "roc_auc": 0.502,
+   "shuffle_p": 0.4554,
+   "top1000": 19,
+   "top1000_p": 0.4164
+  },
+  "LightGBM": {
+   "roc_auc": 0.4949,
+   "shuffle_p": 0.7327,
+   "top1000": 22,
+   "top1000_p": 0.1629
+  },
+  "LightGBM, broad search (115 inputs)": {
+   "roc_auc": 0.5613,
+   "shuffle_p": 0.198,
+   "top1000": 21,
+   "top1000_p": 0.2332
+  }
+ },
+ "handed_average_chance": 0.0178,
+ "rules": {
+  "Most complaints first": {
+   "churners": 20,
+   "p": 0.3187
+  },
+  "Lowest digital usage first": {
+   "churners": 22,
+   "p": 0.1629
+  },
+  "Shortest relationship first": {
+   "churners": 22,
+   "p": 0.1629
+  },
+  "Fewest products first": {
+   "churners": 18,
+   "p": 0.5211
+  },
+  "Fewest transactions first": {
+   "churners": 15,
+   "p": 0.8074
+  },
+  "Highest CLV first": {
+   "churners": 14,
+   "p": 0.8749
+  },
+  "Highest total balances first": {
+   "churners": 19,
+   "p": 0.4164
+  }
+ }
+}

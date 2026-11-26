@@ -1,0 +1,8 @@
+Group,Share of today's ₹,Share of approved ₹,Approval rate,Approved default rate
+Customer_Type: Corporate,0.2708,0.2638,0.5858,0.1137
+Customer_Type: Retail,0.7292,0.7362,0.5872,0.1134
+Sector_Risk: Lowest,0.1908,0.1997,0.603,0.1012
+Sector_Risk: Low,0.2041,0.206,0.588,0.1071
+Sector_Risk: Middle,0.1993,0.1881,0.565,0.0991
+Sector_Risk: High,0.199,0.2054,0.6,0.1317
+Sector_Risk: Highest,0.2068,0.2008,0.578,0.128

@@ -1,0 +1,82 @@
+{
+ "share_flagged": 0.0225,
+ "cutoff": 0.5975,
+ "stability": [
+  0.9304,
+  0.9093
+ ],
+ "flagged": {
+  "test": 140,
+  "train": 540
+ },
+ "flagged_fraud_rate": {
+  "test": 0.1214,
+  "train": 0.1426
+ },
+ "test": {
+  "Amount alone": {
+   "PR-AUC": 0.1029,
+   "ROC-AUC": 0.7869,
+   "Frauds caught, top 1%": 0.0625,
+   "Fraud ₹ caught, top 1%": 0.1974,
+   "Frauds caught, top 5%": 0.2847,
+   "Fraud ₹ caught, top 5%": 0.5609,
+   "Frauds caught, top 10%": 0.5625,
+   "Fraud ₹ caught, top 10%": 0.8507
+  },
+  "Supervised (Task 2)": {
+   "PR-AUC": 0.1243,
+   "ROC-AUC": 0.8152,
+   "Frauds caught, top 1%": 0.0833,
+   "Fraud ₹ caught, top 1%": 0.1333,
+   "Frauds caught, top 5%": 0.3333,
+   "Fraud ₹ caught, top 5%": 0.5517,
+   "Frauds caught, top 10%": 0.5486,
+   "Fraud ₹ caught, top 10%": 0.8204
+  },
+  "Isolation Forest (a)": {
+   "PR-AUC": 0.0745,
+   "ROC-AUC": 0.7205,
+   "Frauds caught, top 1%": 0.0625,
+   "Fraud ₹ caught, top 1%": 0.1772,
+   "Frauds caught, top 5%": 0.2153,
+   "Fraud ₹ caught, top 5%": 0.446,
+   "Frauds caught, top 10%": 0.3333,
+   "Fraud ₹ caught, top 10%": 0.5979
+  },
+  "Isolation Forest (b), side check": {
+   "PR-AUC": 0.094,
+   "ROC-AUC": 0.7727,
+   "Frauds caught, top 1%": 0.0625,
+   "Fraud ₹ caught, top 1%": 0.1699,
+   "Frauds caught, top 5%": 0.2431,
+   "Fraud ₹ caught, top 5%": 0.4934,
+   "Frauds caught, top 10%": 0.4722,
+   "Fraud ₹ caught, top 10%": 0.7509
+  }
+ },
+ "overlap": {
+  "1%": {
+   "Share flagged by both": 0.3,
+   "Frauds: both": 3.0,
+   "Frauds: supervised only": 9.0,
+   "Frauds: Isolation Forest only": 6.0,
+   "Frauds: neither": 126.0
+  },
+  "5%": {
+   "Share flagged by both": 0.4933,
+   "Frauds: both": 25.0,
+   "Frauds: supervised only": 23.0,
+   "Frauds: Isolation Forest only": 6.0,
+   "Frauds: neither": 90.0
+  },
+  "10%": {
+   "Share flagged by both": 0.5567,
+   "Frauds: both": 45.0,
+   "Frauds: supervised only": 34.0,
+   "Frauds: Isolation Forest only": 3.0,
+   "Frauds: neither": 62.0
+  }
+ },
+ "blend_pr_auc": 0.1075
+}

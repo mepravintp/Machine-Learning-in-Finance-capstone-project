@@ -1,0 +1,21 @@
+Input,Entry order,Enters at C,Kept in % of 25 rounds
+Risk_Rating = Low,1,0.092,100.0
+Expected_ROI,2,0.126,60.0
+Business_Growth,3,0.148,80.0
+Revenue_Growth_Y1_Y3,4,0.236,68.0
+NPV_3yr,5,0.276,40.0
+Business_Unit = Corporate Banking,6,0.276,68.0
+Competition_Index,7,0.276,60.0
+Cash_Return_Pct,8,0.322,48.0
+GDP_Growth,9,0.322,68.0
+Business_Unit = Risk Analytics,10,0.441,20.0
+CF2,11,0.823,16.0
+Business_Unit = SME Lending,12,0.823,4.0
+Interest_Rate,13,0.962,28.0
+Revenue_Year2,14,1.796,0.0
+Operating_Cost,15,2.868,12.0
+CF3,16,3.353,0.0
+Risk_Rating = High,17,3.919,4.0
+Risk_Rating = Medium,18,4.582,4.0
+Business_Unit = Digital Banking,19,6.261,8.0
+Business_Unit = Wealth,20,8.555,0.0

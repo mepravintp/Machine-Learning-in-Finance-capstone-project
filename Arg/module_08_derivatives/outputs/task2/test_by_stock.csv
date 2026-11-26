@@ -1,0 +1,16 @@
+Stock,Test options,MAE (₹): Black-Scholes,MAE (₹): Direct ML (LightGBM),MAE (₹): Hybrid ML (Linear regression),Best,Best ML vs BS (₹; + = ML closer)
+AXISBANK,127.0,6.5366,9.4375,6.5522,Black-Scholes,-0.0157
+BHARTIARTL,140.0,5.4007,7.444,5.5258,Black-Scholes,-0.1251
+HDFCBANK,142.0,6.0163,9.1674,6.4259,Black-Scholes,-0.4096
+HINDUNILVR,135.0,6.6246,8.5286,6.9199,Black-Scholes,-0.2952
+ICICIBANK,147.0,6.3962,9.0838,6.5136,Black-Scholes,-0.1175
+INFY,131.0,4.947,7.1694,5.0776,Black-Scholes,-0.1306
+ITC,119.0,4.8409,7.2481,5.0524,Black-Scholes,-0.2115
+KOTAKBANK,148.0,5.663,10.244,5.888,Black-Scholes,-0.225
+LT,114.0,6.9011,7.8034,7.2217,Black-Scholes,-0.3206
+MARUTI,133.0,6.0643,7.4129,6.0752,Black-Scholes,-0.0109
+RELIANCE,134.0,5.5226,7.7731,5.8823,Black-Scholes,-0.3597
+SBIN,133.0,6.8361,9.6459,6.6941,Hybrid ML (Linear regression),0.142
+SUNPHARMA,140.0,6.5559,8.6172,6.3855,Hybrid ML (Linear regression),0.1704
+TCS,138.0,6.8551,8.8689,7.1052,Black-Scholes,-0.2501
+TITAN,119.0,5.8875,8.2547,5.9604,Black-Scholes,-0.0729

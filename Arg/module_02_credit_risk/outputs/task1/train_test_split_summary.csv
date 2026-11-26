@@ -1,0 +1,4 @@
+Set,Loans,Defaults,Default rate,Retail share,₹ lent (crore)
+Training set,4000.0,798.0,0.1995,0.73875,511.80232818999997
+Test set,1000.0,199.0,0.199,0.739,127.850541043
+Whole book,5000.0,997.0,0.1994,0.7388,639.652869233

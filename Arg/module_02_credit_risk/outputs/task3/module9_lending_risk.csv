@@ -1,0 +1,7 @@
+Group,Loan type,Loans,₹ lent (crore),Interest rate (%),Expected loss (%),Return per ₹ lent (% a year),What it really earned (% a year),Bad year: PD × 2 (% a year),"Severe year: PD × 2, LGD 60% (% a year)","1-in-100 year, luck alone (% a year)"
+Approve,Retail,2169,210.5241,8.7325,5.4365,3.2961,3.6406,-2.1404,-7.5769,2.4509
+Approve,Corporate,765,75.4182,8.8075,5.4972,3.3104,3.6971,-2.1868,-7.684,1.7955
+Approve,All,2934,285.9423,8.7523,5.4525,3.2998,3.6555,-2.1526,-7.6051,2.604
+Review,Retail,773,120.3173,9.8033,8.8438,0.9595,0.0815,-7.8843,-16.7281,-0.8073
+Review,Corporate,272,43.6105,9.627,8.655,0.972,1.1165,-7.683,-16.338,-2.0546
+Review,All,1045,163.9278,9.7564,8.7936,0.9628,0.3569,-7.8308,-16.6243,-0.5051

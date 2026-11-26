@@ -1,0 +1,15 @@
+Scope,Business unit,Initiatives,Fund now (₹ crore),Capacity (₹ crore),Return if every initiative succeeds (% a year),Expected return (% a year),1-in-20 bad case (% a year),Average P(Success)
+Fund + Review (deployable),Corporate Banking,8,1.0326,15.8098,14.3206,6.327,-6.1254,0.8032
+Fund + Review (deployable),Digital Banking,7,0.0,9.3428,22.314,13.1978,-6.6399,0.8128
+Fund + Review (deployable),Payments,7,0.0,10.0828,18.7804,13.0022,-2.1397,0.8635
+Fund + Review (deployable),Risk Analytics,7,0.0,11.5001,18.5206,10.448,-5.3543,0.8112
+Fund + Review (deployable),SME Lending,2,0.0,4.1757,25.8985,13.3374,-1.4244,0.7415
+Fund + Review (deployable),Wealth,9,2.2085,15.276,27.7384,17.5917,3.5665,0.8006
+Fund + Review (deployable),All units,40,3.2411,66.1872,20.7512,12.1321,5.9467,0.8132
+All initiatives,Corporate Banking,35,1.0326,62.3209,5.5087,-4.359,-10.0959,0.7145
+All initiatives,Digital Banking,34,0.0,47.1375,6.111,-1.8965,-8.4904,0.766
+All initiatives,Payments,36,0.0,53.3253,3.718,-4.3915,-10.31,0.7518
+All initiatives,Risk Analytics,25,0.0,39.7715,2.3646,-5.4847,-13.0372,0.7447
+All initiatives,SME Lending,15,0.0,22.2792,1.081,-7.1337,-17.0385,0.755
+All initiatives,Wealth,35,2.2085,58.613,7.6369,-1.2007,-7.5334,0.7573
+All initiatives,All units,180,3.2411,283.4474,4.9528,-3.6488,-6.2931,0.7476

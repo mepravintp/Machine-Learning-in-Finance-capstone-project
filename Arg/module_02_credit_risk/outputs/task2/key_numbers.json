@@ -1,0 +1,81 @@
+{
+ "loans": 5000,
+ "platt": {
+  "applied": false,
+  "reason": "all four calibration checks pass on all 5,000 and on the 1,000 test loans"
+ },
+ "calibration": {
+  "All 5,000 loans": {
+   "Loans": 5000.0,
+   "Average PD": 0.2041,
+   "Actual default rate": 0.1994,
+   "1. Intercept a": -0.0329,
+   "a 95% low": -0.1064,
+   "a 95% high": 0.0407,
+   "1. Pass": true,
+   "2. Slope b": 1.0444,
+   "b 95% low": 0.9505,
+   "b 95% high": 1.1383,
+   "2. Pass": true,
+   "3. HL score": 9.0738,
+   "3. HL p-value": 0.3361,
+   "3. Pass": true,
+   "4. Predicted loss (\u20b9 crore)": 63.0387,
+   "4. Actual loss (\u20b9 crore)": 62.7232,
+   "Difference 95% low": -3.8004,
+   "Difference 95% high": 4.208,
+   "4. Pass": true
+  },
+  "1,000 test loans": {
+   "Loans": 1000.0,
+   "Average PD": 0.2116,
+   "Actual default rate": 0.199,
+   "1. Intercept a": -0.0859,
+   "a 95% low": -0.2497,
+   "a 95% high": 0.0779,
+   "1. Pass": true,
+   "2. Slope b": 1.1267,
+   "b 95% low": 0.9045,
+   "b 95% high": 1.3489,
+   "2. Pass": true,
+   "3. HL score": 4.6907,
+   "3. HL p-value": 0.7901,
+   "3. Pass": true,
+   "4. Predicted loss (\u20b9 crore)": 12.8591,
+   "4. Actual loss (\u20b9 crore)": 12.7324,
+   "Difference 95% low": -1.5702,
+   "Difference 95% high": 1.8853,
+   "4. Pass": true
+  }
+ },
+ "merges": [],
+ "bands": [
+  "Low",
+  "Medium",
+  "High",
+  "Very High"
+ ],
+ "bands_justified": true,
+ "band_loans": {
+  "Low": 220,
+  "Medium": 1935,
+  "High": 1824,
+  "Very High": 1021
+ },
+ "band_actual_rate": {
+  "Low": 0.0318,
+  "Medium": 0.093,
+  "High": 0.205,
+  "Very High": 0.427
+ },
+ "band_margin_pct": {
+  "Low": 5.95,
+  "Medium": 4.07,
+  "High": 1.1,
+  "Very High": -4.31
+ },
+ "chi2_p_all": 1.0603955091169496e-109,
+ "expected_loss_crore": 63.04,
+ "actual_loss_crore": 62.72,
+ "same_band_share": 0.6642
+}

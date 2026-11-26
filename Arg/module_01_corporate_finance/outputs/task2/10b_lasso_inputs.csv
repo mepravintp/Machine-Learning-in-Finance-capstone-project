@@ -1,0 +1,27 @@
+Input,Kept in share of 25 rounds,Full-fit weight,Full-fit odds ratio
+Risk_Rating = Low,1.0,0.878,2.407
+Business_Growth,0.8,0.154,1.166
+Business_Unit = Corporate Banking,0.68,-0.245,0.783
+Revenue_Growth_Y1_Y3,0.68,0.066,1.068
+GDP_Growth,0.68,-0.024,0.976
+Expected_ROI,0.6,0.099,1.104
+Competition_Index,0.6,-0.041,0.96
+Cash_Return_Pct,0.48,-0.033,0.967
+NPV_3yr,0.4,-0.039,0.962
+ROI_Spread,0.32,0.0,1.0
+Interest_Rate,0.28,0.0,1.0
+Business_Unit = Risk Analytics,0.2,0.0,1.0
+CF2,0.16,0.0,1.0
+CF1,0.12,0.0,1.0
+Operating_Cost,0.12,0.0,1.0
+Business_Unit = Digital Banking,0.08,0.0,1.0
+Business_Unit = SME Lending,0.04,0.0,1.0
+Initial_Investment,0.04,0.0,1.0
+Risk_Rating = Medium,0.04,0.0,1.0
+Risk_Rating = High,0.04,0.0,1.0
+Business_Unit = Payments,0.04,0.0,1.0
+Revenue_Year1,0.0,0.0,1.0
+Revenue_Year3,0.0,0.0,1.0
+Revenue_Year2,0.0,0.0,1.0
+CF3,0.0,0.0,1.0
+Business_Unit = Wealth,0.0,0.0,1.0

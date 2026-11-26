@@ -1,0 +1,243 @@
+{
+ "train_test": [
+  7709,
+  2000
+ ],
+ "best": {
+  "Direct": "LightGBM",
+  "Hybrid": "Linear regression"
+ },
+ "cv_mae": {
+  "Direct: Linear regression": 112.0218,
+  "Direct: Random forest": 9.5775,
+  "Direct: LightGBM": 8.016,
+  "Direct: Neural network": 10.281,
+  "Hybrid: Linear regression": 5.5911,
+  "Hybrid: Random forest": 5.7305,
+  "Hybrid: LightGBM": 5.9359,
+  "Hybrid: Neural network": 10.9733,
+  "Formula: Black-Scholes": 5.5354
+ },
+ "test": {
+  "Black-Scholes": {
+   "mae": 6.0721,
+   "rmse": 10.1465,
+   "bias": -0.0489,
+   "median_abs_pct": 0.0329,
+   "saved_vs_bs": null,
+   "range": NaN,
+   "better": NaN,
+   "mae_without_impossible": 5.8067
+  },
+  "Direct ML (LightGBM)": {
+   "mae": 8.4798,
+   "rmse": 13.5856,
+   "bias": -0.6776,
+   "median_abs_pct": 0.045,
+   "saved_vs_bs": -2.4077,
+   "range": "₹-2.71 to ₹-2.09",
+   "better": "No: worse",
+   "mae_without_impossible": 8.1334
+  },
+  "Hybrid ML (Linear regression)": {
+   "mae": 6.2207,
+   "rmse": 10.35,
+   "bias": -0.7699,
+   "median_abs_pct": 0.0329,
+   "saved_vs_bs": -0.1485,
+   "range": "₹-0.23 to ₹-0.07",
+   "better": "No: worse",
+   "mae_without_impossible": 5.8299
+  }
+ },
+ "gap_link_bs_direct": 0.7338,
+ "segments_bs_best": 12,
+ "segments": 12,
+ "luck": {
+  "hybrid_mae": 6.2207,
+  "shuffled_mean": 6.1281,
+  "p": 1.0
+ },
+ "closest_counts": {
+  "Black-Scholes": 751,
+  "Direct ML": 643,
+  "Hybrid ML": 606
+ },
+ "hedge": {
+  "total_delta_hedge_rupees": -2257446.9819,
+  "recommended": "C. Delta + half vega hedge",
+  "risk_limit_share": 0.04,
+  "book_value": 1939537.4,
+  "choices": {
+   "A. No hedge": {
+    "Worst result (₹)": -320084.176,
+    "Worst scenario": "stocks -10%, volatility -5 points",
+    "Best result (₹)": 591832.74,
+    "Typical swing (₹, average size of change)": 209232.5507,
+    "Scenarios that lose": 9.0,
+    "Shares to trade (₹)": 0.0,
+    "Calls to sell (units)": -0.0,
+    "Premium received for calls sold (₹)": 0.0,
+    "Total trading (₹: shares + calls sold)": 0.0,
+    "Total trading ÷ book value": 0.0,
+    "Upfront trading cost (₹)": 0.0,
+    "Time decay (₹ a day)": -2067.9776,
+    "Volatility sensitivity left (₹ per point)": 50463.2643
+   },
+   "B. Delta hedge": {
+    "Worst result (₹)": -239684.8271,
+    "Worst scenario": "stocks +0%, volatility -5 points",
+    "Best result (₹)": 385961.9452,
+    "Typical swing (₹, average size of change)": 179161.8561,
+    "Scenarios that lose": 7.0,
+    "Shares to trade (₹)": 2257446.9819,
+    "Calls to sell (units)": -0.0,
+    "Premium received for calls sold (₹)": 0.0,
+    "Total trading (₹: shares + calls sold)": 2257446.9819,
+    "Total trading ÷ book value": 1.1639,
+    "Upfront trading cost (₹)": 2257.447,
+    "Time decay (₹ a day)": -2067.9776,
+    "Volatility sensitivity left (₹ per point)": 50463.2643
+   },
+   "C. Delta + half vega hedge": {
+    "Worst result (₹)": -114582.4475,
+    "Worst scenario": "stocks +0%, volatility -5 points",
+    "Best result (₹)": 206450.4707,
+    "Typical swing (₹, average size of change)": 91420.167,
+    "Scenarios that lose": 7.0,
+    "Shares to trade (₹)": 2196996.834,
+    "Calls to sell (units)": 3812.6497,
+    "Premium received for calls sold (₹)": 867022.2997,
+    "Total trading (₹: shares + calls sold)": 3064019.1337,
+    "Total trading ÷ book value": 1.5798,
+    "Upfront trading cost (₹)": 10867.2198,
+    "Time decay (₹ a day)": -602.9503,
+    "Volatility sensitivity left (₹ per point)": 25231.6321
+   },
+   "D. Delta + full vega hedge": {
+    "Worst result (₹)": 0.0,
+    "Worst scenario": "stocks +0%, volatility +0 points",
+    "Best result (₹)": 42592.5911,
+    "Typical swing (₹, average size of change)": 13565.2817,
+    "Scenarios that lose": 0.0,
+    "Shares to trade (₹)": 6651440.6498,
+    "Calls to sell (units)": 7625.2995,
+    "Premium received for calls sold (₹)": 1734044.5994,
+    "Total trading (₹: shares + calls sold)": 8385485.2492,
+    "Total trading ÷ book value": 4.3234,
+    "Upfront trading cost (₹)": 23991.8866,
+    "Time decay (₹ a day)": 862.077,
+    "Volatility sensitivity left (₹ per point)": 0.0
+   }
+  },
+  "rule": [
+   {
+    "Board's limit: most it accepts losing on a 1-in-100 bad day": "2% of the book (₹38,791)",
+    "Choice with the least trading within it": "None of A–C (would need a fuller vega hedge, not reliable on this data)"
+   },
+   {
+    "Board's limit: most it accepts losing on a 1-in-100 bad day": "3% of the book (₹58,186)",
+    "Choice with the least trading within it": "C. Delta + half vega hedge"
+   },
+   {
+    "Board's limit: most it accepts losing on a 1-in-100 bad day": "4% of the book (₹77,581)",
+    "Choice with the least trading within it": "C. Delta + half vega hedge"
+   },
+   {
+    "Board's limit: most it accepts losing on a 1-in-100 bad day": "5% of the book (₹96,977)",
+    "Choice with the least trading within it": "C. Delta + half vega hedge"
+   },
+   {
+    "Board's limit: most it accepts losing on a 1-in-100 bad day": "6% of the book (₹116,372)",
+    "Choice with the least trading within it": "A. No hedge"
+   }
+  ]
+ },
+ "loss_chances": {
+  "A. No hedge": {
+   "p_loss_day": 0.4913,
+   "loss99_day": 102738.3864,
+   "loss95_day": 71903.7284,
+   "p_loss_month": 0.457,
+   "loss95_month": 316311.4831
+  },
+  "B. Delta hedge": {
+   "p_loss_day": 0.4948,
+   "loss99_day": 114853.641,
+   "loss95_day": 81275.1014,
+   "p_loss_month": 0.4671,
+   "loss95_month": 357559.1266
+  },
+  "C. Delta + half vega hedge": {
+   "p_loss_day": 0.4848,
+   "loss99_day": 56653.4526,
+   "loss95_day": 39928.3949,
+   "p_loss_month": 0.4182,
+   "loss95_month": 164504.2468
+  },
+  "D. Delta + full vega hedge": {
+   "p_loss_day": 0.0,
+   "loss99_day": -987.4328,
+   "loss95_day": -1041.2561,
+   "p_loss_month": 0.0,
+   "loss95_month": -26450.4179
+  }
+ },
+ "loss_chances_written": {
+  "A. No hedge": 104540.3928,
+  "B. Delta hedge": 120195.0481,
+  "C. Delta + half vega hedge": 60949.4311,
+  "D. Delta + full vega hedge": 2653.9351
+ },
+ "running": {
+  "A. No hedge": {
+   "cash_tied": 0.0,
+   "rehedge_year": 0.0
+  },
+  "B. Delta hedge": {
+   "cash_tied": -2257446.9819,
+   "rehedge_year": 77544.3639
+  },
+  "C. Delta + half vega hedge": {
+   "cash_tied": 1329974.5343,
+   "rehedge_year": 45499.1592
+  },
+  "D. Delta + full vega hedge": {
+   "cash_tied": 4917396.0505,
+   "rehedge_year": 13453.9546
+  }
+ },
+ "protect_equity": {
+  "100% Modul": {
+   "cost": 4.671,
+   "crash20": -4.671
+  },
+  "100% Check": {
+   "cost": 6.7522,
+   "crash20": -6.7522
+  },
+  "90% Modul": {
+   "cost": 1.8106,
+   "crash20": -11.8106
+  },
+  "90% Check": {
+   "cost": 3.3304,
+   "crash20": -13.3304
+  },
+  "80% Modul": {
+   "cost": 0.4894,
+   "crash20": -20.4894
+  },
+  "80% Check": {
+   "cost": 1.3095,
+   "crash20": -21.3095
+  }
+ },
+ "equity_turnover_year": 0.7848,
+ "stocks_bs_best": 13,
+ "book_gap_vs_bs": {
+  "Black-Scholes": 0.0,
+  "Direct ML (LightGBM)": -24076.7034,
+  "Hybrid ML (Linear regression)": -1485.1158
+ }
+}

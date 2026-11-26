@@ -1,0 +1,5 @@
+Group,Loans,₹ lent (crore),Actual default rate,Average PD,ECL (crore),Expected loss rate,Actual loss (crore),Actual loss rate,Interest a year (crore),Interest − ECL (crore),Interest − actual loss (crore)
+Approve,541.0,51.434,0.1128,0.1252,2.8015,0.0545,2.7675,0.0538,4.4685,1.667,1.701
+Review,242.0,37.4629,0.2107,0.2221,3.4068,0.0909,3.5221,0.094,3.68,0.2733,0.1579
+Reject,217.0,38.9536,0.4009,0.4151,6.6508,0.1707,6.4428,0.1654,5.1385,-1.5123,-1.3043
+Today's book,1000.0,127.8505,0.199,0.2116,12.8591,0.1006,12.7324,0.0996,13.2871,0.428,0.5547

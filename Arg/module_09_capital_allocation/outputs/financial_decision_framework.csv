@@ -1,0 +1,10 @@
+Module,1 Data,2 ML prediction,3 Financial metric in ₹,4 Risk,5 Decision rule,6 Control and owner
+1 Corporate finance,180 initiatives,P(Success): lasso (weak; screens 36 slow payers into Reject),"NPV, Expected NPV, IRR by business unit","Payback, loss tolerance, 1-in-20 bad case",Fund / Review / Reject; return above 6.8%,Staged release; Head of Strategy
+2 Credit risk,"5,000 loans",PD: lasso scorecard (calibrated),ECL = PD × 40% × loan; return per ₹ lent,PD × 2 recession; LGD 60%,Approve / Review / Reject; required rate,"PSI, defaults vs PD; Chief Risk Officer"
+3 Fraud,"30,000 transactions",P(fraud): LightGBM,Cost of fraud risk per ₹ moved,Fraud × 3,Investigate above 4.76% (brief's costs),Weekly cost check; Fraud Operations
+4 Customers,"5,000 customers",Churn: no model beats a coin flip beyond luck,CLV; fee yield 1.80%,"Market −20%, churn × 2",No model-driven retention spend,Randomised test first; Head of Wealth
+5 Equity markets,"15 stocks, 43 test months",Returns: no model beats luck,Return vs holding all 15 (after costs in Module 6),Swing 10.9–13.2% for any top 5 vs 6.7% for all 15,No ML stock-picking,Revisit only with new data; CIO
+6 Portfolio,Daily returns,Not ML (Markowitz vs equal weight),"Return 15.6%, Sharpe","VaR, CVaR, −20% crash",Equal weight,Monthly VaR limit; CIO
+7 HFT,"Order book, 20 days",Direction: logistic regression,₹ saved per ₹1 crore of orders; profit after costs,Costs +1 bp,Time orders; pilot with stop rule,Daily savings; Head of Trading
+8 Derivatives,"10,000 options",ML pricing loses to Black-Scholes,"BS value, Greeks, put cost",1-in-100 bad day; volatility −5,BS pricing; hedge C; 90% put on equities,Daily hedge limit; derivatives desk
+9 Allocation,Modules 1–8 inputs,Uses every module's validated result,Return per ₹ deployed vs 6.8%,8 stress scenarios; ₹100 crore budget,Best uses first within limits,Quarterly ALCO review; CFO

@@ -1,0 +1,6 @@
+Board's limit: most it accepts losing on a 1-in-100 bad day,Choice with the least trading within it
+"2% of the book (₹38,791)","None of A–C (would need a fuller vega hedge, not reliable on this data)"
+"3% of the book (₹58,186)",C. Delta + half vega hedge
+"4% of the book (₹77,581)",C. Delta + half vega hedge
+"5% of the book (₹96,977)",C. Delta + half vega hedge
+"6% of the book (₹116,372)",A. No hedge

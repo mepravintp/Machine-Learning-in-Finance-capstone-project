@@ -1,0 +1,33 @@
+{
+  "chosen_model": "Lasso",
+  "lowest_brier_model": "Lasso",
+  "best_tree_model": "Random forest",
+  "baseline_brier": 0.179,
+  "chosen_brier": 0.1804,
+  "chosen_roc_auc": 0.578,
+  "chosen_roc_auc_std": 0.08,
+  "chosen_fail_recall": 0.736,
+  "shuffled_label_p": {
+    "Lasso": 0.168,
+    "Logistic regression": 0.178
+  },
+  "p_success_range": [
+    0.557,
+    0.895
+  ],
+  "at_risk_count": 106,
+  "at_risk_actual_failure_rate": 0.302,
+  "not_at_risk_actual_failure_rate": 0.135,
+  "lasso_inputs_kept_mean": 7.4,
+  "benchmark_risk_only": {
+    "roc_auc": 0.577,
+    "brier": 0.1757,
+    "brier_minus_chosen": [
+      -0.0047,
+      -0.0103,
+      0.001
+    ],
+    "capital_lift": 1.318,
+    "chosen_capital_lift": 1.269
+  }
+}

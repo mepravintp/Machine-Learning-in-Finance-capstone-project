@@ -1,0 +1,9 @@
+Model,Flagged initiatives,Capital sent to review (₹ crore),Share of all capital reviewed,Failed capital caught (₹ crore),Share of failed capital caught,Failure rate among flagged,Failure rate among not flagged,Capital lift (caught ÷ reviewed),Flag points the right way?
+Baseline,,,,,,,,,n/a
+Lasso,106.0,168.439,0.594,49.39,0.754,0.302,0.135,1.269,Yes
+Logistic regression,87.0,140.035,0.494,38.244,0.584,0.276,0.194,1.182,Yes
+Decision tree,91.0,144.572,0.51,35.979,0.549,0.264,0.202,1.077,Yes
+Random forest,98.0,155.989,0.55,33.218,0.507,0.204,0.268,0.921,No
+XGBoost,71.0,104.51,0.369,25.115,0.383,0.211,0.248,1.04,No
+LightGBM,67.0,101.568,0.358,27.028,0.413,0.224,0.239,1.151,No
+Risk rating only (benchmark),116.0,184.844,0.652,56.327,0.86,0.302,0.109,1.318,Yes

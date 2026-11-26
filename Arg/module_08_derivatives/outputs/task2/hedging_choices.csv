@@ -1,0 +1,5 @@
+Choice,Worst result (₹),Worst scenario,Best result (₹),"Typical swing (₹, average size of change)",Scenarios that lose,Shares to trade (₹),Calls to sell (units),Premium received for calls sold (₹),Total trading (₹: shares + calls sold),Total trading ÷ book value,Upfront trading cost (₹),Time decay (₹ a day),Volatility sensitivity left (₹ per point)
+A. No hedge,-320084.18,"stocks -10%, volatility -5 points",591832.74,209232.55,9,0.0,-0.0,0.0,0.0,0.0,0.0,-2067.98,50463.26
+B. Delta hedge,-239684.83,"stocks +0%, volatility -5 points",385961.95,179161.86,7,2257446.98,-0.0,0.0,2257446.98,1.16,2257.45,-2067.98,50463.26
+C. Delta + half vega hedge,-114582.45,"stocks +0%, volatility -5 points",206450.47,91420.17,7,2196996.83,3812.65,867022.3,3064019.13,1.58,10867.22,-602.95,25231.63
+D. Delta + full vega hedge,0.0,"stocks +0%, volatility +0 points",42592.59,13565.28,0,6651440.65,7625.3,1734044.6,8385485.25,4.32,23991.89,862.08,0.0

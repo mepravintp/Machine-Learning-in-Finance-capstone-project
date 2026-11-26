@@ -1,0 +1,4 @@
+Risk level,Initiatives,Failures,Lasso ROC-AUC within the level
+Low,64,7,0.231
+Medium,72,22,0.536
+High,44,13,0.278

@@ -1,0 +1,4 @@
+Group,Loans,Actual default rate,Average rate charged (%),₹ lent (crore)
+Priced as risky (rate ≥ median) but challenger PD < 10%,95,0.05263157894736842,9.594526315789475,8.179282906000001
+Priced as safe (rate < median) but challenger PD > 30%,14,0.35714285714285715,8.823571428571428,1.596348665
+All training loans,4000,0.1995,9.5107725,511.80232818999997

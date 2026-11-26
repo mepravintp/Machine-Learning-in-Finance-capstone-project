@@ -1,0 +1,15 @@
+{
+  "rows": 180,
+  "success_rate": 0.767,
+  "total_investment_crore": 283.4,
+  "risk_chi_square_p": 0.0139,
+  "unit_chi_square_p": 0.3586,
+  "investment_vs_success": {
+    "median_succeeded": 151.0,
+    "median_failed": 162.4,
+    "mann_whitney_p": 0.896,
+    "point_biserial_r": 0.01
+  },
+  "npv_3yr_positive": 8,
+  "hurdle_pass": 135
+}

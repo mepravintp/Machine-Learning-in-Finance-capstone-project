@@ -1,0 +1,7 @@
+Setting,Loans,₹ lent (crore),Actual default rate,Average PD,ECL (crore),Expected loss rate,Actual loss (crore),Actual loss rate,Interest a year (crore),Interest − ECL (crore),Interest − actual loss (crore),Moved to Review by the cap
+Today's book (every loan made),5000,639.6529,0.1994,0.2041,63.0387,0.0986,62.7232,0.0981,65.798,2.7593,3.0748,
+"Rule, no cap",2934,285.9423,0.1135,0.1236,15.5909,0.0545,14.574,0.051,25.0265,9.4356,10.4526,0.0
+"Rule, cap 6% (agreed)",2934,285.9423,0.1135,0.1236,15.5909,0.0545,14.574,0.051,25.0265,9.4356,10.4526,0.0
+"Rule, cap 5%",2755,260.1265,0.1045,0.1155,13.0062,0.05,11.9311,0.0459,22.1639,9.1577,10.2328,179.0
+"Rule, cap 4%",2106,182.3301,0.0869,0.0947,7.2917,0.04,6.7717,0.0371,14.8821,7.5904,8.1104,828.0
+"Rule, cap 3%",1252,97.259,0.0695,0.072,2.9176,0.03,2.7229,0.028,7.5867,4.6691,4.8638,1682.0

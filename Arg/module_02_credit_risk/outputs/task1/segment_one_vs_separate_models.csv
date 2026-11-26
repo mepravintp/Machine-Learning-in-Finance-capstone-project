@@ -1,0 +1,4 @@
+Approach,Brier,ROC-AUC,Brier vs one model,95% low,95% high,Rounds worse than one model
+One model for both (chosen),0.14106,0.73092,0.0,0.0,0.0,0
+Separate model per segment,0.14152,0.72718,0.00046,5e-05,0.00088,15
+One model with segment interactions,0.14115,0.73105,9e-05,-0.00018,0.00035,12

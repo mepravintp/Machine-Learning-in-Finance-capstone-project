@@ -1,0 +1,4 @@
+Run,Fund,Review,Reject,Review capital (₹ crore),Review past success,Decisions different from main
+Main: lasso,2.0,38.0,140.0,62.9461,0.8421,0.0
+No model (0.767 for all),2.0,74.0,104.0,117.2915,0.7568,36.0
+Risk rating only,2.0,31.0,147.0,53.4769,0.8387,7.0

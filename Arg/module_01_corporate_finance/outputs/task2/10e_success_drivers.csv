@@ -1,0 +1,10 @@
+Input,Rank,Mean |SHAP| (lasso),Kept in % of rounds,Lasso odds ratio,Logistic odds ratio,Rank in Random forest SHAP,Direction,Logistic agrees?,Finance expects,Makes financial sense?,Signal,What it means for the bank
+Risk_Rating = Low,1,0.416,100.0,2.41,2.11,1,Raises success,Yes,Raises,Yes,Stable,"Strongest lever: favour low-risk initiatives, or de-risk (pilot, phased funding) before approving"
+Business_Growth,2,0.121,80.0,1.17,1.32,9,Raises success,Yes,Raises,Yes,Stable,Initiatives in fast-growing businesses succeed more often; weigh the unit's growth outlook
+Expected_ROI,3,0.081,60.0,1.1,1.23,4,Raises success,Yes,Raises,Yes,Moderate,A higher planned return goes with success; ask for a credible ROI case
+Business_Unit = Corporate Banking,4,0.078,68.0,0.78,0.52,6,Lowers success,Yes,No clear prior,n/a,Moderate,Succeeds less often than other units; extra review and tighter milestones
+Revenue_Growth_Y1_Y3,5,0.056,68.0,1.07,1.27,10,Raises success,Yes,Raises,Yes,Moderate,Plans with faster revenue growth succeed slightly more often
+Competition_Index,6,0.036,60.0,0.96,0.87,7,Lowers success,Yes,Lowers,Yes,Moderate,Crowded markets lower success slightly; check competitive position
+NPV_3yr,7,0.031,40.0,0.96,0.78,14,Lowers success,Yes,Raises,No,"Weak, likely noise","Tiny, unstable effect: a high 3-year NPV on paper does not predict execution success"
+Cash_Return_Pct,8,0.026,48.0,0.97,0.83,8,Lowers success,Yes,Raises,No,"Weak, likely noise","Tiny, unstable effect: strong paper cash returns do not predict success"
+GDP_Growth,9,0.019,68.0,0.98,0.86,2,Lowers success,Yes,Raises,No,Moderate,Tiny effect against expectation; the unit's own growth matters more than the economy

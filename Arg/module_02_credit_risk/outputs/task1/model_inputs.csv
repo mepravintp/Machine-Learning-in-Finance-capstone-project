@@ -1,0 +1,16 @@
+Input,Source,Formula / meaning,Known at application?
+Annual_Income,Given (brief's list),as given,Yes
+Employment_Length,Given (brief's list),as given,Yes
+Debt_to_Income,Given (brief's list),as given,Yes
+Credit_Score,Given (brief's list),as given,Yes
+Existing_Loan,Given (brief's list),as given,Yes
+Loan_Amount,Given (brief's list),as given,Yes
+Loan_Term_Months,Given (brief's list),as given,Yes
+Collateral_Value,Given (brief's list),as given,Yes
+Past_Default,Given (brief's list),as given,Yes
+Sector_Risk,Given (brief's list),as given,Yes
+Customer_Type,Given (in the data),as given,Yes
+Loan_to_Value,Derived,Loan_Amount ÷ Collateral_Value  (above 1 = loan larger than the asset pledged),Yes
+Loan_to_Income,Derived,Loan_Amount ÷ Annual_Income  (size of the loan against yearly income),Yes
+Total_Debt_to_Income,Derived,(Existing_Loan + Loan_Amount) ÷ Annual_Income  (all debt after this loan),Yes
+Principal_to_Income,Derived,(Loan_Amount ÷ (Loan_Term_Months ÷ 12)) ÷ Annual_Income  (share of yearly income needed just to repay the principal),Yes

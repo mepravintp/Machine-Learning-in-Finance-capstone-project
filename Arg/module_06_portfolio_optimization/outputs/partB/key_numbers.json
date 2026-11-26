@@ -1,0 +1,75 @@
+{
+ "level": 0.95,
+ "month_days": 22,
+ "real_corr": 0.4,
+ "beta_range": [
+  0.7464,
+  1.2126
+ ],
+ "summary": {
+  "Equal weight": {
+   "VaR 1 day": -0.7642,
+   "CVaR 1 day": -0.9826,
+   "VaR 1 month": -1.9819,
+   "Worst day": -1.5657,
+   "Worst month": -3.7566,
+   "Worst 20-day run": -4.0564,
+   "All stocks −20%": -20.0001,
+   "VaR 1 month, real-market correlation": -7.997
+  },
+  "Markowitz (past returns)": {
+   "VaR 1 day": -1.1785,
+   "CVaR 1 day": -1.4835,
+   "VaR 1 month": -4.0541,
+   "Worst day": -2.0765,
+   "Worst month": -6.1496,
+   "Worst 20-day run": -7.0268,
+   "All stocks −20%": -20.0,
+   "VaR 1 month, real-market correlation": -8.426
+  },
+  "ML (ridge forecasts)": {
+   "VaR 1 day": -1.164,
+   "CVaR 1 day": -1.4398,
+   "VaR 1 month": -4.1411,
+   "Worst day": -2.1131,
+   "Worst month": -7.6651,
+   "Worst 20-day run": -8.3292,
+   "All stocks −20%": -20.0,
+   "VaR 1 month, real-market correlation": -8.8404
+  },
+  "Top 5 (Module 5)": {
+   "VaR 1 day": -1.288,
+   "CVaR 1 day": -1.6245,
+   "VaR 1 month": -5.5911,
+   "Worst day": -2.5693,
+   "Worst month": -7.5475,
+   "Worst 20-day run": -8.3717,
+   "All stocks −20%": -20.0,
+   "VaR 1 month, real-market correlation": -8.9538
+  }
+ },
+ "vol_data_vs_real": {
+  "Equal weight": [
+   0.0778,
+   0.1936
+  ],
+  "Markowitz (past returns)": [
+   0.1142,
+   0.2048
+  ],
+  "ML (ridge forecasts)": [
+   0.1117,
+   0.2041
+  ],
+  "Top 5 (Module 5)": [
+   0.1313,
+   0.2109
+  ]
+ },
+ "parametric_breach_share": {
+  "Equal weight": 0.0557,
+  "Markowitz (past returns)": 0.0525,
+  "ML (ridge forecasts)": 0.0535,
+  "Top 5 (Module 5)": 0.0493
+ }
+}

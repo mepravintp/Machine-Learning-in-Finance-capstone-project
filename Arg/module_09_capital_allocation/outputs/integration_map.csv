@@ -1,0 +1,10 @@
+Link,What passes,How it is used,₹ effect
+Module 5 → Module 6,No model predicts returns beyond luck,Module 6 holds all 15 at equal weight instead of ML picks,"+₹15.0 crore a year on ₹300 crore (not beyond luck, p 0.39)"
+Module 6 → Module 8,Equities' real-market swing (19.4%) and crash loss (−20%),Module 8 prices the put that protects Module 9's equities,Crash loss ₹60 crore → ₹35.4 crore for ₹5.4 crore a year
+Module 6 → Module 7,Equity turnover (≈ 0.8× a year),Order timing applied to the equity book's own trades,₹0.03 crore a year
+"Module 1 → Modules 3, 4",Return per ₹ of capital by business unit,Gives Digital banking and Wealth a return per ₹ of capital (no other data has one),"Digital 13.2%, Payments 13.0%, Wealth 17.6% a year"
+Module 3 → Digital banking money,Fraud cost 1.55% of money moved with the rule (6.13% without),Digital banking initiatives are funded only while the rule runs,Saves ₹4.58 crore per ₹100 crore moved
+Module 2 → Module 9 lending pool,Approved loans earn 3.3%; re-pricing needs about 12.3%,Lending waits in an earmarked pool; released when re-priced (growth path),₹450 crore of loan growth in Year 2
+Module 2 → stress tests,PD × 2 recession: −2.15% per ₹ lent,Scenario 5 of the allocation's stress test,−₹6.2 crore if the pool were lent in a recession
+Module 8 → governance,Hedge C cuts the option book's 1-in-100 bad day by 45%; delta-only is worse than none,Hedging rule and trigger in the governance table,1-in-100 bad day ≤ 4% of the book
+Modules 1–8 → Module 9,"The same fields from every module (return, bad year, capacity, evidence)","One ranking across all businesses, best uses first",₹91.8 crore a year vs −₹2.4 crore the bank's way

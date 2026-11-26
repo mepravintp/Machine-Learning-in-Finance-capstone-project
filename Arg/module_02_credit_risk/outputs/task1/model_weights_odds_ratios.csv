@@ -1,0 +1,16 @@
+Input,Weight b (per 1 std),Odds ratio e^b,Effect on default odds
+Credit_Score,-0.4511228789237212,0.6369125742377141,lowers odds by 36%
+Debt_to_Income,0.4234630192553728,1.5272412743991592,raises odds by 53%
+Past_Default,0.3378189855225105,1.4018867186447805,raises odds by 40%
+Loan_Amount,0.15880962834496012,1.172114788007759,raises odds by 17%
+Loan_to_Income,0.12067282867430958,1.1282557190565832,raises odds by 13%
+Total_Debt_to_Income,0.11064111265136467,1.1169939599106549,raises odds by 12%
+Collateral_Value,0.036553248254087845,1.0372295332090393,raises odds by 4%
+Loan_Term_Months,0.0,1.0,switched off (weight 0)
+Existing_Loan,0.0,1.0,switched off (weight 0)
+Annual_Income,0.0,1.0,switched off (weight 0)
+Employment_Length,0.0,1.0,switched off (weight 0)
+Loan_to_Value,0.0,1.0,switched off (weight 0)
+Sector_Risk,0.0,1.0,switched off (weight 0)
+Principal_to_Income,0.0,1.0,switched off (weight 0)
+Customer_Type_Retail,0.0,1.0,switched off (weight 0)

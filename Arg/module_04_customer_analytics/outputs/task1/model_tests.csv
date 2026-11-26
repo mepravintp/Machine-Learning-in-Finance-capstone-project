@@ -1,0 +1,6 @@
+Set-up,ROC-AUC,ROC-AUC lowest round,ROC-AUC highest round,PR-AUC,Brier,Average chance,Real ROC-AUC (one 5-fold split),Shuffled: average,Shuffled: 95th percentile,Shuffled: highest,p (luck does as well),Passes (p < 0.01),"Churners in top 1,000",Share of the 89 churners,Random picking (20%),p (better than random?),Passes (p < 0.05),Useful (passes both)
+Logistic regression,0.4897,0.3482,0.5959,0.0235,0.0176,0.0178,0.457,0.5044,0.5849,0.6259,0.8317,False,15,0.1685,17.8,0.8074,False,False
+Decision tree,0.4891,0.4097,0.6471,0.0191,0.0177,0.0178,0.4674,0.4991,0.5597,0.6025,0.8416,False,18,0.2022,17.8,0.5211,False,False
+Random forest,0.502,0.3716,0.6396,0.0304,0.0176,0.0183,0.5102,0.5041,0.5646,0.583,0.4554,False,19,0.2135,17.8,0.4164,False,False
+LightGBM,0.4949,0.3687,0.6072,0.0236,0.0177,0.017,0.4745,0.4983,0.5683,0.6223,0.7327,False,22,0.2472,17.8,0.1629,False,False
+"LightGBM, broad search (115 inputs)",0.5613,0.446,0.6722,0.0265,0.0177,0.0156,0.5339,0.5035,0.5621,0.628,0.198,False,21,0.236,17.8,0.2332,False,False

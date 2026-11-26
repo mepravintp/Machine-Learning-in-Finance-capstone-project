@@ -1,0 +1,16 @@
+Set-up,Model,MAE on held-out folds (₹),Spread across folds (₹),MAE on its own training folds (₹),vs BS (₹; + = worse than BS),Overfitting gap (₹),Stage,Test set,Pricer,MAE (₹),RMSE (₹),Bias (₹),Median |gap| (% of price),₹ saved vs BS per option,95% range,Better than BS?
+Direct,Linear regression,112.0218,3.5141,111.8356,106.4864,0.1861,5-fold on training options,,,,,,,,,
+Direct,Random forest,9.5775,0.27,6.2797,4.0421,3.2978,5-fold on training options,,,,,,,,,
+Direct,LightGBM,8.016,0.3045,5.2976,2.4807,2.7185,5-fold on training options,,,,,,,,,
+Direct,Neural network,10.281,0.4315,8.3124,4.7456,1.9686,5-fold on training options,,,,,,,,,
+Hybrid,Linear regression,5.5911,0.1451,5.5869,0.0558,0.0043,5-fold on training options,,,,,,,,,
+Hybrid,Random forest,5.7305,0.1486,3.7076,0.1951,2.0229,5-fold on training options,,,,,,,,,
+Hybrid,LightGBM,5.9359,0.1219,4.1242,0.4006,1.8117,5-fold on training options,,,,,,,,,
+Hybrid,Neural network,10.9733,0.915,8.4744,5.4379,2.4989,5-fold on training options,,,,,,,,,
+Formula,Black-Scholes,5.5354,0.1461,5.5354,0.0,0.0,5-fold on training options,,,,,,,,,
+,,,,,,,"Test, used once",All test options,Black-Scholes,6.0721,10.1465,-0.0489,0.0329,,,
+,,,,,,,"Test, used once",All test options,Direct ML (LightGBM),8.4798,13.5856,-0.6776,0.045,-2.4077,₹-2.71 to ₹-2.09,No: worse
+,,,,,,,"Test, used once",All test options,Hybrid ML (Linear regression),6.2207,10.35,-0.7699,0.0329,-0.1485,₹-0.23 to ₹-0.07,No: worse
+,,,,,,,"Test, used once",Without impossible prices,Black-Scholes,5.8067,9.7094,0.4285,0.0327,,,
+,,,,,,,"Test, used once",Without impossible prices,Direct ML (LightGBM),8.1334,13.0996,-0.0874,0.0451,-2.3266,₹-2.64 to ₹-2.02,No: worse
+,,,,,,,"Test, used once",Without impossible prices,Hybrid ML (Linear regression),5.8299,9.6521,-0.1873,0.0323,-0.0232,₹-0.10 to ₹+0.06,No: no clear difference

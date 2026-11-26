@@ -1,0 +1,4 @@
+Risk_Rating,Initiatives,Capital (₹ crore),Share of capital,Success rate,Failed capital (₹ crore),Failed share of its capital,Share of all failed capital,Median Expected_ROI (%),Passes hurdle
+Low,64,98.603,0.348,0.891,9.19,0.093,0.14,11.99,0.797
+Medium,72,119.423,0.421,0.694,35.348,0.296,0.54,11.35,0.778
+High,44,65.422,0.231,0.705,20.978,0.321,0.32,8.32,0.636

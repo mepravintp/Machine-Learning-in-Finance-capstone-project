@@ -1,0 +1,5 @@
+Strategy,CAGR,Volatility,Sharpe,Sortino,Maximum drawdown,Calmar,"VaR 95% (1 day, historical)","VaR 95% (1 day, parametric)",CVaR 95% (1 day),Turnover a month,Largest weight (average),Stocks held above 1% (average),Tracking error,Information ratio,p (vs equal weight),Months beating equal weight,Beats equal weight?
+Equal weight,0.156,0.0779,1.0555,1.5554,-0.0425,3.6733,0.0076,0.0074,0.0098,0.0654,0.0667,15.0,,,,,
+Markowitz (past returns),0.1659,0.118,0.8026,1.1646,-0.1213,1.3674,0.0118,0.0114,0.0148,0.3259,0.2179,9.4651,0.0864,0.1139,0.7934,22.0,No
+ML (ridge forecasts),0.106,0.116,0.3597,0.5235,-0.1487,0.7129,0.0116,0.0114,0.0144,0.8965,0.2194,9.4884,0.0812,-0.6154,0.3866,14.0,No
+Top 5 (Module 5),0.132,0.1325,0.5056,0.7337,-0.17,0.7768,0.0129,0.013,0.0162,0.9871,0.2,5.0,0.1053,-0.2279,0.8063,20.0,No

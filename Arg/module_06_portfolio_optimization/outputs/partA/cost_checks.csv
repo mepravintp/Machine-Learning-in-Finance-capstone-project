@@ -1,0 +1,17 @@
+Cost per ₹ traded,Strategy,CAGR,Sharpe
+0.0,Equal weight,0.1579,1.0759
+0.0,Markowitz (past returns),0.1731,0.8547
+0.0,ML (ridge forecasts),0.1241,0.5006
+0.0,Top 5 (Module 5),0.1524,0.6417
+0.001,Equal weight,0.1566,1.0623
+0.001,Markowitz (past returns),0.1683,0.82
+0.001,ML (ridge forecasts),0.112,0.4067
+0.001,Top 5 (Module 5),0.1388,0.551
+0.0015,Equal weight,0.156,1.0555
+0.0015,Markowitz (past returns),0.1659,0.8026
+0.0015,ML (ridge forecasts),0.106,0.3597
+0.0015,Top 5 (Module 5),0.132,0.5056
+0.003,Equal weight,0.1542,1.0349
+0.003,Markowitz (past returns),0.1587,0.7502
+0.003,ML (ridge forecasts),0.0882,0.2191
+0.003,Top 5 (Module 5),0.112,0.3697

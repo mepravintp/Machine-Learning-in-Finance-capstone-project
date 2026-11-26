@@ -1,0 +1,44 @@
+Alternative run,Initiative_ID,Risk_Rating,Business_Unit,Lasso P,Main label,Label in this run
+No model (0.767 for all),1010,High,Corporate Banking,0.708,Reject,Review
+No model (0.767 for all),1016,Medium,SME Lending,0.706,Reject,Review
+No model (0.767 for all),1018,High,Wealth,0.669,Reject,Review
+No model (0.767 for all),1024,Medium,Digital Banking,0.711,Reject,Review
+No model (0.767 for all),1029,Medium,Corporate Banking,0.692,Reject,Review
+No model (0.767 for all),1032,Medium,Digital Banking,0.754,Reject,Review
+No model (0.767 for all),1036,High,Payments,0.677,Reject,Review
+No model (0.767 for all),1039,Medium,Payments,0.672,Reject,Review
+No model (0.767 for all),1040,Medium,Digital Banking,0.754,Reject,Review
+No model (0.767 for all),1060,Medium,Wealth,0.707,Reject,Review
+No model (0.767 for all),1061,Medium,Wealth,0.675,Reject,Review
+No model (0.767 for all),1071,Medium,Corporate Banking,0.633,Reject,Review
+No model (0.767 for all),1072,High,Digital Banking,0.675,Reject,Review
+No model (0.767 for all),1080,Medium,Payments,0.712,Reject,Review
+No model (0.767 for all),1082,Medium,Risk Analytics,0.688,Reject,Review
+No model (0.767 for all),1083,Medium,Corporate Banking,0.669,Reject,Review
+No model (0.767 for all),1087,High,Digital Banking,0.712,Reject,Review
+No model (0.767 for all),1089,High,Wealth,0.723,Reject,Review
+No model (0.767 for all),1091,Medium,Corporate Banking,0.691,Reject,Review
+No model (0.767 for all),1095,Medium,Payments,0.694,Reject,Review
+No model (0.767 for all),1100,Medium,Payments,0.722,Reject,Review
+No model (0.767 for all),1110,High,Digital Banking,0.765,Reject,Review
+No model (0.767 for all),1116,Medium,Digital Banking,0.741,Reject,Review
+No model (0.767 for all),1123,Medium,Digital Banking,0.766,Reject,Review
+No model (0.767 for all),1133,High,Payments,0.684,Reject,Review
+No model (0.767 for all),1135,Medium,Wealth,0.712,Reject,Review
+No model (0.767 for all),1146,Medium,SME Lending,0.712,Reject,Review
+No model (0.767 for all),1147,Medium,Digital Banking,0.749,Reject,Review
+No model (0.767 for all),1152,Medium,Corporate Banking,0.657,Reject,Review
+No model (0.767 for all),1153,Medium,Digital Banking,0.742,Reject,Review
+No model (0.767 for all),1161,Medium,Corporate Banking,0.698,Reject,Review
+No model (0.767 for all),1166,Medium,Payments,0.696,Reject,Review
+No model (0.767 for all),1170,High,Corporate Banking,0.687,Reject,Review
+No model (0.767 for all),1173,Medium,Wealth,0.681,Reject,Review
+No model (0.767 for all),1174,High,Corporate Banking,0.646,Reject,Review
+No model (0.767 for all),1178,High,Wealth,0.75,Reject,Review
+Risk rating only,1006,Medium,Digital Banking,0.775,Review,Reject
+Risk rating only,1030,Medium,Risk Analytics,0.784,Review,Reject
+Risk rating only,1099,High,Digital Banking,0.769,Review,Reject
+Risk rating only,1117,Medium,Risk Analytics,0.78,Review,Reject
+Risk rating only,1131,Medium,Risk Analytics,0.802,Review,Reject
+Risk rating only,1137,Medium,Digital Banking,0.836,Review,Reject
+Risk rating only,1158,Medium,Corporate Banking,0.782,Review,Reject

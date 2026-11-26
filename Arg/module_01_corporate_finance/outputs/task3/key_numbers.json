@@ -1,0 +1,83 @@
+{
+  "fund": 2,
+  "review": 38,
+  "reject": 140,
+  "fund_ids": [
+    1075,
+    1062
+  ],
+  "fund_conditions": [
+    "Fund in full",
+    "Fund in stages"
+  ],
+  "fund_capital_crore": 3.24,
+  "review_capital_crore": 62.95,
+  "reject_reasons": {
+    "Reject: pays back after the 5-year limit": 79,
+    "Reject: flagged at risk by the model": 36,
+    "Reject: never pays back": 17,
+    "Reject: fails the hurdle": 8
+  },
+  "sensitivity_p_source": {
+    "Main: lasso": {
+      "fund": 2,
+      "review": 38,
+      "reject": 140,
+      "changed": 0
+    },
+    "No model (0.767 for all)": {
+      "fund": 2,
+      "review": 74,
+      "reject": 104,
+      "changed": 36
+    },
+    "Risk rating only": {
+      "fund": 2,
+      "review": 31,
+      "reject": 147,
+      "changed": 7
+    }
+  },
+  "sensitivity_cutoff_review": {
+    "4 years": 21,
+    "5 years": 38,
+    "6 years": 47
+  },
+  "module9_by_unit": {
+    "Corporate Banking": {
+      "capacity_crore": 15.81,
+      "expected_return_pct": 6.33,
+      "bad_case_pct": -6.13
+    },
+    "Digital Banking": {
+      "capacity_crore": 9.34,
+      "expected_return_pct": 13.2,
+      "bad_case_pct": -6.64
+    },
+    "Payments": {
+      "capacity_crore": 10.08,
+      "expected_return_pct": 13.0,
+      "bad_case_pct": -2.14
+    },
+    "Risk Analytics": {
+      "capacity_crore": 11.5,
+      "expected_return_pct": 10.45,
+      "bad_case_pct": -5.35
+    },
+    "SME Lending": {
+      "capacity_crore": 4.18,
+      "expected_return_pct": 13.34,
+      "bad_case_pct": -1.42
+    },
+    "Wealth": {
+      "capacity_crore": 15.28,
+      "expected_return_pct": 17.59,
+      "bad_case_pct": 3.57
+    },
+    "All units": {
+      "capacity_crore": 66.19,
+      "expected_return_pct": 12.13,
+      "bad_case_pct": 5.95
+    }
+  }
+}

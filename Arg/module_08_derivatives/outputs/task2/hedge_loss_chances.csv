@@ -1,0 +1,5 @@
+Choice,Chance of a losing day,Average day (₹),1-in-20 bad day: loss (₹),1-in-100 bad day: loss (₹),Chance of a losing month,1-in-20 bad month: loss (₹)
+A. No hedge,0.4913,1001.5752,71903.7284,102738.3864,0.457,316311.4831
+B. Delta hedge,0.4948,1057.472,81275.1014,114853.641,0.4671,357559.1266
+C. Delta + half vega hedge,0.4848,1212.2264,39928.3949,56653.4526,0.4182,164504.2468
+D. Delta + full vega hedge,0.0,1366.9807,-1041.2561,-987.4328,0.0,-26450.4179

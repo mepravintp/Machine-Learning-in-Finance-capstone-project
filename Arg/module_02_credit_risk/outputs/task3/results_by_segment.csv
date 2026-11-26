@@ -1,0 +1,8 @@
+Kind,Segment,Loans,₹ lent today (crore),Approve,Review,Reject,Default today,"Default, approved",Interest − actual loss today (crore),"Interest − actual loss, approved (crore)",Earned per ₹100 today,"Earned per ₹100, approved",Expected return today,"Expected return, approved"
+Customer type,Corporate,1306,173.2242,0.5858,0.2083,0.206,0.1998,0.1137,0.2471,2.7883,0.1426,3.6971,0.0024,0.0331
+Customer type,Retail,3694,466.4287,0.5872,0.2093,0.2036,0.1992,0.1134,2.8277,7.6642,0.6062,3.6406,0.005,0.033
+Sector risk,Lowest fifth,1000,122.0633,0.603,0.22,0.177,0.182,0.1012,0.1059,2.145,0.0868,3.7572,0.0063,0.0335
+Sector risk,Low fifth,1000,130.5438,0.588,0.205,0.207,0.195,0.1071,0.8125,2.2718,0.6224,3.856,0.0025,0.0319
+Sector risk,Middle fifth,1000,127.4896,0.565,0.227,0.208,0.2,0.0991,0.8566,2.1261,0.6719,3.9521,0.0042,0.0325
+Sector risk,High fifth,1000,127.271,0.6,0.195,0.205,0.213,0.1317,0.0683,2.1014,0.0537,3.5786,0.0045,0.0331
+Sector risk,Highest fifth,1000,132.2853,0.578,0.198,0.224,0.207,0.128,1.2313,1.8083,0.9308,3.1494,0.0042,0.034

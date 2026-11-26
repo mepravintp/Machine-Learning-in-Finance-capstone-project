@@ -1,0 +1,12 @@
+Scenario,Year's result (₹ crore),Against plan (₹ crore),Within the ₹100 crore budget?,Note
+Plan,91.809,0.0,Yes,
+1. Market crash: all stocks −20% (the put pays),15.009,-76.8,Yes,
+2. Equities at the low end of their range (8.6%),70.809,-21.0,Yes,
+3. Initiatives disappoint (1-in-20 outcome),83.7242,-8.0849,Yes,
+4. Interest rates fall: risk-free 6.8% → 5%,80.3246,-11.4845,Yes,
+5. Credit recession (PD × 2) once the lending pool is released,66.2098,-25.5993,Yes,"Approved loans released at today's prices; the plan re-prices them first (step 7g shows every release step, re-priced)"
+"5b. Same, collateral fetches less (LGD 60%)",50.6188,-41.1903,Yes,"Approved loans released at today's prices; the plan re-prices them first (step 7g shows every release step, re-priced)"
+"6. Fraud three times as common (Digital banking, per ₹ moved)",91.809,0.0,Yes,"Fraud cost per ₹ moved rises from 1.55% to 4.03% (Module 3); money moved isn't in the data, so it shows as a control trigger, not a ₹ figure"
+7. HFT pilot: costs 1 bp higher (stop rule caps the loss),91.309,-0.5,Yes,
+8. All at once: 1 + 3 + 4 + 7,-5.0603,-96.8693,Yes,
+"8b. All at once, lending released: 1 + 3 + 4 + 5b + 7",-41.1036,-132.9127,Yes,"Approved loans released at today's prices; the plan re-prices them first (step 7g shows every release step, re-priced)"

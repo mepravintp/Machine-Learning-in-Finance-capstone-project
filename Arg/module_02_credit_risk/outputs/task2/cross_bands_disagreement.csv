@@ -1,0 +1,4 @@
+Group,Loans,₹ lent (crore),Actual default rate,Average rate charged (%)
+Scorecard puts in a SAFER band than the bank's price,792,89.91649037100001,0.11363636363636363,9.453358585858584
+Same band,3321,437.98484363500006,0.2122854561878952,9.668259560373382
+Scorecard puts in a RISKIER band than the bank's price,887,111.75153522700002,0.2277339346110485,9.048680947012402

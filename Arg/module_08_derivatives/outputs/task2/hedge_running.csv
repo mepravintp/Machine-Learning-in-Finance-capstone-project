@@ -1,0 +1,5 @@
+Choice,Day 1: shares bought (₹),Day 1: shares sold (₹),Day 1: calls sold (units),Day 1: premium received (₹),Cash tied up (₹: bought − sold − premium),Day 1: trading charges (₹),How often reset,Shares traded on a typical day to re-hedge (₹),Re-hedging charges a year (₹: 252 days × 0.1%)
+A. No hedge,0.0,-0.0,-0.0,0.0,0.0,0.0,—,0.0,0.0
+B. Delta hedge,0.0,2257446.98,-0.0,0.0,-2257446.98,2257.45,Shares every day; calls when the book changes,307715.73,77544.36
+C. Delta + half vega hedge,2196996.83,-0.0,3812.65,867022.3,1329974.53,10867.22,Shares every day; calls when the book changes,180552.22,45499.16
+D. Delta + full vega hedge,6651440.65,-0.0,7625.3,1734044.6,4917396.05,23991.89,Shares every day; calls when the book changes,53388.71,13453.95

@@ -1,0 +1,65 @@
+{
+ "clv_cut": 92963.39,
+ "churn_cut": 0.0178,
+ "groups_p": 0.6715,
+ "groups": {
+  "Priority retention": {
+   "customers": 278,
+   "clv_crore": 3.88,
+   "actual_churn": 0.0108
+  },
+  "Protect": {
+   "customers": 722,
+   "clv_crore": 9.9,
+   "actual_churn": 0.0152
+  },
+  "Low-cost intervention": {
+   "customers": 1854,
+   "clv_crore": 7.76,
+   "actual_churn": 0.02
+  },
+  "Maintain": {
+   "customers": 2146,
+   "clv_crore": 11.25,
+   "actual_churn": 0.0177
+  }
+ },
+ "backtest": {
+  "Recommended: the high-CLV groups": {
+   "Leavers reached (of 89)": 14.0,
+   "Value of leavers reached (₹ lakh)": 18.6831,
+   "Share of value that left": 0.3339,
+   "Value contacted (₹ crore)": 13.7855,
+   "Share of all value contacted": 0.4203
+  },
+  "Chance of churn × CLV": {
+   "Leavers reached (of 89)": 16.0,
+   "Value of leavers reached (₹ lakh)": 17.4966,
+   "Share of value that left": 0.3127,
+   "Value contacted (₹ crore)": 11.962,
+   "Share of all value contacted": 0.3647
+  },
+  "Churn score only": {
+   "Leavers reached (of 89)": 15.0,
+   "Value of leavers reached (₹ lakh)": 8.5224,
+   "Share of value that left": 0.1523,
+   "Value contacted (₹ crore)": 5.8233,
+   "Share of all value contacted": 0.1775
+  },
+  "Random 1,000: average": {
+   "Leavers reached (of 89)": 17.676,
+   "Value of leavers reached (₹ lakh)": 11.1741,
+   "Share of value that left": 0.1997,
+   "Value contacted (₹ crore)": 6.5716,
+   "Share of all value contacted": 0.2003
+  },
+  "Random 1,000: 95% range high end": {
+   "Leavers reached (of 89)": 25.0,
+   "Value of leavers reached (₹ lakh)": 17.3571,
+   "Share of value that left": 0.3102,
+   "Value contacted (₹ crore)": 6.829,
+   "Share of all value contacted": 0.2082
+  }
+ },
+ "campaign_expected_loss_lakh": 24.54
+}

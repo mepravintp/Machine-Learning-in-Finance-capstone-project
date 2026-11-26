@@ -1,0 +1,27 @@
+Input,Mean |SHAP|
+Risk_Rating = Low,0.4164
+Business_Growth,0.121
+Expected_ROI,0.0815
+Business_Unit = Corporate Banking,0.0776
+Revenue_Growth_Y1_Y3,0.0563
+Competition_Index,0.0357
+NPV_3yr,0.0314
+Cash_Return_Pct,0.0262
+GDP_Growth,0.0192
+Revenue_Year1,0.0
+Interest_Rate,0.0
+Revenue_Year2,0.0
+Revenue_Year3,0.0
+Operating_Cost,0.0
+Initial_Investment,0.0
+CF3,0.0
+CF1,0.0
+CF2,0.0
+ROI_Spread,0.0
+Business_Unit = Digital Banking,0.0
+Business_Unit = Risk Analytics,0.0
+Business_Unit = Payments,0.0
+Business_Unit = SME Lending,0.0
+Business_Unit = Wealth,0.0
+Risk_Rating = High,0.0
+Risk_Rating = Medium,0.0

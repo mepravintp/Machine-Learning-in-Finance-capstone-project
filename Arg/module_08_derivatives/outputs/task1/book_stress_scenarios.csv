@@ -1,0 +1,7 @@
+Scenario,Change in book value (₹)
+Stocks −5%,-79947.68
+Stocks +5%,143767.78
+Volatility −5 points (markets calm down),-239684.83
+Volatility +5 points (markets get jumpier),261843.0
+Stocks −5% and volatility +5 points (typical sell-off),180000.56
+Stocks +5% and volatility −5 points (calm rally),-90075.27

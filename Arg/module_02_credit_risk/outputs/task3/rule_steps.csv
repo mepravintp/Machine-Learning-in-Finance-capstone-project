@@ -1,0 +1,6 @@
+Step,Loans caught,Of which caught only by this step
+1  PD over 30% → Reject,1021,1021
+2  Interest below expected loss → Review,437,226
+3a Large loan → Review,125,76
+3b Weak collateral → Review,736,497
+4  Over risk-appetite cap → Review,0,0

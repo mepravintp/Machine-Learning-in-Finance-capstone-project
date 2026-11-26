@@ -1,0 +1,7 @@
+Model,"Mean P(Success), unweighted","Mean P(Success), balanced","Brier, unweighted","Brier, balanced","Failure recall, unweighted","Failure recall, balanced"
+Lasso,0.748,0.506,0.18,0.252,0.736,0.985
+Logistic regression,0.766,0.551,0.192,0.256,0.543,0.807
+Decision tree,0.767,0.58,0.21,0.263,0.558,0.797
+Random forest,0.761,0.62,0.189,0.212,0.431,0.939
+XGBoost,0.785,0.668,0.212,0.238,0.339,0.587
+LightGBM,0.794,0.685,0.212,0.237,0.33,0.559

@@ -1,0 +1,10 @@
+Rule,"Investigated per 1,000",Frauds caught,Fraud ₹ caught,"Frauds missed per 1,000","Honest checked per 1,000","Cost per 1,000 (₹)","Saving vs nothing per 1,000 (₹)",Saving 95% range,Saving %,View,"Fraud ₹ let through per 1,000","Checking cost per 1,000","Real cost per 1,000 (₹)","Real saving vs nothing per 1,000 (₹)"
+The line: P(fraud) > 4.76%,79.0,0.5208,0.7975,11.5,66.5,148250.0,91750.0,"₹62,819 to ₹121,835",0.3823,"Brief's costs (₹10,000 / ₹500)",,,,
+Sweep's cut-off: P(fraud) ≥ 7.10%,75.5,0.5139,0.7906,11.6667,63.1667,148250.0,91750.0,"₹63,654 to ₹120,833",0.3823,"Brief's costs (₹10,000 / ₹500)",,,,
+"Anomaly score, sweep's cut-off",90.1667,0.2986,0.5591,16.8333,83.0,209833.3333,30166.6667,"₹9,496 to ₹52,585",0.1257,"Brief's costs (₹10,000 / ₹500)",,,,
+Investigate nothing,0.0,0.0,0.0,24.0,0.0,240000.0,0.0,₹0 to ₹0,0.0,"Brief's costs (₹10,000 / ₹500)",,,,
+Investigate everything,1000.0,1.0,1.0,0.0,976.0,488000.0,-248000.0,"₹-291,750 to ₹-207,750",-1.0333,"Brief's costs (₹10,000 / ₹500)",,,,
+Base rule: P(fraud) > 4.76%,79.0,0.5208,0.7975,,,,,,,Real amounts (finance view),134800.3483,33250.0,168050.3483,497654.8117
+Finance-view rule: P × amount > (1 − P) × ₹500,156.6667,0.625,0.8928,,,,,,,Real amounts (finance view),71360.175,70833.3333,142193.5083,523511.6517
+Investigate nothing,0.0,0.0,0.0,,,,,,,Real amounts (finance view),665705.16,0.0,665705.16,0.0
+Investigate everything,1000.0,1.0,1.0,,,,,,,Real amounts (finance view),0.0,488000.0,488000.0,177705.16

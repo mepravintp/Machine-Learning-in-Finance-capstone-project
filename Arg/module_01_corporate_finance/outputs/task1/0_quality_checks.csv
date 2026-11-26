@@ -1,0 +1,13 @@
+Check,Result
+Rows,180
+Missing values (all columns),0
+Duplicate Initiative_ID,0
+Negative money values,0
+Expected_ROI ≤ 0,0
+Expected_ROI exactly at the 2.00% floor,11
+Business_Growth < 0,1
+Revenue falls Year 1 → Year 3,0
+Operating_Cost > Year 1 revenue,18
+Business_Unit labels,"Corporate Banking, Digital Banking, Payments, Risk Analytics, SME Lending, Wealth"
+Risk_Rating labels,"Low, Medium, High"
+Historical_Success values,"0, 1"

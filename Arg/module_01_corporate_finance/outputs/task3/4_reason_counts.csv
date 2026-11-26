@@ -1,0 +1,8 @@
+Label,Decision_Path,Initiatives
+Fund,"Fund: positive value, Low risk",2
+Reject,Reject: pays back after the 5-year limit,79
+Reject,Reject: flagged at risk by the model,36
+Reject,Reject: never pays back,17
+Reject,Reject: fails the hurdle,8
+Review,Review: slow payer (pays back within 5 years),32
+Review,Review: positive value but Medium/High risk,6

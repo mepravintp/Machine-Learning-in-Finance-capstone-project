@@ -1,0 +1,4 @@
+Investment_band,n,range_lakh,success_rate,success_ci_low,success_ci_high,NPV_3yr_median
+Small,60,31–108,0.767,0.646,0.856,-24.747
+Mid-size,60,109–201,0.783,0.664,0.869,-65.837
+Large,60,201–296,0.75,0.628,0.842,-123.552

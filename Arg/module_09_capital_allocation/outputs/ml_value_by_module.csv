@@ -1,0 +1,8 @@
+Module,Without the ML work,With it,₹ difference,₹ crore a year (where measurable)
+2 Credit risk,Lend to every applicant at today's prices,Approve / Review / Reject by the PD scorecard,"+₹7.4 crore a year earned above actual losses, with ₹354 crore less lent at risk",7.379999999999999
+1 Corporate finance,Fund all 180 initiatives (₹283 crore),"Fund 2, review 38 in priority order, reject 140","+₹17.4 crore a year expected (the 33 the plan funds: 13.7% a year; all 180: −3.6%); mostly from the NPV, payback and hurdle rules, because the success model only screens slow payers (the risk rating alone gives a similar Review list: 31 vs 38)",17.397559564999998
+3 Fraud,No screening,Investigate when P(fraud) > 4.76%,Saves ₹4.58 crore per ₹100 crore of money moved (6.13% → 1.55%),
+7 HFT,Orders placed without timing,Wait 0.1 s when the model expects an adverse move,₹3.43 crore a year per ₹100 crore of orders a day; ₹0.03 crore on the equity book,
+5–6 Equities,Follow the ML stock picks,Hold all 15 (the ML picks failed validation),"+₹15.0 crore a year on ₹300 crore (10.6% vs 15.6%; not beyond luck, p 0.39)",15.0
+8 Derivatives,Price options with ML; hedge with shares only,Black-Scholes pricing; hedge C (delta + half vega),"Avoids ₹1,500–₹24,000 of mispricing per 10,000 options; cuts the option book's 1-in-100 bad day by 45%",
+4 Customers,Spend on retention from a churn model,No churn model (it can't predict); randomised test first,Avoids spending on calls that a coin flip would target as well,

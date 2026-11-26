@@ -1,0 +1,1001 @@
+Call order,Customer_ID,Group,CLV (₹),Chance of churn (no better than chance),Why contact,"Left (back-test only, not known when calling)"
+1,300294,Priority retention,439366.88,0.1158,"High value: CLV ₹439,367 (top 20%, at least ₹92,963); model rates churn above average (11.58% vs 1.78%), though this score is no better than chance",No
+2,303835,Priority retention,399209.67,0.0752,"High value: CLV ₹399,210 (top 20%, at least ₹92,963); model rates churn above average (7.52% vs 1.78%), though this score is no better than chance",No
+3,300415,Priority retention,315234.42,0.0185,"High value: CLV ₹315,234 (top 20%, at least ₹92,963); model rates churn above average (1.85% vs 1.78%), though this score is no better than chance",No
+4,300310,Priority retention,298396.13,0.0211,"High value: CLV ₹298,396 (top 20%, at least ₹92,963); model rates churn above average (2.11% vs 1.78%), though this score is no better than chance",No
+5,303324,Priority retention,297721.6,0.0729,"High value: CLV ₹297,722 (top 20%, at least ₹92,963); model rates churn above average (7.29% vs 1.78%), though this score is no better than chance",No
+6,304309,Priority retention,292283.58,0.0337,"High value: CLV ₹292,284 (top 20%, at least ₹92,963); model rates churn above average (3.37% vs 1.78%), though this score is no better than chance",No
+7,301454,Priority retention,280425.8,0.0222,"High value: CLV ₹280,426 (top 20%, at least ₹92,963); model rates churn above average (2.22% vs 1.78%), though this score is no better than chance",No
+8,303717,Priority retention,263868.13,0.1172,"High value: CLV ₹263,868 (top 20%, at least ₹92,963); model rates churn above average (11.72% vs 1.78%), though this score is no better than chance",No
+9,304206,Priority retention,259997.49,0.0223,"High value: CLV ₹259,997 (top 20%, at least ₹92,963); model rates churn above average (2.23% vs 1.78%), though this score is no better than chance",No
+10,300873,Priority retention,252788.06,0.0318,"High value: CLV ₹252,788 (top 20%, at least ₹92,963); model rates churn above average (3.18% vs 1.78%), though this score is no better than chance",No
+11,304003,Priority retention,252700.85,0.0186,"High value: CLV ₹252,701 (top 20%, at least ₹92,963); model rates churn above average (1.86% vs 1.78%), though this score is no better than chance",No
+12,304259,Priority retention,248889.78,0.0665,"High value: CLV ₹248,890 (top 20%, at least ₹92,963); model rates churn above average (6.65% vs 1.78%), though this score is no better than chance",No
+13,304880,Priority retention,240346.39,0.018,"High value: CLV ₹240,346 (top 20%, at least ₹92,963); model rates churn above average (1.80% vs 1.78%), though this score is no better than chance",No
+14,300175,Priority retention,234605.98,0.0278,"High value: CLV ₹234,606 (top 20%, at least ₹92,963); model rates churn above average (2.78% vs 1.78%), though this score is no better than chance",No
+15,300588,Priority retention,226215.44,0.0209,"High value: CLV ₹226,215 (top 20%, at least ₹92,963); model rates churn above average (2.09% vs 1.78%), though this score is no better than chance",No
+16,302040,Priority retention,220450.87,0.0477,"High value: CLV ₹220,451 (top 20%, at least ₹92,963); model rates churn above average (4.77% vs 1.78%), though this score is no better than chance",No
+17,303740,Priority retention,219419.7,0.0283,"High value: CLV ₹219,420 (top 20%, at least ₹92,963); model rates churn above average (2.83% vs 1.78%), though this score is no better than chance",No
+18,303525,Priority retention,217145.2,0.0232,"High value: CLV ₹217,145 (top 20%, at least ₹92,963); model rates churn above average (2.32% vs 1.78%), though this score is no better than chance",No
+19,301800,Priority retention,217109.06,0.0235,"High value: CLV ₹217,109 (top 20%, at least ₹92,963); model rates churn above average (2.35% vs 1.78%), though this score is no better than chance",No
+20,303405,Priority retention,216967.98,0.0202,"High value: CLV ₹216,968 (top 20%, at least ₹92,963); model rates churn above average (2.02% vs 1.78%), though this score is no better than chance",No
+21,301056,Priority retention,213917.86,0.0204,"High value: CLV ₹213,918 (top 20%, at least ₹92,963); model rates churn above average (2.04% vs 1.78%), though this score is no better than chance",No
+22,304006,Priority retention,211989.54,0.0256,"High value: CLV ₹211,990 (top 20%, at least ₹92,963); model rates churn above average (2.56% vs 1.78%), though this score is no better than chance",No
+23,302030,Priority retention,209282.18,0.0326,"High value: CLV ₹209,282 (top 20%, at least ₹92,963); model rates churn above average (3.26% vs 1.78%), though this score is no better than chance",No
+24,300688,Priority retention,206849.58,0.022,"High value: CLV ₹206,850 (top 20%, at least ₹92,963); model rates churn above average (2.20% vs 1.78%), though this score is no better than chance",No
+25,301548,Priority retention,204402.0,0.2107,"High value: CLV ₹204,402 (top 20%, at least ₹92,963); model rates churn above average (21.07% vs 1.78%), though this score is no better than chance",No
+26,300923,Priority retention,204029.84,0.0264,"High value: CLV ₹204,030 (top 20%, at least ₹92,963); model rates churn above average (2.64% vs 1.78%), though this score is no better than chance",No
+27,302799,Priority retention,201702.77,0.0471,"High value: CLV ₹201,703 (top 20%, at least ₹92,963); model rates churn above average (4.71% vs 1.78%), though this score is no better than chance",No
+28,300197,Priority retention,198713.13,0.0262,"High value: CLV ₹198,713 (top 20%, at least ₹92,963); model rates churn above average (2.62% vs 1.78%), though this score is no better than chance",No
+29,301050,Priority retention,198245.29,0.0203,"High value: CLV ₹198,245 (top 20%, at least ₹92,963); model rates churn above average (2.03% vs 1.78%), though this score is no better than chance",No
+30,304291,Priority retention,197196.02,0.0891,"High value: CLV ₹197,196 (top 20%, at least ₹92,963); model rates churn above average (8.91% vs 1.78%), though this score is no better than chance",No
+31,300933,Priority retention,196246.25,0.0302,"High value: CLV ₹196,246 (top 20%, at least ₹92,963); model rates churn above average (3.02% vs 1.78%), though this score is no better than chance",No
+32,304793,Priority retention,195326.83,0.0212,"High value: CLV ₹195,327 (top 20%, at least ₹92,963); model rates churn above average (2.12% vs 1.78%), though this score is no better than chance",No
+33,303618,Priority retention,195200.45,0.0214,"High value: CLV ₹195,200 (top 20%, at least ₹92,963); model rates churn above average (2.14% vs 1.78%), though this score is no better than chance",No
+34,300446,Priority retention,194338.64,0.0543,"High value: CLV ₹194,339 (top 20%, at least ₹92,963); model rates churn above average (5.43% vs 1.78%), though this score is no better than chance",No
+35,301620,Priority retention,192806.71,0.0296,"High value: CLV ₹192,807 (top 20%, at least ₹92,963); model rates churn above average (2.96% vs 1.78%), though this score is no better than chance",No
+36,300061,Priority retention,189436.15,0.0335,"High value: CLV ₹189,436 (top 20%, at least ₹92,963); model rates churn above average (3.35% vs 1.78%), though this score is no better than chance",No
+37,302717,Priority retention,188205.6,0.0185,"High value: CLV ₹188,206 (top 20%, at least ₹92,963); model rates churn above average (1.85% vs 1.78%), though this score is no better than chance",No
+38,300480,Priority retention,186663.29,0.0185,"High value: CLV ₹186,663 (top 20%, at least ₹92,963); model rates churn above average (1.85% vs 1.78%), though this score is no better than chance",No
+39,304663,Priority retention,185313.32,0.0185,"High value: CLV ₹185,313 (top 20%, at least ₹92,963); model rates churn above average (1.85% vs 1.78%), though this score is no better than chance",No
+40,301271,Priority retention,183608.33,0.0201,"High value: CLV ₹183,608 (top 20%, at least ₹92,963); model rates churn above average (2.01% vs 1.78%), though this score is no better than chance",No
+41,300695,Priority retention,181381.12,0.0182,"High value: CLV ₹181,381 (top 20%, at least ₹92,963); model rates churn above average (1.82% vs 1.78%), though this score is no better than chance",No
+42,301949,Priority retention,180668.54,0.0397,"High value: CLV ₹180,669 (top 20%, at least ₹92,963); model rates churn above average (3.97% vs 1.78%), though this score is no better than chance",No
+43,302400,Priority retention,179311.3,0.0434,"High value: CLV ₹179,311 (top 20%, at least ₹92,963); model rates churn above average (4.34% vs 1.78%), though this score is no better than chance",No
+44,304067,Priority retention,178614.62,0.0215,"High value: CLV ₹178,615 (top 20%, at least ₹92,963); model rates churn above average (2.15% vs 1.78%), though this score is no better than chance",No
+45,300008,Priority retention,178474.5,0.0207,"High value: CLV ₹178,474 (top 20%, at least ₹92,963); model rates churn above average (2.07% vs 1.78%), though this score is no better than chance",No
+46,301005,Priority retention,176961.63,0.0402,"High value: CLV ₹176,962 (top 20%, at least ₹92,963); model rates churn above average (4.02% vs 1.78%), though this score is no better than chance",Yes
+47,301617,Priority retention,175405.81,0.0333,"High value: CLV ₹175,406 (top 20%, at least ₹92,963); model rates churn above average (3.33% vs 1.78%), though this score is no better than chance",No
+48,304184,Priority retention,174992.46,0.018,"High value: CLV ₹174,992 (top 20%, at least ₹92,963); model rates churn above average (1.80% vs 1.78%), though this score is no better than chance",No
+49,302784,Priority retention,174189.0,0.1097,"High value: CLV ₹174,189 (top 20%, at least ₹92,963); model rates churn above average (10.97% vs 1.78%), though this score is no better than chance",No
+50,304229,Priority retention,172365.53,0.0179,"High value: CLV ₹172,366 (top 20%, at least ₹92,963); model rates churn above average (1.79% vs 1.78%), though this score is no better than chance",No
+51,302138,Priority retention,171071.15,0.0306,"High value: CLV ₹171,071 (top 20%, at least ₹92,963); model rates churn above average (3.06% vs 1.78%), though this score is no better than chance",No
+52,304039,Priority retention,170325.65,0.0268,"High value: CLV ₹170,326 (top 20%, at least ₹92,963); model rates churn above average (2.68% vs 1.78%), though this score is no better than chance",No
+53,303834,Priority retention,168800.02,0.0374,"High value: CLV ₹168,800 (top 20%, at least ₹92,963); model rates churn above average (3.74% vs 1.78%), though this score is no better than chance",No
+54,304904,Priority retention,165817.63,0.0179,"High value: CLV ₹165,818 (top 20%, at least ₹92,963); model rates churn above average (1.79% vs 1.78%), though this score is no better than chance",No
+55,300349,Priority retention,165506.57,0.0211,"High value: CLV ₹165,507 (top 20%, at least ₹92,963); model rates churn above average (2.11% vs 1.78%), though this score is no better than chance",No
+56,303023,Priority retention,165396.19,0.0181,"High value: CLV ₹165,396 (top 20%, at least ₹92,963); model rates churn above average (1.81% vs 1.78%), though this score is no better than chance",No
+57,303045,Priority retention,164173.38,0.0242,"High value: CLV ₹164,173 (top 20%, at least ₹92,963); model rates churn above average (2.42% vs 1.78%), though this score is no better than chance",No
+58,300974,Priority retention,163720.92,0.0248,"High value: CLV ₹163,721 (top 20%, at least ₹92,963); model rates churn above average (2.48% vs 1.78%), though this score is no better than chance",No
+59,304366,Priority retention,163688.1,0.0285,"High value: CLV ₹163,688 (top 20%, at least ₹92,963); model rates churn above average (2.85% vs 1.78%), though this score is no better than chance",No
+60,300380,Priority retention,163020.35,0.02,"High value: CLV ₹163,020 (top 20%, at least ₹92,963); model rates churn above average (2.00% vs 1.78%), though this score is no better than chance",No
+61,302091,Priority retention,162966.61,0.0186,"High value: CLV ₹162,967 (top 20%, at least ₹92,963); model rates churn above average (1.86% vs 1.78%), though this score is no better than chance",No
+62,303158,Priority retention,162695.93,0.0518,"High value: CLV ₹162,696 (top 20%, at least ₹92,963); model rates churn above average (5.18% vs 1.78%), though this score is no better than chance",No
+63,300799,Priority retention,162325.36,0.0249,"High value: CLV ₹162,325 (top 20%, at least ₹92,963); model rates churn above average (2.49% vs 1.78%), though this score is no better than chance",No
+64,302058,Priority retention,161512.89,0.0183,"High value: CLV ₹161,513 (top 20%, at least ₹92,963); model rates churn above average (1.83% vs 1.78%), though this score is no better than chance",Yes
+65,300541,Priority retention,160286.09,0.0858,"High value: CLV ₹160,286 (top 20%, at least ₹92,963); model rates churn above average (8.58% vs 1.78%), though this score is no better than chance",No
+66,302448,Priority retention,158871.68,0.0323,"High value: CLV ₹158,872 (top 20%, at least ₹92,963); model rates churn above average (3.23% vs 1.78%), though this score is no better than chance",No
+67,304826,Priority retention,158652.38,0.0596,"High value: CLV ₹158,652 (top 20%, at least ₹92,963); model rates churn above average (5.96% vs 1.78%), though this score is no better than chance",No
+68,303175,Priority retention,158382.98,0.0262,"High value: CLV ₹158,383 (top 20%, at least ₹92,963); model rates churn above average (2.62% vs 1.78%), though this score is no better than chance",No
+69,302226,Priority retention,157412.61,0.0191,"High value: CLV ₹157,413 (top 20%, at least ₹92,963); model rates churn above average (1.91% vs 1.78%), though this score is no better than chance",No
+70,304565,Priority retention,154866.66,0.0219,"High value: CLV ₹154,867 (top 20%, at least ₹92,963); model rates churn above average (2.19% vs 1.78%), though this score is no better than chance",No
+71,300836,Priority retention,153877.92,0.0188,"High value: CLV ₹153,878 (top 20%, at least ₹92,963); model rates churn above average (1.88% vs 1.78%), though this score is no better than chance",No
+72,301405,Priority retention,153503.17,0.0221,"High value: CLV ₹153,503 (top 20%, at least ₹92,963); model rates churn above average (2.21% vs 1.78%), though this score is no better than chance",No
+73,303304,Priority retention,152779.74,0.0473,"High value: CLV ₹152,780 (top 20%, at least ₹92,963); model rates churn above average (4.73% vs 1.78%), though this score is no better than chance",No
+74,300601,Priority retention,152352.51,0.0307,"High value: CLV ₹152,353 (top 20%, at least ₹92,963); model rates churn above average (3.07% vs 1.78%), though this score is no better than chance",No
+75,303505,Priority retention,151863.08,0.0279,"High value: CLV ₹151,863 (top 20%, at least ₹92,963); model rates churn above average (2.79% vs 1.78%), though this score is no better than chance",No
+76,304895,Priority retention,151619.63,0.0199,"High value: CLV ₹151,620 (top 20%, at least ₹92,963); model rates churn above average (1.99% vs 1.78%), though this score is no better than chance",No
+77,301508,Priority retention,149481.43,0.0209,"High value: CLV ₹149,481 (top 20%, at least ₹92,963); model rates churn above average (2.09% vs 1.78%), though this score is no better than chance",No
+78,303265,Priority retention,149136.61,0.0286,"High value: CLV ₹149,137 (top 20%, at least ₹92,963); model rates churn above average (2.86% vs 1.78%), though this score is no better than chance",No
+79,303712,Priority retention,148595.05,0.0297,"High value: CLV ₹148,595 (top 20%, at least ₹92,963); model rates churn above average (2.97% vs 1.78%), though this score is no better than chance",No
+80,302109,Priority retention,148430.06,0.0211,"High value: CLV ₹148,430 (top 20%, at least ₹92,963); model rates churn above average (2.11% vs 1.78%), though this score is no better than chance",No
+81,301660,Priority retention,148280.92,0.0322,"High value: CLV ₹148,281 (top 20%, at least ₹92,963); model rates churn above average (3.22% vs 1.78%), though this score is no better than chance",No
+82,301290,Priority retention,148272.47,0.0213,"High value: CLV ₹148,272 (top 20%, at least ₹92,963); model rates churn above average (2.13% vs 1.78%), though this score is no better than chance",No
+83,301815,Priority retention,148224.08,0.0215,"High value: CLV ₹148,224 (top 20%, at least ₹92,963); model rates churn above average (2.15% vs 1.78%), though this score is no better than chance",No
+84,302177,Priority retention,147829.98,0.0189,"High value: CLV ₹147,830 (top 20%, at least ₹92,963); model rates churn above average (1.89% vs 1.78%), though this score is no better than chance",No
+85,302682,Priority retention,146951.0,0.0225,"High value: CLV ₹146,951 (top 20%, at least ₹92,963); model rates churn above average (2.25% vs 1.78%), though this score is no better than chance",No
+86,301686,Priority retention,146604.72,0.0191,"High value: CLV ₹146,605 (top 20%, at least ₹92,963); model rates churn above average (1.91% vs 1.78%), though this score is no better than chance",No
+87,303394,Priority retention,145848.31,0.0273,"High value: CLV ₹145,848 (top 20%, at least ₹92,963); model rates churn above average (2.73% vs 1.78%), though this score is no better than chance",No
+88,303728,Priority retention,144885.26,0.0439,"High value: CLV ₹144,885 (top 20%, at least ₹92,963); model rates churn above average (4.39% vs 1.78%), though this score is no better than chance",No
+89,300697,Priority retention,143867.38,0.0326,"High value: CLV ₹143,867 (top 20%, at least ₹92,963); model rates churn above average (3.26% vs 1.78%), though this score is no better than chance",No
+90,304918,Priority retention,143730.51,0.034,"High value: CLV ₹143,731 (top 20%, at least ₹92,963); model rates churn above average (3.40% vs 1.78%), though this score is no better than chance",No
+91,302205,Priority retention,143007.59,0.102,"High value: CLV ₹143,008 (top 20%, at least ₹92,963); model rates churn above average (10.20% vs 1.78%), though this score is no better than chance",No
+92,301592,Priority retention,142956.5,0.0191,"High value: CLV ₹142,956 (top 20%, at least ₹92,963); model rates churn above average (1.91% vs 1.78%), though this score is no better than chance",No
+93,302819,Priority retention,142276.82,0.0288,"High value: CLV ₹142,277 (top 20%, at least ₹92,963); model rates churn above average (2.88% vs 1.78%), though this score is no better than chance",No
+94,303847,Priority retention,140874.34,0.0187,"High value: CLV ₹140,874 (top 20%, at least ₹92,963); model rates churn above average (1.87% vs 1.78%), though this score is no better than chance",No
+95,300895,Priority retention,140132.24,0.0236,"High value: CLV ₹140,132 (top 20%, at least ₹92,963); model rates churn above average (2.36% vs 1.78%), though this score is no better than chance",No
+96,302079,Priority retention,140106.09,0.0238,"High value: CLV ₹140,106 (top 20%, at least ₹92,963); model rates churn above average (2.38% vs 1.78%), though this score is no better than chance",No
+97,304336,Priority retention,139928.79,0.0221,"High value: CLV ₹139,929 (top 20%, at least ₹92,963); model rates churn above average (2.21% vs 1.78%), though this score is no better than chance",No
+98,303179,Priority retention,139726.14,0.0372,"High value: CLV ₹139,726 (top 20%, at least ₹92,963); model rates churn above average (3.72% vs 1.78%), though this score is no better than chance",No
+99,304160,Priority retention,139423.71,0.0215,"High value: CLV ₹139,424 (top 20%, at least ₹92,963); model rates churn above average (2.15% vs 1.78%), though this score is no better than chance",No
+100,302414,Priority retention,139377.5,0.0379,"High value: CLV ₹139,378 (top 20%, at least ₹92,963); model rates churn above average (3.79% vs 1.78%), though this score is no better than chance",No
+101,302829,Priority retention,139375.02,0.0291,"High value: CLV ₹139,375 (top 20%, at least ₹92,963); model rates churn above average (2.91% vs 1.78%), though this score is no better than chance",No
+102,304954,Priority retention,139283.3,0.021,"High value: CLV ₹139,283 (top 20%, at least ₹92,963); model rates churn above average (2.10% vs 1.78%), though this score is no better than chance",No
+103,304473,Priority retention,138100.02,0.0183,"High value: CLV ₹138,100 (top 20%, at least ₹92,963); model rates churn above average (1.83% vs 1.78%), though this score is no better than chance",No
+104,304984,Priority retention,137950.6,0.0265,"High value: CLV ₹137,951 (top 20%, at least ₹92,963); model rates churn above average (2.65% vs 1.78%), though this score is no better than chance",No
+105,302993,Priority retention,137614.59,0.04,"High value: CLV ₹137,615 (top 20%, at least ₹92,963); model rates churn above average (4.00% vs 1.78%), though this score is no better than chance",No
+106,300518,Priority retention,137443.97,0.0247,"High value: CLV ₹137,444 (top 20%, at least ₹92,963); model rates churn above average (2.47% vs 1.78%), though this score is no better than chance",No
+107,303603,Priority retention,135688.54,0.0483,"High value: CLV ₹135,689 (top 20%, at least ₹92,963); model rates churn above average (4.83% vs 1.78%), though this score is no better than chance",No
+108,304872,Priority retention,135118.99,0.0326,"High value: CLV ₹135,119 (top 20%, at least ₹92,963); model rates churn above average (3.26% vs 1.78%), though this score is no better than chance",No
+109,300748,Priority retention,134941.79,0.0462,"High value: CLV ₹134,942 (top 20%, at least ₹92,963); model rates churn above average (4.62% vs 1.78%), though this score is no better than chance",No
+110,303037,Priority retention,133998.74,0.0196,"High value: CLV ₹133,999 (top 20%, at least ₹92,963); model rates churn above average (1.96% vs 1.78%), though this score is no better than chance",No
+111,302071,Priority retention,133423.07,0.0181,"High value: CLV ₹133,423 (top 20%, at least ₹92,963); model rates churn above average (1.81% vs 1.78%), though this score is no better than chance",No
+112,303214,Priority retention,133168.24,0.0518,"High value: CLV ₹133,168 (top 20%, at least ₹92,963); model rates churn above average (5.18% vs 1.78%), though this score is no better than chance",No
+113,303225,Priority retention,133003.8,0.031,"High value: CLV ₹133,004 (top 20%, at least ₹92,963); model rates churn above average (3.09% vs 1.78%), though this score is no better than chance",No
+114,304446,Priority retention,132800.94,0.0336,"High value: CLV ₹132,801 (top 20%, at least ₹92,963); model rates churn above average (3.36% vs 1.78%), though this score is no better than chance",No
+115,302548,Priority retention,132320.52,0.0419,"High value: CLV ₹132,321 (top 20%, at least ₹92,963); model rates churn above average (4.19% vs 1.78%), though this score is no better than chance",No
+116,303145,Priority retention,132291.1,0.0257,"High value: CLV ₹132,291 (top 20%, at least ₹92,963); model rates churn above average (2.57% vs 1.78%), though this score is no better than chance",No
+117,300407,Priority retention,132244.1,0.0239,"High value: CLV ₹132,244 (top 20%, at least ₹92,963); model rates churn above average (2.39% vs 1.78%), though this score is no better than chance",No
+118,300459,Priority retention,132099.25,0.0261,"High value: CLV ₹132,099 (top 20%, at least ₹92,963); model rates churn above average (2.61% vs 1.78%), though this score is no better than chance",No
+119,302828,Priority retention,131372.57,0.0249,"High value: CLV ₹131,373 (top 20%, at least ₹92,963); model rates churn above average (2.49% vs 1.78%), though this score is no better than chance",No
+120,300542,Priority retention,131266.57,0.0246,"High value: CLV ₹131,267 (top 20%, at least ₹92,963); model rates churn above average (2.46% vs 1.78%), though this score is no better than chance",No
+121,302483,Priority retention,130978.18,0.0232,"High value: CLV ₹130,978 (top 20%, at least ₹92,963); model rates churn above average (2.32% vs 1.78%), though this score is no better than chance",No
+122,302211,Priority retention,130808.77,0.0445,"High value: CLV ₹130,809 (top 20%, at least ₹92,963); model rates churn above average (4.45% vs 1.78%), though this score is no better than chance",No
+123,300400,Priority retention,130127.48,0.0232,"High value: CLV ₹130,127 (top 20%, at least ₹92,963); model rates churn above average (2.32% vs 1.78%), though this score is no better than chance",No
+124,303939,Priority retention,129965.4,0.0326,"High value: CLV ₹129,965 (top 20%, at least ₹92,963); model rates churn above average (3.26% vs 1.78%), though this score is no better than chance",No
+125,301124,Priority retention,129949.19,0.0656,"High value: CLV ₹129,949 (top 20%, at least ₹92,963); model rates churn above average (6.56% vs 1.78%), though this score is no better than chance",No
+126,300205,Priority retention,129758.45,0.0196,"High value: CLV ₹129,758 (top 20%, at least ₹92,963); model rates churn above average (1.96% vs 1.78%), though this score is no better than chance",No
+127,300398,Priority retention,129705.36,0.0198,"High value: CLV ₹129,705 (top 20%, at least ₹92,963); model rates churn above average (1.98% vs 1.78%), though this score is no better than chance",No
+128,303091,Priority retention,129630.58,0.0392,"High value: CLV ₹129,631 (top 20%, at least ₹92,963); model rates churn above average (3.92% vs 1.78%), though this score is no better than chance",No
+129,303149,Priority retention,129250.5,0.0199,"High value: CLV ₹129,250 (top 20%, at least ₹92,963); model rates churn above average (1.99% vs 1.78%), though this score is no better than chance",No
+130,303277,Priority retention,128544.03,0.0245,"High value: CLV ₹128,544 (top 20%, at least ₹92,963); model rates churn above average (2.45% vs 1.78%), though this score is no better than chance",No
+131,304085,Priority retention,128224.21,0.0198,"High value: CLV ₹128,224 (top 20%, at least ₹92,963); model rates churn above average (1.98% vs 1.78%), though this score is no better than chance",No
+132,302405,Priority retention,128112.79,0.0336,"High value: CLV ₹128,113 (top 20%, at least ₹92,963); model rates churn above average (3.36% vs 1.78%), though this score is no better than chance",No
+133,303783,Priority retention,128010.36,0.0184,"High value: CLV ₹128,010 (top 20%, at least ₹92,963); model rates churn above average (1.84% vs 1.78%), though this score is no better than chance",No
+134,301711,Priority retention,127557.64,0.0187,"High value: CLV ₹127,558 (top 20%, at least ₹92,963); model rates churn above average (1.87% vs 1.78%), though this score is no better than chance",No
+135,303781,Priority retention,127436.35,0.0183,"High value: CLV ₹127,436 (top 20%, at least ₹92,963); model rates churn above average (1.83% vs 1.78%), though this score is no better than chance",No
+136,302230,Priority retention,126426.37,0.0659,"High value: CLV ₹126,426 (top 20%, at least ₹92,963); model rates churn above average (6.59% vs 1.78%), though this score is no better than chance",No
+137,303388,Priority retention,126129.25,0.021,"High value: CLV ₹126,129 (top 20%, at least ₹92,963); model rates churn above average (2.10% vs 1.78%), though this score is no better than chance",No
+138,301472,Priority retention,126119.0,0.0202,"High value: CLV ₹126,119 (top 20%, at least ₹92,963); model rates churn above average (2.02% vs 1.78%), though this score is no better than chance",No
+139,303204,Priority retention,126049.6,0.0233,"High value: CLV ₹126,050 (top 20%, at least ₹92,963); model rates churn above average (2.33% vs 1.78%), though this score is no better than chance",No
+140,302234,Priority retention,125732.04,0.0191,"High value: CLV ₹125,732 (top 20%, at least ₹92,963); model rates churn above average (1.91% vs 1.78%), though this score is no better than chance",No
+141,303352,Priority retention,123805.02,0.0247,"High value: CLV ₹123,805 (top 20%, at least ₹92,963); model rates churn above average (2.47% vs 1.78%), though this score is no better than chance",No
+142,302381,Priority retention,122158.09,0.021,"High value: CLV ₹122,158 (top 20%, at least ₹92,963); model rates churn above average (2.10% vs 1.78%), though this score is no better than chance",No
+143,300678,Priority retention,121813.69,0.0216,"High value: CLV ₹121,814 (top 20%, at least ₹92,963); model rates churn above average (2.16% vs 1.78%), though this score is no better than chance",No
+144,300515,Priority retention,121645.32,0.0292,"High value: CLV ₹121,645 (top 20%, at least ₹92,963); model rates churn above average (2.92% vs 1.78%), though this score is no better than chance",No
+145,304743,Priority retention,121554.71,0.0214,"High value: CLV ₹121,555 (top 20%, at least ₹92,963); model rates churn above average (2.14% vs 1.78%), though this score is no better than chance",No
+146,302629,Priority retention,121525.12,0.0343,"High value: CLV ₹121,525 (top 20%, at least ₹92,963); model rates churn above average (3.43% vs 1.78%), though this score is no better than chance",No
+147,304998,Priority retention,121397.34,0.038,"High value: CLV ₹121,397 (top 20%, at least ₹92,963); model rates churn above average (3.81% vs 1.78%), though this score is no better than chance",No
+148,302342,Priority retention,121325.8,0.0205,"High value: CLV ₹121,326 (top 20%, at least ₹92,963); model rates churn above average (2.05% vs 1.78%), though this score is no better than chance",No
+149,301383,Priority retention,121146.51,0.018,"High value: CLV ₹121,147 (top 20%, at least ₹92,963); model rates churn above average (1.80% vs 1.78%), though this score is no better than chance",No
+150,301867,Priority retention,120613.78,0.0248,"High value: CLV ₹120,614 (top 20%, at least ₹92,963); model rates churn above average (2.48% vs 1.78%), though this score is no better than chance",No
+151,301153,Priority retention,120461.7,0.0216,"High value: CLV ₹120,462 (top 20%, at least ₹92,963); model rates churn above average (2.16% vs 1.78%), though this score is no better than chance",No
+152,301491,Priority retention,120455.81,0.0401,"High value: CLV ₹120,456 (top 20%, at least ₹92,963); model rates churn above average (4.01% vs 1.78%), though this score is no better than chance",No
+153,302171,Priority retention,120248.03,0.031,"High value: CLV ₹120,248 (top 20%, at least ₹92,963); model rates churn above average (3.10% vs 1.78%), though this score is no better than chance",No
+154,301712,Priority retention,119879.12,0.0198,"High value: CLV ₹119,879 (top 20%, at least ₹92,963); model rates churn above average (1.98% vs 1.78%), though this score is no better than chance",No
+155,303471,Priority retention,119777.68,0.1738,"High value: CLV ₹119,778 (top 20%, at least ₹92,963); model rates churn above average (17.38% vs 1.78%), though this score is no better than chance",No
+156,301785,Priority retention,119524.84,0.0268,"High value: CLV ₹119,525 (top 20%, at least ₹92,963); model rates churn above average (2.68% vs 1.78%), though this score is no better than chance",No
+157,303671,Priority retention,119494.63,0.0338,"High value: CLV ₹119,495 (top 20%, at least ₹92,963); model rates churn above average (3.38% vs 1.78%), though this score is no better than chance",No
+158,301031,Priority retention,117905.04,0.1172,"High value: CLV ₹117,905 (top 20%, at least ₹92,963); model rates churn above average (11.72% vs 1.78%), though this score is no better than chance",No
+159,303300,Priority retention,117752.47,0.0194,"High value: CLV ₹117,752 (top 20%, at least ₹92,963); model rates churn above average (1.94% vs 1.78%), though this score is no better than chance",No
+160,301159,Priority retention,117574.53,0.0179,"High value: CLV ₹117,575 (top 20%, at least ₹92,963); model rates churn above average (1.79% vs 1.78%), though this score is no better than chance",No
+161,300534,Priority retention,116928.46,0.0345,"High value: CLV ₹116,928 (top 20%, at least ₹92,963); model rates churn above average (3.45% vs 1.78%), though this score is no better than chance",No
+162,302965,Priority retention,116863.43,0.0231,"High value: CLV ₹116,863 (top 20%, at least ₹92,963); model rates churn above average (2.31% vs 1.78%), though this score is no better than chance",No
+163,303028,Priority retention,116766.45,0.0195,"High value: CLV ₹116,766 (top 20%, at least ₹92,963); model rates churn above average (1.95% vs 1.78%), though this score is no better than chance",No
+164,304673,Priority retention,116746.66,0.0215,"High value: CLV ₹116,747 (top 20%, at least ₹92,963); model rates churn above average (2.15% vs 1.78%), though this score is no better than chance",No
+165,300080,Priority retention,116516.87,0.0197,"High value: CLV ₹116,517 (top 20%, at least ₹92,963); model rates churn above average (1.97% vs 1.78%), though this score is no better than chance",No
+166,303283,Priority retention,116379.57,0.0231,"High value: CLV ₹116,380 (top 20%, at least ₹92,963); model rates churn above average (2.31% vs 1.78%), though this score is no better than chance",No
+167,304013,Priority retention,116109.64,0.0185,"High value: CLV ₹116,110 (top 20%, at least ₹92,963); model rates churn above average (1.85% vs 1.78%), though this score is no better than chance",No
+168,300124,Priority retention,115954.31,0.0218,"High value: CLV ₹115,954 (top 20%, at least ₹92,963); model rates churn above average (2.18% vs 1.78%), though this score is no better than chance",No
+169,304256,Priority retention,115905.36,0.0435,"High value: CLV ₹115,905 (top 20%, at least ₹92,963); model rates churn above average (4.35% vs 1.78%), though this score is no better than chance",No
+170,303849,Priority retention,115707.56,0.0197,"High value: CLV ₹115,708 (top 20%, at least ₹92,963); model rates churn above average (1.97% vs 1.78%), though this score is no better than chance",No
+171,304448,Priority retention,115349.35,0.018,"High value: CLV ₹115,349 (top 20%, at least ₹92,963); model rates churn above average (1.80% vs 1.78%), though this score is no better than chance",No
+172,304023,Priority retention,115334.81,0.0526,"High value: CLV ₹115,335 (top 20%, at least ₹92,963); model rates churn above average (5.26% vs 1.78%), though this score is no better than chance",No
+173,303402,Priority retention,115269.82,0.019,"High value: CLV ₹115,270 (top 20%, at least ₹92,963); model rates churn above average (1.90% vs 1.78%), though this score is no better than chance",No
+174,300166,Priority retention,115222.68,0.0201,"High value: CLV ₹115,223 (top 20%, at least ₹92,963); model rates churn above average (2.01% vs 1.78%), though this score is no better than chance",No
+175,301306,Priority retention,115110.82,0.0188,"High value: CLV ₹115,111 (top 20%, at least ₹92,963); model rates churn above average (1.88% vs 1.78%), though this score is no better than chance",No
+176,304854,Priority retention,115090.86,0.0196,"High value: CLV ₹115,091 (top 20%, at least ₹92,963); model rates churn above average (1.96% vs 1.78%), though this score is no better than chance",No
+177,303144,Priority retention,114698.7,0.0186,"High value: CLV ₹114,699 (top 20%, at least ₹92,963); model rates churn above average (1.86% vs 1.78%), though this score is no better than chance",No
+178,304656,Priority retention,114237.88,0.0289,"High value: CLV ₹114,238 (top 20%, at least ₹92,963); model rates churn above average (2.89% vs 1.78%), though this score is no better than chance",No
+179,302318,Priority retention,114131.37,0.0178,"High value: CLV ₹114,131 (top 20%, at least ₹92,963); model rates churn above average (1.78% vs 1.78%), though this score is no better than chance",No
+180,300647,Priority retention,114071.1,0.0201,"High value: CLV ₹114,071 (top 20%, at least ₹92,963); model rates churn above average (2.01% vs 1.78%), though this score is no better than chance",No
+181,303399,Priority retention,113800.57,0.0218,"High value: CLV ₹113,801 (top 20%, at least ₹92,963); model rates churn above average (2.18% vs 1.78%), though this score is no better than chance",No
+182,302614,Priority retention,113726.91,0.0187,"High value: CLV ₹113,727 (top 20%, at least ₹92,963); model rates churn above average (1.87% vs 1.78%), though this score is no better than chance",No
+183,302591,Priority retention,113608.98,0.0283,"High value: CLV ₹113,609 (top 20%, at least ₹92,963); model rates churn above average (2.83% vs 1.78%), though this score is no better than chance",No
+184,301907,Priority retention,113441.39,0.0184,"High value: CLV ₹113,441 (top 20%, at least ₹92,963); model rates churn above average (1.84% vs 1.78%), though this score is no better than chance",No
+185,304398,Priority retention,113358.41,0.0204,"High value: CLV ₹113,358 (top 20%, at least ₹92,963); model rates churn above average (2.04% vs 1.78%), though this score is no better than chance",No
+186,302851,Priority retention,113019.89,0.0204,"High value: CLV ₹113,020 (top 20%, at least ₹92,963); model rates churn above average (2.04% vs 1.78%), though this score is no better than chance",No
+187,300732,Priority retention,112905.29,0.0213,"High value: CLV ₹112,905 (top 20%, at least ₹92,963); model rates churn above average (2.13% vs 1.78%), though this score is no better than chance",No
+188,301925,Priority retention,112784.79,0.0515,"High value: CLV ₹112,785 (top 20%, at least ₹92,963); model rates churn above average (5.15% vs 1.78%), though this score is no better than chance",No
+189,303721,Priority retention,112607.37,0.021,"High value: CLV ₹112,607 (top 20%, at least ₹92,963); model rates churn above average (2.10% vs 1.78%), though this score is no better than chance",No
+190,300586,Priority retention,112524.65,0.0186,"High value: CLV ₹112,525 (top 20%, at least ₹92,963); model rates churn above average (1.86% vs 1.78%), though this score is no better than chance",No
+191,300081,Priority retention,112064.19,0.0225,"High value: CLV ₹112,064 (top 20%, at least ₹92,963); model rates churn above average (2.25% vs 1.78%), though this score is no better than chance",No
+192,303154,Priority retention,111672.78,0.0232,"High value: CLV ₹111,673 (top 20%, at least ₹92,963); model rates churn above average (2.32% vs 1.78%), though this score is no better than chance",No
+193,300680,Priority retention,111655.95,0.0181,"High value: CLV ₹111,656 (top 20%, at least ₹92,963); model rates churn above average (1.81% vs 1.78%), though this score is no better than chance",No
+194,300692,Priority retention,111652.26,0.0292,"High value: CLV ₹111,652 (top 20%, at least ₹92,963); model rates churn above average (2.92% vs 1.78%), though this score is no better than chance",No
+195,301560,Priority retention,111467.63,0.0371,"High value: CLV ₹111,468 (top 20%, at least ₹92,963); model rates churn above average (3.71% vs 1.78%), though this score is no better than chance",No
+196,300759,Priority retention,111366.86,0.0211,"High value: CLV ₹111,367 (top 20%, at least ₹92,963); model rates churn above average (2.11% vs 1.78%), though this score is no better than chance",No
+197,303076,Priority retention,110812.46,0.0192,"High value: CLV ₹110,812 (top 20%, at least ₹92,963); model rates churn above average (1.92% vs 1.78%), though this score is no better than chance",No
+198,303546,Priority retention,110590.86,0.0214,"High value: CLV ₹110,591 (top 20%, at least ₹92,963); model rates churn above average (2.14% vs 1.78%), though this score is no better than chance",No
+199,301693,Priority retention,110433.49,0.0227,"High value: CLV ₹110,433 (top 20%, at least ₹92,963); model rates churn above average (2.27% vs 1.78%), though this score is no better than chance",No
+200,301064,Priority retention,110268.99,0.0275,"High value: CLV ₹110,269 (top 20%, at least ₹92,963); model rates churn above average (2.75% vs 1.78%), though this score is no better than chance",No
+201,300039,Priority retention,110234.61,0.0259,"High value: CLV ₹110,235 (top 20%, at least ₹92,963); model rates churn above average (2.59% vs 1.78%), though this score is no better than chance",No
+202,303571,Priority retention,109869.58,0.0204,"High value: CLV ₹109,870 (top 20%, at least ₹92,963); model rates churn above average (2.04% vs 1.78%), though this score is no better than chance",No
+203,302526,Priority retention,109351.63,0.0407,"High value: CLV ₹109,352 (top 20%, at least ₹92,963); model rates churn above average (4.07% vs 1.78%), though this score is no better than chance",No
+204,304611,Priority retention,109262.2,0.0184,"High value: CLV ₹109,262 (top 20%, at least ₹92,963); model rates churn above average (1.84% vs 1.78%), though this score is no better than chance",No
+205,300544,Priority retention,108315.42,0.0188,"High value: CLV ₹108,315 (top 20%, at least ₹92,963); model rates churn above average (1.88% vs 1.78%), though this score is no better than chance",No
+206,301111,Priority retention,107832.55,0.0207,"High value: CLV ₹107,833 (top 20%, at least ₹92,963); model rates churn above average (2.07% vs 1.78%), though this score is no better than chance",No
+207,303477,Priority retention,107822.61,0.018,"High value: CLV ₹107,823 (top 20%, at least ₹92,963); model rates churn above average (1.80% vs 1.78%), though this score is no better than chance",No
+208,302304,Priority retention,107529.02,0.0203,"High value: CLV ₹107,529 (top 20%, at least ₹92,963); model rates churn above average (2.03% vs 1.78%), though this score is no better than chance",No
+209,300499,Priority retention,107386.17,0.0241,"High value: CLV ₹107,386 (top 20%, at least ₹92,963); model rates churn above average (2.41% vs 1.78%), though this score is no better than chance",No
+210,303839,Priority retention,107333.16,0.0178,"High value: CLV ₹107,333 (top 20%, at least ₹92,963); model rates churn above average (1.78% vs 1.78%), though this score is no better than chance",No
+211,300070,Priority retention,107300.8,0.0236,"High value: CLV ₹107,301 (top 20%, at least ₹92,963); model rates churn above average (2.36% vs 1.78%), though this score is no better than chance",No
+212,303655,Priority retention,107064.51,0.018,"High value: CLV ₹107,065 (top 20%, at least ₹92,963); model rates churn above average (1.80% vs 1.78%), though this score is no better than chance",No
+213,304839,Priority retention,106898.3,0.0183,"High value: CLV ₹106,898 (top 20%, at least ₹92,963); model rates churn above average (1.83% vs 1.78%), though this score is no better than chance",No
+214,300408,Priority retention,106874.32,0.0192,"High value: CLV ₹106,874 (top 20%, at least ₹92,963); model rates churn above average (1.92% vs 1.78%), though this score is no better than chance",No
+215,302847,Priority retention,106398.18,0.0202,"High value: CLV ₹106,398 (top 20%, at least ₹92,963); model rates churn above average (2.02% vs 1.78%), though this score is no better than chance",No
+216,301710,Priority retention,106123.52,0.0336,"High value: CLV ₹106,124 (top 20%, at least ₹92,963); model rates churn above average (3.36% vs 1.78%), though this score is no better than chance",No
+217,300497,Priority retention,106062.2,0.0242,"High value: CLV ₹106,062 (top 20%, at least ₹92,963); model rates churn above average (2.42% vs 1.78%), though this score is no better than chance",No
+218,302062,Priority retention,105763.78,0.0194,"High value: CLV ₹105,764 (top 20%, at least ₹92,963); model rates churn above average (1.94% vs 1.78%), though this score is no better than chance",No
+219,301835,Priority retention,105525.32,0.024,"High value: CLV ₹105,525 (top 20%, at least ₹92,963); model rates churn above average (2.40% vs 1.78%), though this score is no better than chance",No
+220,304579,Priority retention,105217.09,0.0182,"High value: CLV ₹105,217 (top 20%, at least ₹92,963); model rates churn above average (1.82% vs 1.78%), though this score is no better than chance",No
+221,302887,Priority retention,105163.8,0.0268,"High value: CLV ₹105,164 (top 20%, at least ₹92,963); model rates churn above average (2.68% vs 1.78%), though this score is no better than chance",No
+222,302267,Priority retention,104775.43,0.0246,"High value: CLV ₹104,775 (top 20%, at least ₹92,963); model rates churn above average (2.46% vs 1.78%), though this score is no better than chance",No
+223,304784,Priority retention,104591.89,0.0302,"High value: CLV ₹104,592 (top 20%, at least ₹92,963); model rates churn above average (3.02% vs 1.78%), though this score is no better than chance",No
+224,302981,Priority retention,104212.05,0.0206,"High value: CLV ₹104,212 (top 20%, at least ₹92,963); model rates churn above average (2.06% vs 1.78%), though this score is no better than chance",No
+225,302599,Priority retention,104210.33,0.0202,"High value: CLV ₹104,210 (top 20%, at least ₹92,963); model rates churn above average (2.02% vs 1.78%), though this score is no better than chance",No
+226,300778,Priority retention,104191.11,0.0244,"High value: CLV ₹104,191 (top 20%, at least ₹92,963); model rates churn above average (2.44% vs 1.78%), though this score is no better than chance",No
+227,304272,Priority retention,103915.7,0.0213,"High value: CLV ₹103,916 (top 20%, at least ₹92,963); model rates churn above average (2.13% vs 1.78%), though this score is no better than chance",No
+228,300364,Priority retention,102901.59,0.0184,"High value: CLV ₹102,902 (top 20%, at least ₹92,963); model rates churn above average (1.84% vs 1.78%), though this score is no better than chance",No
+229,304386,Priority retention,102859.5,0.0275,"High value: CLV ₹102,860 (top 20%, at least ₹92,963); model rates churn above average (2.75% vs 1.78%), though this score is no better than chance",No
+230,302185,Priority retention,102606.32,0.0296,"High value: CLV ₹102,606 (top 20%, at least ₹92,963); model rates churn above average (2.96% vs 1.78%), though this score is no better than chance",No
+231,303759,Priority retention,102012.17,0.0307,"High value: CLV ₹102,012 (top 20%, at least ₹92,963); model rates churn above average (3.07% vs 1.78%), though this score is no better than chance",No
+232,300231,Priority retention,102011.51,0.0312,"High value: CLV ₹102,012 (top 20%, at least ₹92,963); model rates churn above average (3.12% vs 1.78%), though this score is no better than chance",No
+233,301112,Priority retention,101987.11,0.0205,"High value: CLV ₹101,987 (top 20%, at least ₹92,963); model rates churn above average (2.05% vs 1.78%), though this score is no better than chance",No
+234,304568,Priority retention,101899.77,0.0188,"High value: CLV ₹101,900 (top 20%, at least ₹92,963); model rates churn above average (1.88% vs 1.78%), though this score is no better than chance",No
+235,303463,Priority retention,101709.62,0.0266,"High value: CLV ₹101,710 (top 20%, at least ₹92,963); model rates churn above average (2.66% vs 1.78%), though this score is no better than chance",No
+236,304435,Priority retention,101631.62,0.0199,"High value: CLV ₹101,632 (top 20%, at least ₹92,963); model rates churn above average (1.99% vs 1.78%), though this score is no better than chance",No
+237,302565,Priority retention,101404.55,0.0201,"High value: CLV ₹101,405 (top 20%, at least ₹92,963); model rates churn above average (2.01% vs 1.78%), though this score is no better than chance",No
+238,301924,Priority retention,101054.55,0.02,"High value: CLV ₹101,055 (top 20%, at least ₹92,963); model rates churn above average (2.00% vs 1.78%), though this score is no better than chance",No
+239,302367,Priority retention,100298.34,0.0276,"High value: CLV ₹100,298 (top 20%, at least ₹92,963); model rates churn above average (2.76% vs 1.78%), though this score is no better than chance",No
+240,302663,Priority retention,100206.64,0.0188,"High value: CLV ₹100,207 (top 20%, at least ₹92,963); model rates churn above average (1.88% vs 1.78%), though this score is no better than chance",No
+241,304709,Priority retention,99960.06,0.0208,"High value: CLV ₹99,960 (top 20%, at least ₹92,963); model rates churn above average (2.08% vs 1.78%), though this score is no better than chance",No
+242,302869,Priority retention,99524.54,0.0264,"High value: CLV ₹99,525 (top 20%, at least ₹92,963); model rates churn above average (2.64% vs 1.78%), though this score is no better than chance",No
+243,304788,Priority retention,99501.67,0.019,"High value: CLV ₹99,502 (top 20%, at least ₹92,963); model rates churn above average (1.90% vs 1.78%), though this score is no better than chance",No
+244,304527,Priority retention,99222.44,0.0317,"High value: CLV ₹99,222 (top 20%, at least ₹92,963); model rates churn above average (3.17% vs 1.78%), though this score is no better than chance",No
+245,303649,Priority retention,99118.28,0.0205,"High value: CLV ₹99,118 (top 20%, at least ₹92,963); model rates churn above average (2.05% vs 1.78%), though this score is no better than chance",No
+246,300083,Priority retention,98855.33,0.0228,"High value: CLV ₹98,855 (top 20%, at least ₹92,963); model rates churn above average (2.28% vs 1.78%), though this score is no better than chance",No
+247,304427,Priority retention,98214.15,0.0189,"High value: CLV ₹98,214 (top 20%, at least ₹92,963); model rates churn above average (1.89% vs 1.78%), though this score is no better than chance",No
+248,303820,Priority retention,97981.96,0.0181,"High value: CLV ₹97,982 (top 20%, at least ₹92,963); model rates churn above average (1.81% vs 1.78%), though this score is no better than chance",No
+249,304981,Priority retention,97838.4,0.0181,"High value: CLV ₹97,838 (top 20%, at least ₹92,963); model rates churn above average (1.81% vs 1.78%), though this score is no better than chance",No
+250,304967,Priority retention,97318.55,0.022,"High value: CLV ₹97,319 (top 20%, at least ₹92,963); model rates churn above average (2.20% vs 1.78%), though this score is no better than chance",No
+251,300023,Priority retention,97297.37,0.0191,"High value: CLV ₹97,297 (top 20%, at least ₹92,963); model rates churn above average (1.91% vs 1.78%), though this score is no better than chance",No
+252,300389,Priority retention,97044.63,0.0183,"High value: CLV ₹97,045 (top 20%, at least ₹92,963); model rates churn above average (1.83% vs 1.78%), though this score is no better than chance",No
+253,300032,Priority retention,96955.75,0.0185,"High value: CLV ₹96,956 (top 20%, at least ₹92,963); model rates churn above average (1.85% vs 1.78%), though this score is no better than chance",No
+254,303185,Priority retention,96911.38,0.0191,"High value: CLV ₹96,911 (top 20%, at least ₹92,963); model rates churn above average (1.91% vs 1.78%), though this score is no better than chance",No
+255,300273,Priority retention,96800.82,0.0191,"High value: CLV ₹96,801 (top 20%, at least ₹92,963); model rates churn above average (1.91% vs 1.78%), though this score is no better than chance",Yes
+256,304315,Priority retention,96730.71,0.0187,"High value: CLV ₹96,731 (top 20%, at least ₹92,963); model rates churn above average (1.87% vs 1.78%), though this score is no better than chance",No
+257,302809,Priority retention,96685.52,0.0414,"High value: CLV ₹96,686 (top 20%, at least ₹92,963); model rates churn above average (4.14% vs 1.78%), though this score is no better than chance",No
+258,301636,Priority retention,96538.79,0.0182,"High value: CLV ₹96,539 (top 20%, at least ₹92,963); model rates churn above average (1.82% vs 1.78%), though this score is no better than chance",No
+259,300710,Priority retention,96415.33,0.0183,"High value: CLV ₹96,415 (top 20%, at least ₹92,963); model rates churn above average (1.83% vs 1.78%), though this score is no better than chance",No
+260,300404,Priority retention,96086.14,0.0243,"High value: CLV ₹96,086 (top 20%, at least ₹92,963); model rates churn above average (2.43% vs 1.78%), though this score is no better than chance",No
+261,302708,Priority retention,95681.26,0.0321,"High value: CLV ₹95,681 (top 20%, at least ₹92,963); model rates churn above average (3.21% vs 1.78%), though this score is no better than chance",No
+262,300662,Priority retention,95383.71,0.0191,"High value: CLV ₹95,384 (top 20%, at least ₹92,963); model rates churn above average (1.91% vs 1.78%), though this score is no better than chance",No
+263,301020,Priority retention,95045.71,0.0204,"High value: CLV ₹95,046 (top 20%, at least ₹92,963); model rates churn above average (2.04% vs 1.78%), though this score is no better than chance",No
+264,302850,Priority retention,95018.39,0.0556,"High value: CLV ₹95,018 (top 20%, at least ₹92,963); model rates churn above average (5.56% vs 1.78%), though this score is no better than chance",No
+265,304574,Priority retention,94927.51,0.0294,"High value: CLV ₹94,928 (top 20%, at least ₹92,963); model rates churn above average (2.94% vs 1.78%), though this score is no better than chance",No
+266,300624,Priority retention,94807.69,0.0197,"High value: CLV ₹94,808 (top 20%, at least ₹92,963); model rates churn above average (1.97% vs 1.78%), though this score is no better than chance",No
+267,304886,Priority retention,94779.64,0.0185,"High value: CLV ₹94,780 (top 20%, at least ₹92,963); model rates churn above average (1.85% vs 1.78%), though this score is no better than chance",No
+268,301197,Priority retention,94704.48,0.0298,"High value: CLV ₹94,704 (top 20%, at least ₹92,963); model rates churn above average (2.98% vs 1.78%), though this score is no better than chance",No
+269,302203,Priority retention,94637.85,0.0226,"High value: CLV ₹94,638 (top 20%, at least ₹92,963); model rates churn above average (2.26% vs 1.78%), though this score is no better than chance",No
+270,304642,Priority retention,94503.69,0.0283,"High value: CLV ₹94,504 (top 20%, at least ₹92,963); model rates churn above average (2.83% vs 1.78%), though this score is no better than chance",No
+271,300926,Priority retention,94417.08,0.022,"High value: CLV ₹94,417 (top 20%, at least ₹92,963); model rates churn above average (2.20% vs 1.78%), though this score is no better than chance",No
+272,300919,Priority retention,94406.71,0.0244,"High value: CLV ₹94,407 (top 20%, at least ₹92,963); model rates churn above average (2.44% vs 1.78%), though this score is no better than chance",No
+273,301177,Priority retention,94240.18,0.0187,"High value: CLV ₹94,240 (top 20%, at least ₹92,963); model rates churn above average (1.87% vs 1.78%), though this score is no better than chance",No
+274,301406,Priority retention,94206.23,0.02,"High value: CLV ₹94,206 (top 20%, at least ₹92,963); model rates churn above average (2.00% vs 1.78%), though this score is no better than chance",No
+275,304592,Priority retention,93161.96,0.0292,"High value: CLV ₹93,162 (top 20%, at least ₹92,963); model rates churn above average (2.92% vs 1.78%), though this score is no better than chance",No
+276,304362,Priority retention,93096.84,0.0197,"High value: CLV ₹93,097 (top 20%, at least ₹92,963); model rates churn above average (1.97% vs 1.78%), though this score is no better than chance",No
+277,301627,Priority retention,93042.4,0.0196,"High value: CLV ₹93,042 (top 20%, at least ₹92,963); model rates churn above average (1.96% vs 1.78%), though this score is no better than chance",No
+278,303478,Priority retention,93034.3,0.0191,"High value: CLV ₹93,034 (top 20%, at least ₹92,963); model rates churn above average (1.91% vs 1.78%), though this score is no better than chance",No
+279,302461,Protect,381254.73,0.0075,"High value: CLV ₹381,255 (top 20%, at least ₹92,963); model rates churn at or below average (0.75%)",No
+280,301695,Protect,377115.94,0.0,"High value: CLV ₹377,116 (top 20%, at least ₹92,963); model rates churn at or below average (0.00%)",No
+281,300870,Protect,371429.04,0.0024,"High value: CLV ₹371,429 (top 20%, at least ₹92,963); model rates churn at or below average (0.24%)",No
+282,300137,Protect,343226.85,0.0028,"High value: CLV ₹343,227 (top 20%, at least ₹92,963); model rates churn at or below average (0.28%)",No
+283,302893,Protect,337695.14,0.0137,"High value: CLV ₹337,695 (top 20%, at least ₹92,963); model rates churn at or below average (1.37%)",No
+284,302198,Protect,322815.19,0.0037,"High value: CLV ₹322,815 (top 20%, at least ₹92,963); model rates churn at or below average (0.37%)",No
+285,304834,Protect,318071.86,0.009,"High value: CLV ₹318,072 (top 20%, at least ₹92,963); model rates churn at or below average (0.90%)",No
+286,304525,Protect,307597.68,0.0116,"High value: CLV ₹307,598 (top 20%, at least ₹92,963); model rates churn at or below average (1.16%)",No
+287,301798,Protect,306559.37,0.0081,"High value: CLV ₹306,559 (top 20%, at least ₹92,963); model rates churn at or below average (0.81%)",No
+288,300136,Protect,303601.11,0.01,"High value: CLV ₹303,601 (top 20%, at least ₹92,963); model rates churn at or below average (1.00%)",No
+289,300391,Protect,299935.57,0.0031,"High value: CLV ₹299,936 (top 20%, at least ₹92,963); model rates churn at or below average (0.31%)",No
+290,303511,Protect,286329.72,0.0145,"High value: CLV ₹286,330 (top 20%, at least ₹92,963); model rates churn at or below average (1.45%)",No
+291,304707,Protect,283799.74,0.0082,"High value: CLV ₹283,800 (top 20%, at least ₹92,963); model rates churn at or below average (0.82%)",No
+292,302897,Protect,283666.76,0.0074,"High value: CLV ₹283,667 (top 20%, at least ₹92,963); model rates churn at or below average (0.74%)",No
+293,302235,Protect,280856.68,0.0019,"High value: CLV ₹280,857 (top 20%, at least ₹92,963); model rates churn at or below average (0.19%)",No
+294,302580,Protect,278418.21,0.0104,"High value: CLV ₹278,418 (top 20%, at least ₹92,963); model rates churn at or below average (1.04%)",No
+295,301945,Protect,276030.83,0.0062,"High value: CLV ₹276,031 (top 20%, at least ₹92,963); model rates churn at or below average (0.62%)",No
+296,304771,Protect,273357.0,0.0034,"High value: CLV ₹273,357 (top 20%, at least ₹92,963); model rates churn at or below average (0.34%)",No
+297,303681,Protect,272580.53,0.0066,"High value: CLV ₹272,581 (top 20%, at least ₹92,963); model rates churn at or below average (0.66%)",No
+298,303567,Protect,270708.15,0.0051,"High value: CLV ₹270,708 (top 20%, at least ₹92,963); model rates churn at or below average (0.51%)",No
+299,304230,Protect,263557.29,0.0032,"High value: CLV ₹263,557 (top 20%, at least ₹92,963); model rates churn at or below average (0.32%)",No
+300,301312,Protect,260381.18,0.0093,"High value: CLV ₹260,381 (top 20%, at least ₹92,963); model rates churn at or below average (0.93%)",No
+301,300095,Protect,260009.33,0.0036,"High value: CLV ₹260,009 (top 20%, at least ₹92,963); model rates churn at or below average (0.36%)",No
+302,303901,Protect,259934.11,0.0066,"High value: CLV ₹259,934 (top 20%, at least ₹92,963); model rates churn at or below average (0.66%)",No
+303,303171,Protect,257287.85,0.0125,"High value: CLV ₹257,288 (top 20%, at least ₹92,963); model rates churn at or below average (1.25%)",No
+304,301936,Protect,255475.97,0.0063,"High value: CLV ₹255,476 (top 20%, at least ₹92,963); model rates churn at or below average (0.63%)",No
+305,302841,Protect,254193.85,0.0169,"High value: CLV ₹254,194 (top 20%, at least ₹92,963); model rates churn at or below average (1.69%)",No
+306,302115,Protect,253998.78,0.009,"High value: CLV ₹253,999 (top 20%, at least ₹92,963); model rates churn at or below average (0.90%)",No
+307,304187,Protect,253944.88,0.0057,"High value: CLV ₹253,945 (top 20%, at least ₹92,963); model rates churn at or below average (0.57%)",No
+308,301938,Protect,251713.27,0.0131,"High value: CLV ₹251,713 (top 20%, at least ₹92,963); model rates churn at or below average (1.31%)",No
+309,301869,Protect,243190.55,0.0112,"High value: CLV ₹243,191 (top 20%, at least ₹92,963); model rates churn at or below average (1.12%)",No
+310,303082,Protect,240803.06,0.0,"High value: CLV ₹240,803 (top 20%, at least ₹92,963); model rates churn at or below average (0.00%)",No
+311,303400,Protect,239414.73,0.0152,"High value: CLV ₹239,415 (top 20%, at least ₹92,963); model rates churn at or below average (1.52%)",No
+312,300271,Protect,239369.73,0.0063,"High value: CLV ₹239,370 (top 20%, at least ₹92,963); model rates churn at or below average (0.63%)",No
+313,302319,Protect,239055.43,0.0083,"High value: CLV ₹239,055 (top 20%, at least ₹92,963); model rates churn at or below average (0.83%)",Yes
+314,304545,Protect,238665.84,0.0051,"High value: CLV ₹238,666 (top 20%, at least ₹92,963); model rates churn at or below average (0.51%)",No
+315,300532,Protect,236822.18,0.0057,"High value: CLV ₹236,822 (top 20%, at least ₹92,963); model rates churn at or below average (0.57%)",No
+316,302266,Protect,236119.82,0.013,"High value: CLV ₹236,120 (top 20%, at least ₹92,963); model rates churn at or below average (1.30%)",No
+317,301677,Protect,234592.41,0.0056,"High value: CLV ₹234,592 (top 20%, at least ₹92,963); model rates churn at or below average (0.56%)",No
+318,300720,Protect,233989.97,0.008,"High value: CLV ₹233,990 (top 20%, at least ₹92,963); model rates churn at or below average (0.80%)",No
+319,303215,Protect,233759.29,0.0065,"High value: CLV ₹233,759 (top 20%, at least ₹92,963); model rates churn at or below average (0.65%)",No
+320,302220,Protect,229351.72,0.0102,"High value: CLV ₹229,352 (top 20%, at least ₹92,963); model rates churn at or below average (1.02%)",No
+321,301737,Protect,228942.87,0.0037,"High value: CLV ₹228,943 (top 20%, at least ₹92,963); model rates churn at or below average (0.37%)",No
+322,301068,Protect,228742.06,0.0069,"High value: CLV ₹228,742 (top 20%, at least ₹92,963); model rates churn at or below average (0.69%)",No
+323,302852,Protect,228475.24,0.0136,"High value: CLV ₹228,475 (top 20%, at least ₹92,963); model rates churn at or below average (1.36%)",No
+324,300708,Protect,227443.73,0.0059,"High value: CLV ₹227,444 (top 20%, at least ₹92,963); model rates churn at or below average (0.59%)",No
+325,302237,Protect,225867.7,0.0146,"High value: CLV ₹225,868 (top 20%, at least ₹92,963); model rates churn at or below average (1.46%)",No
+326,301119,Protect,225696.43,0.0077,"High value: CLV ₹225,696 (top 20%, at least ₹92,963); model rates churn at or below average (0.77%)",No
+327,302245,Protect,223815.83,0.0079,"High value: CLV ₹223,816 (top 20%, at least ₹92,963); model rates churn at or below average (0.79%)",No
+328,303291,Protect,221497.82,0.0169,"High value: CLV ₹221,498 (top 20%, at least ₹92,963); model rates churn at or below average (1.69%)",No
+329,301496,Protect,220230.48,0.0057,"High value: CLV ₹220,230 (top 20%, at least ₹92,963); model rates churn at or below average (0.57%)",No
+330,300981,Protect,219406.18,0.003,"High value: CLV ₹219,406 (top 20%, at least ₹92,963); model rates churn at or below average (0.30%)",No
+331,300792,Protect,218280.8,0.0176,"High value: CLV ₹218,281 (top 20%, at least ₹92,963); model rates churn at or below average (1.75%)",No
+332,302321,Protect,218004.16,0.0013,"High value: CLV ₹218,004 (top 20%, at least ₹92,963); model rates churn at or below average (0.13%)",No
+333,300049,Protect,216130.27,0.0036,"High value: CLV ₹216,130 (top 20%, at least ₹92,963); model rates churn at or below average (0.36%)",No
+334,301266,Protect,215605.2,0.0134,"High value: CLV ₹215,605 (top 20%, at least ₹92,963); model rates churn at or below average (1.34%)",No
+335,301851,Protect,214668.13,0.0078,"High value: CLV ₹214,668 (top 20%, at least ₹92,963); model rates churn at or below average (0.78%)",No
+336,300106,Protect,213742.77,0.012,"High value: CLV ₹213,743 (top 20%, at least ₹92,963); model rates churn at or below average (1.20%)",No
+337,301121,Protect,212467.11,0.0163,"High value: CLV ₹212,467 (top 20%, at least ₹92,963); model rates churn at or below average (1.63%)",No
+338,302412,Protect,208861.21,0.0046,"High value: CLV ₹208,861 (top 20%, at least ₹92,963); model rates churn at or below average (0.46%)",No
+339,303490,Protect,208776.33,0.0142,"High value: CLV ₹208,776 (top 20%, at least ₹92,963); model rates churn at or below average (1.42%)",No
+340,300885,Protect,208277.56,0.0163,"High value: CLV ₹208,278 (top 20%, at least ₹92,963); model rates churn at or below average (1.63%)",No
+341,302553,Protect,206939.04,0.0093,"High value: CLV ₹206,939 (top 20%, at least ₹92,963); model rates churn at or below average (0.93%)",No
+342,301868,Protect,206778.09,0.0065,"High value: CLV ₹206,778 (top 20%, at least ₹92,963); model rates churn at or below average (0.65%)",No
+343,304669,Protect,206689.94,0.009,"High value: CLV ₹206,690 (top 20%, at least ₹92,963); model rates churn at or below average (0.90%)",No
+344,303259,Protect,205967.26,0.0125,"High value: CLV ₹205,967 (top 20%, at least ₹92,963); model rates churn at or below average (1.25%)",No
+345,304609,Protect,205377.04,0.0069,"High value: CLV ₹205,377 (top 20%, at least ₹92,963); model rates churn at or below average (0.69%)",No
+346,303446,Protect,204441.15,0.0056,"High value: CLV ₹204,441 (top 20%, at least ₹92,963); model rates churn at or below average (0.56%)",No
+347,304408,Protect,203304.73,0.0118,"High value: CLV ₹203,305 (top 20%, at least ₹92,963); model rates churn at or below average (1.18%)",No
+348,301503,Protect,200671.41,0.0068,"High value: CLV ₹200,671 (top 20%, at least ₹92,963); model rates churn at or below average (0.68%)",No
+349,303497,Protect,199886.48,0.0124,"High value: CLV ₹199,886 (top 20%, at least ₹92,963); model rates churn at or below average (1.24%)",No
+350,304597,Protect,198123.2,0.0081,"High value: CLV ₹198,123 (top 20%, at least ₹92,963); model rates churn at or below average (0.81%)",No
+351,304331,Protect,197698.99,0.0167,"High value: CLV ₹197,699 (top 20%, at least ₹92,963); model rates churn at or below average (1.67%)",No
+352,302638,Protect,197292.16,0.0055,"High value: CLV ₹197,292 (top 20%, at least ₹92,963); model rates churn at or below average (0.55%)",No
+353,302626,Protect,196636.17,0.0089,"High value: CLV ₹196,636 (top 20%, at least ₹92,963); model rates churn at or below average (0.89%)",No
+354,303211,Protect,193124.74,0.0021,"High value: CLV ₹193,125 (top 20%, at least ₹92,963); model rates churn at or below average (0.21%)",No
+355,301163,Protect,191611.31,0.0063,"High value: CLV ₹191,611 (top 20%, at least ₹92,963); model rates churn at or below average (0.63%)",No
+356,302916,Protect,191572.84,0.0112,"High value: CLV ₹191,573 (top 20%, at least ₹92,963); model rates churn at or below average (1.12%)",No
+357,304725,Protect,191493.31,0.0105,"High value: CLV ₹191,493 (top 20%, at least ₹92,963); model rates churn at or below average (1.05%)",No
+358,304395,Protect,191479.7,0.0144,"High value: CLV ₹191,480 (top 20%, at least ₹92,963); model rates churn at or below average (1.44%)",No
+359,304074,Protect,190627.42,0.0112,"High value: CLV ₹190,627 (top 20%, at least ₹92,963); model rates churn at or below average (1.12%)",No
+360,300235,Protect,188982.35,0.0127,"High value: CLV ₹188,982 (top 20%, at least ₹92,963); model rates churn at or below average (1.27%)",No
+361,300610,Protect,188714.62,0.013,"High value: CLV ₹188,715 (top 20%, at least ₹92,963); model rates churn at or below average (1.30%)",No
+362,300122,Protect,188653.81,0.0104,"High value: CLV ₹188,654 (top 20%, at least ₹92,963); model rates churn at or below average (1.04%)",No
+363,300243,Protect,188203.8,0.0099,"High value: CLV ₹188,204 (top 20%, at least ₹92,963); model rates churn at or below average (0.99%)",No
+364,301401,Protect,187630.74,0.0162,"High value: CLV ₹187,631 (top 20%, at least ₹92,963); model rates churn at or below average (1.62%)",No
+365,303327,Protect,187618.77,0.004,"High value: CLV ₹187,619 (top 20%, at least ₹92,963); model rates churn at or below average (0.40%)",No
+366,304700,Protect,185893.93,0.007,"High value: CLV ₹185,894 (top 20%, at least ₹92,963); model rates churn at or below average (0.70%)",No
+367,304131,Protect,185098.94,0.0158,"High value: CLV ₹185,099 (top 20%, at least ₹92,963); model rates churn at or below average (1.58%)",No
+368,303558,Protect,184838.14,0.0114,"High value: CLV ₹184,838 (top 20%, at least ₹92,963); model rates churn at or below average (1.14%)",No
+369,301809,Protect,184566.28,0.0137,"High value: CLV ₹184,566 (top 20%, at least ₹92,963); model rates churn at or below average (1.37%)",No
+370,302252,Protect,184503.93,0.0105,"High value: CLV ₹184,504 (top 20%, at least ₹92,963); model rates churn at or below average (1.05%)",No
+371,303514,Protect,183136.99,0.0152,"High value: CLV ₹183,137 (top 20%, at least ₹92,963); model rates churn at or below average (1.52%)",No
+372,303647,Protect,182904.08,0.0095,"High value: CLV ₹182,904 (top 20%, at least ₹92,963); model rates churn at or below average (0.95%)",No
+373,303294,Protect,182066.74,0.0078,"High value: CLV ₹182,067 (top 20%, at least ₹92,963); model rates churn at or below average (0.78%)",No
+374,301745,Protect,181405.01,0.0087,"High value: CLV ₹181,405 (top 20%, at least ₹92,963); model rates churn at or below average (0.87%)",No
+375,301922,Protect,181072.44,0.0139,"High value: CLV ₹181,072 (top 20%, at least ₹92,963); model rates churn at or below average (1.39%)",No
+376,300639,Protect,180581.38,0.0081,"High value: CLV ₹180,581 (top 20%, at least ₹92,963); model rates churn at or below average (0.81%)",No
+377,303885,Protect,180483.84,0.01,"High value: CLV ₹180,484 (top 20%, at least ₹92,963); model rates churn at or below average (1.00%)",No
+378,301430,Protect,180224.01,0.0072,"High value: CLV ₹180,224 (top 20%, at least ₹92,963); model rates churn at or below average (0.72%)",No
+379,302238,Protect,179119.11,0.0075,"High value: CLV ₹179,119 (top 20%, at least ₹92,963); model rates churn at or below average (0.75%)",No
+380,301327,Protect,177852.16,0.0159,"High value: CLV ₹177,852 (top 20%, at least ₹92,963); model rates churn at or below average (1.59%)",No
+381,302693,Protect,177838.46,0.0148,"High value: CLV ₹177,838 (top 20%, at least ₹92,963); model rates churn at or below average (1.48%)",No
+382,300003,Protect,176662.09,0.0127,"High value: CLV ₹176,662 (top 20%, at least ₹92,963); model rates churn at or below average (1.27%)",No
+383,303588,Protect,176121.18,0.0124,"High value: CLV ₹176,121 (top 20%, at least ₹92,963); model rates churn at or below average (1.24%)",No
+384,301038,Protect,175940.98,0.0058,"High value: CLV ₹175,941 (top 20%, at least ₹92,963); model rates churn at or below average (0.58%)",No
+385,303953,Protect,175426.52,0.0104,"High value: CLV ₹175,427 (top 20%, at least ₹92,963); model rates churn at or below average (1.04%)",No
+386,301400,Protect,174977.82,0.0073,"High value: CLV ₹174,978 (top 20%, at least ₹92,963); model rates churn at or below average (0.73%)",No
+387,301385,Protect,173606.05,0.0094,"High value: CLV ₹173,606 (top 20%, at least ₹92,963); model rates churn at or below average (0.94%)",No
+388,303599,Protect,172606.8,0.0107,"High value: CLV ₹172,607 (top 20%, at least ₹92,963); model rates churn at or below average (1.07%)",No
+389,304269,Protect,172551.09,0.0048,"High value: CLV ₹172,551 (top 20%, at least ₹92,963); model rates churn at or below average (0.48%)",No
+390,302997,Protect,172238.9,0.011,"High value: CLV ₹172,239 (top 20%, at least ₹92,963); model rates churn at or below average (1.10%)",No
+391,302511,Protect,172237.57,0.0146,"High value: CLV ₹172,238 (top 20%, at least ₹92,963); model rates churn at or below average (1.46%)",No
+392,303949,Protect,172138.57,0.0144,"High value: CLV ₹172,139 (top 20%, at least ₹92,963); model rates churn at or below average (1.44%)",No
+393,304758,Protect,170936.07,0.01,"High value: CLV ₹170,936 (top 20%, at least ₹92,963); model rates churn at or below average (1.00%)",No
+394,301878,Protect,170770.14,0.0108,"High value: CLV ₹170,770 (top 20%, at least ₹92,963); model rates churn at or below average (1.08%)",No
+395,301407,Protect,169744.41,0.0045,"High value: CLV ₹169,744 (top 20%, at least ₹92,963); model rates churn at or below average (0.45%)",No
+396,303986,Protect,169634.09,0.0173,"High value: CLV ₹169,634 (top 20%, at least ₹92,963); model rates churn at or below average (1.73%)",No
+397,304564,Protect,168794.07,0.0107,"High value: CLV ₹168,794 (top 20%, at least ₹92,963); model rates churn at or below average (1.07%)",No
+398,303684,Protect,168695.57,0.0105,"High value: CLV ₹168,696 (top 20%, at least ₹92,963); model rates churn at or below average (1.05%)",No
+399,300702,Protect,168306.95,0.013,"High value: CLV ₹168,307 (top 20%, at least ₹92,963); model rates churn at or below average (1.30%)",No
+400,304223,Protect,168196.84,0.0089,"High value: CLV ₹168,197 (top 20%, at least ₹92,963); model rates churn at or below average (0.89%)",No
+401,304476,Protect,167828.23,0.0075,"High value: CLV ₹167,828 (top 20%, at least ₹92,963); model rates churn at or below average (0.75%)",No
+402,300239,Protect,166959.5,0.0042,"High value: CLV ₹166,960 (top 20%, at least ₹92,963); model rates churn at or below average (0.42%)",No
+403,300498,Protect,166468.87,0.0083,"High value: CLV ₹166,469 (top 20%, at least ₹92,963); model rates churn at or below average (0.83%)",No
+404,300604,Protect,165993.74,0.0162,"High value: CLV ₹165,994 (top 20%, at least ₹92,963); model rates churn at or below average (1.62%)",No
+405,304464,Protect,165949.86,0.0126,"High value: CLV ₹165,950 (top 20%, at least ₹92,963); model rates churn at or below average (1.26%)",No
+406,302538,Protect,165823.85,0.0073,"High value: CLV ₹165,824 (top 20%, at least ₹92,963); model rates churn at or below average (0.73%)",No
+407,301149,Protect,165710.94,0.0166,"High value: CLV ₹165,711 (top 20%, at least ₹92,963); model rates churn at or below average (1.66%)",No
+408,303604,Protect,165582.53,0.0166,"High value: CLV ₹165,583 (top 20%, at least ₹92,963); model rates churn at or below average (1.66%)",No
+409,304687,Protect,164911.19,0.0157,"High value: CLV ₹164,911 (top 20%, at least ₹92,963); model rates churn at or below average (1.57%)",No
+410,304933,Protect,164647.57,0.0076,"High value: CLV ₹164,648 (top 20%, at least ₹92,963); model rates churn at or below average (0.76%)",No
+411,300259,Protect,164301.12,0.0126,"High value: CLV ₹164,301 (top 20%, at least ₹92,963); model rates churn at or below average (1.26%)",No
+412,300031,Protect,163266.48,0.0158,"High value: CLV ₹163,266 (top 20%, at least ₹92,963); model rates churn at or below average (1.58%)",No
+413,300817,Protect,163229.1,0.0067,"High value: CLV ₹163,229 (top 20%, at least ₹92,963); model rates churn at or below average (0.67%)",No
+414,302835,Protect,162498.05,0.0158,"High value: CLV ₹162,498 (top 20%, at least ₹92,963); model rates churn at or below average (1.58%)",No
+415,302687,Protect,162459.75,0.0137,"High value: CLV ₹162,460 (top 20%, at least ₹92,963); model rates churn at or below average (1.37%)",No
+416,303121,Protect,161817.43,0.0147,"High value: CLV ₹161,817 (top 20%, at least ₹92,963); model rates churn at or below average (1.47%)",No
+417,302844,Protect,161802.2,0.0101,"High value: CLV ₹161,802 (top 20%, at least ₹92,963); model rates churn at or below average (1.01%)",No
+418,303181,Protect,161312.02,0.0069,"High value: CLV ₹161,312 (top 20%, at least ₹92,963); model rates churn at or below average (0.69%)",No
+419,301240,Protect,160617.15,0.0084,"High value: CLV ₹160,617 (top 20%, at least ₹92,963); model rates churn at or below average (0.84%)",No
+420,301775,Protect,160337.17,0.0069,"High value: CLV ₹160,337 (top 20%, at least ₹92,963); model rates churn at or below average (0.69%)",No
+421,300091,Protect,160289.5,0.0169,"High value: CLV ₹160,290 (top 20%, at least ₹92,963); model rates churn at or below average (1.69%)",No
+422,301464,Protect,160113.82,0.0144,"High value: CLV ₹160,114 (top 20%, at least ₹92,963); model rates churn at or below average (1.44%)",No
+423,304868,Protect,160003.7,0.0131,"High value: CLV ₹160,004 (top 20%, at least ₹92,963); model rates churn at or below average (1.31%)",No
+424,302513,Protect,159937.46,0.008,"High value: CLV ₹159,937 (top 20%, at least ₹92,963); model rates churn at or below average (0.80%)",No
+425,300131,Protect,159791.58,0.0144,"High value: CLV ₹159,792 (top 20%, at least ₹92,963); model rates churn at or below average (1.44%)",No
+426,304127,Protect,159657.65,0.0168,"High value: CLV ₹159,658 (top 20%, at least ₹92,963); model rates churn at or below average (1.68%)",No
+427,304766,Protect,159523.02,0.0005,"High value: CLV ₹159,523 (top 20%, at least ₹92,963); model rates churn at or below average (0.05%)",No
+428,300906,Protect,159350.45,0.0086,"High value: CLV ₹159,350 (top 20%, at least ₹92,963); model rates churn at or below average (0.86%)",No
+429,300572,Protect,159266.83,0.0114,"High value: CLV ₹159,267 (top 20%, at least ₹92,963); model rates churn at or below average (1.14%)",No
+430,301144,Protect,158916.32,0.0095,"High value: CLV ₹158,916 (top 20%, at least ₹92,963); model rates churn at or below average (0.95%)",No
+431,302842,Protect,158418.56,0.0148,"High value: CLV ₹158,419 (top 20%, at least ₹92,963); model rates churn at or below average (1.48%)",No
+432,304956,Protect,158279.61,0.0109,"High value: CLV ₹158,280 (top 20%, at least ₹92,963); model rates churn at or below average (1.09%)",No
+433,301622,Protect,158141.08,0.0113,"High value: CLV ₹158,141 (top 20%, at least ₹92,963); model rates churn at or below average (1.13%)",No
+434,303056,Protect,157941.05,0.0021,"High value: CLV ₹157,941 (top 20%, at least ₹92,963); model rates churn at or below average (0.21%)",No
+435,301397,Protect,157543.88,0.0166,"High value: CLV ₹157,544 (top 20%, at least ₹92,963); model rates churn at or below average (1.66%)",No
+436,301728,Protect,157463.24,0.0175,"High value: CLV ₹157,463 (top 20%, at least ₹92,963); model rates churn at or below average (1.75%)",No
+437,301811,Protect,157347.99,0.0101,"High value: CLV ₹157,348 (top 20%, at least ₹92,963); model rates churn at or below average (1.01%)",No
+438,302375,Protect,157256.46,0.0062,"High value: CLV ₹157,256 (top 20%, at least ₹92,963); model rates churn at or below average (0.62%)",No
+439,304891,Protect,157127.41,0.0105,"High value: CLV ₹157,127 (top 20%, at least ₹92,963); model rates churn at or below average (1.05%)",No
+440,300064,Protect,156928.75,0.0095,"High value: CLV ₹156,929 (top 20%, at least ₹92,963); model rates churn at or below average (0.95%)",No
+441,300798,Protect,156738.99,0.0072,"High value: CLV ₹156,739 (top 20%, at least ₹92,963); model rates churn at or below average (0.72%)",No
+442,300629,Protect,156110.21,0.0082,"High value: CLV ₹156,110 (top 20%, at least ₹92,963); model rates churn at or below average (0.82%)",No
+443,300005,Protect,155669.08,0.0089,"High value: CLV ₹155,669 (top 20%, at least ₹92,963); model rates churn at or below average (0.89%)",No
+444,304797,Protect,155469.72,0.0074,"High value: CLV ₹155,470 (top 20%, at least ₹92,963); model rates churn at or below average (0.74%)",No
+445,304651,Protect,154914.09,0.0148,"High value: CLV ₹154,914 (top 20%, at least ₹92,963); model rates churn at or below average (1.48%)",No
+446,300886,Protect,154743.62,0.0114,"High value: CLV ₹154,744 (top 20%, at least ₹92,963); model rates churn at or below average (1.14%)",No
+447,302043,Protect,154593.34,0.0096,"High value: CLV ₹154,593 (top 20%, at least ₹92,963); model rates churn at or below average (0.96%)",No
+448,300795,Protect,154402.65,0.016,"High value: CLV ₹154,403 (top 20%, at least ₹92,963); model rates churn at or below average (1.60%)",No
+449,301490,Protect,154106.17,0.0123,"High value: CLV ₹154,106 (top 20%, at least ₹92,963); model rates churn at or below average (1.23%)",No
+450,301648,Protect,154001.58,0.0088,"High value: CLV ₹154,002 (top 20%, at least ₹92,963); model rates churn at or below average (0.88%)",No
+451,300466,Protect,153331.24,0.0172,"High value: CLV ₹153,331 (top 20%, at least ₹92,963); model rates churn at or below average (1.72%)",No
+452,301930,Protect,153083.26,0.0152,"High value: CLV ₹153,083 (top 20%, at least ₹92,963); model rates churn at or below average (1.52%)",No
+453,302791,Protect,153081.51,0.0146,"High value: CLV ₹153,082 (top 20%, at least ₹92,963); model rates churn at or below average (1.46%)",No
+454,304544,Protect,153077.62,0.012,"High value: CLV ₹153,078 (top 20%, at least ₹92,963); model rates churn at or below average (1.20%)",Yes
+455,304810,Protect,152926.57,0.0109,"High value: CLV ₹152,927 (top 20%, at least ₹92,963); model rates churn at or below average (1.09%)",No
+456,302586,Protect,152520.06,0.0109,"High value: CLV ₹152,520 (top 20%, at least ₹92,963); model rates churn at or below average (1.09%)",No
+457,303178,Protect,152469.2,0.0146,"High value: CLV ₹152,469 (top 20%, at least ₹92,963); model rates churn at or below average (1.46%)",No
+458,300050,Protect,151867.48,0.0005,"High value: CLV ₹151,867 (top 20%, at least ₹92,963); model rates churn at or below average (0.05%)",No
+459,303656,Protect,151657.43,0.0135,"High value: CLV ₹151,657 (top 20%, at least ₹92,963); model rates churn at or below average (1.35%)",No
+460,303591,Protect,151170.82,0.0122,"High value: CLV ₹151,171 (top 20%, at least ₹92,963); model rates churn at or below average (1.22%)",No
+461,300379,Protect,151034.66,0.0111,"High value: CLV ₹151,035 (top 20%, at least ₹92,963); model rates churn at or below average (1.11%)",No
+462,301552,Protect,150877.87,0.0081,"High value: CLV ₹150,878 (top 20%, at least ₹92,963); model rates churn at or below average (0.81%)",No
+463,304676,Protect,150796.08,0.0086,"High value: CLV ₹150,796 (top 20%, at least ₹92,963); model rates churn at or below average (0.86%)",No
+464,300104,Protect,150638.19,0.0115,"High value: CLV ₹150,638 (top 20%, at least ₹92,963); model rates churn at or below average (1.15%)",No
+465,304625,Protect,150442.75,0.0144,"High value: CLV ₹150,443 (top 20%, at least ₹92,963); model rates churn at or below average (1.44%)",No
+466,302788,Protect,150208.81,0.014,"High value: CLV ₹150,209 (top 20%, at least ₹92,963); model rates churn at or below average (1.40%)",No
+467,302862,Protect,150069.12,0.0092,"High value: CLV ₹150,069 (top 20%, at least ₹92,963); model rates churn at or below average (0.92%)",No
+468,304486,Protect,149874.29,0.0024,"High value: CLV ₹149,874 (top 20%, at least ₹92,963); model rates churn at or below average (0.24%)",No
+469,300614,Protect,149136.78,0.008,"High value: CLV ₹149,137 (top 20%, at least ₹92,963); model rates churn at or below average (0.80%)",No
+470,301638,Protect,149130.92,0.0088,"High value: CLV ₹149,131 (top 20%, at least ₹92,963); model rates churn at or below average (0.88%)",No
+471,301098,Protect,148949.47,0.0104,"High value: CLV ₹148,949 (top 20%, at least ₹92,963); model rates churn at or below average (1.04%)",No
+472,304413,Protect,148707.39,0.0131,"High value: CLV ₹148,707 (top 20%, at least ₹92,963); model rates churn at or below average (1.31%)",No
+473,303113,Protect,148663.6,0.0133,"High value: CLV ₹148,664 (top 20%, at least ₹92,963); model rates churn at or below average (1.33%)",No
+474,301176,Protect,148516.52,0.013,"High value: CLV ₹148,517 (top 20%, at least ₹92,963); model rates churn at or below average (1.30%)",No
+475,304686,Protect,147981.92,0.011,"High value: CLV ₹147,982 (top 20%, at least ₹92,963); model rates churn at or below average (1.10%)",No
+476,302831,Protect,147746.53,0.0174,"High value: CLV ₹147,747 (top 20%, at least ₹92,963); model rates churn at or below average (1.74%)",No
+477,304752,Protect,147239.82,0.0019,"High value: CLV ₹147,240 (top 20%, at least ₹92,963); model rates churn at or below average (0.19%)",No
+478,302024,Protect,147234.2,0.0088,"High value: CLV ₹147,234 (top 20%, at least ₹92,963); model rates churn at or below average (0.88%)",No
+479,303385,Protect,147001.79,0.0102,"High value: CLV ₹147,002 (top 20%, at least ₹92,963); model rates churn at or below average (1.02%)",No
+480,302008,Protect,146794.56,0.0046,"High value: CLV ₹146,795 (top 20%, at least ₹92,963); model rates churn at or below average (0.46%)",No
+481,301932,Protect,146784.61,0.0135,"High value: CLV ₹146,785 (top 20%, at least ₹92,963); model rates churn at or below average (1.35%)",No
+482,303227,Protect,146553.29,0.0056,"High value: CLV ₹146,553 (top 20%, at least ₹92,963); model rates churn at or below average (0.56%)",No
+483,302029,Protect,146547.88,0.0083,"High value: CLV ₹146,548 (top 20%, at least ₹92,963); model rates churn at or below average (0.83%)",No
+484,304121,Protect,146364.32,0.0084,"High value: CLV ₹146,364 (top 20%, at least ₹92,963); model rates churn at or below average (0.84%)",No
+485,301389,Protect,146255.68,0.0119,"High value: CLV ₹146,256 (top 20%, at least ₹92,963); model rates churn at or below average (1.19%)",No
+486,300841,Protect,145860.76,0.0076,"High value: CLV ₹145,861 (top 20%, at least ₹92,963); model rates churn at or below average (0.76%)",No
+487,300196,Protect,145650.76,0.0105,"High value: CLV ₹145,651 (top 20%, at least ₹92,963); model rates churn at or below average (1.05%)",No
+488,301505,Protect,145494.72,0.013,"High value: CLV ₹145,495 (top 20%, at least ₹92,963); model rates churn at or below average (1.30%)",No
+489,301349,Protect,145354.15,0.0062,"High value: CLV ₹145,354 (top 20%, at least ₹92,963); model rates churn at or below average (0.62%)",No
+490,304281,Protect,145267.95,0.0168,"High value: CLV ₹145,268 (top 20%, at least ₹92,963); model rates churn at or below average (1.68%)",No
+491,304660,Protect,144965.53,0.0128,"High value: CLV ₹144,966 (top 20%, at least ₹92,963); model rates churn at or below average (1.28%)",No
+492,303089,Protect,144961.76,0.0173,"High value: CLV ₹144,962 (top 20%, at least ₹92,963); model rates churn at or below average (1.73%)",No
+493,300411,Protect,144701.82,0.0106,"High value: CLV ₹144,702 (top 20%, at least ₹92,963); model rates churn at or below average (1.06%)",No
+494,303219,Protect,144584.47,0.0126,"High value: CLV ₹144,584 (top 20%, at least ₹92,963); model rates churn at or below average (1.26%)",No
+495,302280,Protect,144421.61,0.0087,"High value: CLV ₹144,422 (top 20%, at least ₹92,963); model rates churn at or below average (0.87%)",No
+496,301897,Protect,144389.02,0.0144,"High value: CLV ₹144,389 (top 20%, at least ₹92,963); model rates churn at or below average (1.44%)",No
+497,302403,Protect,144277.29,0.0141,"High value: CLV ₹144,277 (top 20%, at least ₹92,963); model rates churn at or below average (1.41%)",No
+498,302164,Protect,143579.73,0.0074,"High value: CLV ₹143,580 (top 20%, at least ₹92,963); model rates churn at or below average (0.74%)",No
+499,302818,Protect,143299.95,0.0122,"High value: CLV ₹143,300 (top 20%, at least ₹92,963); model rates churn at or below average (1.22%)",No
+500,300189,Protect,142861.11,0.0141,"High value: CLV ₹142,861 (top 20%, at least ₹92,963); model rates churn at or below average (1.41%)",No
+501,302049,Protect,142797.94,0.0096,"High value: CLV ₹142,798 (top 20%, at least ₹92,963); model rates churn at or below average (0.96%)",No
+502,304325,Protect,142792.25,0.0097,"High value: CLV ₹142,792 (top 20%, at least ₹92,963); model rates churn at or below average (0.97%)",No
+503,302112,Protect,142747.46,0.0093,"High value: CLV ₹142,747 (top 20%, at least ₹92,963); model rates churn at or below average (0.93%)",No
+504,300176,Protect,142609.9,0.015,"High value: CLV ₹142,610 (top 20%, at least ₹92,963); model rates churn at or below average (1.50%)",No
+505,301934,Protect,142601.88,0.0092,"High value: CLV ₹142,602 (top 20%, at least ₹92,963); model rates churn at or below average (0.92%)",No
+506,303353,Protect,142374.25,0.0128,"High value: CLV ₹142,374 (top 20%, at least ₹92,963); model rates churn at or below average (1.28%)",No
+507,300912,Protect,142113.63,0.0147,"High value: CLV ₹142,114 (top 20%, at least ₹92,963); model rates churn at or below average (1.47%)",No
+508,304077,Protect,141896.88,0.0097,"High value: CLV ₹141,897 (top 20%, at least ₹92,963); model rates churn at or below average (0.97%)",No
+509,301097,Protect,140947.36,0.0077,"High value: CLV ₹140,947 (top 20%, at least ₹92,963); model rates churn at or below average (0.77%)",No
+510,303640,Protect,140770.54,0.0165,"High value: CLV ₹140,771 (top 20%, at least ₹92,963); model rates churn at or below average (1.65%)",No
+511,304711,Protect,140726.86,0.0113,"High value: CLV ₹140,727 (top 20%, at least ₹92,963); model rates churn at or below average (1.13%)",No
+512,304025,Protect,140647.63,0.0143,"High value: CLV ₹140,648 (top 20%, at least ₹92,963); model rates churn at or below average (1.43%)",No
+513,302217,Protect,140612.74,0.0133,"High value: CLV ₹140,613 (top 20%, at least ₹92,963); model rates churn at or below average (1.33%)",No
+514,301847,Protect,140598.55,0.0109,"High value: CLV ₹140,599 (top 20%, at least ₹92,963); model rates churn at or below average (1.09%)",No
+515,300985,Protect,140505.88,0.0066,"High value: CLV ₹140,506 (top 20%, at least ₹92,963); model rates churn at or below average (0.66%)",Yes
+516,303236,Protect,140307.46,0.0175,"High value: CLV ₹140,307 (top 20%, at least ₹92,963); model rates churn at or below average (1.75%)",No
+517,304671,Protect,140094.62,0.0114,"High value: CLV ₹140,095 (top 20%, at least ₹92,963); model rates churn at or below average (1.14%)",No
+518,300957,Protect,139917.73,0.0149,"High value: CLV ₹139,918 (top 20%, at least ₹92,963); model rates churn at or below average (1.49%)",No
+519,303016,Protect,139800.2,0.0067,"High value: CLV ₹139,800 (top 20%, at least ₹92,963); model rates churn at or below average (0.67%)",No
+520,301511,Protect,139752.11,0.0087,"High value: CLV ₹139,752 (top 20%, at least ₹92,963); model rates churn at or below average (0.87%)",No
+521,300924,Protect,139671.08,0.0103,"High value: CLV ₹139,671 (top 20%, at least ₹92,963); model rates churn at or below average (1.03%)",No
+522,302657,Protect,139625.47,0.0126,"High value: CLV ₹139,625 (top 20%, at least ₹92,963); model rates churn at or below average (1.26%)",No
+523,303335,Protect,139427.85,0.0176,"High value: CLV ₹139,428 (top 20%, at least ₹92,963); model rates churn at or below average (1.76%)",No
+524,304403,Protect,139366.91,0.0083,"High value: CLV ₹139,367 (top 20%, at least ₹92,963); model rates churn at or below average (0.83%)",No
+525,300177,Protect,139178.25,0.0147,"High value: CLV ₹139,178 (top 20%, at least ₹92,963); model rates churn at or below average (1.47%)",No
+526,304652,Protect,138552.86,0.0129,"High value: CLV ₹138,553 (top 20%, at least ₹92,963); model rates churn at or below average (1.29%)",No
+527,302541,Protect,138252.81,0.0096,"High value: CLV ₹138,253 (top 20%, at least ₹92,963); model rates churn at or below average (0.96%)",No
+528,303657,Protect,138172.31,0.0089,"High value: CLV ₹138,172 (top 20%, at least ₹92,963); model rates churn at or below average (0.89%)",No
+529,303983,Protect,138002.15,0.0154,"High value: CLV ₹138,002 (top 20%, at least ₹92,963); model rates churn at or below average (1.54%)",No
+530,304274,Protect,137884.86,0.0111,"High value: CLV ₹137,885 (top 20%, at least ₹92,963); model rates churn at or below average (1.10%)",No
+531,300283,Protect,137601.16,0.0143,"High value: CLV ₹137,601 (top 20%, at least ₹92,963); model rates churn at or below average (1.43%)",No
+532,301537,Protect,137451.04,0.0096,"High value: CLV ₹137,451 (top 20%, at least ₹92,963); model rates churn at or below average (0.96%)",No
+533,303422,Protect,137440.65,0.0155,"High value: CLV ₹137,441 (top 20%, at least ₹92,963); model rates churn at or below average (1.55%)",No
+534,304407,Protect,137323.75,0.0149,"High value: CLV ₹137,324 (top 20%, at least ₹92,963); model rates churn at or below average (1.49%)",No
+535,300024,Protect,137316.42,0.0087,"High value: CLV ₹137,316 (top 20%, at least ₹92,963); model rates churn at or below average (0.87%)",No
+536,302350,Protect,136892.27,0.0121,"High value: CLV ₹136,892 (top 20%, at least ₹92,963); model rates churn at or below average (1.21%)",No
+537,302271,Protect,136825.12,0.0158,"High value: CLV ₹136,825 (top 20%, at least ₹92,963); model rates churn at or below average (1.58%)",No
+538,302254,Protect,136129.11,0.0111,"High value: CLV ₹136,129 (top 20%, at least ₹92,963); model rates churn at or below average (1.11%)",No
+539,304485,Protect,136123.04,0.0081,"High value: CLV ₹136,123 (top 20%, at least ₹92,963); model rates churn at or below average (0.81%)",No
+540,303077,Protect,135508.33,0.0075,"High value: CLV ₹135,508 (top 20%, at least ₹92,963); model rates churn at or below average (0.75%)",No
+541,303290,Protect,135327.38,0.0134,"High value: CLV ₹135,327 (top 20%, at least ₹92,963); model rates churn at or below average (1.34%)",No
+542,301194,Protect,135311.34,0.0175,"High value: CLV ₹135,311 (top 20%, at least ₹92,963); model rates churn at or below average (1.75%)",No
+543,303298,Protect,135297.6,0.0103,"High value: CLV ₹135,298 (top 20%, at least ₹92,963); model rates churn at or below average (1.03%)",No
+544,300226,Protect,135120.08,0.013,"High value: CLV ₹135,120 (top 20%, at least ₹92,963); model rates churn at or below average (1.30%)",No
+545,301597,Protect,135066.52,0.0106,"High value: CLV ₹135,067 (top 20%, at least ₹92,963); model rates churn at or below average (1.06%)",No
+546,302880,Protect,134889.24,0.0113,"High value: CLV ₹134,889 (top 20%, at least ₹92,963); model rates churn at or below average (1.13%)",No
+547,300598,Protect,134377.01,0.0175,"High value: CLV ₹134,377 (top 20%, at least ₹92,963); model rates churn at or below average (1.75%)",No
+548,304919,Protect,134222.18,0.0119,"High value: CLV ₹134,222 (top 20%, at least ₹92,963); model rates churn at or below average (1.19%)",No
+549,300665,Protect,134182.98,0.0078,"High value: CLV ₹134,183 (top 20%, at least ₹92,963); model rates churn at or below average (0.78%)",No
+550,302379,Protect,134051.82,0.0083,"High value: CLV ₹134,052 (top 20%, at least ₹92,963); model rates churn at or below average (0.83%)",No
+551,302782,Protect,133851.65,0.0102,"High value: CLV ₹133,852 (top 20%, at least ₹92,963); model rates churn at or below average (1.02%)",No
+552,301866,Protect,133781.76,0.0088,"High value: CLV ₹133,782 (top 20%, at least ₹92,963); model rates churn at or below average (0.88%)",No
+553,301963,Protect,133431.91,0.01,"High value: CLV ₹133,432 (top 20%, at least ₹92,963); model rates churn at or below average (1.00%)",No
+554,301516,Protect,132592.35,0.0106,"High value: CLV ₹132,592 (top 20%, at least ₹92,963); model rates churn at or below average (1.06%)",No
+555,304816,Protect,132591.95,0.0083,"High value: CLV ₹132,592 (top 20%, at least ₹92,963); model rates churn at or below average (0.83%)",No
+556,303693,Protect,132582.87,0.0171,"High value: CLV ₹132,583 (top 20%, at least ₹92,963); model rates churn at or below average (1.71%)",No
+557,301481,Protect,132324.24,0.0151,"High value: CLV ₹132,324 (top 20%, at least ₹92,963); model rates churn at or below average (1.51%)",No
+558,300565,Protect,132315.47,0.0165,"High value: CLV ₹132,315 (top 20%, at least ₹92,963); model rates churn at or below average (1.65%)",No
+559,302870,Protect,132003.47,0.014,"High value: CLV ₹132,003 (top 20%, at least ₹92,963); model rates churn at or below average (1.40%)",No
+560,301026,Protect,131959.18,0.011,"High value: CLV ₹131,959 (top 20%, at least ₹92,963); model rates churn at or below average (1.10%)",No
+561,304968,Protect,131859.18,0.013,"High value: CLV ₹131,859 (top 20%, at least ₹92,963); model rates churn at or below average (1.30%)",No
+562,303674,Protect,131853.78,0.0135,"High value: CLV ₹131,854 (top 20%, at least ₹92,963); model rates churn at or below average (1.35%)",No
+563,304629,Protect,131665.38,0.0106,"High value: CLV ₹131,665 (top 20%, at least ₹92,963); model rates churn at or below average (1.06%)",No
+564,304724,Protect,131395.9,0.0118,"High value: CLV ₹131,396 (top 20%, at least ₹92,963); model rates churn at or below average (1.18%)",No
+565,300491,Protect,131246.6,0.0169,"High value: CLV ₹131,247 (top 20%, at least ₹92,963); model rates churn at or below average (1.69%)",No
+566,302427,Protect,131153.4,0.012,"High value: CLV ₹131,153 (top 20%, at least ₹92,963); model rates churn at or below average (1.20%)",No
+567,301326,Protect,131051.87,0.017,"High value: CLV ₹131,052 (top 20%, at least ₹92,963); model rates churn at or below average (1.70%)",No
+568,301704,Protect,130955.27,0.0165,"High value: CLV ₹130,955 (top 20%, at least ₹92,963); model rates churn at or below average (1.65%)",No
+569,302532,Protect,130924.44,0.0129,"High value: CLV ₹130,924 (top 20%, at least ₹92,963); model rates churn at or below average (1.29%)",No
+570,300234,Protect,130783.92,0.0048,"High value: CLV ₹130,784 (top 20%, at least ₹92,963); model rates churn at or below average (0.48%)",No
+571,303735,Protect,130531.15,0.013,"High value: CLV ₹130,531 (top 20%, at least ₹92,963); model rates churn at or below average (1.30%)",No
+572,303791,Protect,130337.15,0.0135,"High value: CLV ₹130,337 (top 20%, at least ₹92,963); model rates churn at or below average (1.35%)",No
+573,303966,Protect,130281.0,0.0108,"High value: CLV ₹130,281 (top 20%, at least ₹92,963); model rates churn at or below average (1.08%)",No
+574,303819,Protect,130214.64,0.0123,"High value: CLV ₹130,215 (top 20%, at least ₹92,963); model rates churn at or below average (1.23%)",No
+575,304808,Protect,129739.6,0.0114,"High value: CLV ₹129,740 (top 20%, at least ₹92,963); model rates churn at or below average (1.14%)",No
+576,304420,Protect,129715.32,0.0091,"High value: CLV ₹129,715 (top 20%, at least ₹92,963); model rates churn at or below average (0.91%)",No
+577,303414,Protect,129307.04,0.0108,"High value: CLV ₹129,307 (top 20%, at least ₹92,963); model rates churn at or below average (1.08%)",No
+578,302159,Protect,129076.15,0.0105,"High value: CLV ₹129,076 (top 20%, at least ₹92,963); model rates churn at or below average (1.05%)",No
+579,301654,Protect,129069.6,0.0092,"High value: CLV ₹129,070 (top 20%, at least ₹92,963); model rates churn at or below average (0.92%)",No
+580,301275,Protect,129035.11,0.0165,"High value: CLV ₹129,035 (top 20%, at least ₹92,963); model rates churn at or below average (1.65%)",No
+581,302718,Protect,128869.42,0.0094,"High value: CLV ₹128,869 (top 20%, at least ₹92,963); model rates churn at or below average (0.94%)",No
+582,303118,Protect,128795.67,0.0112,"High value: CLV ₹128,796 (top 20%, at least ₹92,963); model rates churn at or below average (1.12%)",No
+583,302149,Protect,128683.14,0.009,"High value: CLV ₹128,683 (top 20%, at least ₹92,963); model rates churn at or below average (0.90%)",No
+584,302969,Protect,128605.81,0.0076,"High value: CLV ₹128,606 (top 20%, at least ₹92,963); model rates churn at or below average (0.76%)",No
+585,300360,Protect,128543.79,0.0153,"High value: CLV ₹128,544 (top 20%, at least ₹92,963); model rates churn at or below average (1.53%)",No
+586,302929,Protect,128500.2,0.01,"High value: CLV ₹128,500 (top 20%, at least ₹92,963); model rates churn at or below average (1.00%)",No
+587,302950,Protect,128481.27,0.016,"High value: CLV ₹128,481 (top 20%, at least ₹92,963); model rates churn at or below average (1.60%)",No
+588,304211,Protect,128449.98,0.0162,"High value: CLV ₹128,450 (top 20%, at least ₹92,963); model rates churn at or below average (1.62%)",No
+589,300421,Protect,128267.25,0.014,"High value: CLV ₹128,267 (top 20%, at least ₹92,963); model rates churn at or below average (1.40%)",No
+590,301687,Protect,128201.81,0.0136,"High value: CLV ₹128,202 (top 20%, at least ₹92,963); model rates churn at or below average (1.36%)",No
+591,300839,Protect,127952.4,0.0139,"High value: CLV ₹127,952 (top 20%, at least ₹92,963); model rates churn at or below average (1.39%)",No
+592,302605,Protect,127867.78,0.0094,"High value: CLV ₹127,868 (top 20%, at least ₹92,963); model rates churn at or below average (0.94%)",No
+593,300266,Protect,127747.33,0.0102,"High value: CLV ₹127,747 (top 20%, at least ₹92,963); model rates churn at or below average (1.02%)",No
+594,304715,Protect,127677.42,0.0118,"High value: CLV ₹127,677 (top 20%, at least ₹92,963); model rates churn at or below average (1.18%)",No
+595,300062,Protect,127463.76,0.0088,"High value: CLV ₹127,464 (top 20%, at least ₹92,963); model rates churn at or below average (0.88%)",No
+596,300932,Protect,127438.96,0.0091,"High value: CLV ₹127,439 (top 20%, at least ₹92,963); model rates churn at or below average (0.91%)",No
+597,304207,Protect,127414.81,0.0045,"High value: CLV ₹127,415 (top 20%, at least ₹92,963); model rates churn at or below average (0.45%)",No
+598,302194,Protect,126798.32,0.0091,"High value: CLV ₹126,798 (top 20%, at least ₹92,963); model rates churn at or below average (0.91%)",No
+599,301120,Protect,126708.86,0.0109,"High value: CLV ₹126,709 (top 20%, at least ₹92,963); model rates churn at or below average (1.09%)",No
+600,303742,Protect,126690.36,0.0115,"High value: CLV ₹126,690 (top 20%, at least ₹92,963); model rates churn at or below average (1.15%)",No
+601,300989,Protect,126617.79,0.0117,"High value: CLV ₹126,618 (top 20%, at least ₹92,963); model rates churn at or below average (1.17%)",No
+602,302998,Protect,126424.92,0.0148,"High value: CLV ₹126,425 (top 20%, at least ₹92,963); model rates churn at or below average (1.48%)",Yes
+603,303308,Protect,126086.15,0.0139,"High value: CLV ₹126,086 (top 20%, at least ₹92,963); model rates churn at or below average (1.39%)",Yes
+604,302734,Protect,125965.17,0.0098,"High value: CLV ₹125,965 (top 20%, at least ₹92,963); model rates churn at or below average (0.98%)",No
+605,303856,Protect,125956.4,0.0087,"High value: CLV ₹125,956 (top 20%, at least ₹92,963); model rates churn at or below average (0.87%)",No
+606,301571,Protect,125844.34,0.0118,"High value: CLV ₹125,844 (top 20%, at least ₹92,963); model rates churn at or below average (1.18%)",No
+607,300937,Protect,125749.78,0.0087,"High value: CLV ₹125,750 (top 20%, at least ₹92,963); model rates churn at or below average (0.87%)",No
+608,300909,Protect,125568.12,0.0125,"High value: CLV ₹125,568 (top 20%, at least ₹92,963); model rates churn at or below average (1.25%)",No
+609,302054,Protect,125565.92,0.0078,"High value: CLV ₹125,566 (top 20%, at least ₹92,963); model rates churn at or below average (0.78%)",No
+610,301948,Protect,125399.9,0.0086,"High value: CLV ₹125,400 (top 20%, at least ₹92,963); model rates churn at or below average (0.86%)",No
+611,301288,Protect,125343.53,0.002,"High value: CLV ₹125,344 (top 20%, at least ₹92,963); model rates churn at or below average (0.20%)",No
+612,303688,Protect,125342.49,0.0108,"High value: CLV ₹125,342 (top 20%, at least ₹92,963); model rates churn at or below average (1.08%)",No
+613,304355,Protect,125337.89,0.0063,"High value: CLV ₹125,338 (top 20%, at least ₹92,963); model rates churn at or below average (0.63%)",No
+614,302597,Protect,125325.69,0.0118,"High value: CLV ₹125,326 (top 20%, at least ₹92,963); model rates churn at or below average (1.18%)",No
+615,300127,Protect,125269.01,0.0136,"High value: CLV ₹125,269 (top 20%, at least ₹92,963); model rates churn at or below average (1.36%)",No
+616,302617,Protect,125148.84,0.0115,"High value: CLV ₹125,149 (top 20%, at least ₹92,963); model rates churn at or below average (1.15%)",No
+617,304049,Protect,125043.15,0.0109,"High value: CLV ₹125,043 (top 20%, at least ₹92,963); model rates churn at or below average (1.09%)",No
+618,300035,Protect,125013.11,0.0063,"High value: CLV ₹125,013 (top 20%, at least ₹92,963); model rates churn at or below average (0.63%)",No
+619,300371,Protect,124667.82,0.0123,"High value: CLV ₹124,668 (top 20%, at least ₹92,963); model rates churn at or below average (1.23%)",No
+620,301488,Protect,124139.51,0.0177,"High value: CLV ₹124,140 (top 20%, at least ₹92,963); model rates churn at or below average (1.77%)",No
+621,303765,Protect,124087.39,0.0138,"High value: CLV ₹124,087 (top 20%, at least ₹92,963); model rates churn at or below average (1.38%)",No
+622,304296,Protect,124043.68,0.0109,"High value: CLV ₹124,044 (top 20%, at least ₹92,963); model rates churn at or below average (1.09%)",No
+623,300370,Protect,123962.79,0.015,"High value: CLV ₹123,963 (top 20%, at least ₹92,963); model rates churn at or below average (1.50%)",No
+624,301600,Protect,123926.9,0.0099,"High value: CLV ₹123,927 (top 20%, at least ₹92,963); model rates churn at or below average (0.99%)",No
+625,302992,Protect,123858.78,0.0118,"High value: CLV ₹123,859 (top 20%, at least ₹92,963); model rates churn at or below average (1.18%)",No
+626,300848,Protect,123646.41,0.0132,"High value: CLV ₹123,646 (top 20%, at least ₹92,963); model rates churn at or below average (1.32%)",No
+627,302404,Protect,123600.84,0.012,"High value: CLV ₹123,601 (top 20%, at least ₹92,963); model rates churn at or below average (1.20%)",No
+628,302357,Protect,123513.82,0.0087,"High value: CLV ₹123,514 (top 20%, at least ₹92,963); model rates churn at or below average (0.87%)",No
+629,300348,Protect,123372.06,0.0107,"High value: CLV ₹123,372 (top 20%, at least ₹92,963); model rates churn at or below average (1.07%)",No
+630,303085,Protect,123177.59,0.0135,"High value: CLV ₹123,178 (top 20%, at least ₹92,963); model rates churn at or below average (1.35%)",No
+631,301338,Protect,123174.83,0.0159,"High value: CLV ₹123,175 (top 20%, at least ₹92,963); model rates churn at or below average (1.59%)",No
+632,303758,Protect,123128.09,0.013,"High value: CLV ₹123,128 (top 20%, at least ₹92,963); model rates churn at or below average (1.30%)",No
+633,300829,Protect,123099.3,0.0157,"High value: CLV ₹123,099 (top 20%, at least ₹92,963); model rates churn at or below average (1.57%)",No
+634,304680,Protect,123004.37,0.0105,"High value: CLV ₹123,004 (top 20%, at least ₹92,963); model rates churn at or below average (1.05%)",No
+635,300876,Protect,122955.65,0.0151,"High value: CLV ₹122,956 (top 20%, at least ₹92,963); model rates churn at or below average (1.51%)",No
+636,301461,Protect,122866.75,0.0153,"High value: CLV ₹122,867 (top 20%, at least ₹92,963); model rates churn at or below average (1.53%)",No
+637,301967,Protect,122407.23,0.016,"High value: CLV ₹122,407 (top 20%, at least ₹92,963); model rates churn at or below average (1.60%)",No
+638,304873,Protect,122370.7,0.0155,"High value: CLV ₹122,371 (top 20%, at least ₹92,963); model rates churn at or below average (1.55%)",No
+639,301923,Protect,122278.66,0.0114,"High value: CLV ₹122,279 (top 20%, at least ₹92,963); model rates churn at or below average (1.14%)",No
+640,300530,Protect,122033.32,0.0125,"High value: CLV ₹122,033 (top 20%, at least ₹92,963); model rates churn at or below average (1.25%)",No
+641,304351,Protect,121779.57,0.0129,"High value: CLV ₹121,780 (top 20%, at least ₹92,963); model rates churn at or below average (1.29%)",No
+642,300453,Protect,121705.04,0.0146,"High value: CLV ₹121,705 (top 20%, at least ₹92,963); model rates churn at or below average (1.46%)",No
+643,302779,Protect,121612.82,0.0095,"High value: CLV ₹121,613 (top 20%, at least ₹92,963); model rates churn at or below average (0.95%)",No
+644,300140,Protect,121565.6,0.0145,"High value: CLV ₹121,566 (top 20%, at least ₹92,963); model rates churn at or below average (1.45%)",No
+645,301954,Protect,121395.57,0.0123,"High value: CLV ₹121,396 (top 20%, at least ₹92,963); model rates churn at or below average (1.23%)",No
+646,301782,Protect,121374.11,0.0151,"High value: CLV ₹121,374 (top 20%, at least ₹92,963); model rates churn at or below average (1.51%)",No
+647,303453,Protect,121295.68,0.0115,"High value: CLV ₹121,296 (top 20%, at least ₹92,963); model rates churn at or below average (1.15%)",No
+648,300916,Protect,121294.5,0.0153,"High value: CLV ₹121,294 (top 20%, at least ₹92,963); model rates churn at or below average (1.53%)",No
+649,304062,Protect,121241.58,0.01,"High value: CLV ₹121,242 (top 20%, at least ₹92,963); model rates churn at or below average (1.00%)",No
+650,300706,Protect,121012.65,0.0081,"High value: CLV ₹121,013 (top 20%, at least ₹92,963); model rates churn at or below average (0.81%)",No
+651,301964,Protect,120985.73,0.0159,"High value: CLV ₹120,986 (top 20%, at least ₹92,963); model rates churn at or below average (1.59%)",No
+652,300935,Protect,120921.52,0.0157,"High value: CLV ₹120,922 (top 20%, at least ₹92,963); model rates churn at or below average (1.57%)",No
+653,304853,Protect,120788.84,0.0132,"High value: CLV ₹120,789 (top 20%, at least ₹92,963); model rates churn at or below average (1.32%)",No
+654,303605,Protect,120634.75,0.0144,"High value: CLV ₹120,635 (top 20%, at least ₹92,963); model rates churn at or below average (1.44%)",No
+655,300758,Protect,120534.89,0.0077,"High value: CLV ₹120,535 (top 20%, at least ₹92,963); model rates churn at or below average (0.77%)",No
+656,300219,Protect,120127.33,0.0123,"High value: CLV ₹120,127 (top 20%, at least ₹92,963); model rates churn at or below average (1.23%)",No
+657,304096,Protect,120048.88,0.0169,"High value: CLV ₹120,049 (top 20%, at least ₹92,963); model rates churn at or below average (1.69%)",No
+658,300755,Protect,120022.41,0.0113,"High value: CLV ₹120,022 (top 20%, at least ₹92,963); model rates churn at or below average (1.13%)",No
+659,302314,Protect,120011.29,0.0073,"High value: CLV ₹120,011 (top 20%, at least ₹92,963); model rates churn at or below average (0.73%)",No
+660,302102,Protect,119889.56,0.0118,"High value: CLV ₹119,890 (top 20%, at least ₹92,963); model rates churn at or below average (1.18%)",No
+661,302892,Protect,119749.07,0.0132,"High value: CLV ₹119,749 (top 20%, at least ₹92,963); model rates churn at or below average (1.32%)",No
+662,304262,Protect,119700.79,0.014,"High value: CLV ₹119,701 (top 20%, at least ₹92,963); model rates churn at or below average (1.40%)",No
+663,301999,Protect,119466.63,0.0107,"High value: CLV ₹119,467 (top 20%, at least ₹92,963); model rates churn at or below average (1.07%)",No
+664,302187,Protect,119448.68,0.0085,"High value: CLV ₹119,449 (top 20%, at least ₹92,963); model rates churn at or below average (0.85%)",No
+665,301476,Protect,119418.24,0.0165,"High value: CLV ₹119,418 (top 20%, at least ₹92,963); model rates churn at or below average (1.65%)",No
+666,303093,Protect,119350.3,0.0114,"High value: CLV ₹119,350 (top 20%, at least ₹92,963); model rates churn at or below average (1.14%)",No
+667,303042,Protect,119250.3,0.0173,"High value: CLV ₹119,250 (top 20%, at least ₹92,963); model rates churn at or below average (1.73%)",No
+668,301074,Protect,119239.78,0.0138,"High value: CLV ₹119,240 (top 20%, at least ₹92,963); model rates churn at or below average (1.38%)",No
+669,302895,Protect,119063.77,0.0133,"High value: CLV ₹119,064 (top 20%, at least ₹92,963); model rates churn at or below average (1.33%)",No
+670,304089,Protect,118894.49,0.0131,"High value: CLV ₹118,894 (top 20%, at least ₹92,963); model rates churn at or below average (1.31%)",No
+671,304600,Protect,118789.13,0.0128,"High value: CLV ₹118,789 (top 20%, at least ₹92,963); model rates churn at or below average (1.28%)",No
+672,304429,Protect,118714.06,0.0115,"High value: CLV ₹118,714 (top 20%, at least ₹92,963); model rates churn at or below average (1.15%)",No
+673,300093,Protect,118677.44,0.0062,"High value: CLV ₹118,677 (top 20%, at least ₹92,963); model rates churn at or below average (0.62%)",No
+674,300574,Protect,118621.55,0.0087,"High value: CLV ₹118,622 (top 20%, at least ₹92,963); model rates churn at or below average (0.87%)",No
+675,301351,Protect,118602.01,0.0147,"High value: CLV ₹118,602 (top 20%, at least ₹92,963); model rates churn at or below average (1.47%)",No
+676,301254,Protect,118492.89,0.0097,"High value: CLV ₹118,493 (top 20%, at least ₹92,963); model rates churn at or below average (0.97%)",No
+677,304393,Protect,118392.7,0.0137,"High value: CLV ₹118,393 (top 20%, at least ₹92,963); model rates churn at or below average (1.37%)",No
+678,304517,Protect,118309.07,0.0099,"High value: CLV ₹118,309 (top 20%, at least ₹92,963); model rates churn at or below average (0.99%)",No
+679,300592,Protect,118261.53,0.0084,"High value: CLV ₹118,262 (top 20%, at least ₹92,963); model rates churn at or below average (0.84%)",No
+680,303950,Protect,118002.12,0.0121,"High value: CLV ₹118,002 (top 20%, at least ₹92,963); model rates churn at or below average (1.21%)",No
+681,300969,Protect,117757.84,0.0103,"High value: CLV ₹117,758 (top 20%, at least ₹92,963); model rates churn at or below average (1.03%)",No
+682,304799,Protect,117730.82,0.0072,"High value: CLV ₹117,731 (top 20%, at least ₹92,963); model rates churn at or below average (0.72%)",No
+683,303592,Protect,117291.75,0.0119,"High value: CLV ₹117,292 (top 20%, at least ₹92,963); model rates churn at or below average (1.19%)",No
+684,300522,Protect,117238.54,0.0136,"High value: CLV ₹117,239 (top 20%, at least ₹92,963); model rates churn at or below average (1.36%)",No
+685,302330,Protect,116838.84,0.0168,"High value: CLV ₹116,839 (top 20%, at least ₹92,963); model rates churn at or below average (1.68%)",No
+686,304859,Protect,116727.61,0.0119,"High value: CLV ₹116,728 (top 20%, at least ₹92,963); model rates churn at or below average (1.19%)",No
+687,300905,Protect,116687.17,0.003,"High value: CLV ₹116,687 (top 20%, at least ₹92,963); model rates churn at or below average (0.30%)",No
+688,302878,Protect,116684.02,0.0106,"High value: CLV ₹116,684 (top 20%, at least ₹92,963); model rates churn at or below average (1.06%)",No
+689,301742,Protect,116627.44,0.0129,"High value: CLV ₹116,627 (top 20%, at least ₹92,963); model rates churn at or below average (1.29%)",No
+690,300078,Protect,116625.11,0.0108,"High value: CLV ₹116,625 (top 20%, at least ₹92,963); model rates churn at or below average (1.08%)",No
+691,302934,Protect,116593.19,0.0174,"High value: CLV ₹116,593 (top 20%, at least ₹92,963); model rates churn at or below average (1.74%)",No
+692,303985,Protect,116514.95,0.0146,"High value: CLV ₹116,515 (top 20%, at least ₹92,963); model rates churn at or below average (1.46%)",No
+693,302101,Protect,116478.98,0.0124,"High value: CLV ₹116,479 (top 20%, at least ₹92,963); model rates churn at or below average (1.24%)",No
+694,302123,Protect,116471.65,0.0114,"High value: CLV ₹116,472 (top 20%, at least ₹92,963); model rates churn at or below average (1.14%)",No
+695,302801,Protect,116452.75,0.0138,"High value: CLV ₹116,453 (top 20%, at least ₹92,963); model rates churn at or below average (1.38%)",No
+696,303576,Protect,116395.08,0.0135,"High value: CLV ₹116,395 (top 20%, at least ₹92,963); model rates churn at or below average (1.35%)",No
+697,300650,Protect,116153.85,0.0075,"High value: CLV ₹116,154 (top 20%, at least ₹92,963); model rates churn at or below average (0.75%)",No
+698,303557,Protect,116022.86,0.0056,"High value: CLV ₹116,023 (top 20%, at least ₹92,963); model rates churn at or below average (0.56%)",No
+699,302428,Protect,115904.19,0.0116,"High value: CLV ₹115,904 (top 20%, at least ₹92,963); model rates churn at or below average (1.16%)",No
+700,302958,Protect,115795.26,0.0096,"High value: CLV ₹115,795 (top 20%, at least ₹92,963); model rates churn at or below average (0.96%)",No
+701,300441,Protect,115748.2,0.0104,"High value: CLV ₹115,748 (top 20%, at least ₹92,963); model rates churn at or below average (1.04%)",No
+702,303336,Protect,115714.67,0.0116,"High value: CLV ₹115,715 (top 20%, at least ₹92,963); model rates churn at or below average (1.16%)",Yes
+703,302258,Protect,115659.3,0.0125,"High value: CLV ₹115,659 (top 20%, at least ₹92,963); model rates churn at or below average (1.25%)",No
+704,301871,Protect,115230.62,0.0105,"High value: CLV ₹115,231 (top 20%, at least ₹92,963); model rates churn at or below average (1.05%)",No
+705,303554,Protect,114960.24,0.0094,"High value: CLV ₹114,960 (top 20%, at least ₹92,963); model rates churn at or below average (0.94%)",No
+706,302820,Protect,114841.27,0.0117,"High value: CLV ₹114,841 (top 20%, at least ₹92,963); model rates churn at or below average (1.17%)",No
+707,304268,Protect,114816.58,0.011,"High value: CLV ₹114,817 (top 20%, at least ₹92,963); model rates churn at or below average (1.10%)",No
+708,301236,Protect,114721.06,0.0091,"High value: CLV ₹114,721 (top 20%, at least ₹92,963); model rates churn at or below average (0.91%)",No
+709,302231,Protect,114631.37,0.0017,"High value: CLV ₹114,631 (top 20%, at least ₹92,963); model rates churn at or below average (0.17%)",No
+710,302724,Protect,114422.42,0.0102,"High value: CLV ₹114,422 (top 20%, at least ₹92,963); model rates churn at or below average (1.02%)",No
+711,304800,Protect,114361.22,0.0168,"High value: CLV ₹114,361 (top 20%, at least ₹92,963); model rates churn at or below average (1.68%)",No
+712,304228,Protect,114291.23,0.0105,"High value: CLV ₹114,291 (top 20%, at least ₹92,963); model rates churn at or below average (1.05%)",No
+713,304685,Protect,114165.16,0.0156,"High value: CLV ₹114,165 (top 20%, at least ₹92,963); model rates churn at or below average (1.56%)",No
+714,303936,Protect,114077.28,0.0078,"High value: CLV ₹114,077 (top 20%, at least ₹92,963); model rates churn at or below average (0.78%)",No
+715,302839,Protect,114061.65,0.0124,"High value: CLV ₹114,062 (top 20%, at least ₹92,963); model rates churn at or below average (1.24%)",No
+716,302359,Protect,114021.3,0.0103,"High value: CLV ₹114,021 (top 20%, at least ₹92,963); model rates churn at or below average (1.03%)",No
+717,301721,Protect,113938.78,0.012,"High value: CLV ₹113,939 (top 20%, at least ₹92,963); model rates churn at or below average (1.20%)",No
+718,303572,Protect,113807.01,0.011,"High value: CLV ₹113,807 (top 20%, at least ₹92,963); model rates churn at or below average (1.10%)",No
+719,304555,Protect,113758.38,0.0147,"High value: CLV ₹113,758 (top 20%, at least ₹92,963); model rates churn at or below average (1.47%)",No
+720,304524,Protect,113745.65,0.0161,"High value: CLV ₹113,746 (top 20%, at least ₹92,963); model rates churn at or below average (1.61%)",No
+721,300493,Protect,113678.26,0.0095,"High value: CLV ₹113,678 (top 20%, at least ₹92,963); model rates churn at or below average (0.95%)",No
+722,302572,Protect,113627.7,0.016,"High value: CLV ₹113,628 (top 20%, at least ₹92,963); model rates churn at or below average (1.60%)",No
+723,301968,Protect,113591.83,0.0093,"High value: CLV ₹113,592 (top 20%, at least ₹92,963); model rates churn at or below average (0.93%)",No
+724,301200,Protect,113578.69,0.0148,"High value: CLV ₹113,579 (top 20%, at least ₹92,963); model rates churn at or below average (1.48%)",Yes
+725,302015,Protect,113423.86,0.0167,"High value: CLV ₹113,424 (top 20%, at least ₹92,963); model rates churn at or below average (1.67%)",No
+726,300979,Protect,113282.42,0.0087,"High value: CLV ₹113,282 (top 20%, at least ₹92,963); model rates churn at or below average (0.87%)",No
+727,302925,Protect,113242.64,0.014,"High value: CLV ₹113,243 (top 20%, at least ₹92,963); model rates churn at or below average (1.40%)",No
+728,301939,Protect,113085.18,0.0148,"High value: CLV ₹113,085 (top 20%, at least ₹92,963); model rates churn at or below average (1.48%)",No
+729,302805,Protect,113032.67,0.0128,"High value: CLV ₹113,033 (top 20%, at least ₹92,963); model rates churn at or below average (1.28%)",No
+730,302554,Protect,113002.78,0.0147,"High value: CLV ₹113,003 (top 20%, at least ₹92,963); model rates churn at or below average (1.47%)",No
+731,301625,Protect,112985.44,0.008,"High value: CLV ₹112,985 (top 20%, at least ₹92,963); model rates churn at or below average (0.80%)",No
+732,304188,Protect,112949.11,0.0163,"High value: CLV ₹112,949 (top 20%, at least ₹92,963); model rates churn at or below average (1.63%)",No
+733,304717,Protect,112897.43,0.0108,"High value: CLV ₹112,897 (top 20%, at least ₹92,963); model rates churn at or below average (1.08%)",No
+734,301029,Protect,112844.26,0.0169,"High value: CLV ₹112,844 (top 20%, at least ₹92,963); model rates churn at or below average (1.69%)",No
+735,303995,Protect,112625.68,0.0153,"High value: CLV ₹112,626 (top 20%, at least ₹92,963); model rates churn at or below average (1.53%)",No
+736,304122,Protect,112507.29,0.0139,"High value: CLV ₹112,507 (top 20%, at least ₹92,963); model rates churn at or below average (1.39%)",No
+737,301140,Protect,112425.31,0.0152,"High value: CLV ₹112,425 (top 20%, at least ₹92,963); model rates churn at or below average (1.52%)",No
+738,301470,Protect,112308.46,0.0107,"High value: CLV ₹112,308 (top 20%, at least ₹92,963); model rates churn at or below average (1.07%)",No
+739,300399,Protect,112237.59,0.0171,"High value: CLV ₹112,238 (top 20%, at least ₹92,963); model rates churn at or below average (1.71%)",No
+740,304465,Protect,112143.79,0.0129,"High value: CLV ₹112,144 (top 20%, at least ₹92,963); model rates churn at or below average (1.29%)",No
+741,300904,Protect,112083.39,0.0083,"High value: CLV ₹112,083 (top 20%, at least ₹92,963); model rates churn at or below average (0.83%)",No
+742,301574,Protect,112024.25,0.0124,"High value: CLV ₹112,024 (top 20%, at least ₹92,963); model rates churn at or below average (1.24%)",No
+743,303267,Protect,111957.95,0.0174,"High value: CLV ₹111,958 (top 20%, at least ₹92,963); model rates churn at or below average (1.74%)",No
+744,304332,Protect,111725.34,0.0088,"High value: CLV ₹111,725 (top 20%, at least ₹92,963); model rates churn at or below average (0.88%)",No
+745,302845,Protect,111648.8,0.0142,"High value: CLV ₹111,649 (top 20%, at least ₹92,963); model rates churn at or below average (1.42%)",No
+746,301820,Protect,111563.89,0.0101,"High value: CLV ₹111,564 (top 20%, at least ₹92,963); model rates churn at or below average (1.01%)",No
+747,300569,Protect,111554.49,0.015,"High value: CLV ₹111,554 (top 20%, at least ₹92,963); model rates churn at or below average (1.50%)",No
+748,302973,Protect,111554.47,0.0145,"High value: CLV ₹111,554 (top 20%, at least ₹92,963); model rates churn at or below average (1.45%)",No
+749,303799,Protect,111425.56,0.0162,"High value: CLV ₹111,426 (top 20%, at least ₹92,963); model rates churn at or below average (1.62%)",No
+750,304750,Protect,111188.97,0.0137,"High value: CLV ₹111,189 (top 20%, at least ₹92,963); model rates churn at or below average (1.37%)",No
+751,300121,Protect,111081.88,0.0081,"High value: CLV ₹111,082 (top 20%, at least ₹92,963); model rates churn at or below average (0.81%)",No
+752,303973,Protect,110956.72,0.0131,"High value: CLV ₹110,957 (top 20%, at least ₹92,963); model rates churn at or below average (1.31%)",No
+753,303146,Protect,110719.12,0.008,"High value: CLV ₹110,719 (top 20%, at least ₹92,963); model rates churn at or below average (0.80%)",No
+754,303998,Protect,110632.78,0.014,"High value: CLV ₹110,633 (top 20%, at least ₹92,963); model rates churn at or below average (1.40%)",No
+755,301320,Protect,110484.67,0.0091,"High value: CLV ₹110,485 (top 20%, at least ₹92,963); model rates churn at or below average (0.91%)",No
+756,301034,Protect,110478.07,0.0108,"High value: CLV ₹110,478 (top 20%, at least ₹92,963); model rates churn at or below average (1.08%)",No
+757,302804,Protect,110475.23,0.0108,"High value: CLV ₹110,475 (top 20%, at least ₹92,963); model rates churn at or below average (1.08%)",No
+758,301804,Protect,110382.07,0.0087,"High value: CLV ₹110,382 (top 20%, at least ₹92,963); model rates churn at or below average (0.87%)",No
+759,301284,Protect,110323.83,0.0091,"High value: CLV ₹110,324 (top 20%, at least ₹92,963); model rates churn at or below average (0.91%)",No
+760,301702,Protect,110319.43,0.0059,"High value: CLV ₹110,319 (top 20%, at least ₹92,963); model rates churn at or below average (0.59%)",No
+761,302075,Protect,110240.81,0.0102,"High value: CLV ₹110,241 (top 20%, at least ₹92,963); model rates churn at or below average (1.02%)",No
+762,300146,Protect,110092.36,0.012,"High value: CLV ₹110,092 (top 20%, at least ₹92,963); model rates churn at or below average (1.20%)",No
+763,303948,Protect,110010.06,0.0097,"High value: CLV ₹110,010 (top 20%, at least ₹92,963); model rates churn at or below average (0.97%)",No
+764,304655,Protect,109699.79,0.0125,"High value: CLV ₹109,700 (top 20%, at least ₹92,963); model rates churn at or below average (1.25%)",No
+765,303585,Protect,109486.36,0.0165,"High value: CLV ₹109,486 (top 20%, at least ₹92,963); model rates churn at or below average (1.65%)",No
+766,303561,Protect,109472.99,0.0116,"High value: CLV ₹109,473 (top 20%, at least ₹92,963); model rates churn at or below average (1.16%)",No
+767,303504,Protect,109174.46,0.0096,"High value: CLV ₹109,174 (top 20%, at least ₹92,963); model rates churn at or below average (0.96%)",No
+768,300473,Protect,109163.49,0.0103,"High value: CLV ₹109,163 (top 20%, at least ₹92,963); model rates churn at or below average (1.03%)",No
+769,302866,Protect,109081.99,0.0152,"High value: CLV ₹109,082 (top 20%, at least ₹92,963); model rates churn at or below average (1.52%)",No
+770,304460,Protect,109068.38,0.0163,"High value: CLV ₹109,068 (top 20%, at least ₹92,963); model rates churn at or below average (1.63%)",No
+771,300786,Protect,109060.08,0.0103,"High value: CLV ₹109,060 (top 20%, at least ₹92,963); model rates churn at or below average (1.03%)",Yes
+772,304965,Protect,108975.38,0.0152,"High value: CLV ₹108,975 (top 20%, at least ₹92,963); model rates churn at or below average (1.52%)",No
+773,303628,Protect,108925.84,0.0158,"High value: CLV ₹108,926 (top 20%, at least ₹92,963); model rates churn at or below average (1.58%)",No
+774,303417,Protect,108882.19,0.0087,"High value: CLV ₹108,882 (top 20%, at least ₹92,963); model rates churn at or below average (0.87%)",No
+775,303840,Protect,108624.2,0.0108,"High value: CLV ₹108,624 (top 20%, at least ₹92,963); model rates churn at or below average (1.08%)",No
+776,300508,Protect,108474.14,0.011,"High value: CLV ₹108,474 (top 20%, at least ₹92,963); model rates churn at or below average (1.10%)",No
+777,303129,Protect,108433.66,0.0177,"High value: CLV ₹108,434 (top 20%, at least ₹92,963); model rates churn at or below average (1.77%)",No
+778,300073,Protect,108292.84,0.0134,"High value: CLV ₹108,293 (top 20%, at least ₹92,963); model rates churn at or below average (1.34%)",No
+779,302793,Protect,108226.2,0.0131,"High value: CLV ₹108,226 (top 20%, at least ₹92,963); model rates churn at or below average (1.31%)",No
+780,303286,Protect,108187.12,0.0122,"High value: CLV ₹108,187 (top 20%, at least ₹92,963); model rates churn at or below average (1.22%)",No
+781,302633,Protect,108026.59,0.0142,"High value: CLV ₹108,027 (top 20%, at least ₹92,963); model rates churn at or below average (1.42%)",No
+782,301814,Protect,107985.17,0.0151,"High value: CLV ₹107,985 (top 20%, at least ₹92,963); model rates churn at or below average (1.51%)",No
+783,302479,Protect,107983.0,0.0138,"High value: CLV ₹107,983 (top 20%, at least ₹92,963); model rates churn at or below average (1.38%)",No
+784,300595,Protect,107900.45,0.0121,"High value: CLV ₹107,900 (top 20%, at least ₹92,963); model rates churn at or below average (1.21%)",No
+785,304289,Protect,107718.82,0.0175,"High value: CLV ₹107,719 (top 20%, at least ₹92,963); model rates churn at or below average (1.75%)",No
+786,304983,Protect,107659.35,0.0126,"High value: CLV ₹107,659 (top 20%, at least ₹92,963); model rates churn at or below average (1.26%)",No
+787,301181,Protect,107573.52,0.0127,"High value: CLV ₹107,574 (top 20%, at least ₹92,963); model rates churn at or below average (1.27%)",No
+788,303630,Protect,107572.97,0.0069,"High value: CLV ₹107,573 (top 20%, at least ₹92,963); model rates churn at or below average (0.69%)",No
+789,301260,Protect,107534.02,0.0096,"High value: CLV ₹107,534 (top 20%, at least ₹92,963); model rates churn at or below average (0.96%)",No
+790,300063,Protect,107483.11,0.0116,"High value: CLV ₹107,483 (top 20%, at least ₹92,963); model rates churn at or below average (1.16%)",No
+791,303125,Protect,107468.5,0.0138,"High value: CLV ₹107,468 (top 20%, at least ₹92,963); model rates churn at or below average (1.38%)",No
+792,304921,Protect,107459.79,0.011,"High value: CLV ₹107,460 (top 20%, at least ₹92,963); model rates churn at or below average (1.10%)",No
+793,302457,Protect,107455.16,0.0173,"High value: CLV ₹107,455 (top 20%, at least ₹92,963); model rates churn at or below average (1.73%)",No
+794,301499,Protect,107425.21,0.0093,"High value: CLV ₹107,425 (top 20%, at least ₹92,963); model rates churn at or below average (0.93%)",No
+795,303732,Protect,107396.98,0.0112,"High value: CLV ₹107,397 (top 20%, at least ₹92,963); model rates churn at or below average (1.12%)",No
+796,300552,Protect,107316.15,0.0139,"High value: CLV ₹107,316 (top 20%, at least ₹92,963); model rates churn at or below average (1.39%)",No
+797,303440,Protect,107308.13,0.0154,"High value: CLV ₹107,308 (top 20%, at least ₹92,963); model rates churn at or below average (1.54%)",No
+798,303303,Protect,107220.08,0.0079,"High value: CLV ₹107,220 (top 20%, at least ₹92,963); model rates churn at or below average (0.79%)",No
+799,300859,Protect,107139.02,0.016,"High value: CLV ₹107,139 (top 20%, at least ₹92,963); model rates churn at or below average (1.60%)",No
+800,304364,Protect,106885.29,0.0099,"High value: CLV ₹106,885 (top 20%, at least ₹92,963); model rates churn at or below average (0.99%)",No
+801,301425,Protect,106885.25,0.0121,"High value: CLV ₹106,885 (top 20%, at least ₹92,963); model rates churn at or below average (1.21%)",No
+802,301960,Protect,106839.91,0.0135,"High value: CLV ₹106,840 (top 20%, at least ₹92,963); model rates churn at or below average (1.35%)",No
+803,301414,Protect,106781.06,0.0168,"High value: CLV ₹106,781 (top 20%, at least ₹92,963); model rates churn at or below average (1.68%)",No
+804,304650,Protect,106754.29,0.0167,"High value: CLV ₹106,754 (top 20%, at least ₹92,963); model rates churn at or below average (1.67%)",No
+805,304677,Protect,106673.81,0.0141,"High value: CLV ₹106,674 (top 20%, at least ₹92,963); model rates churn at or below average (1.41%)",No
+806,304209,Protect,106650.56,0.0156,"High value: CLV ₹106,651 (top 20%, at least ₹92,963); model rates churn at or below average (1.56%)",No
+807,303876,Protect,106624.28,0.0135,"High value: CLV ₹106,624 (top 20%, at least ₹92,963); model rates churn at or below average (1.35%)",No
+808,303306,Protect,106458.44,0.0124,"High value: CLV ₹106,458 (top 20%, at least ₹92,963); model rates churn at or below average (1.24%)",No
+809,300703,Protect,106435.15,0.0165,"High value: CLV ₹106,435 (top 20%, at least ₹92,963); model rates churn at or below average (1.65%)",No
+810,303926,Protect,106426.77,0.0119,"High value: CLV ₹106,427 (top 20%, at least ₹92,963); model rates churn at or below average (1.19%)",No
+811,300410,Protect,106348.71,0.0097,"High value: CLV ₹106,349 (top 20%, at least ₹92,963); model rates churn at or below average (0.97%)",No
+812,302285,Protect,106304.46,0.017,"High value: CLV ₹106,304 (top 20%, at least ₹92,963); model rates churn at or below average (1.70%)",No
+813,302672,Protect,106270.11,0.0114,"High value: CLV ₹106,270 (top 20%, at least ₹92,963); model rates churn at or below average (1.14%)",No
+814,302184,Protect,106161.82,0.015,"High value: CLV ₹106,162 (top 20%, at least ₹92,963); model rates churn at or below average (1.50%)",No
+815,304032,Protect,106048.46,0.0085,"High value: CLV ₹106,048 (top 20%, at least ₹92,963); model rates churn at or below average (0.85%)",No
+816,302264,Protect,106038.21,0.0151,"High value: CLV ₹106,038 (top 20%, at least ₹92,963); model rates churn at or below average (1.51%)",No
+817,300202,Protect,105970.06,0.0126,"High value: CLV ₹105,970 (top 20%, at least ₹92,963); model rates churn at or below average (1.26%)",No
+818,303172,Protect,105861.38,0.0144,"High value: CLV ₹105,861 (top 20%, at least ₹92,963); model rates churn at or below average (1.44%)",No
+819,303573,Protect,105685.74,0.0102,"High value: CLV ₹105,686 (top 20%, at least ₹92,963); model rates churn at or below average (1.02%)",No
+820,304603,Protect,105370.15,0.0114,"High value: CLV ₹105,370 (top 20%, at least ₹92,963); model rates churn at or below average (1.14%)",No
+821,301045,Protect,105354.19,0.0152,"High value: CLV ₹105,354 (top 20%, at least ₹92,963); model rates churn at or below average (1.52%)",No
+822,304608,Protect,104984.05,0.0155,"High value: CLV ₹104,984 (top 20%, at least ₹92,963); model rates churn at or below average (1.55%)",No
+823,303331,Protect,104976.23,0.0136,"High value: CLV ₹104,976 (top 20%, at least ₹92,963); model rates churn at or below average (1.36%)",No
+824,303035,Protect,104924.43,0.0156,"High value: CLV ₹104,924 (top 20%, at least ₹92,963); model rates churn at or below average (1.56%)",No
+825,302063,Protect,104920.12,0.0145,"High value: CLV ₹104,920 (top 20%, at least ₹92,963); model rates churn at or below average (1.45%)",No
+826,303775,Protect,104824.98,0.01,"High value: CLV ₹104,825 (top 20%, at least ₹92,963); model rates churn at or below average (1.00%)",No
+827,302867,Protect,104716.88,0.013,"High value: CLV ₹104,717 (top 20%, at least ₹92,963); model rates churn at or below average (1.30%)",No
+828,301292,Protect,104600.14,0.0163,"High value: CLV ₹104,600 (top 20%, at least ₹92,963); model rates churn at or below average (1.63%)",No
+829,303855,Protect,104579.17,0.0108,"High value: CLV ₹104,579 (top 20%, at least ₹92,963); model rates churn at or below average (1.08%)",No
+830,304765,Protect,104570.25,0.0144,"High value: CLV ₹104,570 (top 20%, at least ₹92,963); model rates churn at or below average (1.44%)",No
+831,303722,Protect,104557.07,0.0146,"High value: CLV ₹104,557 (top 20%, at least ₹92,963); model rates churn at or below average (1.46%)",No
+832,302589,Protect,104548.8,0.0111,"High value: CLV ₹104,549 (top 20%, at least ₹92,963); model rates churn at or below average (1.11%)",No
+833,302570,Protect,104535.06,0.0178,"High value: CLV ₹104,535 (top 20%, at least ₹92,963); model rates churn at or below average (1.78%)",No
+834,303997,Protect,104477.23,0.0102,"High value: CLV ₹104,477 (top 20%, at least ₹92,963); model rates churn at or below average (1.02%)",No
+835,300449,Protect,104402.53,0.015,"High value: CLV ₹104,403 (top 20%, at least ₹92,963); model rates churn at or below average (1.50%)",No
+836,301221,Protect,104336.46,0.0135,"High value: CLV ₹104,336 (top 20%, at least ₹92,963); model rates churn at or below average (1.35%)",Yes
+837,301827,Protect,104320.81,0.0087,"High value: CLV ₹104,321 (top 20%, at least ₹92,963); model rates churn at or below average (0.87%)",No
+838,300272,Protect,104177.33,0.0143,"High value: CLV ₹104,177 (top 20%, at least ₹92,963); model rates churn at or below average (1.43%)",No
+839,303424,Protect,104071.99,0.0121,"High value: CLV ₹104,072 (top 20%, at least ₹92,963); model rates churn at or below average (1.21%)",No
+840,303626,Protect,103900.66,0.0135,"High value: CLV ₹103,901 (top 20%, at least ₹92,963); model rates churn at or below average (1.35%)",No
+841,302093,Protect,103808.38,0.0161,"High value: CLV ₹103,808 (top 20%, at least ₹92,963); model rates churn at or below average (1.61%)",No
+842,302339,Protect,103687.2,0.0116,"High value: CLV ₹103,687 (top 20%, at least ₹92,963); model rates churn at or below average (1.16%)",No
+843,304293,Protect,103584.74,0.0152,"High value: CLV ₹103,585 (top 20%, at least ₹92,963); model rates churn at or below average (1.52%)",No
+844,304079,Protect,103545.27,0.0112,"High value: CLV ₹103,545 (top 20%, at least ₹92,963); model rates churn at or below average (1.12%)",No
+845,304097,Protect,103495.1,0.0132,"High value: CLV ₹103,495 (top 20%, at least ₹92,963); model rates churn at or below average (1.32%)",No
+846,304780,Protect,103267.7,0.0168,"High value: CLV ₹103,268 (top 20%, at least ₹92,963); model rates churn at or below average (1.68%)",No
+847,300622,Protect,103077.15,0.0113,"High value: CLV ₹103,077 (top 20%, at least ₹92,963); model rates churn at or below average (1.13%)",No
+848,304695,Protect,102998.52,0.0138,"High value: CLV ₹102,999 (top 20%, at least ₹92,963); model rates churn at or below average (1.38%)",No
+849,300097,Protect,102966.02,0.0171,"High value: CLV ₹102,966 (top 20%, at least ₹92,963); model rates churn at or below average (1.71%)",No
+850,302576,Protect,102932.52,0.0124,"High value: CLV ₹102,933 (top 20%, at least ₹92,963); model rates churn at or below average (1.24%)",No
+851,303164,Protect,102928.13,0.0073,"High value: CLV ₹102,928 (top 20%, at least ₹92,963); model rates churn at or below average (0.73%)",No
+852,303104,Protect,102704.51,0.0142,"High value: CLV ₹102,705 (top 20%, at least ₹92,963); model rates churn at or below average (1.42%)",No
+853,301363,Protect,102682.32,0.0149,"High value: CLV ₹102,682 (top 20%, at least ₹92,963); model rates churn at or below average (1.49%)",No
+854,300743,Protect,102613.55,0.003,"High value: CLV ₹102,614 (top 20%, at least ₹92,963); model rates churn at or below average (0.30%)",Yes
+855,303541,Protect,102580.5,0.0133,"High value: CLV ₹102,580 (top 20%, at least ₹92,963); model rates churn at or below average (1.33%)",Yes
+856,300675,Protect,102405.72,0.0172,"High value: CLV ₹102,406 (top 20%, at least ₹92,963); model rates churn at or below average (1.72%)",No
+857,302200,Protect,102279.09,0.0141,"High value: CLV ₹102,279 (top 20%, at least ₹92,963); model rates churn at or below average (1.41%)",No
+858,304409,Protect,102246.98,0.0108,"High value: CLV ₹102,247 (top 20%, at least ₹92,963); model rates churn at or below average (1.08%)",No
+859,300304,Protect,102244.91,0.0111,"High value: CLV ₹102,245 (top 20%, at least ₹92,963); model rates churn at or below average (1.11%)",No
+860,300278,Protect,102092.65,0.0123,"High value: CLV ₹102,093 (top 20%, at least ₹92,963); model rates churn at or below average (1.23%)",No
+861,304030,Protect,102036.47,0.0102,"High value: CLV ₹102,036 (top 20%, at least ₹92,963); model rates churn at or below average (1.02%)",No
+862,300816,Protect,102027.46,0.0106,"High value: CLV ₹102,027 (top 20%, at least ₹92,963); model rates churn at or below average (1.06%)",No
+863,303241,Protect,101921.13,0.0123,"High value: CLV ₹101,921 (top 20%, at least ₹92,963); model rates churn at or below average (1.23%)",No
+864,304271,Protect,101840.47,0.0117,"High value: CLV ₹101,840 (top 20%, at least ₹92,963); model rates churn at or below average (1.17%)",No
+865,301683,Protect,101825.41,0.0171,"High value: CLV ₹101,825 (top 20%, at least ₹92,963); model rates churn at or below average (1.71%)",No
+866,302222,Protect,101819.55,0.0105,"High value: CLV ₹101,820 (top 20%, at least ₹92,963); model rates churn at or below average (1.05%)",No
+867,302188,Protect,101655.21,0.0145,"High value: CLV ₹101,655 (top 20%, at least ₹92,963); model rates churn at or below average (1.45%)",No
+868,300789,Protect,101410.19,0.0137,"High value: CLV ₹101,410 (top 20%, at least ₹92,963); model rates churn at or below average (1.37%)",No
+869,304593,Protect,101268.23,0.0153,"High value: CLV ₹101,268 (top 20%, at least ₹92,963); model rates churn at or below average (1.53%)",No
+870,301147,Protect,101183.63,0.0054,"High value: CLV ₹101,184 (top 20%, at least ₹92,963); model rates churn at or below average (0.54%)",No
+871,303280,Protect,101167.28,0.0169,"High value: CLV ₹101,167 (top 20%, at least ₹92,963); model rates churn at or below average (1.69%)",No
+872,303260,Protect,101096.89,0.0117,"High value: CLV ₹101,097 (top 20%, at least ₹92,963); model rates churn at or below average (1.17%)",No
+873,304317,Protect,100970.29,0.0109,"High value: CLV ₹100,970 (top 20%, at least ₹92,963); model rates churn at or below average (1.09%)",No
+874,304264,Protect,100945.2,0.0131,"High value: CLV ₹100,945 (top 20%, at least ₹92,963); model rates churn at or below average (1.31%)",No
+875,304466,Protect,100689.05,0.0122,"High value: CLV ₹100,689 (top 20%, at least ₹92,963); model rates churn at or below average (1.22%)",No
+876,304831,Protect,100686.92,0.0146,"High value: CLV ₹100,687 (top 20%, at least ₹92,963); model rates churn at or below average (1.46%)",No
+877,303627,Protect,100538.89,0.005,"High value: CLV ₹100,539 (top 20%, at least ₹92,963); model rates churn at or below average (0.50%)",No
+878,304537,Protect,100473.11,0.0136,"High value: CLV ₹100,473 (top 20%, at least ₹92,963); model rates churn at or below average (1.36%)",No
+879,301473,Protect,100462.13,0.0137,"High value: CLV ₹100,462 (top 20%, at least ₹92,963); model rates churn at or below average (1.37%)",No
+880,303316,Protect,100385.4,0.0116,"High value: CLV ₹100,385 (top 20%, at least ₹92,963); model rates churn at or below average (1.16%)",No
+881,300930,Protect,100361.56,0.0161,"High value: CLV ₹100,362 (top 20%, at least ₹92,963); model rates churn at or below average (1.61%)",No
+882,302643,Protect,100219.11,0.0136,"High value: CLV ₹100,219 (top 20%, at least ₹92,963); model rates churn at or below average (1.36%)",No
+883,302760,Protect,100215.95,0.0141,"High value: CLV ₹100,216 (top 20%, at least ₹92,963); model rates churn at or below average (1.41%)",No
+884,302516,Protect,100092.1,0.0112,"High value: CLV ₹100,092 (top 20%, at least ₹92,963); model rates churn at or below average (1.12%)",No
+885,301904,Protect,99977.64,0.0157,"High value: CLV ₹99,978 (top 20%, at least ₹92,963); model rates churn at or below average (1.57%)",No
+886,300780,Protect,99966.5,0.0119,"High value: CLV ₹99,966 (top 20%, at least ₹92,963); model rates churn at or below average (1.19%)",No
+887,301655,Protect,99904.51,0.011,"High value: CLV ₹99,905 (top 20%, at least ₹92,963); model rates churn at or below average (1.10%)",No
+888,300684,Protect,99890.3,0.0088,"High value: CLV ₹99,890 (top 20%, at least ₹92,963); model rates churn at or below average (0.88%)",No
+889,301070,Protect,99831.92,0.0099,"High value: CLV ₹99,832 (top 20%, at least ₹92,963); model rates churn at or below average (0.99%)",No
+890,303143,Protect,99827.88,0.0155,"High value: CLV ₹99,828 (top 20%, at least ₹92,963); model rates churn at or below average (1.55%)",No
+891,301259,Protect,99674.07,0.0151,"High value: CLV ₹99,674 (top 20%, at least ₹92,963); model rates churn at or below average (1.51%)",No
+892,304194,Protect,99657.53,0.0097,"High value: CLV ₹99,658 (top 20%, at least ₹92,963); model rates churn at or below average (0.97%)",No
+893,301071,Protect,99625.96,0.0028,"High value: CLV ₹99,626 (top 20%, at least ₹92,963); model rates churn at or below average (0.28%)",No
+894,300119,Protect,99547.86,0.0168,"High value: CLV ₹99,548 (top 20%, at least ₹92,963); model rates churn at or below average (1.68%)",No
+895,304945,Protect,99364.62,0.0145,"High value: CLV ₹99,365 (top 20%, at least ₹92,963); model rates churn at or below average (1.45%)",No
+896,300949,Protect,99348.76,0.0113,"High value: CLV ₹99,349 (top 20%, at least ₹92,963); model rates churn at or below average (1.13%)",No
+897,304267,Protect,99288.41,0.0123,"High value: CLV ₹99,288 (top 20%, at least ₹92,963); model rates churn at or below average (1.23%)",No
+898,303012,Protect,99277.87,0.0074,"High value: CLV ₹99,278 (top 20%, at least ₹92,963); model rates churn at or below average (0.74%)",No
+899,301440,Protect,99234.04,0.0107,"High value: CLV ₹99,234 (top 20%, at least ₹92,963); model rates churn at or below average (1.07%)",No
+900,300014,Protect,99056.11,0.0105,"High value: CLV ₹99,056 (top 20%, at least ₹92,963); model rates churn at or below average (1.05%)",No
+901,303228,Protect,98977.08,0.0129,"High value: CLV ₹98,977 (top 20%, at least ₹92,963); model rates churn at or below average (1.29%)",No
+902,303334,Protect,98968.96,0.0159,"High value: CLV ₹98,969 (top 20%, at least ₹92,963); model rates churn at or below average (1.59%)",No
+903,303169,Protect,98900.51,0.0108,"High value: CLV ₹98,901 (top 20%, at least ₹92,963); model rates churn at or below average (1.08%)",No
+904,301233,Protect,98791.88,0.015,"High value: CLV ₹98,792 (top 20%, at least ₹92,963); model rates churn at or below average (1.50%)",No
+905,300627,Protect,98766.48,0.0149,"High value: CLV ₹98,766 (top 20%, at least ₹92,963); model rates churn at or below average (1.49%)",No
+906,303658,Protect,98499.37,0.0126,"High value: CLV ₹98,499 (top 20%, at least ₹92,963); model rates churn at or below average (1.26%)",No
+907,301991,Protect,98417.89,0.0152,"High value: CLV ₹98,418 (top 20%, at least ₹92,963); model rates churn at or below average (1.52%)",No
+908,303524,Protect,98363.79,0.0104,"High value: CLV ₹98,364 (top 20%, at least ₹92,963); model rates churn at or below average (1.04%)",No
+909,304812,Protect,98276.65,0.0171,"High value: CLV ₹98,277 (top 20%, at least ₹92,963); model rates churn at or below average (1.71%)",No
+910,303862,Protect,98248.87,0.0111,"High value: CLV ₹98,249 (top 20%, at least ₹92,963); model rates churn at or below average (1.11%)",No
+911,301588,Protect,98196.12,0.006,"High value: CLV ₹98,196 (top 20%, at least ₹92,963); model rates churn at or below average (0.60%)",No
+912,303015,Protect,98169.07,0.0129,"High value: CLV ₹98,169 (top 20%, at least ₹92,963); model rates churn at or below average (1.29%)",No
+913,302705,Protect,98159.83,0.0119,"High value: CLV ₹98,160 (top 20%, at least ₹92,963); model rates churn at or below average (1.19%)",No
+914,304546,Protect,98058.74,0.0177,"High value: CLV ₹98,059 (top 20%, at least ₹92,963); model rates churn at or below average (1.77%)",No
+915,301484,Protect,98009.62,0.0112,"High value: CLV ₹98,010 (top 20%, at least ₹92,963); model rates churn at or below average (1.12%)",No
+916,304328,Protect,97985.2,0.0137,"High value: CLV ₹97,985 (top 20%, at least ₹92,963); model rates churn at or below average (1.37%)",No
+917,300888,Protect,97836.9,0.0175,"High value: CLV ₹97,837 (top 20%, at least ₹92,963); model rates churn at or below average (1.75%)",No
+918,302147,Protect,97797.97,0.0139,"High value: CLV ₹97,798 (top 20%, at least ₹92,963); model rates churn at or below average (1.39%)",No
+919,303731,Protect,97723.9,0.013,"High value: CLV ₹97,724 (top 20%, at least ₹92,963); model rates churn at or below average (1.30%)",No
+920,301768,Protect,97630.3,0.0146,"High value: CLV ₹97,630 (top 20%, at least ₹92,963); model rates churn at or below average (1.46%)",No
+921,302848,Protect,97571.27,0.0159,"High value: CLV ₹97,571 (top 20%, at least ₹92,963); model rates churn at or below average (1.59%)",No
+922,302289,Protect,97500.24,0.0166,"High value: CLV ₹97,500 (top 20%, at least ₹92,963); model rates churn at or below average (1.66%)",No
+923,302743,Protect,97447.26,0.0127,"High value: CLV ₹97,447 (top 20%, at least ₹92,963); model rates churn at or below average (1.27%)",No
+924,301007,Protect,97368.7,0.0178,"High value: CLV ₹97,369 (top 20%, at least ₹92,963); model rates churn at or below average (1.78%)",No
+925,301001,Protect,97356.15,0.0145,"High value: CLV ₹97,356 (top 20%, at least ₹92,963); model rates churn at or below average (1.45%)",No
+926,304128,Protect,97338.07,0.0172,"High value: CLV ₹97,338 (top 20%, at least ₹92,963); model rates churn at or below average (1.72%)",No
+927,303792,Protect,97335.51,0.0103,"High value: CLV ₹97,336 (top 20%, at least ₹92,963); model rates churn at or below average (1.03%)",No
+928,303689,Protect,97279.21,0.0111,"High value: CLV ₹97,279 (top 20%, at least ₹92,963); model rates churn at or below average (1.11%)",No
+929,304720,Protect,97257.83,0.0051,"High value: CLV ₹97,258 (top 20%, at least ₹92,963); model rates churn at or below average (0.51%)",No
+930,302108,Protect,97172.32,0.0155,"High value: CLV ₹97,172 (top 20%, at least ₹92,963); model rates churn at or below average (1.55%)",No
+931,301841,Protect,97149.08,0.0131,"High value: CLV ₹97,149 (top 20%, at least ₹92,963); model rates churn at or below average (1.31%)",No
+932,302711,Protect,97137.62,0.0127,"High value: CLV ₹97,138 (top 20%, at least ₹92,963); model rates churn at or below average (1.27%)",No
+933,301926,Protect,97036.38,0.0109,"High value: CLV ₹97,036 (top 20%, at least ₹92,963); model rates churn at or below average (1.09%)",No
+934,303727,Protect,96971.64,0.0113,"High value: CLV ₹96,972 (top 20%, at least ₹92,963); model rates churn at or below average (1.13%)",No
+935,303008,Protect,96963.56,0.0142,"High value: CLV ₹96,964 (top 20%, at least ₹92,963); model rates churn at or below average (1.42%)",No
+936,302932,Protect,96953.72,0.0143,"High value: CLV ₹96,954 (top 20%, at least ₹92,963); model rates churn at or below average (1.43%)",No
+937,304910,Protect,96816.56,0.0172,"High value: CLV ₹96,817 (top 20%, at least ₹92,963); model rates churn at or below average (1.72%)",No
+938,302019,Protect,96779.38,0.0103,"High value: CLV ₹96,779 (top 20%, at least ₹92,963); model rates churn at or below average (1.03%)",No
+939,301360,Protect,96760.05,0.0113,"High value: CLV ₹96,760 (top 20%, at least ₹92,963); model rates churn at or below average (1.13%)",No
+940,302627,Protect,96730.99,0.0139,"High value: CLV ₹96,731 (top 20%, at least ₹92,963); model rates churn at or below average (1.39%)",No
+941,304661,Protect,96659.51,0.0132,"High value: CLV ₹96,660 (top 20%, at least ₹92,963); model rates churn at or below average (1.32%)",No
+942,302441,Protect,96591.41,0.0149,"High value: CLV ₹96,591 (top 20%, at least ₹92,963); model rates churn at or below average (1.49%)",No
+943,300232,Protect,96500.91,0.0143,"High value: CLV ₹96,501 (top 20%, at least ₹92,963); model rates churn at or below average (1.43%)",No
+944,301452,Protect,96497.8,0.0139,"High value: CLV ₹96,498 (top 20%, at least ₹92,963); model rates churn at or below average (1.39%)",No
+945,302306,Protect,96480.99,0.0071,"High value: CLV ₹96,481 (top 20%, at least ₹92,963); model rates churn at or below average (0.71%)",No
+946,304912,Protect,96407.1,0.0153,"High value: CLV ₹96,407 (top 20%, at least ₹92,963); model rates churn at or below average (1.53%)",No
+947,302145,Protect,96300.79,0.0141,"High value: CLV ₹96,301 (top 20%, at least ₹92,963); model rates churn at or below average (1.41%)",No
+948,300173,Protect,96292.54,0.0101,"High value: CLV ₹96,293 (top 20%, at least ₹92,963); model rates churn at or below average (1.01%)",No
+949,303569,Protect,96269.94,0.0143,"High value: CLV ₹96,270 (top 20%, at least ₹92,963); model rates churn at or below average (1.43%)",No
+950,302686,Protect,96239.88,0.0126,"High value: CLV ₹96,240 (top 20%, at least ₹92,963); model rates churn at or below average (1.26%)",No
+951,303123,Protect,96104.89,0.0152,"High value: CLV ₹96,105 (top 20%, at least ₹92,963); model rates churn at or below average (1.52%)",No
+952,300198,Protect,95966.19,0.0146,"High value: CLV ₹95,966 (top 20%, at least ₹92,963); model rates churn at or below average (1.46%)",No
+953,301671,Protect,95912.23,0.0108,"High value: CLV ₹95,912 (top 20%, at least ₹92,963); model rates churn at or below average (1.08%)",No
+954,304942,Protect,95705.72,0.0101,"High value: CLV ₹95,706 (top 20%, at least ₹92,963); model rates churn at or below average (1.01%)",No
+955,300528,Protect,95683.56,0.0136,"High value: CLV ₹95,684 (top 20%, at least ₹92,963); model rates churn at or below average (1.36%)",No
+956,303912,Protect,95675.5,0.0147,"High value: CLV ₹95,676 (top 20%, at least ₹92,963); model rates churn at or below average (1.47%)",No
+957,300801,Protect,95657.18,0.0136,"High value: CLV ₹95,657 (top 20%, at least ₹92,963); model rates churn at or below average (1.36%)",No
+958,304941,Protect,95483.11,0.0145,"High value: CLV ₹95,483 (top 20%, at least ₹92,963); model rates churn at or below average (1.45%)",No
+959,300162,Protect,95460.31,0.0139,"High value: CLV ₹95,460 (top 20%, at least ₹92,963); model rates churn at or below average (1.39%)",No
+960,303282,Protect,95408.08,0.0093,"High value: CLV ₹95,408 (top 20%, at least ₹92,963); model rates churn at or below average (0.93%)",No
+961,302154,Protect,95374.6,0.0169,"High value: CLV ₹95,375 (top 20%, at least ₹92,963); model rates churn at or below average (1.69%)",No
+962,302496,Protect,95353.36,0.011,"High value: CLV ₹95,353 (top 20%, at least ₹92,963); model rates churn at or below average (1.10%)",No
+963,302480,Protect,95331.1,0.0103,"High value: CLV ₹95,331 (top 20%, at least ₹92,963); model rates churn at or below average (1.03%)",No
+964,302823,Protect,95285.87,0.0121,"High value: CLV ₹95,286 (top 20%, at least ₹92,963); model rates churn at or below average (1.21%)",No
+965,301554,Protect,95172.75,0.0148,"High value: CLV ₹95,173 (top 20%, at least ₹92,963); model rates churn at or below average (1.48%)",No
+966,300995,Protect,95153.32,0.012,"High value: CLV ₹95,153 (top 20%, at least ₹92,963); model rates churn at or below average (1.20%)",No
+967,300621,Protect,95102.52,0.0172,"High value: CLV ₹95,103 (top 20%, at least ₹92,963); model rates churn at or below average (1.72%)",No
+968,300237,Protect,95044.71,0.0171,"High value: CLV ₹95,045 (top 20%, at least ₹92,963); model rates churn at or below average (1.71%)",No
+969,304339,Protect,94942.23,0.0166,"High value: CLV ₹94,942 (top 20%, at least ₹92,963); model rates churn at or below average (1.66%)",No
+970,301842,Protect,94877.94,0.0123,"High value: CLV ₹94,878 (top 20%, at least ₹92,963); model rates churn at or below average (1.23%)",No
+971,303593,Protect,94819.11,0.0108,"High value: CLV ₹94,819 (top 20%, at least ₹92,963); model rates churn at or below average (1.08%)",No
+972,301743,Protect,94742.82,0.0178,"High value: CLV ₹94,743 (top 20%, at least ₹92,963); model rates churn at or below average (1.78%)",No
+973,304866,Protect,94688.03,0.0133,"High value: CLV ₹94,688 (top 20%, at least ₹92,963); model rates churn at or below average (1.33%)",No
+974,301495,Protect,94540.81,0.0104,"High value: CLV ₹94,541 (top 20%, at least ₹92,963); model rates churn at or below average (1.04%)",No
+975,303257,Protect,94379.82,0.009,"High value: CLV ₹94,380 (top 20%, at least ₹92,963); model rates churn at or below average (0.90%)",No
+976,300768,Protect,94371.49,0.016,"High value: CLV ₹94,371 (top 20%, at least ₹92,963); model rates churn at or below average (1.60%)",No
+977,301339,Protect,94209.12,0.016,"High value: CLV ₹94,209 (top 20%, at least ₹92,963); model rates churn at or below average (1.60%)",No
+978,301423,Protect,94208.73,0.0164,"High value: CLV ₹94,209 (top 20%, at least ₹92,963); model rates churn at or below average (1.64%)",No
+979,301072,Protect,94184.24,0.0101,"High value: CLV ₹94,184 (top 20%, at least ₹92,963); model rates churn at or below average (1.01%)",No
+980,303659,Protect,94111.66,0.0169,"High value: CLV ₹94,112 (top 20%, at least ₹92,963); model rates churn at or below average (1.69%)",No
+981,300145,Protect,94104.54,0.0145,"High value: CLV ₹94,105 (top 20%, at least ₹92,963); model rates churn at or below average (1.45%)",No
+982,304248,Protect,94041.99,0.0138,"High value: CLV ₹94,042 (top 20%, at least ₹92,963); model rates churn at or below average (1.38%)",No
+983,302673,Protect,93957.01,0.0118,"High value: CLV ₹93,957 (top 20%, at least ₹92,963); model rates churn at or below average (1.18%)",No
+984,301898,Protect,93861.02,0.0103,"High value: CLV ₹93,861 (top 20%, at least ₹92,963); model rates churn at or below average (1.03%)",No
+985,301483,Protect,93841.88,0.0141,"High value: CLV ₹93,842 (top 20%, at least ₹92,963); model rates churn at or below average (1.41%)",No
+986,300046,Protect,93837.76,0.0147,"High value: CLV ₹93,838 (top 20%, at least ₹92,963); model rates churn at or below average (1.47%)",No
+987,302004,Protect,93805.2,0.0135,"High value: CLV ₹93,805 (top 20%, at least ₹92,963); model rates churn at or below average (1.35%)",No
+988,304514,Protect,93695.13,0.0111,"High value: CLV ₹93,695 (top 20%, at least ₹92,963); model rates churn at or below average (1.11%)",No
+989,300814,Protect,93667.28,0.0124,"High value: CLV ₹93,667 (top 20%, at least ₹92,963); model rates churn at or below average (1.24%)",No
+990,300374,Protect,93644.51,0.0132,"High value: CLV ₹93,645 (top 20%, at least ₹92,963); model rates churn at or below average (1.32%)",No
+991,302396,Protect,93628.0,0.0157,"High value: CLV ₹93,628 (top 20%, at least ₹92,963); model rates churn at or below average (1.57%)",No
+992,303281,Protect,93542.91,0.0135,"High value: CLV ₹93,543 (top 20%, at least ₹92,963); model rates churn at or below average (1.35%)",No
+993,300334,Protect,93542.85,0.0168,"High value: CLV ₹93,543 (top 20%, at least ₹92,963); model rates churn at or below average (1.68%)",No
+994,302250,Protect,93487.26,0.0005,"High value: CLV ₹93,487 (top 20%, at least ₹92,963); model rates churn at or below average (0.05%)",No
+995,300307,Protect,93406.47,0.0101,"High value: CLV ₹93,406 (top 20%, at least ₹92,963); model rates churn at or below average (1.01%)",No
+996,300721,Protect,93197.23,0.0101,"High value: CLV ₹93,197 (top 20%, at least ₹92,963); model rates churn at or below average (1.01%)",No
+997,302409,Protect,93174.16,0.0173,"High value: CLV ₹93,174 (top 20%, at least ₹92,963); model rates churn at or below average (1.73%)",No
+998,301344,Protect,93167.6,0.009,"High value: CLV ₹93,168 (top 20%, at least ₹92,963); model rates churn at or below average (0.90%)",No
+999,304447,Protect,93147.32,0.0114,"High value: CLV ₹93,147 (top 20%, at least ₹92,963); model rates churn at or below average (1.14%)",No
+1000,302729,Protect,93018.62,0.0094,"High value: CLV ₹93,019 (top 20%, at least ₹92,963); model rates churn at or below average (0.94%)",No

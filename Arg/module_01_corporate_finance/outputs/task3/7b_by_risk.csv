@@ -1,0 +1,4 @@
+Risk_Rating,Fund,Review,Reject,Fund (₹ crore),Review (₹ crore),Reject (₹ crore),Total,Reject share
+Low,2,25,37,3.2,40.3,55.1,64,0.578
+Medium,0,9,63,0.0,15.2,104.3,72,0.875
+High,0,4,40,0.0,7.5,57.9,44,0.909

@@ -1,0 +1,13 @@
+Model,AUC UP vs DOWN,Log-loss,Accuracy,Macro-F1,Hit rate DOWN,Hit rate NO_MOVE,Hit rate UP,Share predicted NO_MOVE,Days,AUC gain over OBI alone,Gain 95% range,p (DeLong),Beats OBI alone?
+OBI alone,0.77947,0.91885,0.59834,0.43479,0.72431,0.0,0.70922,0.0,Tuning (15–17),,,,
+Logistic regression,0.78842,0.90918,0.60255,0.43783,0.71226,0.0,0.73101,0.0,Tuning (15–17),,,,
+Random forest,0.78732,0.91036,0.6021,0.43751,0.7136,0.0,0.72864,0.0,Tuning (15–17),,,,
+LightGBM,0.78577,0.9137,0.59917,0.43539,0.70757,0.0,0.72759,0.00011,Tuning (15–17),,,,
+OBI alone,0.78112,0.9175,0.60081,0.43672,0.71641,0.0,0.7239,0.0,Test (18–20),,,,
+Logistic regression,0.79136,0.90761,0.6059,0.44034,0.70076,0.0,0.7515,0.0,Test (18–20),0.01024,+0.0083 to +0.0122,0.0,Yes
+Random forest,0.78876,0.90998,0.60601,0.44044,0.7044,0.0,0.74817,0.0,Test (18–20),0.00764,+0.0058 to +0.0095,0.0,Yes
+LightGBM,0.7889,0.91157,0.60461,0.43942,0.70291,0.0,0.7463,0.0,Test (18–20),0.00778,+0.0054 to +0.0102,0.0,Yes
+"Logistic regression, all candidate inputs",0.7891,0.90857,0.60238,0.43772,0.71494,0.0,0.72799,0.0,"Tuning (15–17), checks",,,,
+"Logistic regression, NO_MOVE weighted ('balanced')",0.78826,0.98108,0.55423,0.49438,0.60415,0.25335,0.62315,0.20304,"Tuning (15–17), checks",,,,
+"Random forest, NO_MOVE weighted ('balanced')",0.78712,0.96852,0.56978,0.48816,0.63242,0.17359,0.66356,0.1378,"Tuning (15–17), checks",,,,
+"LightGBM, NO_MOVE weighted ('balanced')",0.78518,0.97575,0.55855,0.49087,0.61112,0.22118,0.63915,0.17571,"Tuning (15–17), checks",,,,

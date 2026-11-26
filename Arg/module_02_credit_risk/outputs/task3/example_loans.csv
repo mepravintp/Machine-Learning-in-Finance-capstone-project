@@ -1,0 +1,6 @@
+Example,Loan_ID,Loan (₹ lakh),Collateral (₹ lakh),Credit score,Debt-to-income,PD,Band,Interest a year (₹ lakh),ECL (₹ lakh),Rate charged,Required rate,Decision,Reason,Actually defaulted
+Approve,202692,2.641,3.9257,684,0.356,0.1151,Medium,0.2638,0.1216,0.0999,0.046,Approve,Passes every test,No
+Review: interest below expected loss,204526,15.1676,27.5961,671,0.527,0.2557,High,1.4925,1.5514,0.0984,0.1023,Review,Interest below expected loss,No
+Review: weak collateral,201320,18.0671,10.4996,630,0.415,0.187,High,1.879,1.3513,0.104,0.1327,Review,Weak collateral,No
+Review: large loan,202067,34.9789,68.9246,759,0.335,0.1861,High,3.323,2.6037,0.095,0.0744,Review,Large loan (largest 5%),No
+Reject,204380,21.0263,26.1316,681,0.714,0.3913,Very High,2.13,3.2913,0.1013,,Reject,PD over 30%,Yes

@@ -1,0 +1,25 @@
+Strategy,Test,Loss on ₹100 crore,When
+Equal weight,(a) Worst day,-1.5657,13 May 2025
+Equal weight,(a) Worst month,-3.7566,31 Jan 2023
+Equal weight,(a) Worst 20-day run,-4.0564,01 Mar 2023
+Markowitz (past returns),(a) Worst day,-2.0765,09 Jan 2025
+Markowitz (past returns),(a) Worst month,-6.1496,30 Sep 2024
+Markowitz (past returns),(a) Worst 20-day run,-7.0268,06 Sep 2023
+ML (ridge forecasts),(a) Worst day,-2.1131,20 Feb 2023
+ML (ridge forecasts),(a) Worst month,-7.6651,31 Jan 2023
+ML (ridge forecasts),(a) Worst 20-day run,-8.3292,01 Mar 2023
+Top 5 (Module 5),(a) Worst day,-2.5693,16 Jun 2023
+Top 5 (Module 5),(a) Worst month,-7.5475,31 May 2024
+Top 5 (Module 5),(a) Worst 20-day run,-8.3717,02 Jul 2024
+Equal weight,(b) Every stock −20%,-20.0001,Hypothetical
+Markowitz (past returns),(b) Every stock −20%,-20.0,Hypothetical
+ML (ridge forecasts),(b) Every stock −20%,-20.0,Hypothetical
+Top 5 (Module 5),(b) Every stock −20%,-20.0,Hypothetical
+Equal weight,"(c) VaR 1 month, Data (correlation 0.005)",-2.4689,Hypothetical
+Equal weight,"(c) VaR 1 month, Real-market (correlation 0.4)",-7.997,Hypothetical
+Markowitz (past returns),"(c) VaR 1 month, Data (correlation 0.005)",-4.0997,Hypothetical
+Markowitz (past returns),"(c) VaR 1 month, Real-market (correlation 0.4)",-8.426,Hypothetical
+ML (ridge forecasts),"(c) VaR 1 month, Data (correlation 0.005)",-4.4272,Hypothetical
+ML (ridge forecasts),"(c) VaR 1 month, Real-market (correlation 0.4)",-8.8404,Hypothetical
+Top 5 (Module 5),"(c) VaR 1 month, Data (correlation 0.005)",-5.149,Hypothetical
+Top 5 (Module 5),"(c) VaR 1 month, Real-market (correlation 0.4)",-8.9538,Hypothetical

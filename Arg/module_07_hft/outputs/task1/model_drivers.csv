@@ -1,0 +1,16 @@
+Input,Meaning,Weight (UP vs DOWN),Odds multiplier per typical step,In plain words
+OBI_Level1,"Order-book imbalance at the best price: (bid size − ask size) ÷ total; +1 all buyers, −1 all sellers",0.873,2.3941,"With more buyers than sellers waiting at the best price, a rise is more likely: odds × 2.39 per typical step"
+Spread_ticks,Spread in ticks of ₹0.05,-0.2985,0.742,"With a wider gap between buying and selling prices, a fall is more likely: odds × 0.74 per typical step"
+OBI_L2,Same imbalance at the second-best price level,0.248,1.2814,"With more buyers than sellers at the second-best price, a rise is more likely: odds × 1.28 per typical step"
+Order_Arrival_Rate,How fast new orders arrive (given),0.113,1.1196,"With new orders arriving faster, a rise is more likely: odds × 1.12 per typical step"
+Cancellation_Rate,How fast orders are being cancelled (given),-0.0928,0.9114,"With orders being cancelled faster, a fall is more likely: odds × 0.91 per typical step"
+OBI_L3,Same imbalance at the third-best price level,0.0905,1.0948,"With more buyers than sellers at the third-best price, a rise is more likely: odds × 1.09 per typical step"
+Past_ret_5,Mid-price change over the stock's last 5 events,-0.0232,0.9771,The price having risen over the last 5 moments: almost no effect once the others are known (odds × 0.98)
+Past_ret_10,Mid-price change over the stock's last 10 events,0.0125,1.0125,The price having risen over the last 10 moments: almost no effect once the others are known (odds × 1.01)
+Signed_volume,"Last trade's volume, positive for a buy, negative for a sell",0.0087,1.0088,The last trade being a bigger purchase: almost no effect once the others are known (odds × 1.01)
+Past_ret_1,Mid-price change since the stock's previous event,-0.0022,0.9978,The price having just risen: almost no effect once the others are known (odds × 1.00)
+Abs_OBI,"Size of the imbalance, ignoring its direction (strong imbalance → fewer no-moves)",0.0018,1.0018,A bigger imbalance either way: almost no effect once the others are known (odds × 1.00)
+Short_Term_Volatility,Recent swing of the price (given in the data),-0.0018,0.9982,A more jumpy price: almost no effect once the others are known (odds × 1.00)
+Signed_volume_5,Signed volume added up over the stock's last 5 events,0.0009,1.0009,More buying in the last 5 trades: almost no effect once the others are known (odds × 1.00)
+Relative_Spread,Spread ÷ mid price (given in the data),-0.0007,0.9993,A wider gap as a share of the price: almost no effect once the others are known (odds × 1.00)
+OFI,Order-flow imbalance: change in best-bid size − change in best-ask size since the stock's last event,0.0001,1.0001,Buying interest growing since the last moment: almost no effect once the others are known (odds × 1.00)
