@@ -1,0 +1,8 @@
+,0
+model,Random forest (balanced)
+threshold,0.4859697677464467
+saving_per_1000_txn_inr,84000.0
+annual_saving_inr,1519497.5206611569
+cost_reduction_pct,0.35
+recall,0.4722222222222222
+alerts_share,0.07

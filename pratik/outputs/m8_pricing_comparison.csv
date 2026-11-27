@@ -1,0 +1,5 @@
+,RMSE,MAE,Mean error,MAPE % (price>₹10)
+Black-Scholes,10.147,6.073,-0.049,4.085
+Direct LightGBM,13.645,8.478,0.158,6.199
+Direct neural net,21.902,14.457,1.357,14.072
+Hybrid BS + LightGBM residual,10.391,6.168,-0.017,4.208

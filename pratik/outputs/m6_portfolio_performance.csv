@@ -1,0 +1,5 @@
+,CAGR,Volatility,Sharpe,Max drawdown,Calmar,Avg monthly turnover
+Equal weight,0.15,0.076,1.019,-0.045,3.36,0.0
+Markowitz,0.141,0.12,0.619,-0.137,1.033,0.374
+ML top-5,0.066,0.128,0.054,-0.158,0.417,1.343
+ML + Markowitz,0.099,0.117,0.312,-0.139,0.716,1.253

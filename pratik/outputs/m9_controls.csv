@@ -1,0 +1,8 @@
+Line,Main risk,Model / evidence,Control / limit,Monitoring KPI
+Retail & SME / Corporate lending,Credit risk; PD model drift,"PD model (Module 2), risk-based pricing",Approve only PD < 15%; reprice to break-even + 1pt; single-name and sector limits,PD calibration vs actual defaults quarterly; ECL vs provisions
+Strategic initiatives,Execution risk; weak success model,NPV/ENPV (Module 1),Stage-gated funding; Review list only after due diligence,Milestone tracking; post-investment review
+Equity portfolio,Market risk,"Equal-weight core (Module 6), VaR",≤ 25% of capital; 1-day 99% VaR limit; drawdown stop at −10%,Daily VaR and backtest exceptions
+Derivatives hedging,"Delta, vega, gamma risk",Black-Scholes Greeks (Module 8),Daily delta rebalancing; vega and gamma limits; hedge ≥ 5% of equity,Greeks report; hedge effectiveness
+HFT / execution,Model and operational risk,LightGBM direction model (Module 7),₹10 crore cap; daily loss limit; kill-switch,"Hit rate, net bps per trade, cost drift"
+Fraud & retention analytics,False alerts; customer friction,"Fraud model + cost threshold (Module 3), CLV list (Module 4)",Threshold re-tuned monthly; A/B test the retention campaign,"Fraud catch rate, alert precision, retention uplift"
+Liquidity reserve,Opportunity cost,Policy,≥ 10% of capital; high-quality liquid assets only,Coverage of stress losses

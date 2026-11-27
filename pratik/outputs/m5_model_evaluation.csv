@@ -1,0 +1,5 @@
+,mean IC,IC t-stat,share of months IC>0,RMSE
+Hist_mean,0.0051,0.1468,0.4651,0.0852
+Ridge,-0.04,-1.045,0.3953,0.0856
+Random forest,-0.0086,-0.2039,0.5349,0.0851
+LightGBM,-0.0189,-0.4466,0.5116,0.0866

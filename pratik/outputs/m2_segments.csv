@@ -1,0 +1,3 @@
+Customer_Type,loans,exposure_cr,avg_rate,annual_loss_rate,annual_risk_adj_return,avg_PD
+Corporate,603.0,53.3325,0.0822,0.0182,0.0018,0.0903
+Retail,1675.0,148.4794,0.0813,0.0171,0.002,0.0884

@@ -1,0 +1,9 @@
+,0
+model,LightGBM
+accuracy,0.606
+baseline_accuracy,0.415
+theta,0.55
+avg_net_bps,1.677
+hit_rate,0.756
+breakeven_cost_multiple,2.25
+annual_pnl_inr,15940077.500000002

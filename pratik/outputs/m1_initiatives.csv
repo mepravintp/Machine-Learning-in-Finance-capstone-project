@@ -1,0 +1,181 @@
+Initiative_ID,Business_Unit,Initial_Investment,Risk_Rating,P_Success,Discount_Rate,NPV,ENPV,Decision
+1001,SME Lending,131.13,Medium,0.8583,0.1182,-128.2556,-110.0847,Reject
+1002,SME Lending,286.69,Medium,0.9452,0.1063,-102.7674,-97.1401,Reject
+1003,Wealth,227.64,High,0.7721,0.1339,162.9502,125.8088,Review
+1004,Digital Banking,191.64,Medium,0.842,0.1084,-174.9361,-147.2906,Reject
+1005,Corporate Banking,72.13,Medium,0.5918,0.1112,-12.0674,-7.1411,Reject
+1006,Digital Banking,72.12,Medium,0.8952,0.1171,23.2254,20.7912,Fund
+1007,Risk Analytics,45.68,Low,0.8253,0.0802,-0.5118,-0.4224,Reject
+1008,Payments,263.87,Medium,0.7431,0.1351,-82.5956,-61.3802,Reject
+1009,Wealth,192.3,Low,0.8636,0.0779,-7.2133,-6.2291,Reject
+1010,Corporate Banking,221.18,High,0.505,0.1154,-32.8162,-16.5712,Reject
+1011,Wealth,35.56,Low,0.8933,0.1039,-12.2973,-10.9854,Reject
+1012,Wealth,291.88,Medium,0.8152,0.1195,-124.3578,-101.3818,Reject
+1013,Digital Banking,254.76,Low,0.8542,0.0975,-20.6986,-17.6803,Reject
+1014,Payments,87.33,High,0.7397,0.1375,-8.8753,-6.5648,Reject
+1015,Risk Analytics,79.09,Medium,0.7676,0.1099,-23.4311,-17.9856,Reject
+1016,SME Lending,79.52,Medium,0.8106,0.0992,33.7231,27.3366,Fund
+1017,SME Lending,112.15,Low,0.9277,0.0909,-60.9558,-56.5469,Reject
+1018,Wealth,171.68,High,0.5651,0.1219,-22.6008,-12.7722,Reject
+1019,Payments,146.63,Low,0.9066,0.1017,-17.0992,-15.5027,Reject
+1020,Corporate Banking,108.63,High,0.442,0.1282,-19.2438,-8.505,Reject
+1021,Digital Banking,195.2,Low,0.8778,0.0801,64.3135,56.4556,Fund
+1022,Payments,67.66,Low,0.8469,0.0861,22.4721,19.0322,Fund
+1023,Payments,108.88,Low,0.8359,0.095,-9.3183,-7.789,Reject
+1024,Digital Banking,128.92,Medium,0.8604,0.1032,44.2099,38.0371,Fund
+1025,Wealth,153.14,Medium,0.7096,0.1001,-141.8905,-100.6835,Reject
+1026,Payments,242.0,Low,0.8393,0.0929,148.6343,124.7546,Fund
+1027,SME Lending,83.91,High,0.6634,0.1329,-4.5869,-3.0432,Reject
+1028,Digital Banking,168.84,Medium,0.8644,0.1039,-79.4904,-68.7134,Reject
+1029,Corporate Banking,189.95,Medium,0.646,0.1043,5.9731,3.8587,Review
+1030,Risk Analytics,42.54,Medium,0.9182,0.1128,-1.2083,-1.1095,Reject
+1031,Wealth,194.04,Medium,0.7357,0.0926,195.4492,143.7935,Fund
+1032,Digital Banking,76.04,Medium,0.8562,0.0931,34.688,29.7008,Fund
+1033,Risk Analytics,47.56,Low,0.9069,0.0814,24.4392,22.1648,Fund
+1034,Risk Analytics,286.2,Low,0.8729,0.0874,142.7961,124.6485,Fund
+1035,Corporate Banking,290.72,High,0.5527,0.1337,-151.8694,-83.9359,Reject
+1036,Payments,248.27,High,0.6468,0.1477,-6.7742,-4.3817,Reject
+1037,Corporate Banking,112.25,Medium,0.5712,0.1203,-44.605,-25.4767,Reject
+1038,Payments,56.37,Low,0.8426,0.0881,31.6447,26.6638,Fund
+1039,Payments,214.74,Medium,0.8205,0.1098,11.4764,9.4167,Fund
+1040,Digital Banking,148.84,Medium,0.8612,0.098,-5.7401,-4.9434,Reject
+1041,Digital Banking,62.95,Low,0.9187,0.0898,36.8747,33.878,Fund
+1042,Wealth,163.7,Low,0.9421,0.0865,27.445,25.8569,Fund
+1043,Payments,39.28,High,0.6471,0.1339,-21.9739,-14.2203,Reject
+1044,Risk Analytics,275.52,Medium,0.8724,0.1001,-131.4495,-114.6771,Reject
+1045,SME Lending,99.87,Low,0.9037,0.0962,-18.8711,-17.0535,Reject
+1046,Wealth,208.88,Low,0.8215,0.1084,-50.5816,-41.5553,Reject
+1047,Digital Banking,114.16,Low,0.8702,0.0887,23.2781,20.2575,Fund
+1048,Corporate Banking,170.42,Medium,0.5916,0.1148,-24.0698,-14.2396,Reject
+1049,Wealth,177.61,Low,0.9182,0.0983,-111.8308,-102.6841,Reject
+1050,Wealth,79.91,Low,0.9041,0.0852,-46.4901,-42.0327,Reject
+1051,Wealth,291.79,High,0.7572,0.1327,-73.3653,-55.5512,Reject
+1052,Wealth,239.29,Low,0.7706,0.0902,-146.0313,-112.5313,Reject
+1053,SME Lending,283.66,Medium,0.6893,0.1112,-136.8535,-94.3264,Reject
+1054,Corporate Banking,271.6,Low,0.6663,0.0807,-0.7409,-0.4937,Reject
+1055,Corporate Banking,191.43,Low,0.7408,0.0903,19.7521,14.6331,Fund
+1056,Corporate Banking,278.91,Low,0.8341,0.096,-148.3264,-123.7125,Reject
+1057,Payments,53.89,High,0.6353,0.1474,-21.5338,-13.6811,Reject
+1058,Risk Analytics,82.92,High,0.5663,0.1415,-32.2657,-18.2705,Reject
+1059,Corporate Banking,42.21,High,0.3607,0.1558,-4.1956,-1.5133,Reject
+1060,Wealth,117.84,Medium,0.7823,0.1008,-3.9562,-3.095,Reject
+1061,Wealth,134.94,Medium,0.7629,0.1205,1.8611,1.4198,Fund
+1062,Corporate Banking,103.26,Low,0.6412,0.0922,82.6188,52.9718,Review
+1063,Corporate Banking,253.76,Medium,0.599,0.1363,-147.4582,-88.3227,Reject
+1064,Wealth,126.32,High,0.5639,0.1203,-40.7403,-22.9728,Reject
+1065,Payments,105.85,Low,0.8929,0.0799,-32.3857,-28.9167,Reject
+1066,Digital Banking,176.53,Low,0.8209,0.0828,8.6021,7.0611,Fund
+1067,Digital Banking,68.05,Low,0.8792,0.0645,-23.9819,-21.0844,Reject
+1068,Corporate Banking,246.59,Low,0.8228,0.0837,-10.8725,-8.9461,Reject
+1069,SME Lending,50.13,Low,0.798,0.0809,6.4157,5.1195,Fund
+1070,Corporate Banking,296.46,Medium,0.6565,0.1118,-184.1533,-120.8888,Reject
+1071,Corporate Banking,238.51,Medium,0.6963,0.1141,44.3003,30.8449,Review
+1072,Digital Banking,83.65,High,0.5031,0.1525,31.4032,15.799,Review
+1073,Wealth,31.49,High,0.6382,0.1414,-7.7885,-4.9704,Reject
+1074,Corporate Banking,250.17,Medium,0.76,0.1031,137.6551,104.6158,Fund
+1075,Wealth,220.85,Low,0.8808,0.0792,224.3547,197.6072,Fund
+1076,Wealth,226.83,Medium,0.9119,0.1159,-163.908,-149.4607,Reject
+1077,SME Lending,238.24,Medium,0.9386,0.0942,-138.1049,-129.6313,Reject
+1078,Wealth,49.99,Low,0.8851,0.112,-40.6146,-35.9481,Reject
+1079,Digital Banking,126.79,Medium,0.7022,0.1242,-27.3514,-19.2053,Reject
+1080,Payments,61.28,Medium,0.9101,0.1044,14.477,13.1762,Fund
+1081,Payments,263.04,Medium,0.7259,0.0894,-67.0797,-48.6925,Reject
+1082,Risk Analytics,198.29,Medium,0.8236,0.1262,21.6915,17.8657,Fund
+1083,Corporate Banking,119.34,Medium,0.6427,0.1086,32.437,20.8487,Review
+1084,Digital Banking,47.16,High,0.4634,0.1449,-11.056,-5.1237,Reject
+1085,Wealth,113.97,High,0.7518,0.1109,-19.2251,-14.4539,Reject
+1086,Payments,117.8,Low,0.7536,0.0828,-44.3451,-33.4186,Reject
+1087,Digital Banking,226.99,High,0.656,0.1301,88.5185,58.0654,Review
+1088,Payments,202.14,Medium,0.8685,0.1106,-201.8555,-175.3022,Reject
+1089,Wealth,269.55,High,0.7188,0.1246,1.1248,0.8084,Review
+1090,Payments,157.5,High,0.7492,0.1375,-37.0735,-27.7758,Reject
+1091,Corporate Banking,62.29,Medium,0.6514,0.0972,23.8125,15.5112,Review
+1092,Corporate Banking,222.58,Low,0.5615,0.0883,27.0,15.1604,Review
+1093,Risk Analytics,235.41,Low,0.8794,0.0914,-185.9888,-163.5629,Reject
+1094,Risk Analytics,181.54,Medium,0.8283,0.1162,-36.9786,-30.6308,Reject
+1095,Payments,238.16,Medium,0.7175,0.1185,74.4827,53.4379,Fund
+1096,Digital Banking,163.32,Low,0.8483,0.0765,-118.1082,-100.1931,Reject
+1097,Corporate Banking,171.14,Low,0.7985,0.0716,-96.5577,-77.1042,Reject
+1098,Digital Banking,145.44,High,0.4865,0.1453,-67.9255,-33.0459,Reject
+1099,Digital Banking,36.86,High,0.7385,0.134,0.1917,0.1416,Review
+1100,Payments,59.13,Medium,0.7966,0.101,10.0694,8.0212,Fund
+1101,Digital Banking,38.49,Low,0.83,0.1086,-35.0208,-29.0669,Reject
+1102,Corporate Banking,201.83,Low,0.7747,0.0914,-66.1047,-51.2119,Reject
+1103,Wealth,114.88,Low,0.8291,0.1042,47.9149,39.7252,Fund
+1104,Risk Analytics,167.31,High,0.8361,0.1308,-69.9635,-58.4965,Reject
+1105,Wealth,275.04,Low,0.8636,0.1147,-65.8557,-56.8721,Reject
+1106,Digital Banking,97.31,Medium,0.682,0.1311,-118.0619,-80.5165,Reject
+1107,Wealth,140.8,Low,0.856,0.087,78.777,67.4356,Fund
+1108,Corporate Banking,234.0,Medium,0.6987,0.1217,-63.7765,-44.5594,Reject
+1109,Corporate Banking,91.78,Medium,0.4782,0.1177,10.851,5.1892,Review
+1110,Digital Banking,50.78,High,0.7651,0.1464,-6.1804,-4.7285,Reject
+1111,Payments,108.23,Low,0.8676,0.0784,-94.769,-82.2257,Reject
+1112,Wealth,73.53,Low,0.756,0.0982,-19.0938,-14.4345,Reject
+1113,Payments,281.02,Low,0.8455,0.1027,23.1548,19.5775,Fund
+1114,Payments,248.19,High,0.565,0.1089,-55.1724,-31.1736,Reject
+1115,SME Lending,201.02,High,0.7192,0.1158,104.4306,75.1095,Review
+1116,Digital Banking,265.29,Medium,0.789,0.0855,26.9806,21.2881,Fund
+1117,Risk Analytics,246.99,Medium,0.8846,0.1068,14.5527,12.8733,Fund
+1118,Corporate Banking,80.37,Medium,0.6377,0.1186,-37.6102,-23.9857,Reject
+1119,Corporate Banking,270.99,Low,0.8109,0.108,-81.0871,-65.7531,Reject
+1120,Digital Banking,175.62,High,0.7071,0.1309,-86.0434,-60.8416,Reject
+1121,Risk Analytics,248.01,Medium,0.894,0.1295,-27.7423,-24.8029,Reject
+1122,Corporate Banking,271.94,Medium,0.5284,0.0934,-54.1441,-28.6121,Reject
+1123,Digital Banking,115.86,Medium,0.8205,0.0896,-11.4924,-9.4295,Reject
+1124,Corporate Banking,59.71,Low,0.7885,0.0893,2.2207,1.751,Fund
+1125,Payments,91.54,Low,0.7382,0.0946,28.8539,21.3001,Fund
+1126,Wealth,145.32,High,0.721,0.1296,-102.8418,-74.1523,Reject
+1127,Wealth,250.86,Low,0.794,0.0652,-60.733,-48.2235,Reject
+1128,Corporate Banking,262.4,Medium,0.4804,0.1089,-64.4703,-30.9745,Reject
+1129,SME Lending,31.88,Low,0.838,0.0743,-17.5356,-14.6943,Reject
+1130,Risk Analytics,167.9,Medium,0.7915,0.118,-186.0357,-147.2392,Reject
+1131,Risk Analytics,142.7,Medium,0.8868,0.1144,63.8043,56.5807,Fund
+1132,Risk Analytics,89.97,Medium,0.8968,0.0987,-68.3368,-61.2866,Reject
+1133,Payments,62.36,High,0.668,0.1238,11.606,7.753,Review
+1134,Risk Analytics,121.16,Medium,0.8749,0.0973,-19.0344,-16.6532,Reject
+1135,Wealth,284.59,Medium,0.7937,0.1092,107.416,85.2594,Fund
+1136,Payments,117.26,Medium,0.7447,0.1215,-95.7173,-71.2791,Reject
+1137,Digital Banking,170.07,Medium,0.8999,0.0982,2.3591,2.1229,Fund
+1138,Risk Analytics,219.82,High,0.7821,0.136,-85.9555,-67.2242,Reject
+1139,Risk Analytics,128.18,High,0.759,0.1236,-74.6739,-56.6754,Reject
+1140,Digital Banking,292.38,Low,0.8419,0.0805,-40.0303,-33.7,Reject
+1141,Risk Analytics,289.86,Low,0.907,0.0887,27.6427,25.0722,Fund
+1142,Digital Banking,97.98,Low,0.8513,0.0776,-29.0876,-24.763,Reject
+1143,Payments,164.26,Medium,0.7152,0.1034,-134.2803,-96.0319,Reject
+1144,Wealth,111.24,Low,0.8192,0.0756,8.2681,6.7729,Fund
+1145,Digital Banking,106.91,Medium,0.6449,0.1336,-77.0253,-49.6725,Reject
+1146,SME Lending,39.96,Medium,0.7492,0.1104,2.2057,1.6525,Fund
+1147,Digital Banking,194.58,Medium,0.855,0.1016,-15.8671,-13.567,Reject
+1148,Risk Analytics,165.72,High,0.7316,0.1326,-157.5618,-115.276,Reject
+1149,Payments,43.9,Low,0.8943,0.0887,24.7342,22.1198,Fund
+1150,Corporate Banking,105.23,Low,0.5746,0.0873,-16.2497,-9.3365,Reject
+1151,Payments,275.23,High,0.6467,0.1374,-280.3752,-181.3302,Reject
+1152,Corporate Banking,94.68,Medium,0.5187,0.1191,-9.3358,-4.8429,Reject
+1153,Digital Banking,69.12,Medium,0.7859,0.1036,30.4563,23.937,Fund
+1154,Wealth,162.15,Medium,0.6453,0.1031,128.9314,83.2042,Review
+1155,SME Lending,296.13,Low,0.9152,0.0867,-98.7362,-90.3664,Reject
+1156,Payments,95.35,High,0.6881,0.1024,-40.7554,-28.0431,Reject
+1157,Risk Analytics,211.48,High,0.6011,0.1118,-48.9015,-29.3955,Reject
+1158,Corporate Banking,235.64,Medium,0.8401,0.1264,-26.0859,-21.9161,Reject
+1159,Risk Analytics,94.16,Low,0.8858,0.1097,23.55,20.8599,Fund
+1160,Wealth,226.62,Medium,0.7104,0.107,-164.234,-116.6795,Reject
+1161,Corporate Banking,129.3,Medium,0.6657,0.1169,1.2507,0.8326,Review
+1162,Payments,200.72,Low,0.8172,0.0937,44.1866,36.1095,Fund
+1163,Digital Banking,201.05,High,0.8612,0.1669,-202.4061,-174.3144,Reject
+1164,Risk Analytics,174.66,Low,0.9184,0.1034,-23.1567,-21.2681,Reject
+1165,Wealth,54.38,High,0.6935,0.1285,-40.1449,-27.8386,Reject
+1166,Payments,255.53,Medium,0.8506,0.0985,-25.4782,-21.6717,Reject
+1167,Payments,116.61,Low,0.8544,0.0707,1.6715,1.4281,Fund
+1168,Payments,80.36,Medium,0.8096,0.1124,-21.4727,-17.3843,Reject
+1169,Payments,41.01,High,0.6412,0.1209,-17.6739,-11.3327,Reject
+1170,Corporate Banking,189.54,High,0.5537,0.1129,20.0313,11.0919,Review
+1171,Payments,212.94,High,0.6818,0.1222,-98.4042,-67.0925,Reject
+1172,Risk Analytics,34.48,Medium,0.7317,0.097,-31.8039,-23.2708,Reject
+1173,Wealth,168.27,Medium,0.832,0.1302,7.9059,6.5777,Fund
+1174,Corporate Banking,91.15,High,0.4311,0.1406,15.9684,6.8846,Review
+1175,Payments,204.2,Low,0.7956,0.0899,-29.1016,-23.1545,Reject
+1176,SME Lending,77.08,Medium,0.7805,0.1278,-71.0464,-55.4551,Reject
+1177,SME Lending,216.55,Low,0.9465,0.0909,89.8681,85.0606,Fund
+1178,Wealth,134.42,High,0.6901,0.1197,3.8916,2.6855,Review
+1179,Digital Banking,282.92,High,0.7574,0.1483,155.8891,118.0673,Review
+1180,Digital Banking,67.13,Low,0.8005,0.0965,-11.2435,-9.0001,Reject
